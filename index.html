@@ -21,7 +21,8 @@
       .center {
         margin-left: auto;
         margin-right: auto;
-        display: block;}
+        display: block;
+      }
     </style>
   </head>
 
@@ -35,7 +36,7 @@
 
     function tree(ring, order, color) {
       d3.selectAll("svg > *").remove();
-      d3.select('#tooltip').style('display', 'none');
+
       d3.csv('pedigree-pie.csv',function(data) {
       	var data2 = data.filter(element => element[ring] !== "");
         var dataset2 = d3.nest()
@@ -50,10 +51,10 @@
         var ringcolor = "#01087C";
 
         var svg = d3.select("svg")
-            .attr("width", 600)
-            .attr("height", 600)
+            .attr("width", 900)
+            .attr("height", 900)
             .append("g")
-            .attr("transform", "translate(300,300)");
+            .attr("transform", "translate(450,450)");
 
         var gs = svg.selectAll("g").data(dataset2).enter().append("g");
 
@@ -64,7 +65,7 @@
             .attr("fill", function(d, i) {
                 return d.data[color] ? d.data[color] : ringcolor;})
             .attr("d", function(d, i, j) {
-                return arc.innerRadius(25*j).outerRadius(25*(j+1))(d); });
+                return arc.innerRadius(40*j).outerRadius(40*(j+.9))(d); });
     	})
     }
     </script>
