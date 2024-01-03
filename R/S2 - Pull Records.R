@@ -31,4 +31,4 @@ for (i in 1:9) {
 }
 
 stopCluster(cl)
-rm(required, i, cl)
+rm(required, i, cl, files)

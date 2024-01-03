@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-32906329-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-32906329-1');
+		</script>
+
+		<meta charset="utf-8">
+		<title>Great Procreations: Visualizing my Family Tree</title>
+
+		<meta name="viewport" content="width=600">
+
+    <style type="text/css">
+      html,body{
+        overflow-x: hidden;}
+      .center {
+        margin-left:25%;}
+      @media only screen and (max-width: 600px) {
+        .center {
+          margin-left:0;
+        }
+      }
+      h6 a {text-decoration: none;}
+      #tooltip {display: none;margin-bottom: 40px;}
+    </style>
+
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+  </head>
+  <body onload="tree('gen','ascendency','color')">
+
+    <h1 class="display-5 text-center">Great Procreations</h1>
+    <h6 class="text-center"></h6>
+
+
+    <div class="row">
+      <div class="col-xs-12 col-md-7">
+        <svg width="960" height="960" class="center"></svg>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+
+    function tree(ring, order, color) {
+      d3.selectAll("svg > *").remove();
+      d3.select('#tooltip').style('display', 'none');
+      d3.csv('ornaments.csv',function(data) {
+      	var data2 = data.filter(element => element[ring] !== "");
+        var dataset2 = d3.nest()
+          .key(function(d) { return d[ring]; })
+          .entries(data2);
+        //console.log(dataset2);
+
+        var pie = d3.layout.pie().value(function(d) { return 1; }).sort(function(a, b){
+    			return a[order]-b[order]});
+        var arc = d3.svg.arc();
+        var ringcolor = "#01087C";
+
+        var svg = d3.select("svg")
+            .attr("width", 600)
+            .attr("height", 600)
+            .append("g")
+            .attr("transform", "translate(300,300)");
+
+        var gs = svg.selectAll("g").data(dataset2).enter().append("g");
+
+        var path = gs.selectAll("path")
+            .data(function(d) {
+                return pie(d.values); })
+          .enter().append("path")
+            .attr("fill", function(d, i) {
+                return d.data[color] ? d.data[color] : ringcolor;})
+            .attr("d", function(d, i, j) {
+                return arc.innerRadius(10+25*j).outerRadius(25*(j+1))(d); });
+    	})
+    }
+    </script>
+
+  </body>
+</html>

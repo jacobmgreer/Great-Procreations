@@ -10,9 +10,7 @@ pedigree_pie <-
     name = display$name,
     gender = display$gender,
     lifespan = display$lifespan,
-    ascendency = as.numeric(display$ascendancyNumber),
-    birthplace = display$birthPlace,
-    deathplace = display$deathPlace
+    ascendency = as.numeric(display$ascendancyNumber)
   ) %>%
   complete(ascendency = seq(1, 511, by=1)) %>%
   mutate(
@@ -25,5 +23,7 @@ pedigree_pie <-
       ascendency %in% 32:63 ~ 6,
       ascendency %in% 64:127 ~ 7,
       ascendency %in% 128:255 ~ 8,
-      ascendency %in% 256:511 ~ 9)) %>%
-  select(gen, ascendency, everything())
+      ascendency %in% 256:511 ~ 9),
+    color = ifelse(is.na(id), "#eeeeee", "#333333")) %>%
+  select(gen, ascendency, color, everything()) %T>%
+  write.csv("pedigree-pie.csv", row.names = FALSE)
