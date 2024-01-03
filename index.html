@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=1024, user-scalable=no">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-32906329-1"></script>
 		<script>
@@ -20,9 +21,7 @@
       .center {
         margin-left: auto;
         margin-right: auto;
-        display: block;
-        width: 960px;
-        height: 960px;}
+        display: block;}
     </style>
   </head>
 
@@ -54,7 +53,7 @@
             .attr("width", 600)
             .attr("height", 600)
             .append("g")
-            .attr("transform", "translate(450,300)");
+            .attr("transform", "translate(300,300)");
 
         var gs = svg.selectAll("g").data(dataset2).enter().append("g");
 
