@@ -77,7 +77,7 @@
             .attr("fill", function(d, i) {
                 return d.data[color] ? d.data[color] : ringcolor;})
             .attr("d", function(d, i, j) {
-                return arc.innerRadius(25*j).outerRadius(40*(j+1))(d); });
+                return arc.innerRadius(25*j).outerRadius(25*(j+1))(d); });
     	})
     }
     </script>
