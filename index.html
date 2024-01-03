@@ -50,7 +50,7 @@
     function tree(ring, order, color) {
       d3.selectAll("svg > *").remove();
       d3.select('#tooltip').style('display', 'none');
-      d3.csv('ornaments.csv',function(data) {
+      d3.csv('pedigree-pie.csv',function(data) {
       	var data2 = data.filter(element => element[ring] !== "");
         var dataset2 = d3.nest()
           .key(function(d) { return d[ring]; })
