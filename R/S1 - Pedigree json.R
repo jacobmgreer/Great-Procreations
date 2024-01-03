@@ -2,6 +2,13 @@ required <- c("rvest", "tidyverse", "magrittr", "jsonlite")
 lapply(required, require, character.only = TRUE)
 options(readr.show_col_types = FALSE)
 
+# /* Color Theme Swatches in Hex */
+#   .Wilderness-1-hex { color: #091326; }
+#       .Wilderness-2-hex { color: #84AEBF; }
+#           .Wilderness-3-hex { color: #F29966; }
+#               .Wilderness-4-hex { color: #BF5D39; }
+#                   .Wilderness-5-hex { color: #59221D; }
+
 pedigree_pie <-
   jsonlite::fromJSON("pedigree-pie.json")$persons %>%
   reframe(
@@ -24,6 +31,6 @@ pedigree_pie <-
       ascendency %in% 64:127 ~ 7,
       ascendency %in% 128:255 ~ 8,
       ascendency %in% 256:511 ~ 9),
-    color = ifelse(is.na(id), "#eeeeee", "#333333")) %>%
+    color = ifelse(is.na(id), "#eeeeee", ifelse(gender == "Male", "#091326", "#84AEBF"))) %>%
   select(gen, ascendency, color, everything()) %T>%
   write.csv("pedigree-pie.csv", row.names = FALSE)
