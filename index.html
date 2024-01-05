@@ -48,7 +48,7 @@
       var resetb =
         d3.select("nav.reset")
           .style("visibility", "hidden")
-          .on("click", function(d) {tree()})
+          .on("click", function(d) {tree()});
 
       d3.csv('pedigree-pie-extended.csv',function(data) {
         if (typeof stack !== 'undefined') {
@@ -57,7 +57,7 @@
       		  .filter(element => Number(element.gen) >= Number(stack))
       		  .filter(element => Number(element.start) >= Number(start))
       		  .filter(element => Number(element.end) <= Number(end))
-        }
+        };
         var dataset2 = d3.nest()
           .key(function(d) { return d['gen']; })
           .entries(data);
@@ -72,7 +72,7 @@
             .attr("width", 900)
             .attr("height", 900)
             .append("g")
-            .attr("transform", "translate(450,450)")
+            .attr("transform", "translate(450,450)");
 
         var gs = svg.selectAll("g")
             .data(dataset2)
@@ -85,19 +85,19 @@
           .style("z-index", "10")
           .style("visibility", "hidden")
           .style("background-color", "white")
-          .style("padding", "5px")
+          .style("padding", "5px");
         var mouseover = function(d) {
           if (d.data["id"] != "NA") {
-            Tooltip.style("visibility", "visible")}}
+            Tooltip.style("visibility", "visible")}};
         var mousemove = function(d) {
           if (d.data["id"] != "NA") {
             Tooltip.html(
               "<b>Side:</b> " + d.data["quartile"] + "'s<br/>" +
               "<b>ID:</b> " + d.data["id"])
             .style("top", (d3.event.pageY-10)+"px")
-            .style("left",(d3.event.pageX+10)+"px")}}
+            .style("left",(d3.event.pageX+10)+"px")}};
         var mouseleave = function(d) {
-          Tooltip.style("visibility", "hidden")}
+          Tooltip.style("visibility", "hidden")};
 
         var path = gs.selectAll("path")
             .data(function(d) {
