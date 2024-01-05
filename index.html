@@ -69,10 +69,10 @@
         var arc = d3.svg.arc();
 
         var svg = d3.select("svg")
-            .attr("width", 900)
-            .attr("height", 900)
+            .attr("width", 1000)
+            .attr("height", 1000)
             .append("g")
-            .attr("transform", "translate(450,450)");
+            .attr("transform", "translate(500,500)");
 
         var gs = svg.selectAll("g")
             .data(dataset2)
@@ -93,7 +93,8 @@
           if (d.data["id"] != "NA") {
             Tooltip.html(
               "<b>Side:</b> " + d.data["quartile"] + "'s<br/>" +
-              "<b>ID:</b> " + d.data["id"])
+              "<b>ID:</b> " + d.data["name"] + "<br/>" +
+              d.data["lifespan"])
             .style("top", (d3.event.pageY-10)+"px")
             .style("left",(d3.event.pageX+10)+"px")}};
         var mouseleave = function(d) {
@@ -108,8 +109,8 @@
                  return d.data["color"];})
             .attr("d", function(d, i, j) {
                 return arc
-                  .innerRadius(30 * j)
-                  .outerRadius(30 * (j + .9) )(d); })
+                  .innerRadius(25 * j)
+                  .outerRadius(25 * (j + .9) )(d); })
             .on("click", function(d) {
               if (d.data["id"] != "NA") {
                 tree(
