@@ -39,7 +39,10 @@
 
       d3.csv('pedigree-pie-extended.csv',function(data) {
         if (typeof stack !== 'undefined') {
-      		console.log(data)
+      		var data = data
+      		  .filter(element => Number(element.gen) >= Number(stack))
+      		  .filter(element => Number(element.start) >= Number(start))
+      		  .filter(element => Number(element.end) <= Number(end))
         }
         var dataset2 = d3.nest()
           .key(function(d) { return d['gen']; })
@@ -77,8 +80,8 @@
               if (d.data["id"] != "NA") {
                 tree(
                   stack = d.data["gen"],
-                  start = d.startAngle * (180/Math.PI),
-                  end = d.endAngle * (180/Math.PI));}
+                  start = d.data["start"],
+                  end = d.data["end"]);}
             });
       })
     }

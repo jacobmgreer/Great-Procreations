@@ -76,6 +76,8 @@ pedigree_pie <- pedigree_pie %>%
       between(sequence / gen_count, 1/2, 3/4) ~ "Maternal Grandfather",
       between(sequence / gen_count, 3/4, 1) ~ "Maternal Grandmother"
     ),
+    start = 360 * sequence / gen_count - (360/gen_count),
+    end = sequence * (360/gen_count),
     color = case_when(
       ## Paternal Grandfather, "Spring"
       quartile == "Paternal Grandfather" & gender == "Male" ~ "#B24C6D",
