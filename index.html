@@ -14,8 +14,8 @@
 		<meta charset="utf-8">
 		<title>Great Procreations: Visualizing my Family Tree</title>
 
-    <script src="https://d3js.org/d3.v3.min.js"></script>
-    <link rel="stylesheet" href="https://jacobmgreer.github.io/Film-Tracker/js/bootstrap/css/bootstrap.min.css">
+    <script src="web/js/d3.v3.min.js"></script>
+    <link rel="stylesheet" href="web/css/bootstrap.min.css">
 
     <style type="text/css">
       .center {
@@ -26,7 +26,7 @@
     </style>
   </head>
 
-  <body onload="tree('gen','ascendency','color')">
+  <body onload="tree()">
     <main>
         <section class="container">
           <svg class="center"></svg>
@@ -34,39 +34,53 @@
     </main>
     <script type="text/javascript">
 
-    function tree(ring, order, color) {
+    function tree(stack, start, end) {
       d3.selectAll("svg > *").remove();
 
-      d3.csv('pedigree-pie.csv',function(data) {
-      	var data2 = data.filter(element => element[ring] !== "");
+      d3.csv('pedigree-pie-extended.csv',function(data) {
+        if (typeof stack !== 'undefined') {
+      		console.log(data)
+        }
         var dataset2 = d3.nest()
-          .key(function(d) { return d[ring]; })
-          .entries(data2);
-        //console.log(dataset2);
+          .key(function(d) { return d['gen']; })
+          .entries(data);
 
         var pie = d3.layout.pie().value(
-          function(d) { return 1; }).sort(function(a, b){
-    			  return a[order]-b[order]});
+          function(e) { return 1; }).sort(
+            function(a, b){
+    			    return a['ascendency']-b['ascendency']});
         var arc = d3.svg.arc();
-        var ringcolor = "#01087C";
 
         var svg = d3.select("svg")
             .attr("width", 900)
             .attr("height", 900)
             .append("g")
-            .attr("transform", "translate(450,450)");
+            .attr("transform", "translate(450,450)")
 
-        var gs = svg.selectAll("g").data(dataset2).enter().append("g");
+        var gs = svg.selectAll("g")
+            .data(dataset2)
+            .enter()
+            .append("g");
 
         var path = gs.selectAll("path")
             .data(function(d) {
                 return pie(d.values); })
-          .enter().append("path")
+          .enter()
+          .append("path")
             .attr("fill", function(d, i) {
-                return d.data[color] ? d.data[color] : ringcolor;})
+                 return d.data["color"];})
             .attr("d", function(d, i, j) {
-                return arc.innerRadius(40*j).outerRadius(40*(j+.9))(d); });
-    	})
+                return arc
+                  .innerRadius(30 * j)
+                  .outerRadius(30 * (j + .9) )(d); })
+            .on("click", function(d) {
+              if (d.data["id"] != "NA") {
+                tree(
+                  stack = d.data["gen"],
+                  start = d.startAngle * (180/Math.PI),
+                  end = d.endAngle * (180/Math.PI));}
+            });
+      })
     }
     </script>
 

@@ -10,16 +10,12 @@ options(readr.show_col_types = FALSE)
 #                   .Wilderness-5-hex { color: #59221D; }
 
 pedigree_pie <-
-  jsonlite::fromJSON("pedigree-pie.json")$persons %>%
+  jsonlite::fromJSON("input/pedigree-pie.json")$persons %>%
   reframe(
     id,
-    living,
-    name = display$name,
     gender = display$gender,
-    lifespan = display$lifespan,
     ascendency = as.numeric(display$ascendancyNumber)
   ) %>%
-  complete(ascendency = seq(1, 511, by=1)) %>%
   mutate(
     gen = case_when(
       ascendency == 1 ~ 1,
@@ -30,10 +26,9 @@ pedigree_pie <-
       ascendency %in% 32:63 ~ 6,
       ascendency %in% 64:127 ~ 7,
       ascendency %in% 128:255 ~ 8,
-      ascendency %in% 256:511 ~ 9),
-    color = ifelse(is.na(id),
-                   "#eeeeee",
-                   ifelse(gender == "Male", "#091326", "#84AEBF")),
-    color = ifelse(gen == 1, "#ffffff", color)) %>%
-  select(gen, ascendency, color, everything()) %T>%
-  write.csv("pedigree-pie.csv", row.names = FALSE)
+      ascendency %in% 256:511 ~ 9)) %>%
+  filter(!gen %in% c(1,2)) %>%
+  select(gen, ascendency, everything()) %T>%
+  write.csv("input/layers/base.csv", row.names = FALSE)
+
+rm(required)
