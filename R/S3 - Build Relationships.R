@@ -1,7 +1,7 @@
 required <- c("rvest", "tidyverse", "magrittr", "stringi")
 lapply(required, require, character.only = TRUE)
 
-for (j in 3:9) {
+for (j in 3:15) {
   files <-
     list.files(paste0("people/", j), ".json", recursive = TRUE, full.names = TRUE) %>%
     as_tibble() %>%

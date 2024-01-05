@@ -27,8 +27,17 @@
   </head>
 
   <body onload="tree()">
+    <nav class="navbar navbar-light justify-content-center" style="background-color: #F2F2F2;">
+        <h1 class="display-5">Great Procreations</h1>
+    </nav>
+    <nav class="navbar navbar-light justify-content-center" style="background-color: #F2F2F2;">
+        <p>Exploring My Family Tree</p>
+    </nav>
+    <nav class="reset navbar navbar-light justify-content-center" style="background-color: #F2F2F2;">
+      <h3>Reset Graph</h3>
+    </nav>
     <main>
-        <section class="container">
+        <section class="container" id="procreations">
           <svg class="center"></svg>
         </section>
     </main>
@@ -36,9 +45,14 @@
 
     function tree(stack, start, end) {
       d3.selectAll("svg > *").remove();
+      var resetb =
+        d3.select("nav.reset")
+          .style("visibility", "hidden")
+          .on("click", function(d) {tree()})
 
       d3.csv('pedigree-pie-extended.csv',function(data) {
         if (typeof stack !== 'undefined') {
+          resetb.style("visibility", "visible");
       		var data = data
       		  .filter(element => Number(element.gen) >= Number(stack))
       		  .filter(element => Number(element.start) >= Number(start))
@@ -65,6 +79,26 @@
             .enter()
             .append("g");
 
+        var Tooltip = d3.select("section#procreations")
+          .append("div")
+          .style("position", "absolute")
+          .style("z-index", "10")
+          .style("visibility", "hidden")
+          .style("background-color", "white")
+          .style("padding", "5px")
+        var mouseover = function(d) {
+          if (d.data["id"] != "NA") {
+            Tooltip.style("visibility", "visible")}}
+        var mousemove = function(d) {
+          if (d.data["id"] != "NA") {
+            Tooltip.html(
+              "<b>Side:</b> " + d.data["quartile"] + "'s<br/>" +
+              "<b>ID:</b> " + d.data["id"])
+            .style("top", (d3.event.pageY-10)+"px")
+            .style("left",(d3.event.pageX+10)+"px")}}
+        var mouseleave = function(d) {
+          Tooltip.style("visibility", "hidden")}
+
         var path = gs.selectAll("path")
             .data(function(d) {
                 return pie(d.values); })
@@ -82,10 +116,13 @@
                   stack = d.data["gen"],
                   start = d.data["start"],
                   end = d.data["end"]);}
-            });
+              Tooltip.style("visibility", "hidden")
+            })
+            .on("mouseover", mouseover)
+            .on("mousemove", mousemove)
+            .on("mouseleave", mouseleave);
       })
-    }
+    };
     </script>
-
   </body>
 </html>
