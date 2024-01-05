@@ -57,7 +57,7 @@
       		  .filter(element => Number(element.gen) >= Number(stack))
       		  .filter(element => Number(element.start) >= Number(start))
       		  .filter(element => Number(element.end) <= Number(end))
-        };
+        } else {var data = data.filter(element => Number(element.gen) <= Number(11))};
         var dataset2 = d3.nest()
           .key(function(d) { return d['gen']; })
           .entries(data);
