@@ -6,7 +6,7 @@ options(readr.show_col_types = FALSE)
 cl <- makeCluster(detectCores() - 1)
 registerDoParallel(cl)
 
-for (s in 3:18) {
+for (s in 30) {
 
   dir.create(paste0("people/", s), showWarnings = FALSE)
 
