@@ -26,7 +26,7 @@
     </style>
   </head>
 
-  <body onload="tree()">
+  <body>
     <nav class="navbar navbar-light justify-content-center" style="background-color: #F2F2F2;">
         <h1 class="display-5">Great Procreations</h1>
     </nav>
@@ -45,8 +45,42 @@
 
     if(window.location.hash) {
           var hash = window.location.hash.substring(1);
-          alert (hash);
+          alert (ascendancy(hash, "load"));
+    } else {
+      tree();
     }
+
+    function ascendancy(id, load) {
+      var doubles = Array.from({length: 35}, (_, i) => 2 ** i)
+      var ge = doubles.indexOf(doubles.find(x => x >= (id + 1)));
+      var gm = 2 ** (ge - 1);
+      var gi = +id - gm;
+      var radians = (Math.PI * 2) / gm;
+
+      if (gi / 2 ** (ge - 1) < 1/4) {
+        var side = "Paternal Grandfather";
+      } else if (gi / 2 ** (ge - 1) < 2/4) {
+        var side = "Paternal Grandmother";
+      } else if (gi / 2 ** (ge - 1) < 3/4) {
+        var side = "Maternal Grandfather";
+      } else {
+        var side = "Maternal Grandmother";
+      }
+
+      if (!load) {
+        return {
+          ascendancy: +id,
+          gen: ge,
+          gen_index: gi,
+          side: side,
+          gen_max: gm,
+          startA: radians * gi,
+          endA: radians * (gi + 1)}
+      } else {
+        tree(ge, radians * gi, radians * (gi + 1))
+      }
+    }
+
 
     function tree(stack, start, end) {
       d3.selectAll("svg > *").remove();
@@ -62,33 +96,9 @@
            	ascendancy: +d.ascendancy,
            	fid: d.fid}))
 
-        var doubles = Array.from({length: 35}, (_, i) => 2 ** i)
-
         var fs = d3
           .range(1, 2 ** 14)
-          .map(function(d) {
-            var ge = doubles.indexOf(doubles.find(x => x >= (d + 1)));
-            var gm = 2 ** (ge - 1);
-            var gi = +d - gm;
-            var radians = (Math.PI * 2) / gm;
-            if (gi / 2 ** (ge - 1) < 1/4) {
-              var side = "Paternal Grandfather";
-            } else if (gi / 2 ** (ge - 1) < 2/4) {
-              var side = "Paternal Grandmother";
-            } else if (gi / 2 ** (ge - 1) < 3/4) {
-              var side = "Maternal Grandfather";
-            } else {
-              var side = "Maternal Grandmother";
-            };
-            return {
-                  ascendancy: +d,
-                  gen: ge,
-                  gen_index: gi,
-                  side: side,
-                  gen_max: gm,
-                  startA: radians * gi,
-                  endA: radians * (gi + 1)
-            }})
+          .map(function(d) { return ascendancy(d) })
           .filter(d => d.gen > 2);
 
         if (typeof stack !== 'undefined') {
