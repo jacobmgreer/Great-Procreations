@@ -43,6 +43,11 @@
     </main>
     <script type="text/javascript">
 
+    if(window.location.hash) {
+          var hash = window.location.hash.substring(1);
+          alert (hash);
+    }
+
     function tree(stack, start, end) {
       d3.selectAll("svg > *").remove();
       var resetb =
