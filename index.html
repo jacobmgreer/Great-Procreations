@@ -15,7 +15,7 @@
 		<title>Great Procreations: Visualizing my Family Tree</title>
 
     <script src="web/js/d3.v3.min.js"></script>
-    <link rel="stylesheet" href="https://jacobmgreer.github.io/Film-Tracker/js/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="web/css/bootstrap.min.css">
 
     <style type="text/css">
       .center {
@@ -50,17 +50,61 @@
           .style("visibility", "hidden")
           .on("click", function(d) {tree()});
 
-      d3.csv('pedigree-pie-extended.csv',function(data) {
+      d3.csv('pedigree.csv',
+      function(data) {
+       	var cleanData = data
+          .map((d) => ({
+           	ascendancy: +d.ascendancy,
+           	fid: d.fid}))
+
+        var doubles = Array.from({length: 35}, (_, i) => 2 ** i)
+
+        var fs = d3
+          .range(1, 2 ** 14)
+          .map(function(d) {
+            var ge = doubles.indexOf(doubles.find(x => x >= (d + 1)));
+            var gm = 2 ** (ge - 1);
+            var gi = +d - gm;
+            var radians = (Math.PI * 2) / gm;
+            if (gi / 2 ** (ge - 1) < 1/4) {
+              var side = "Paternal Grandfather";
+            } else if (gi / 2 ** (ge - 1) < 2/4) {
+              var side = "Paternal Grandmother";
+            } else if (gi / 2 ** (ge - 1) < 3/4) {
+              var side = "Maternal Grandfather";
+            } else {
+              var side = "Maternal Grandmother";
+            };
+            return {
+                  ascendancy: +d,
+                  gen: ge,
+                  gen_index: gi,
+                  side: side,
+                  gen_max: gm,
+                  startA: radians * gi,
+                  endA: radians * (gi + 1)
+            }})
+          .filter(d => d.gen > 2);
+
         if (typeof stack !== 'undefined') {
           resetb.style("visibility", "visible");
-      		var data = data
-      		  .filter(element => Number(element.gen) >= Number(stack))
-      		  .filter(element => Number(element.start) >= Number(start))
-      		  .filter(element => Number(element.end) <= Number(end))
-        } else {var data = data.filter(element => Number(element.gen) <= Number(11))};
+      		var fs = fs
+      		  .filter(d => Number(d.gen) >= Number(stack))
+      		  .filter(d => Number(d.gen) <= Number(stack) + 13)
+      		  .filter(d => Number(d.startA) >= Number(start))
+      		  .filter(d => Number(d.endA) <= Number(end))
+        }
+
+        fs.forEach(function(member) {
+            var result = cleanData.filter(function(asfid) {
+                return asfid.ascendancy === member.ascendancy;
+            });
+        	  member.fid = (result[0] !== undefined) ? result[0].fid : null;
+        });
+
         var dataset2 = d3.nest()
           .key(function(d) { return d['gen']; })
-          .entries(data);
+          .entries(fs);
 
         var pie = d3.layout.pie().value(
           function(e) { return 1; }).sort(
@@ -87,36 +131,47 @@
           .style("background-color", "white")
           .style("padding", "5px");
         var mouseover = function(d) {
-          if (d.data["id"] != "NA") {
+          if (d.data["fid"] != null) {
             Tooltip.style("visibility", "visible")}};
-        var mousemove = function(d) {
-          if (d.data["id"] != "NA") {
+        var mousemove = function(d, i) {
+          if (d.data["fid"] != null) {
             Tooltip.html(
-              "<b>Side:</b> " + d.data["quartile"] + "'s<br/>" +
-              "<b>ID:</b> " + d.data["name"] + "<br/>" +
-              d.data["lifespan"])
-            .style("top", (d3.event.pageY-10)+"px")
-            .style("left",(d3.event.pageX+10)+"px")}};
+              "<b>" + d.data["side"] + "'s Quadrant</b><br/>" +
+              d.data["fid"] + "<br/>")
+            .style("top", (d3.event.pageY-10) + "px")
+            .style("left", (d3.event.pageX+10) + "px")}};
         var mouseleave = function(d) {
           Tooltip.style("visibility", "hidden")};
 
         var path = gs.selectAll("path")
             .data(function(d) {
-                return pie(d.values); })
+                return pie(d.values);})
           .enter()
           .append("path")
             .attr("fill", function(d, i) {
-                 return d.data["color"];})
+              if (d.data["fid"] != null) {
+                if (d.data["gen_index"] / 2 ** (d.data["gen"] - 1) < 1/4) {
+                  return (d.data["ascendancy"] % 2 == 0) ? "#B24C6D" : "#FFC1D5";
+                } else if (d.data["gen_index"] / 2 ** (d.data["gen"] - 1) < 2/4) {
+                  return (d.data["ascendancy"] % 2 == 0) ? "#07B2D9" : "#88DFF2";
+                } else if (d.data["gen_index"] / 2 ** (d.data["gen"] - 1) < 3/4) {
+                  return (d.data["ascendancy"] % 2 == 0) ? "#738B4F" : "#A6D86F";
+                } else {
+                  return (d.data["ascendancy"] % 2 == 0) ? "#8950A1" : "#C881CF";
+                }
+              } else { return "#EEEEEE" }
+            })
             .attr("d", function(d, i, j) {
                 return arc
-                  .innerRadius(25 * j)
-                  .outerRadius(25 * (j + .9) )(d); })
-            .on("click", function(d) {
-              if (d.data["id"] != "NA") {
+                  .innerRadius(30 * j)
+                  .outerRadius(30 * (j + .8) )(d); })
+            .on("click", function(d, i) {
+              if (d.data["fid"] != null) {
+                //console.log(d);
                 tree(
                   stack = d.data["gen"],
-                  start = d.data["start"],
-                  end = d.data["end"]);}
+                  start = d.data["startA"],
+                  end = d.data["endA"]);}
               Tooltip.style("visibility", "hidden")
             })
             .on("mouseover", mouseover)
