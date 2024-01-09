@@ -43,9 +43,9 @@
     </main>
     <script type="text/javascript">
 
-    if(window.location.hash) {
+    if(!isNaN(window.location.hash)) {
           var hash = window.location.hash.substring(1);
-          alert (ascendancy(hash, "load"));
+          ascendancy(hash, "load");
     } else {
       tree();
     }
