@@ -16,6 +16,7 @@
 
     <script src="https://jacobmgreer.github.io/Great-Procreations/web/js/d3.v3.min.js"></script>
     <link rel="stylesheet" href="https://jacobmgreer.github.io/Film-Tracker/js/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <style type="text/css">
       .center {
@@ -31,15 +32,18 @@
         <h1 class="display-5">Great Procreations</h1>
     </nav>
     <nav class="navbar navbar-light justify-content-center" style="background-color: #F2F2F2;">
-        <p>Exploring My Family Tree</p>
+        <p class="lead">Exploring 30 generations of documented sexual activity that led to my grandparents.</p>
     </nav>
-    <nav class="reset navbar navbar-light justify-content-center" style="background-color: #F2F2F2;">
-      <h3>Reset Graph</h3>
+    <nav class="reset navbar navbar-light justify-content-center" style="background-color: #E9E9E9;">
+      <h5 class="h5 lead" style="line-height:30px;vertical-align:middle;">Reset Graph</h5>
     </nav>
+
     <main>
-        <section class="container" id="procreations">
-          <svg class="center"></svg>
-        </section>
+      <section id="infobox" class="justify-content-center text-center" style="margin-top:25px;"></section>
+
+      <section class="container" id="procreations">
+        <svg class="center"></svg>
+      </section>
     </main>
     <script type="text/javascript">
 
@@ -66,6 +70,7 @@
         var side = "Maternal Grandmother";}
 
       if (!load) {
+        d3.selectAll("#infobox *").remove();
         return {
           ascendancy: +id,
           gen: ge,
@@ -75,6 +80,7 @@
           startA: radians * gi,
           endA: radians * (gi + 1)}
       } else {
+        d3.selectAll("#infobox *").remove();
         tree(
           ge,
           radians * gi,
@@ -87,8 +93,8 @@
           .style("visibility", "hidden")
           .on("click", function(d) {tree()});
 
-      d3.csv('data/pedigree.csv',
-      function(data) {
+      d3.csv('data/pedigree.csv', function(data) {
+
        	var cleanData = data
           .map((d) => ({
            	ascendancy: +d.ascendancy,
@@ -105,7 +111,7 @@
       		  .filter(d => Number(d.gen) >= Number(stack))
       		  .filter(d => Number(d.gen) <= Number(stack) + 13)
       		  .filter(d => Number(d.startA) >= Number(start))
-      		  .filter(d => Number(d.endA) <= Number(end))
+      		  .filter(d => Number(d.endA) <= Number(end));
         }
 
         fs.forEach(function(member) {
@@ -118,6 +124,9 @@
         var dataset2 = d3.nest()
           .key(function(d) { return d['gen']; })
           .entries(fs);
+
+        if (typeof stack !== 'undefined') {
+          infobox(fs[0]);}
 
         var pie = d3.layout.pie().value(
           function(e) { return 1; }).sort(
@@ -144,13 +153,23 @@
           .style("background-color", "white")
           .style("padding", "5px");
 
-        function query(fid) {
-          d3.csv('data/people-core.csv',
-                function(data) {
-                  details(data.filter(d => d.fid === fid));})}
+        function query(fid, item) {
+          d3.csv('data/people-core.csv', function(data) {
+            details(data.filter(d => d.fid === fid), item) })}
 
-        function details(data) {
-        	Tooltip
+
+        function infobox(data2) {
+          var infobox = d3.select("#infobox")
+            .append("p")
+            .classed("lead", true)
+
+          query(data2.fid, infobox)
+
+          d3.select("#infobox").append("p").html("<a href='#" + data2.ascendancy +
+          "' title='Permanent Ascendancy Link'><i class='bi bi-share'></i></a>")}
+
+        function details(data, item) {
+        	item
           	.data(data)
         		.html(function(d) {
             	var html = "<b>" + d.name + "</b></br>";
@@ -167,7 +186,7 @@
             Tooltip.style("visibility", "visible")}};
         var mousemove = function(d, i) {
           if (d.data["fid"] != null) {
-            query(d.data["fid"]);
+            query(d.data["fid"], Tooltip);
             Tooltip
               .style("top", (d3.event.pageY-10) + "px")
               .style("left", (d3.event.pageX+10) + "px")
