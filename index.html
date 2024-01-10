@@ -218,6 +218,7 @@
                   .outerRadius(30 * (j + .8) )(d); })
             .on("click", function(d, i) {
               if (d.data["fid"] != null) {
+                window.location.hash = d.data["ascendancy"];
                 //console.log(d);
                 tree(
                   stack = d.data["gen"],
