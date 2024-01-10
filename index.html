@@ -15,7 +15,7 @@
 		<title>Great Procreations: Visualizing my Family Tree</title>
 
     <script src="https://jacobmgreer.github.io/Great-Procreations/web/js/d3.v3.min.js"></script>
-    <link rel="stylesheet" href="https://jacobmgreer.github.io/Great-Procreations/web/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://jacobmgreer.github.io/Film-Tracker/js/bootstrap/css/bootstrap.min.css">
 
     <style type="text/css">
       .center {
@@ -43,12 +43,11 @@
     </main>
     <script type="text/javascript">
 
-    if(!isNaN(window.location.hash)) {
-          var hash = window.location.hash.substring(1);
-          ascendancy(hash, "load");
+    if (window.location.hash) {
+      var hash = window.location.hash.substring(1);
+      ascendancy(id=parseInt(hash), load="load");
     } else {
-      tree();
-    }
+      tree();}
 
     function ascendancy(id, load) {
       var doubles = Array.from({length: 35}, (_, i) => 2 ** i)
@@ -64,8 +63,7 @@
       } else if (gi / 2 ** (ge - 1) < 3/4) {
         var side = "Maternal Grandfather";
       } else {
-        var side = "Maternal Grandmother";
-      }
+        var side = "Maternal Grandmother";}
 
       if (!load) {
         return {
@@ -77,10 +75,10 @@
           startA: radians * gi,
           endA: radians * (gi + 1)}
       } else {
-        tree(ge, radians * gi, radians * (gi + 1))
-      }
-    }
-
+        tree(
+          ge,
+          radians * gi,
+          radians * (gi + 1))}}
 
     function tree(stack, start, end) {
       d3.selectAll("svg > *").remove();
@@ -89,7 +87,7 @@
           .style("visibility", "hidden")
           .on("click", function(d) {tree()});
 
-      d3.csv('pedigree.csv',
+      d3.csv('data/pedigree.csv',
       function(data) {
        	var cleanData = data
           .map((d) => ({
@@ -145,16 +143,35 @@
           .style("visibility", "hidden")
           .style("background-color", "white")
           .style("padding", "5px");
+
+        function query(fid) {
+          d3.csv('data/people-core.csv',
+                function(data) {
+                  details(data.filter(d => d.fid === fid));})}
+
+        function details(data) {
+        	Tooltip
+          	.data(data)
+        		.html(function(d) {
+            	var html = "<b>" + d.name + "</b></br>";
+                  html += d.lifespan + "</br>";
+                  if (d.birth_country != "NA") {
+                  	html += "<i>Born in </i> " + d.birth_country + "</br>";}
+                  html += "<i>Children</i> " + d.children;
+                  if (d.siblings != 0) {
+                  	html += ", <i>Siblings</i> " + d.siblings + "</br>";}
+                  return html})}
+
         var mouseover = function(d) {
           if (d.data["fid"] != null) {
             Tooltip.style("visibility", "visible")}};
         var mousemove = function(d, i) {
           if (d.data["fid"] != null) {
-            Tooltip.html(
-              "<b>" + d.data["side"] + "'s Quadrant</b><br/>" +
-              d.data["fid"] + "<br/>")
-            .style("top", (d3.event.pageY-10) + "px")
-            .style("left", (d3.event.pageX+10) + "px")}};
+            query(d.data["fid"]);
+            Tooltip
+              .style("top", (d3.event.pageY-10) + "px")
+              .style("left", (d3.event.pageX+10) + "px")
+          }};
         var mouseleave = function(d) {
           Tooltip.style("visibility", "hidden")};
 
