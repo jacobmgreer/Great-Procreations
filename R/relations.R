@@ -67,10 +67,15 @@ for (i in 4:30) {
 }
 rm(i)
 
-ascendancy %>%
-  filter(gen %in% 3:15) %>%
-  select(ascendancy, fid) %>%
-  write.csv("data/pedigree.csv", row.names = FALSE)
+ascendancy <- ascendancy %>%
+  mutate(
+    gen_count = 2^(gen-1),
+    quartile = case_when(
+      between((ascendancy - 2 ** (gen - 1)) / gen_count, 0, 1/4) ~ "Paternal Grandfather",
+      between((ascendancy - 2 ** (gen - 1)) / gen_count, 1/4, 1/2) ~ "Paternal Grandmother",
+      between((ascendancy - 2 ** (gen - 1)) / gen_count, 1/2, 3/4) ~ "Maternal Grandfather",
+      between((ascendancy - 2 ** (gen - 1)) / gen_count, 3/4, 1) ~ "Maternal Grandmother"
+    ))
 
 shared.ancestors <-
   ascendancy %>%
@@ -113,8 +118,55 @@ people <-
 landing <- ascendancy %>% filter(ascendancy < 16384)
 people %>%
   filter(fid %in% landing$fid) %>%
-  write.csv("data/people-core.csv", row.names=FALSE)
+  write.csv("data/core-people.csv", row.names=FALSE)
 rm(landing)
+ascendancy %>%
+  filter(gen %in% 3:15) %>%
+  select(ascendancy, fid) %>%
+  write.csv("data/core-pedigree.csv", row.names = FALSE)
+
+landing <- ascendancy %>% filter(quartile == "Maternal Grandmother") %>% distinct(fid)
+people %>%
+  filter(fid %in% landing$fid) %>%
+  write.csv("data/maternal-grandmother-people.csv", row.names=FALSE)
+rm(landing)
+ascendancy %>%
+  filter(quartile == "Maternal Grandmother") %>%
+  select(ascendancy, fid) %>%
+  write.csv("data/maternal-grandmother-pedigree.csv", row.names = FALSE)
+
+landing <- ascendancy %>% filter(quartile == "Maternal Grandfather") %>% distinct(fid)
+people %>%
+  filter(fid %in% landing$fid) %>%
+  write.csv("data/maternal-grandfather-people.csv", row.names=FALSE)
+rm(landing)
+ascendancy %>%
+  filter(quartile == "Maternal Grandfather") %>%
+  select(ascendancy, fid) %>%
+  write.csv("data/maternal-grandfather-pedigree.csv", row.names = FALSE)
+
+landing <- ascendancy %>% filter(quartile == "Paternal Grandfather") %>% distinct(fid)
+people %>%
+  filter(fid %in% landing$fid) %>%
+  write.csv("data/paternal-grandfather-people.csv", row.names=FALSE)
+rm(landing)
+ascendancy %>%
+  filter(quartile == "Paternal Grandfather") %>%
+  select(ascendancy, fid) %>%
+  write.csv("data/paternal-grandfather-pedigree.csv", row.names = FALSE)
+
+landing <- ascendancy %>% filter(quartile == "Paternal Grandmother") %>% distinct(fid)
+people %>%
+  filter(fid %in% landing$fid) %>%
+  write.csv("data/paternal-grandmother-people.csv", row.names=FALSE)
+rm(landing)
+ascendancy %>%
+  filter(quartile == "Paternal Grandmother") %>%
+  select(ascendancy, fid) %>%
+  write.csv("data/paternal-grandmother-pedigree.csv", row.names = FALSE)
+
+
+
 
 nationality <-
   people %>%
