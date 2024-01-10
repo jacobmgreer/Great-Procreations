@@ -91,7 +91,9 @@
       var resetb =
         d3.select("nav.reset")
           .style("visibility", "hidden")
-          .on("click", function(d) {tree()});
+          .on("click", function(d) {
+            history.pushState("", document.title, window.location.pathname);
+            tree()});
 
       d3.csv('data/pedigree.csv', function(data) {
 
