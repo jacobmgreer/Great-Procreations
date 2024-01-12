@@ -2,17 +2,9 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=1024, user-scalable=no">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-32906329-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		  gtag('config', 'UA-32906329-1');
-		</script>
 
-		<meta charset="utf-8">
-		<title>Great Procreations: Visualizing my Family Tree</title>
+    <meta charset="utf-8">
+    <title>Great Procreations: Visualizing my Family Tree</title>
 
     <script src="https://jacobmgreer.github.io/Great-Procreations/web/js/d3.v3.min.js"></script>
     <link rel="stylesheet" href="https://jacobmgreer.github.io/Film-Tracker/js/bootstrap/css/bootstrap.min.css">
@@ -31,7 +23,7 @@
     <nav class="navbar navbar-light justify-content-center" style="background-color: #F2F2F2;">
         <h1 class="display-5">Great Procreations</h1>
     </nav>
-    <nav class="navbar navbar-light justify-content-center" style="background-color: #F2F2F2;">
+    <nav id="subtitle" class="navbar navbar-light justify-content-center" style="background-color: #F2F2F2;">
         <p class="lead">Exploring 30 generations of documented sexual activity that led to my grandparents.</p>
     </nav>
     <nav class="reset navbar navbar-light justify-content-center" style="background-color: #E9E9E9;">
@@ -47,221 +39,145 @@
     </main>
     <script type="text/javascript">
 
-    if (window.location.hash) {
-      var hash = window.location.hash.substring(1);
-      ascendancy(id=parseInt(hash), load="load");
-    } else {
-      tree();
+    const range = (start, end) => {
+        const length = end - start;
+        return Array.from({ length }, (_, i) => start + i);
     }
 
-    var doubles = Array.from({length: 35}, (_, i) => 2 ** i);
+    if (window.location.hash) {
+      var hash = window.location.hash.substring(1)
+      tree(ascendancy(parseInt(hash)))
+    } else {
+      tree(ascendancy(1))}
 
-    function side(ascendancy) {
-      var ge = doubles.indexOf(doubles.find(x => x >= (+ascendancy + 1)));
-      var gm = 2 ** (ge - 1);
-      var gi = +ascendancy - gm;
-      if (gi / 2 ** (ge - 1) < 1/4) {
-        var side = 1; // 1= "Paternal Grandfather's Side"
-      } else if (gi / 2 ** (ge - 1) < 2/4) {
-        var side = 2; // 2= "Paternal Grandmother's Side"
-      } else if (gi / 2 ** (ge - 1) < 3/4) {
-        var side = 3; // 3= "Maternal Grandfather's Side"
-      } else {
-        var side = 4;} // 4= "Maternal Grandmother's Side"
-      return side;}
-
-    function ascendancy(id, load) {
-      var ge = doubles.indexOf(doubles.find(x => x >= (id + 1)));
-      var gm = 2 ** (ge - 1);
-      var gi = +id - gm;
-      var radians = (Math.PI * 2) / gm;
-
-      if (!load) {
-        d3.selectAll("#infobox *").remove();
-        return {
-          ascendancy: +id,
-          gen: ge,
-          gen_index: gi,
-          gen_max: gm,
-          startA: radians * gi,
-          endA: radians * (gi + 1)}
-      } else {
-        d3.selectAll("#infobox *").remove();
-        tree(
-          ge,
-          radians * gi,
-          radians * (gi + 1),
-          id)}}
-
-    function tree(stack, start, end, ascend) {
-      if (typeof ascend !== 'undefined') {
-        switch(side(ascend)) {
-          case 1:
-            var file = "paternal-grandfather"
-          case 2:
-            var file = "paternal-grandmother"
-          case 3:
-            var file = "maternal-grandfather"
-          case 4:
-            var file = "maternal-grandmother"
-        }
-      } else{
-          var file = "core";
-        }
-      d3.selectAll("svg > *").remove();
-      var resetb =
+    var resetb =
         d3.select("nav.reset")
           .style("visibility", "hidden")
           .on("click", function(d) {
             history.pushState("", document.title, window.location.pathname);
-            tree()});
+            tree(ascendancy(1))});
 
-      d3.csv("data/" + file + "-pedigree.csv", function(data) {
+    function ascendancy(id) {
+      var doubles = Array.from({length: 35}, (_, i) => 2 ** i);
+      var cuts = Array.from({length: 33}, (_, i) => i * 11.25);
+      var stack = doubles.indexOf(doubles.find(x => x >= (+id + 1)));
+      var stack_mx = 2 ** (stack - 1);
+      var stack_i = +id - stack_mx;
+      var radians = (Math.PI * 2) / stack_mx;
+      var quarter = stack_i / 2 ** (stack - 1);
+      var sA = 360 * stack_i / stack_mx - (360/stack_mx);
 
-       	var cleanData = data
-          .map((d) => ({
-           	ascendancy: +d.ascendancy,
-           	fid: d.fid}))
+      if (quarter < 1/4) {
+        var label = "Paternal Grandfather's Side";
+        var hex_father = "#B24C6D";
+        var hex_mother = "#FFC1D5";}
+      else if (quarter < 2/4) {
+        var label = "Paternal Grandmother's Side";
+        var hex_father = "#07B2D9";
+        var hex_mother = "#88DFF2";}
+      else if (quarter < 3/4) {
+        var label = "Maternal Grandfather's Side";
+        var hex_father = "#738B4F";
+        var hex_mother = "#A6D86F";}
+      else if (quarter < 4/4) {
+        var label = "Maternal Grandmother's Side";
+        var hex_father = "#8950A1";
+        var hex_mother = "#C881CF";}
 
-        if (typeof stack !== 'undefined') {
-          resetb.style("visibility", "visible");
-      		var fs = d3
-            .range(ascend, 2 ** (stack + 10))
-            .filter(d => side(d) == side(ascend))
-            .map(function(d) { return ascendancy(d) })
-      		  .filter(d => Number(d.startA) >= Number(start))
-      		  .filter(d => Number(d.endA) <= Number(end));
-        } else {
+      var color = (+id % 2) ? hex_mother : hex_father;
+
+      return {
+        ascendancy: +id,
+        color: color,
+        label: label,
+        cut: cuts.indexOf(cuts.find(x => x > +sA)) + 31,
+        gen: stack,
+        gen_index: stack_i}}
+
+    function tree(asc) {
+      if (asc.ascendancy < 64) {
+        var fileSlice = "data/core-pedigree.csv"
+        var filePeople =  "data/core-people.csv"
+      } else {
+        var fileSlice = "data/cuts/slice-" + String(asc.cut).padStart(3, '0') + ".csv"
+        var filePeople= "data/people/slice-" + String(asc.cut).padStart(3, '0') + ".csv"
+      }
+
+      d3.selectAll("svg > *").remove();
+
+      d3.csv(fileSlice, function(data) {
+        if (asc.ascendancy == 1) {
           var fs = d3
             .range(1, 2 ** 13)
-            .map(function(d) { return ascendancy(d) })
-            .filter(d => d.gen > 2);
+            .map(d => ascendancy(d));
+        } else {
+          resetb.style("visibility", "visible")
+
+          var rangeA = range(asc.ascendancy, asc.ascendancy + 13).reduce((r,c,i) =>
+            (r.push(i ? 2 * r[i-1] : c), r), [])
+          var rangeB = range(asc.ascendancy, asc.ascendancy + 13).reduce((r,c,i) =>
+            (r.push(i ? 2 * r[i-1] + 1 : c), r), [])
+          var ranges = rangeA.map((r, i) => range(rangeA[i], rangeB[i] + 1)).flat(1);
+          var fs = ranges.map(i => ascendancy(i));
         }
+
+        var cleanData = data
+          .map((d) => ({
+            ascendancy: +d.ascendancy,
+            fid: d.fid}))
 
         fs.forEach(function(member) {
             var result = cleanData.filter(function(asfid) {
                 return asfid.ascendancy === member.ascendancy;
             });
-        	  member.fid = (result[0] !== undefined) ? result[0].fid : null;
+            member.fid = (result[0] !== undefined) ? result[0].fid : null;
         });
 
         var dataset2 = d3.nest()
-          .key(function(d) { return d['gen']; })
+          .key(d => d.gen)
           .entries(fs);
 
-        if (typeof stack !== 'undefined') {
-          infobox(fs[0]);}
+        console.log(dataset2)
 
-        var pie = d3.layout.pie().value(
-          function(e) { return 1; }).sort(
+        var pie = d3.layout.pie().value(e => 1).sort(
             function(a, b){
-    			    return a['ascendency']-b['ascendency']});
+              return a['ascendancy'] - b['ascendancy']});
         var arc = d3.svg.arc();
 
         var svg = d3.select("svg")
-            .attr("width", 900)
-            .attr("height", 900)
-            .append("g")
-            .attr("transform", "translate(450,450)");
+          .attr("width", 900)
+          .attr("height", 900)
+          .append("g")
+          .attr("transform", "translate(450,450)");
 
         var gs = svg.selectAll("g")
-            .data(dataset2)
-            .enter()
-            .append("g");
-
-        var Tooltip = d3.select("section#procreations")
-          .append("div")
-          .style("position", "absolute")
-          .style("z-index", "10")
-          .style("visibility", "hidden")
-          .style("background-color", "white")
-          .style("padding", "5px");
-
-        function query(fid, item, ascendancy) {
-          d3.csv("data/" + file + "-people.csv", function(data) {
-            details(data.filter(d => d.fid === fid), item, ascendancy) })}
-
-
-        function infobox(data2) {
-          var infobox = d3.select("#infobox")
-            .append("p")
-            .classed("lead", true)
-
-          query(data2.fid, infobox, ascendancy)
-
-          d3.select("#infobox").append("p").html("<a href='https://www.familysearch.org/tree/person/details/" + data2.fid +
-          "' title='Go to Person on FamilySearch.org'><i class='bi bi-share'></i></a>")}
-
-        function printSide(side) {
-          switch(side) {
-            case 1: return "Paternal Grandfather's Side"
-            case 2: return "Paternal Grandmother's Side"
-            case 3: return "Maternal Grandfather's Side"
-            case 4: return "Maternal Grandmother's Side"}}
-
-        function details(data, item, ascendancy) {
-        	item
-          	.data(data)
-        		.html(function(d) {
-            	var html = printSide(side(ascendancy)) + "<br/>";
-            	    html += "<b>" + d.name + "</b><br/>";
-                  html += d.lifespan + "<br/>";
-                  if (d.birth_country != "NA") {
-                  	html += "<i>Born in </i> " + d.birth_country + "<br/>";}
-                  html += "<i>Children</i> " + d.children;
-                  if (d.siblings != 0) {
-                  	html += ", <i>Siblings</i> " + d.siblings + "<br/>";}
-                  return html})}
-
-        var mouseover = function(d) {
-          if (d.data["fid"] != null) {
-            Tooltip.style("visibility", "visible")}};
-        var mousemove = function(d, i) {
-          if (d.data["fid"] != null) {
-            query(d.data["fid"], Tooltip, d.data["ascendancy"]);
-            Tooltip
-              .style("top", (d3.event.pageY-10) + "px")
-              .style("left", (d3.event.pageX+10) + "px")
-          }};
-        var mouseleave = function(d) {
-          Tooltip.style("visibility", "hidden")};
+          .data(dataset2)
+          .enter()
+          .append("g");
 
         var path = gs.selectAll("path")
-            .data(function(d) {
-                return pie(d.values);})
+          .data(function(d) {
+            return pie(d.values);})
           .enter()
           .append("path")
+
             .attr("fill", function(d, i) {
-              if (d.data["fid"] != null) {
-                sideCalc = side(d.data["ascendancy"]);
-                if (sideCalc == 1) { // Paternal Grandfather
-                  return (d.data["ascendancy"] % 2 == 0) ? "#B24C6D" : "#FFC1D5";
-                } else if (sideCalc == 2) { // Paternal Grandmother
-                  return (d.data["ascendancy"] % 2 == 0) ? "#07B2D9" : "#88DFF2";
-                } else if (sideCalc == 3) { // Maternal Grandfather
-                  return (d.data["ascendancy"] % 2 == 0) ? "#738B4F" : "#A6D86F";
-                } else { // Maternal Grandmother
-                  return (d.data["ascendancy"] % 2 == 0) ? "#8950A1" : "#C881CF";
-                } // Missing on FS
-              } else { return (d.data["ascendancy"] % 2 == 0) ? "#EEEEEE" : "#D9D9D9"; }
-            })
+              if (d.data["fid"]) { return d.data["color"]; }
+              else {
+                return (d.data["ascendancy"] % 2) ? "#EEEEEE" : "#D9D9D9"; }})
+
             .attr("d", function(d, i, j) {
                 return arc
                   .innerRadius(30 * j)
                   .outerRadius(30 * (j + .8) )(d); })
+
             .on("click", function(d, i) {
               if (d.data["fid"] != null) {
+                tree(ascendancy(d.data["ascendancy"]));
                 window.location.hash = d.data["ascendancy"];
-                tree(
-                  stack = d.data["gen"],
-                  start = d.data["startA"],
-                  end = d.data["endA"],
-                  ascend = d.data["ascendancy"]);}
-              Tooltip.style("visibility", "hidden")
+                document.getElementById("subtitle").scrollIntoView();
+              }
             })
-            .on("mouseover", mouseover)
-            .on("mousemove", mousemove)
-            .on("mouseleave", mouseleave);
       })
     };
     </script>
