@@ -4,22 +4,27 @@ options(readr.show_col_types = FALSE)
 
 files <- list.files("../Family-Tree/records", ".json", full.names = TRUE)
 
-parents <- NULL
-for (i in files) {
-  person <- jsonlite::fromJSON(i)$person
-  if(length(person$parent$identifier) > 0) {
-    parents <-
-      parents %>%
-      bind_rows(
-        data.frame(fid = tools::file_path_sans_ext(basename(i)),
-                   parent = person$parent$identifier,
-                   gender = person$parent$gender))
-  }
-}
+## when not re-running, simple load
+parents <- read_csv("../Family-Tree/reports/parents.csv")
 
-rm(files, i, person)
+## RE-RUN the parent associations from all files
 
-write.csv(parents, "../Family-Tree/reports/parents.csv", row.names=FALSE)
+# parents <- NULL
+# for (i in files) {
+#   person <- jsonlite::fromJSON(i)$person
+#   if(length(person$parent$identifier) > 0) {
+#     parents <-
+#       parents %>%
+#       bind_rows(
+#         data.frame(fid = tools::file_path_sans_ext(basename(i)),
+#                    parent = person$parent$identifier,
+#                    gender = person$parent$gender))
+#   }
+# }
+#
+# rm(i, person)
+#
+# write.csv(parents, "../Family-Tree/reports/parents.csv", row.names=FALSE)
 
 #### build relationships
 error.parent <-
@@ -34,4 +39,4 @@ rel.sex <-
   select(Child=fid, Father=Male, Mother=Female) %T>%
   write.csv(., "../Family-Tree/reports/relationships-sex.csv", row.names = FALSE)
 
-rm(required)
+rm(required, files)

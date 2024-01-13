@@ -28,16 +28,18 @@ nationality <-
   dplyr::count(birth_country) %>%
   arrange(desc(n))
 
-landing <- ascendancy %>% filter(ascendancy < 16384)
-core_people <- people %>%
-  filter(fid %in% landing$fid) %T>%
+landing <- ascendancy %>% filter(ascendancy < 252145) %>% pull(fid)
+people %>%
+  filter(fid %in% landing) %>%
   write.csv("data/core-people.csv", row.names=FALSE)
 
-for (i in 1:length(cuts$slice)) {
-    cut <- cut_ascendancy %>% filter(cut == i)
-    bind_rows(core_people,
-              people %>% filter(fid %in% cut$fid)) %>%
-    write.csv(., paste0("data/people/slice-", str_pad(i, 3, pad = "0"), ".csv"), row.names = FALSE)
+for (cut in 32:63) {
+  cuts <-
+    read_csv(paste0(paste0("data/cuts/slice-", str_pad(cut, 3, pad = "0"), ".csv"))) %>%
+    distinct(fid)
+  people %>%
+    filter(fid %in% cuts$fid) %>%
+    write.csv(., paste0("data/people/slice-", str_pad(cut, 3, pad = "0"), ".csv"), row.names = FALSE)
 }
 
-rm(required, QID, i, cut, core_people, landing)
+rm(required, QID, cuts, cut, landing)

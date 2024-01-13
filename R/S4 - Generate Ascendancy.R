@@ -4,7 +4,8 @@ options(readr.show_col_types = FALSE)
 
 rel.sex <- read_csv("../Family-Tree/reports/relationships-sex.csv")
 
-# #### create ascendancy
+#### create ascendancy
+
 ascendancy <-
   bind_rows(
     c(fid="GHVL-B4K", ascendancy=4),     # Paternal Grandfather
@@ -39,43 +40,29 @@ for (i in 4:30) {
       arrange(ascendancy)
 }
 rm(i)
+#
+# write.csv(ascendancy, "../Family-Tree/reports/ascendancy.csv", row.names=FALSE)
+#
+# for (cut in 32:63) {
+#   start <- stop <- cut
+#   for (j in 2:30) {
+#     start[j] <- start[j-1] * 2
+#     stop[j] <- stop[j-1] * 2 + 1
+#   }
+#   ranges <- data.frame(start, stop) %T>%
+#     write.csv(., paste0("data/ranges/slice-", str_pad(cut, 3, pad = "0"), ".csv"), row.names = FALSE)
+#
+#   ascendancy %>%
+#     rowwise() %>%
+#     filter(any(ascendancy >= ranges$start & ascendancy <= ranges$stop)) %>%
+#     select(fid, ascendancy) %>%
+#     write.csv(., paste0("data/cuts/slice-", str_pad(cut, 3, pad = "0"), ".csv"), row.names = FALSE)
+#
+#   rm(cut, start, stop, ranges, j)
+# }
 
-ascendancy <- ascendancy %>%
-  mutate(
-    max = 2^(gen-1),
-    slice = ascendancy - max,
-    start = 360 * slice / max - (360/max),
-    end = slice * (360/max))
-
-for (cut in 32:63) {
-  start <- stop <- cut
-  for (j in 2:30) {
-    start[j] <- start[j-1] * 2
-    stop[j] <- stop[j-1] * 2 + 1
-  }
-  ranges <- data.frame(start, stop) %T>%
-    write.csv(., paste0("data/ranges/slice-", str_pad(cut, 3, pad = "0"), ".csv"), row.names = FALSE)
-
-  ascendancy %>%
-    rowwise() %>%
-    filter(any(ascendancy >= ranges$start & ascendancy <= ranges$stop)) %>%
-    select(fid, ascendancy) %>%
-    write.csv(., paste0("data/cuts/slice-", str_pad(cut, 3, pad = "0"), ".csv"), row.names = FALSE)
-
-  rm(cut, start, stop, ranges, j)
-}
-
-cut_ascendancy <-
-  list.files(path = "data/cuts",
-             pattern = "*.csv",
-             full.names = TRUE) %>%
-  read_csv(., id="path") %>%
-  filter(ascendancy >= 32) %>%
-  mutate(cut = abs(parse_number(path)))
-
-core_ascendancy <-
-  ascendancy %>%
-  filter(gen %in% 3:15) %>%
+ascendancy %>%
+  filter(gen %in% 3:18) %>%
   select(ascendancy, fid) %T>%
   write.csv("data/core-pedigree.csv", row.names = FALSE)
 
@@ -96,9 +83,7 @@ generations <-
   mutate(
     total = 2 ** (gen - 1),
     per.known = round(identified / total * 100, digits=2),
-    missing = total - identified,
-    r1 = list(range(1, ceiling(1/32 * total))),
-    r2 = list(range(ceiling(1/32 * total), ceiling(2/32 * total)))
+    missing = total - identified
   )
 
 rm(required, rel.sex)
