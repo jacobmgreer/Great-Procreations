@@ -59,6 +59,7 @@
       d3.select("nav.reset")
         .style("visibility", "hidden")
         .on("click", function(d) {
+          d3.select("#infobox *").remove()
           history.pushState("", document.title, window.location.pathname);
           tree(ascendancy(1))});
 
@@ -78,9 +79,6 @@
     }
 
     function infobox(asc, fid) {
-      if (!fid) {
-        var fid = getFID(asc.ascendancy, asc.cut)
-      }
       d3.select("#infobox *").remove()
       var infobox = d3.select("#infobox")
         .append("p")
