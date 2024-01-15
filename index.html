@@ -106,7 +106,7 @@
       var stack_i = +id - stack_mx;
       var radians = (Math.PI * 2) / stack_mx;
       var quarter = stack_i / 2 ** (stack - 1);
-      var sA = 360 * stack_i / stack_mx - (360/stack_mx);
+      var sA = 360 * (stack_i + 1) / stack_mx - (360/stack_mx);
 
       if (quarter < 1/4) {
         var label = "Paternal Grandfather's Side";
