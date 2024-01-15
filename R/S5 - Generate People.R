@@ -2,7 +2,7 @@ required <- c("rvest", "tidyverse", "magrittr", "stringi", "maps")
 lapply(required, require, character.only = TRUE)
 options(readr.show_col_types = FALSE)
 
-QID <- read_csv("~/GitHub/Nitrate-SPARQL/output/fs/P2889 - FS.csv")
+QID <- read_csv("~/GitHub/Nitrate-SPARQL/output/fs/P2889 - QID with details.csv")
 
 people <-
   list.files(path = "input/people",
@@ -19,7 +19,7 @@ people <-
     birth_country = map.where(database="world", place_birth_lon, place_birth_lat)
   ) %>%
   select(
-    fid, QID, name, lifespan=ls,
+    fid, QID, name, lifespan=ls, itemLabel, itemDescription,
     age_at_death, birth_country,
     children = count_children, siblings = count_siblings)
 

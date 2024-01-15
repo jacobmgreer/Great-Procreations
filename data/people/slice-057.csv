@@ -1,2 +1,2 @@
-"fid","QID","name","lifespan","age_at_death","birth_country","children","siblings"
-"L22M-VJB",NA,"Margaret Jones","1820 - Unknown",NA,"Canada",11,0
+"fid","QID","name","lifespan","itemLabel","itemDescription","age_at_death","birth_country","children","siblings"
+"L22M-VJB",NA,"Margaret Jones","1820 - Unknown",NA,NA,NA,"Canada",11,0
