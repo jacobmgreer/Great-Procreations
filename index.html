@@ -218,7 +218,6 @@
                   .classed("lead", true)
                   .classed("text-center", true)
                   .text("Ancestry in this Tree Identified in Wikidata")
-              }
 
               var columns = ['name', 'lifespan', 'birth_country']
               var table = d3.select("#wikitable")
@@ -245,6 +244,7 @@
                   }
                   else {if(d.value != "NA") {return d.value}}})
               return table
+              }
             }
           })
 
