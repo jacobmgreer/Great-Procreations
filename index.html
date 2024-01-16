@@ -56,8 +56,8 @@
     <script type="text/javascript">
 
     const range = (start, end) => {
-        const length = end - start;
-        return Array.from({ length }, (_, i) => start + i);}
+      const length = end - start;
+      return Array.from({ length }, (_, i) => start + i);}
 
     if (window.location.hash) {
       var hash = window.location.hash.substring(1)
@@ -103,10 +103,13 @@
                   html += d.lifespan + "<br/>";
                   if (d.birth_country != "NA") {
                     html += "<i>Born in </i> " + d.birth_country + "<br/>";}
-                  html += "<i>Children</i> " + d.children;
-                  if (d.siblings != 0) {
-                    html += ", <i>Siblings</i> " + d.siblings;}
-                  html += "</p><p class=\"iHide\"><a href='https://www.familysearch.org/tree/person/details/" + d.fid +
+                  if (asc.ascendancy > 7) {
+                    html += "<i>Children</i> " + d.children;
+                    if (d.siblings != 0) {
+                      html += ", <i>Siblings</i> " + d.siblings;
+                    }
+                  }
+                    html += "</p><p class=\"iHide\"><a href='https://www.familysearch.org/tree/person/details/" + d.fid +
         "' title='Go to Person on FamilySearch.org'><i class='bi bi-share'></i></a></p>";
                   return html})})}
 
@@ -157,6 +160,7 @@
             tree(ascendancy(1))});
 
     function tree(asc) {
+      d3.select("#wikitable *").remove();
       if (asc.ascendancy < 64) {
         var fileSlice = "data/core-pedigree.csv"
         var filePeople =  "data/core-people.csv"
@@ -169,12 +173,10 @@
       d3.csv(fileSlice, function(data) {
 
         if (asc.ascendancy == 1) {
-          d3.select("#wikitable *").remove();
           var fs = d3
             .range(1, 2 ** 13)
             .map(d => ascendancy(d));
         } else {
-          d3.select("#wikitable *").remove();
           resetb.style("visibility", "visible");
           var rangeA = range(Number(asc.ascendancy), Number(asc.ascendancy) +
               Math.min(Math.max(13, 1), 29 - Number(asc.gen))).reduce((r,c,i) =>
