@@ -150,6 +150,7 @@
         d3.select("div.reset")
           .style("visibility", "hidden")
           .on("click", function(d) {
+            d3.select("#wikitable *").remove();
             d3.select("#infobox *").remove();
             d3.select("div.reset").style("visibility", "hidden");
             history.pushState("", document.title, window.location.pathname);
@@ -168,10 +169,12 @@
       d3.csv(fileSlice, function(data) {
 
         if (asc.ascendancy == 1) {
+          d3.select("#wikitable *").remove();
           var fs = d3
             .range(1, 2 ** 13)
             .map(d => ascendancy(d));
         } else {
+          d3.select("#wikitable *").remove();
           resetb.style("visibility", "visible");
           var rangeA = range(Number(asc.ascendancy), Number(asc.ascendancy) +
               Math.min(Math.max(13, 1), 29 - Number(asc.gen))).reduce((r,c,i) =>
@@ -281,7 +284,6 @@
 
           .on("click", function(d, i) {
             if (d.data["fid"] != null) {
-              d3.select("#wikitable *").remove();
               tree(ascendancy(d.data["ascendancy"]));
               window.location.hash = d.data["ascendancy"];
               document.getElementById("subtitle").scrollIntoView();
