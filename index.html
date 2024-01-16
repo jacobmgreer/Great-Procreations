@@ -286,6 +286,7 @@
 
           .on("click", function(d, i) {
             if (d.data["fid"] != null) {
+              d3.select("#wikitable *").remove();
               tree(ascendancy(d.data["ascendancy"]));
               window.location.hash = d.data["ascendancy"];
               document.getElementById("subtitle").scrollIntoView();
