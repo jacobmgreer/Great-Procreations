@@ -189,7 +189,6 @@
 
         var infobox = d3.select("#infobox");
 
-
         fs.forEach(function(d, i) {
           var result = cleanData.filter(function(asfid) {
               return asfid.ascendancy === d.ascendancy;});
@@ -198,12 +197,9 @@
             details(ascendancy(d.ascendancy), d.fid, infobox)};
         });
 
-        var deets = []
         d3.csv("data/wikitable.csv",
           function(wiki) {
-            d3.select("#wikitable *").remove();
-
-            if(asc.ascendancy > 1) {
+            if (asc.ascendancy > 1) {
               var rangeWDA = range(Number(asc.ascendancy), Number(asc.ascendancy) + Math.min(Math.max(30, 1), 29 - Number(asc.gen))).reduce((r,c,i) => (r.push(i ? 2 * r[i-1] : c), r), [])
               var rangeWDB = range(Number(asc.ascendancy), Number(asc.ascendancy) + Math.min(Math.max(30, 1), 29 - Number(asc.gen))).reduce((r,c,i) => (r.push(i ? 2 * r[i-1] + 1 : c), r), [])
               var rangesWD = rangeWDA.map((v, i) => { return [v, rangeWDB[i]]; })
@@ -285,6 +281,7 @@
 
           .on("click", function(d, i) {
             if (d.data["fid"] != null) {
+              d3.select("#wikitable *").remove();
               tree(ascendancy(d.data["ascendancy"]));
               window.location.hash = d.data["ascendancy"];
               document.getElementById("subtitle").scrollIntoView();
