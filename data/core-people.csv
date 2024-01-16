@@ -1072,7 +1072,7 @@
 "LBHH-QFJ",NA,"Ann Borodell","1615 - 1712",NA,97,"Ireland",11,1
 "LBMB-FQ9",NA,"Thomas Green Jr.","1631 - 1672",NA,41,"UK:Great Britain",6,9
 "LBQW-XXK",NA,"Mary Weare","1645 - 1675",NA,30,"USA",4,6
-"LBS5-2CC",NA,"John Bigelow","1616 - 1703",NA,87,"UK:Great Britain",14,9
+"LBS5-2CC","Q96198970","John Bigelow","1616 - 1703",NA,87,"UK:Great Britain",14,9
 "LBTN-2R9",NA,"John Livermore Sr.","1606 - 1684",NA,78,"UK:Great Britain",14,2
 "LBZT-LDM",NA,"Elizabeth Nichols","1664 - 1727",NA,62,"USA",14,1
 "LC2J-LNT",NA,"Katherine Goodrich","1607 - 1655",NA,48,"UK:Great Britain",2,11
@@ -2236,7 +2236,7 @@
 "9C87-HZ1",NA,"John Belgrave","1535 - 1591",NA,56,"UK:Great Britain",17,7
 "9CN6-LLF",NA,"Anna White","1600 - 1647",NA,46,"UK:Great Britain",11,7
 "9CQC-H5D",NA,"Ellen Fulthorp","1488 - Unknown",NA,NA,"UK:Great Britain",1,0
-"9CXG-H68",NA,"Stephen Bachiler","1561 - Unknown",NA,95,"UK:Great Britain",7,0
+"9CXG-H68","Q7608632","Stephen Bachiler","1561 - Unknown","https://en.wikipedia.org/wiki/Stephen_Bachiler",95,"UK:Great Britain",7,0
 "9FKN-5H5",NA,"Robert Young","1508 - 1542",NA,34,NA,1,2
 "9H4G-29V",NA,"William Blake","Unknown - 1663",NA,69,"UK:Great Britain",7,12
 "9HLN-1YC",NA,"Francis Wakeman","1565 - 1626",NA,61,"UK:Great Britain",13,10
@@ -6060,7 +6060,7 @@
 "LBQH-K7V",NA,"Mary Appleton","1490 - 1526",NA,36,"UK:Great Britain",1,0
 "LBQZ-1KF",NA,"Rose Abigail","1505 - Unknown",NA,NA,"UK:Great Britain",1,0
 "LBQZ-1V5",NA,"Grysell Griswold","1500 - 1577",NA,77,"UK:Great Britain",1,0
-"LBRD-MGY",NA,"Sir Lord Admiral James Hamilton III Knight, High Sheriff of Lanark","1475 - 1529",NA,53,"UK:Great Britain",10,6
+"LBRD-MGY","Q336796","Sir Lord Admiral James Hamilton III Knight, High Sheriff of Lanark","1475 - 1529","https://en.wikipedia.org/wiki/James_Hamilton,_1st_Earl_of_Arran",53,"UK:Great Britain",10,6
 "LBRK-TVQ",NA,"Sibill Lumley","1485 - 1519",NA,34,"UK:Great Britain",3,6
 "LBSM-X87",NA,"Richard Scott","1476 - 1560",NA,84,"UK:Great Britain",9,2
 "LBT1-FJB",NA,"Mary Purefoy","1533 - 1589",NA,56,"UK:Great Britain",13,0
@@ -6285,7 +6285,7 @@
 "LT88-Q94",NA,"Margaret Whiston","1460 - 1529",NA,69,"UK:Great Britain",8,0
 "LTB9-Z9J",NA,"Gerald FitzMaurice FitzGerald, 8th Earl of Kildare","1455 - 1513",NA,58,"Ireland",15,6
 "LTC8-G1D",NA,"James FitzMaurice Fitzgerald 10th Earl of Desmond","1480 - 1529",NA,49,"Ireland",9,3
-"LTDW-2Q1",NA,"Sir Edward Seymour 1st Duke of Somerset","1506 - 1552",NA,46,"UK:Great Britain",12,8
+"LTDW-2Q1","Q163936","Sir Edward Seymour 1st Duke of Somerset","1506 - 1552","https://en.wikipedia.org/wiki/Edward_Seymour,_1st_Duke_of_Somerset",46,"UK:Great Britain",12,8
 "LTDW-CYW",NA,"Richard Ormesby","1509 - 1577",NA,68,"UK:Great Britain",7,4
 "LTF4-4MM",NA,"Mary Bartholomew","1566 - 1607",NA,41,"UK:Great Britain",1,6
 "LTF4-Y4D",NA,"Maria Hunter","1548 - 1583",NA,35,"UK:Great Britain",14,0
@@ -6515,7 +6515,7 @@
 "M5JY-R6S",NA,"John Mervyn","1480 - 1533",NA,53,"UK:Great Britain",8,4
 "M647-DR8",NA,"Richard Cecil ap Philip SEISYLLT of Alt-yr-Ynys","1425 - 1508",NA,82,"UK:Great Britain",7,0
 "M6H2-41V",NA,"Thomas Mery","1450 - Unknown",NA,NA,"UK:Great Britain",1,0
-"M6QN-L99",NA,"Sir Edward Clinton","1512 - 1585",NA,73,"UK:Great Britain",10,0
+"M6QN-L99","Q1291914","Sir Edward Clinton","1512 - 1585","https://en.wikipedia.org/wiki/Edward_Clinton,_1st_Earl_of_Lincoln",73,"UK:Great Britain",10,0
 "M6WX-G7T",NA,"Isabel Simcotts","1526 - 1624",NA,98,"UK:Great Britain",7,0
 "M6XW-S9J",NA,"Anne Marie Calvert","1542 - 1616",NA,74,"UK:Great Britain",14,21
 "M7KD-16C",NA,"Sir Henry  Morgard Femour Richards","1486 - 1512",NA,26,"UK:Great Britain",4,2
@@ -7831,7 +7831,7 @@
 "L19T-QBW",NA,"Catherine Clifford","1401 - 1466",NA,65,"UK:Great Britain",7,0
 "L1CG-C9Z",NA,"Anne Halsam","1475 - 1499",NA,24,"UK:Great Britain",1,0
 "L1CP-BFQ",NA,"John Kennedy 2nd Lord Kennedy","1436 - 1508",NA,72,"UK:Great Britain",15,15
-"L1CV-VWY",NA,"James Hamilton -1st Lord Hamilton","1415 - 1479",NA,64,"UK:Great Britain",7,5
+"L1CV-VWY","Q1342958","James Hamilton -1st Lord Hamilton","1415 - 1479","https://en.wikipedia.org/wiki/James_Hamilton,_1st_Lord_Hamilton",64,"UK:Great Britain",7,5
 "L1CX-Y8H",NA,"Frederick Elsick","1500 - Unknown",NA,89,"UK:Great Britain",3,0
 "L1D5-57Q",NA,"Dorothy Ashton","1480 - 1524",NA,44,"UK:Great Britain",5,7
 "L1D5-G2L",NA,"John Symonds","1473 - 1520",NA,47,"UK:Great Britain",3,11

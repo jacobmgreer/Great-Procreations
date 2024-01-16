@@ -12,6 +12,7 @@ people <-
   bind_rows() %>%
   distinct(fid, .keep_all = TRUE) %>%
   left_join(QID, by=c("fid" = "value")) %>%
+  select(QID, fid, name, count_stories, count_sources, everything()) %>%
   mutate(
     birth = str_extract(birth, "\\d{4}"),
     death = str_extract(death, "\\d{4}"),

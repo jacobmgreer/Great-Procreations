@@ -541,7 +541,7 @@
 "LVGL-3H7",NA,"Baroness Cecily Dutton","1395 - 1435",NA,40,"UK:Great Britain",5,10
 "LVGN-FXB",NA,"Sir Thomas de la Barre","1368 - 1419",NA,51,NA,11,3
 "LVH9-LPM",NA,"Der Niesser","Unknown - Unknown",NA,NA,NA,1,0
-"LY8C-LSL",NA,"Edmund FitzAlan 9th Earl of Arundel","1285 - 1326",NA,41,"UK:Great Britain",9,4
+"LY8C-LSL","Q2004845","Edmund FitzAlan 9th Earl of Arundel","1285 - 1326","https://en.wikipedia.org/wiki/Edmund_Fitzalan,_2nd_Earl_of_Arundel",41,"UK:Great Britain",9,4
 "LYHV-G4L",NA,"Richard De Wynnington","1345 - 1422",NA,77,"UK:Great Britain",5,2
 "LYSY-YFV",NA,"Sir Geoffrey Cornewall","1335 - 1365",NA,30,"UK:Great Britain",5,1
 "LYV2-C6P",NA,"unknown","1381 - Unknown",NA,NA,NA,1,0
@@ -1715,12 +1715,12 @@
 "M3DW-6QG",NA,"Roger de Lacy","1170 - 1212",NA,42,"UK:Great Britain",2,6
 "M74M-GZ9",NA,"Alice FitzGerold","1215 - 1284",NA,69,"UK:Great Britain",10,4
 "M7W1-BV2",NA,"Elias Giffard","1180 - 1248",NA,68,"UK:Great Britain",7,7
-"M9QT-TX4",NA,"Sir Roger IV de Somery Baron of Dudley","1194 - 1273",NA,78,"UK:Great Britain",7,4
+"M9QT-TX4","Q28648770","Sir Roger IV de Somery Baron of Dudley","1194 - 1273","https://en.wikipedia.org/wiki/Roger_de_Somery_II",78,"UK:Great Britain",7,4
 "MCYC-2CH",NA,"Hans von Wulff","1306 - Unknown",NA,NA,"Germany",1,1
 "MDQL-RS6",NA,"Simon de Dammartin","1180 - 1239",NA,58,"France",8,6
 "MF7F-HQF","Q231788","Isabelle d'Angoulême Queen of England","1187 - 1246","https://en.wikipedia.org/wiki/Isabella_of_Angoul%C3%AAme",59,"France",14,0
 "MH6Z-PCT",NA,"Lord William de Radcliffe","1164 - 1220",NA,56,"UK:Great Britain",4,3
-"MHCC-ZNJ",NA,"John De Grey Sheriff of Nottingham & Derby","1205 - 1266",NA,61,"UK:Great Britain",3,2
+"MHCC-ZNJ","Q7528167","John De Grey Sheriff of Nottingham & Derby","1205 - 1266","https://en.wikipedia.org/wiki/Sir_John_de_Grey",61,"UK:Great Britain",3,2
 "MMYV-KM1",NA,"Amfelisia Sampson","1249 - Unknown",NA,NA,"UK:Great Britain",5,0
 "MNBQ-PWY",NA,"Wischard Ledet","1210 - 1241",NA,31,"UK:Great Britain",1,4
 "MQX3-4FH",NA,"Robert de Wynnington I","1225 - 1295",NA,70,"UK:Great Britain",4,3
@@ -1767,7 +1767,7 @@
 "9HT1-1BM",NA,"Sir Norman Solney","1230 - Unknown",NA,NA,"UK:Great Britain",2,0
 "9HT1-T15",NA,"John de Bratoft","1200 - Unknown",NA,NA,"UK:Great Britain",3,0
 "9HT5-RK9",NA,"Mrs. Anthony Robinson","Unknown - Unknown",NA,NA,NA,1,0
-"9HTG-9V9",NA,"William de Braose","1153 - 1211",NA,57,"UK:Great Britain",10,5
+"9HTG-9V9","Q3779058","William de Braose","1153 - 1211","https://en.wikipedia.org/wiki/William_de_Braose,_4th_Lord_of_Bramber",57,"UK:Great Britain",10,5
 "9HZR-HQ9",NA,"William Roddam 2nd","1260 - 1355",NA,95,"UK:Great Britain",6,0
 "9MCW-4MN",NA,"Emma de Bulmer","1144 - 1208",NA,64,"UK:Great Britain",6,2
 "9MJJ-99H",NA,"Margery Blundell","Unknown - 1292",NA,NA,NA,3,0
@@ -2199,7 +2199,7 @@
 "LBKH-QGB",NA,"Petronilla de Scudamore","1155 - 1204",NA,49,"UK:Great Britain",3,1
 "LBKY-D8P",NA,"Hamon de Massey IV","1163 - 1250",NA,87,"UK:Great Britain",7,7
 "LBLP-5KP",NA,"Ralph De Mainwaring","1155 - Unknown",NA,NA,"UK:Great Britain",2,6
-"LBP9-Y7L",NA,"Marguerite de Genève","1180 - 1257",NA,77,"Switzerland",11,0
+"LBP9-Y7L","Q2359709","Marguerite de Genève","1180 - 1257","https://en.wikipedia.org/wiki/Margaret_of_Geneva",77,"Switzerland",11,0
 "LBZ7-ZPQ",NA,"Roger De Bradshaw","1185 - 1235",NA,50,"UK:Great Britain",1,0
 "LCB7-YFV",NA,"Otes L Arcedekne","1217 - 1277",NA,60,"UK:Great Britain",2,2
 "LD39-PY2",NA,"Letitia de Brinley","1189 - 1220",NA,31,"UK:Great Britain",2,0
@@ -2637,7 +2637,7 @@
 "L13Z-NC6",NA,"Mrs John de Hulme","1158 - 1200",NA,42,"UK:Great Britain",2,0
 "L1H6-PFZ",NA,"Robert de Lucy","1093 - Unknown",NA,39,"France",1,5
 "L1HP-464",NA,"Gwenwynwyn Cyfeiliog ap Gwenwynwyn","1183 - 1223",NA,40,"UK:Great Britain",1,1
-"L1RC-7P1",NA,"Hamon I de Massey 1st Baron of Dunham","1056 - 1118",NA,62,"France",7,3
+"L1RC-7P1","Q5645929","Hamon I de Massey 1st Baron of Dunham","1056 - 1118","https://en.wikipedia.org/wiki/Hamon_de_Massey",62,"France",7,3
 "L1YK-5HL",NA,"Richard I Pendlebury Shoresworth","1140 - 1212",NA,73,"UK:Great Britain",4,1
 "L2BQ-NZQ",NA,"Robert de Guînes","1210 - 1244",NA,73,"France",4,3
 "L2SG-RS8",NA,"Arnould de Guisnes I Comte Gand","1102 - 1169",NA,67,"France",25,5

@@ -1554,12 +1554,12 @@
 "LY3Z-GHL",NA,"Joan fitz Alan","1368 - 1435",NA,67,"UK:Great Britain",2,5
 "LY4T-PWX",NA,"Sir William Bruyn","1315 - 1362",NA,47,"UK:Great Britain",3,0
 "LY7N-4ZM",NA,"William Boteler II","1309 - 1369",NA,60,"UK:Great Britain",4,3
-"LY8C-LSL",NA,"Edmund FitzAlan 9th Earl of Arundel","1285 - 1326",NA,41,"UK:Great Britain",9,4
+"LY8C-LSL","Q2004845","Edmund FitzAlan 9th Earl of Arundel","1285 - 1326","https://en.wikipedia.org/wiki/Edmund_Fitzalan,_2nd_Earl_of_Arundel",41,"UK:Great Britain",9,4
 "LY9S-HLH",NA,"Margaret de Braose","1305 - 1349",NA,44,"UK:Great Britain",2,6
 "LY9T-HKB",NA,"Maude de Ros","1333 - 1388",NA,55,NA,7,4
 "LYHV-G4L",NA,"Richard De Wynnington","1345 - 1422",NA,77,"UK:Great Britain",5,2
 "LYK6-1HT",NA,"William Brudenell III","1361 - Unknown",NA,NA,"UK:Great Britain",6,0
-"LYK6-VQ2",NA,"Sir Richard FitzAlan 10th Earl of Arundel","1306 - 1376",NA,70,"UK:Great Britain",7,8
+"LYK6-VQ2","Q348932","Sir Richard FitzAlan 10th Earl of Arundel","1306 - 1376","https://en.wikipedia.org/wiki/Richard_Fitzalan,_4th_Earl_of_Arundel",70,"UK:Great Britain",7,8
 "LYKJ-383",NA,"Maud la Zouche","1288 - 1349",NA,61,"UK:Great Britain",9,3
 "LYKX-W52",NA,"Agnes Grove","1361 - Unknown",NA,NA,"UK:Great Britain",6,0
 "LYL1-48Q",NA,"Joan","1317 - 1386",NA,69,NA,8,0
@@ -1681,7 +1681,7 @@
 "9CHT-C6C",NA,"Elizabeth Verch Rhys","1300 - 1348",NA,48,"UK:Great Britain",2,1
 "9CMV-ZVG",NA,"Sir John de Tibetot 2nd Baron of Nettlestead","1313 - 1367",NA,53,"UK:Great Britain",3,0
 "9CNK-KX4",NA,"Maud Burnell","1290 - 1341",NA,51,"UK:Great Britain",7,1
-"9CQ1-X4J",NA,"Sir Hugh le Despenser 1st Lord Despenser","1286 - 1326",NA,40,"UK:Great Britain",11,5
+"9CQ1-X4J","Q2685455","Sir Hugh le Despenser 1st Lord Despenser","1286 - 1326","https://en.wikipedia.org/wiki/Hugh_Despenser_the_Elder",40,"UK:Great Britain",11,5
 "9CQN-28Q",NA,"Sir Hugh Audley of Sratton Audley","1267 - 1326",NA,59,"UK:Great Britain",11,4
 "9CQX-DXX","Q59604","Eleanor of Castile Queen of England","1240 - 1290","https://en.wikipedia.org/wiki/Eleanor_of_Castile",50,"Spain",14,3
 "9CQZ-W68",NA,"William Montagu","1301 - 1344",NA,42,"UK:Great Britain",6,10
@@ -1721,7 +1721,7 @@
 "9QRM-DK1",NA,"Katherine de St Pierre","1266 - 1314",NA,49,"UK:Great Britain",4,6
 "9S68-X24",NA,"John de Broxbourne","1338 - Unknown",NA,NA,"UK:Great Britain",1,0
 "9S68-X2K",NA,"Margaret Welnethan","1346 - Unknown",NA,NA,"UK:Great Britain",1,0
-"9S7W-9LY",NA,"Lord William ""Le Hardi"" Douglas 5th Laird of Douglas","1243 - 1298",NA,55,"UK:Great Britain",4,4
+"9S7W-9LY","Q1123011","Lord William ""Le Hardi"" Douglas 5th Laird of Douglas","1243 - 1298","https://en.wikipedia.org/wiki/William_the_Hardy,_Lord_of_Douglas",55,"UK:Great Britain",4,4
 "9S8J-6BZ",NA,"Alice Walter","1315 - Unknown",NA,NA,"UK:Great Britain",1,0
 "9S8J-6Y8",NA,"Walter Parles Sheriff","1300 - 1361",NA,61,"UK:Great Britain",1,0
 "9S8N-Y95",NA,"Helen de Bourne","1280 - Unknown",NA,NA,NA,2,0
@@ -2406,7 +2406,7 @@
 "LD99-HNN",NA,"Hugh Fitton","1223 - Unknown",NA,30,"UK:Great Britain",2,7
 "LD99-HNT",NA,"Sir Edmund Fitton","1256 - 1298",NA,42,"UK:Great Britain",4,3
 "LD9G-XYT",NA,"Simon Hanham","1322 - 1391",NA,69,"UK:Great Britain",2,0
-"LD9R-WJ3",NA,"Sir Bartholomew Badlesmere","1275 - 1322",NA,47,"UK:Great Britain",5,2
+"LD9R-WJ3","Q4865294","Sir Bartholomew Badlesmere","1275 - 1322","https://en.wikipedia.org/wiki/Bartholomew_Badlesmere,_1st_Baron_Badlesmere",47,"UK:Great Britain",5,2
 "LD9V-PTP",NA,"Avena de Holland","1274 - 1326",NA,52,"UK:Great Britain",4,5
 "LDB4-MB1",NA,"Sir John Northwode II","1279 - 1318",NA,39,"UK:Great Britain",8,7
 "LDDT-KGW",NA,"Thomas Rossall","Unknown - Unknown",NA,NA,"UK:Great Britain",1,0
@@ -3523,7 +3523,7 @@
 "L7BV-VDG",NA,"John de Hastings, 2nd Lord Hastings","1287 - 1325",NA,37,"UK:Great Britain",6,8
 "L7FG-BWK",NA,"Elizabeth Montfort","1286 - 1330",NA,44,"UK:Great Britain",1,4
 "L7GQ-4ZK",NA,"Gruffydd Maelor II ap Madog","1195 - 1269",NA,74,"UK:Great Britain",6,5
-"L7TR-TVZ",NA,"Edmund 1st Earl of Lancaster","1245 - 1296",NA,51,"UK:Great Britain",4,8
+"L7TR-TVZ","Q447802","Edmund 1st Earl of Lancaster","1245 - 1296","https://en.wikipedia.org/wiki/Edmund_Crouchback",51,"UK:Great Britain",4,8
 "L812-24W",NA,"Aubrey fitzRichard","1158 - 1199",NA,41,"UK:Great Britain",6,2
 "L81Y-4JN",NA,"Thomas Drewe","1338 - 1437",NA,99,"UK:Great Britain",2,0
 "L84Z-NK4",NA,"Philip ab Ifor Lord of Iscoed","1275 - 1305",NA,30,"UK:Great Britain",1,2
@@ -3541,7 +3541,7 @@
 "L8BF-FKW",NA,"Roger de  Zouche","1242 - 1285",NA,43,"UK:Great Britain",3,8
 "L8BH-QH7",NA,"Prudence de Compton","1235 - 1266",NA,31,"UK:Great Britain",8,2
 "L8JS-Z1W",NA,"William Fortescue I","1315 - 1360",NA,46,"UK:Great Britain",1,2
-"L8MB-67G",NA,"Robert de Brus 6th Lord of Annandale","1243 - 1304",NA,61,"UK:Great Britain",13,8
+"L8MB-67G","Q1772833","Robert de Brus 6th Lord of Annandale","1243 - 1304","https://en.wikipedia.org/wiki/Robert_de_Brus,_6th_Lord_of_Annandale",61,"UK:Great Britain",13,8
 "L8MB-67P","Q273307","Lady Marjorie de Carrick 3rd Countess of Carrick","1254 - 1292","https://en.wikipedia.org/wiki/Marjorie,_Countess_of_Carrick",38,"UK:Great Britain",14,6
 "L8MJ-ZGM",NA,"John Botetourt 1st Baron Botetourt","1266 - 1324",NA,58,NA,6,5
 "L8PF-YKQ",NA,"Joyce de la Zouche","1255 - 1290",NA,35,"UK:Great Britain",7,4
@@ -5573,7 +5573,7 @@
 "M9BB-C3Y",NA,"Ragnhild Olafsdotter , Princess of Dublin","1025 - 1076",NA,51,"Ireland",2,0
 "M9DP-5CT",NA,"William de Champernoun","1203 - 1235",NA,33,"UK:Great Britain",1,0
 "M9NT-1RG",NA,"John Davenport","1252 - Unknown",NA,NA,"UK:Great Britain",2,4
-"M9QT-TX4",NA,"Sir Roger IV de Somery Baron of Dudley","1194 - 1273",NA,78,"UK:Great Britain",7,4
+"M9QT-TX4","Q28648770","Sir Roger IV de Somery Baron of Dudley","1194 - 1273","https://en.wikipedia.org/wiki/Roger_de_Somery_II",78,"UK:Great Britain",7,4
 "MBFC-HZD",NA,"Philip de Kyme 1st Baron Kyme","1245 - 1323",NA,78,"UK:Great Britain",5,0
 "MCSM-VV4",NA,"Anna de La Porte","1279 - 1315",NA,36,"UK:Great Britain",3,0
 "MCWP-TY4",NA,"Annabilia Chaucombe","1210 - 1278",NA,68,"UK:Great Britain",4,1
@@ -5589,7 +5589,7 @@
 "MFY1-T4V",NA,"Sir Geoffrey Dinham","1200 - Unknown",NA,58,NA,2,1
 "MGGT-MZJ",NA,"Nigel de Plumpton","1216 - 1271",NA,55,"UK:Great Britain",3,1
 "MH6Z-PCT",NA,"Lord William de Radcliffe","1164 - 1220",NA,56,"UK:Great Britain",4,3
-"MHCC-ZNJ",NA,"John De Grey Sheriff of Nottingham & Derby","1205 - 1266",NA,61,"UK:Great Britain",3,2
+"MHCC-ZNJ","Q7528167","John De Grey Sheriff of Nottingham & Derby","1205 - 1266","https://en.wikipedia.org/wiki/Sir_John_de_Grey",61,"UK:Great Britain",3,2
 "MJFP-PY2",NA,"Lord of Lanstephan Maurice FitzGerald De Whyte XVIIII","1105 - 1177",NA,72,"UK:Great Britain",9,4
 "ML31-DQ7",NA,"Thomas de Newsome","1223 - 1264",NA,41,"UK:Great Britain",2,0
 "ML39-CWJ",NA,"Richard de Wevers","1277 - Unknown",NA,NA,NA,1,0
@@ -5699,7 +5699,7 @@
 "9CXS-C2K",NA,"William FitzRalph","1155 - 1240",NA,85,"UK:Great Britain",1,0
 "9CXS-J8J",NA,"Reinauld De Seigneur De Courtenay","1130 - 1194",NA,64,"France",6,4
 "9CXW-5T4",NA,"Michael Dukas Paleologus","1119 - 1156",NA,37,"Italy",3,1
-"9CXX-R3M",NA,"Alexander II, King of Scots","1198 - 1249",NA,50,"UK:Great Britain",4,2
+"9CXX-R3M","Q237889","Alexander II, King of Scots","1198 - 1249","https://en.wikipedia.org/wiki/Alexander_II_of_Scotland",50,"UK:Great Britain",4,2
 "9CZC-NNC",NA,"Mabel FitzRobert Countess of Gloucester","1090 - 1157",NA,67,"UK:Great Britain",8,3
 "9CZF-YT5",NA,"William De Cantelowe","1234 - Unknown",NA,NA,"UK:Great Britain",1,0
 "9CZF-YY3",NA,"Eve De Boltby","1240 - Unknown",NA,NA,"UK:Great Britain",1,1
@@ -5724,7 +5724,7 @@
 "9HPX-QB6",NA,"Lord Henry de Pierrepont","1231 - 1299",NA,68,"UK:Great Britain",3,1
 "9HRF-TLM",NA,"Jeffrey Walys","1240 - Unknown",NA,NA,NA,1,0
 "9HS6-1JJ",NA,"Jane Pitcher","1264 - Unknown",NA,NA,"UK:Great Britain",3,0
-"9HTG-9V9",NA,"William de Braose","1153 - 1211",NA,57,"UK:Great Britain",10,5
+"9HTG-9V9","Q3779058","William de Braose","1153 - 1211","https://en.wikipedia.org/wiki/William_de_Braose,_4th_Lord_of_Bramber",57,"UK:Great Britain",10,5
 "9HYM-LCL",NA,"Adam Herthull","1215 - Unknown",NA,NA,"UK:Great Britain",1,0
 "9HYM-ZD6",NA,"Marguerite de Bourbon Reine Consort de Navarre","1211 - 1256",NA,44,"France",8,2
 "9HYY-T1G",NA,"Philip de Chartney","Unknown - 1235",NA,NA,"UK:Great Britain",1,0
@@ -6954,7 +6954,7 @@
 "LBKY-D8P",NA,"Hamon de Massey IV","1163 - 1250",NA,87,"UK:Great Britain",7,7
 "LBLP-5KP",NA,"Ralph De Mainwaring","1155 - Unknown",NA,NA,"UK:Great Britain",2,6
 "LBNJ-CWP",NA,"Reina de Aragón Árpád-házi Jolán","1213 - 1251",NA,37,"Hungary",10,1
-"LBP9-Y7L",NA,"Marguerite de Genève","1180 - 1257",NA,77,"Switzerland",11,0
+"LBP9-Y7L","Q2359709","Marguerite de Genève","1180 - 1257","https://en.wikipedia.org/wiki/Margaret_of_Geneva",77,"Switzerland",11,0
 "LBQ5-KXT",NA,"Roger de Tosny III","1104 - 1157",NA,53,"UK:Great Britain",5,7
 "LBRM-82N",NA,"Alexander de Seaton","1150 - Unknown",NA,NA,"UK:Great Britain",1,0
 "LBT9-XPS",NA,"Mathilda","1135 - 1175",NA,40,"France",4,0
@@ -8600,7 +8600,7 @@
 "L1Q8-65G",NA,"Robert Beaumont","1046 - 1118",NA,71,"France",15,4
 "L1QJ-F6D",NA,"Hendrik I van Brabant hertog van Neder-Lotharingen","1160 - 1235",NA,75,"Belgium",10,1
 "L1QY-HVS",NA,"Elizabeth Beaumont","1102 - 1147",NA,45,"UK:Great Britain",4,13
-"L1RC-7P1",NA,"Hamon I de Massey 1st Baron of Dunham","1056 - 1118",NA,62,"France",7,3
+"L1RC-7P1","Q5645929","Hamon I de Massey 1st Baron of Dunham","1056 - 1118","https://en.wikipedia.org/wiki/Hamon_de_Massey",62,"France",7,3
 "L1TB-5XS",NA,"Béatrix N.","1065 - Unknown",NA,NA,"France",1,0
 "L1TH-WVP",NA,"Louis Faucigny","Unknown - Unknown",NA,NA,"Switzerland",4,0
 "L1TY-N9M",NA,"Seigneur Ponce I de Domène","1046 - 1104",NA,58,"France",1,1
@@ -9221,7 +9221,7 @@
 "MVRS-KVF",NA,"Julian de Burnel","1234 - Unknown",NA,NA,"UK:Great Britain",1,0
 "MW1W-2V1",NA,"Richard Le Boteler","Unknown - Unknown",NA,NA,NA,1,0
 "MX4J-TLV",NA,"Mrs. Peter Yvindon","1225 - Unknown",NA,NA,"UK:Great Britain",2,0
-"MXWH-HJ8",NA,"Elizabeth Isabelle Capet Comtesse of Vermandois","1081 - 1131",NA,50,"France",20,9
+"MXWH-HJ8","Q204351","Elizabeth Isabelle Capet Comtesse of Vermandois","1081 - 1131","https://en.wikipedia.org/wiki/Elizabeth_of_Vermandois,_Countess_of_Leicester",50,"France",20,9
 "MY7M-5G5",NA,"Robert Sherburne","1140 - Unknown",NA,NA,"UK:Great Britain",1,0
 "MYCX-47Y",NA,"Amfelicia Rolleston","Unknown - 1219",NA,63,"UK:Great Britain",1,1
 "MYN5-77B",NA,"Lady Joan de Swillington","1155 - Unknown",NA,NA,"UK:Great Britain",3,1
