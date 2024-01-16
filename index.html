@@ -2,44 +2,83 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=1024, user-scalable=no">
-
     <meta charset="utf-8">
-    <title>Great Procreations: Exploring the Lineage</title>
+    <title>Great Procreations: Exploring Lineage</title>
 
-    <script src="https://jacobmgreer.github.io/Great-Procreations/web/js/d3.v3.min.js"></script>
-    <link rel="stylesheet" href="https://jacobmgreer.github.io/Film-Tracker/js/bootstrap/css/bootstrap.min.css">
+    <script src="web/js/d3.v3.min.js"></script>
+    <link rel="stylesheet" href="web/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <style type="text/css">
+      body {
+        background-color: #D7D7D9;}
+      nav h1.display-5 {
+        margin-top:50px;}
+      nav.navbar a, nav.navbar a:active, nav.navbar a:visited {
+        color: #102601;}
+      nav.navbar a:hover {
+        color: #778C79;}
+      div.reset {
+        background-color: #698EBF;
+        color:#ffffff;
+        font-weight: bold;
+        height:50px;
+        margin-top:50px;}
+      div.reset h5 {
+        line-height:30px;
+        vertical-align:middle;}
       .center {
         margin-left: auto;
         margin-right: auto;
-        display: block;
-      }
+        display: block;}
       section#procreations p.iHide {
         visibility: hidden;
-        display:none;
-      }
+        display:none;}
+      a {
+        color: #698EBF;}
+      h1.display-5, nav#subtitle {
+        color: #262626;}
+      section#infobox {
+        margin-top:25px;}
     </style>
   </head>
 
   <body>
-    <nav class="navbar navbar-light justify-content-center" style="background-color: #F2F2F2;">
+    <nav class="navbar">
+      <div class="container-fluid justify-content-center">
+        <ul class="nav nav-pills lead">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Nickelodeon and Dimed</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Great Procreations</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><i class="bi bi-instagram"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><i class="bi bi-github"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="container-fluid justify-content-center">
         <h1 class="display-5">Great Procreations</h1>
+      </div>
+      <div class="container-fluid justify-content-center">
+        <h6 class="lead">Exploring 30 generations of documented sexual activity that led to my grandparents.</h6>
+      </div>
+      <div class="reset container-fluid justify-content-center">
+        <h5 class="h5 lead">Reset Graph</h5>
+      </div>
     </nav>
-    <nav id="subtitle" class="navbar navbar-light justify-content-center" style="background-color: #F2F2F2;">
-        <p class="lead">Exploring 30 generations of documented sexual activity that led to my grandparents.</p>
-    </nav>
-    <nav class="reset navbar navbar-light justify-content-center" style="background-color: #E9E9E9;">
-      <h5 class="h5 lead" style="line-height:30px;vertical-align:middle;">Reset Graph</h5>
-    </nav>
-
     <main>
-      <section id="infobox" class="justify-content-center text-center" style="margin-top:25px;"></section>
+      <section id="infobox" class="justify-content-center text-center"></section>
 
       <section class="container" id="procreations">
         <svg class="center"></svg>
       </section>
+
+      <section id="wikitable"></section>
     </main>
     <script type="text/javascript">
 
@@ -135,11 +174,11 @@
         gen_index: stack_i}}
 
     var resetb =
-        d3.select("nav.reset")
+        d3.select("div.reset")
           .style("visibility", "hidden")
           .on("click", function(d) {
             d3.select("#infobox *").remove();
-            d3.select("nav.reset").style("visibility", "hidden");
+            d3.select("div.reset").style("visibility", "hidden");
             history.pushState("", document.title, window.location.pathname);
             tree(ascendancy(1))});
 
@@ -177,13 +216,22 @@
 
         var infobox = d3.select("#infobox");
 
-        fs.forEach(function(member, i) {
+
+        fs.forEach(function(d, i) {
           var result = cleanData.filter(function(asfid) {
-              return asfid.ascendancy === member.ascendancy;});
-          member.fid = (result[0] !== undefined) ? result[0].fid : null;
+              return asfid.ascendancy === d.ascendancy;});
+          d.fid = (result[0] !== undefined) ? result[0].fid : null;
           if (i === 0) {
-            console.log(member);
-            details(ascendancy(member.ascendancy), member.fid, infobox)};});
+            details(ascendancy(d.ascendancy), d.fid, infobox)};
+        });
+
+        d3.csv("data/wikitable.csv",
+          function(wiki) {
+            if(asc.ascendancy > 3) {
+              const result = wiki.filter(({ascendancy, article}) => fs.some(x => x.ascendancy == ascendancy));
+              console.log(result)
+            }
+          })
 
         var dataset2 = d3.nest()
           .key(d => d.gen)
@@ -213,7 +261,7 @@
           .attr("fill", function(d, i) {
             if (d.data["fid"]) { return d.data["color"]; }
             else {
-              return (d.data["ascendancy"] % 2) ? "#EEEEEE" : "#D9D9D9"; }})
+              return (d.data["ascendancy"] % 2) ? "#DEDEDE" : "#D7D7D9"; }})
 
           .attr("d", function(d, i, j) {
             return arc
