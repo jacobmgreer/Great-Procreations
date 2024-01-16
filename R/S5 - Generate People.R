@@ -42,4 +42,13 @@ for (cut in 32:63) {
     write.csv(., paste0("data/people/slice-", str_pad(cut, 3, pad = "0"), ".csv"), row.names = FALSE)
 }
 
+wikitable <-
+  ascendancy %>%
+  left_join(people, by="fid", relationship = "many-to-many") %>%
+  filter(!is.na(article)) %>%
+  group_by(fid) %>%
+  filter(ascendancy == min(ascendancy)) %>%
+  select(maxasc = ascendancy, fid, QID, article, name, lifespan, birth_country) %T>%
+  write.csv(., "data/wikitable.csv", row.names = FALSE)
+
 rm(required, QID, cuts, cut, landing)

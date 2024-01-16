@@ -28,14 +28,4 @@ plot.trees <-
     related_to = n_distinct(to),
     lineage = paste(to, collapse = ","))
 
-wikitable <-
-  ascendancy %>%
-  left_join(people, by="fid", relationship = "many-to-many") %>%
-  filter(!is.na(article)) %>%
-  group_by(fid) %>%
-  filter(ascendancy == max(ascendancy)) %>%
-  select(ascendancy, fid, QID, article, name, lifespan) %>%
-  left_join(plot.trees, by=c("fid" = "from")) %T>%
-  write.csv(., "data/wikitable.csv", row.names = FALSE)
-
 rm(required)
