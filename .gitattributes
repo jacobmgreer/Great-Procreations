@@ -1,7 +1,7 @@
 * linguist-vendored
 *.R linguist-vendored=false
 *.js linguist-vendored=false
+*.html linguist-vendored=false
 *.sparql linguist-vendored=false
 *.webarchive linguist-generated
 *.csv linguist-generated
-*.html linguist-generated
