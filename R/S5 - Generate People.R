@@ -12,7 +12,6 @@ people <-
   bind_rows() %>%
   distinct(fid, .keep_all = TRUE) %>%
   left_join(QID, by=c("fid" = "value")) %>%
-  select(QID, fid, name, count_stories, count_sources, everything()) %>%
   mutate(
     birth = str_extract(birth, "\\d{4}"),
     death = str_extract(death, "\\d{4}"),
@@ -23,6 +22,18 @@ people <-
     fid, QID, name, lifespan=ls, article,
     age_at_death, birth_country,
     children = count_children, siblings = count_siblings)
+
+wiki.find <-
+  list.files(path = "input/people",
+             pattern = "*.csv",
+             full.names = TRUE) %>%
+  lapply(read_csv) %>%
+  bind_rows() %>%
+  distinct(fid, .keep_all = TRUE) %>%
+  left_join(QID, by=c("fid" = "value")) %>%
+  select(fid, name, lifespan, count_stories, count_sources, everything()) %>%
+  filter(70 > count_sources & count_sources > 50) %>%
+  filter(is.na(QID))
 
 nationality <-
   people %>%
@@ -52,4 +63,4 @@ wikitable <-
   select(maxasc = ascendancy, fid, QID, article, name, lifespan, birth_country) %T>%
   write.csv(., "data/wikitable.csv", row.names = FALSE)
 
-rm(required, QID, cuts, cut, landing)
+rm(required, cuts, cut, landing)
