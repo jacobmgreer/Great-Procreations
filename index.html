@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EGN7NG647Y"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-EGN7NG647Y');
+    </script>
+
+    <meta name="viewport" content="width=1024, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Great Procreations: Exploring Lineage</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="web/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="web/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="web/icons/favicon-16x16.png">
+    <link rel="manifest" href="web/icons/site.webmanifest">
+
+    <script src="web/js/d3.v3.min.js"></script>
+    <link rel="stylesheet" href="web/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://jacobmgreer.github.io/NickelodeonAndDimed/js/jacob.css">
+  </head>
+
+  <body id="procreations">
+    <nav class="navbar">
+      <div class="container-fluid justify-content-center">
+        <ul class="nav nav-pills lead">
+          <li class="nav-item">
+            <a href="https://jacobmgreer.github.io/NickelodeonAndDimed/" class="nav-link">Nickelodeon and Dimed</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://jacobmgreer.github.io/Great-Procreations/" class="nav-link">Great Procreations</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.instagram.com/jakeob" class="nav-link" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/jacobmgreer" class="nav-link" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="container-fluid justify-content-center">
+        <h1 class="display-5">Great Procreations</h1>
+      </div>
+      <div class="container-fluid justify-content-center">
+        <h6 class="lead" id="subtitle">Exploring 30 generations of documented sexual activity that led to my grandparents.</h6>
+      </div>
+      <div class="reset container-fluid justify-content-center">
+        <h5 class="h5 lead">Reset Graph</h5>
+      </div>
+    </nav>
+    <main>
+      <section id="infobox" class="justify-content-center text-center"></section>
+
+      <section class="container" id="procreations">
+        <svg class="center"></svg>
+      </section>
+
+      <section id="wikitable"></section>
+    </main>
+    <script type="text/javascript">
+
+    const range = (start, end) => {
+      const length = end - start;
+      return Array.from({ length }, (_, i) => start + i);}
+
+    if (window.location.hash) {
+      var hash = window.location.hash.substring(1)
+      tree(ascendancy(parseInt(hash)))
+    } else {
+      tree(ascendancy(1))}
+
+    var Tooltip =
+        d3.select("section#procreations")
+          .append("div")
+          .style("position", "absolute")
+          .style("z-index", "10")
+          .style("visibility", "hidden")
+          .style("background-color", "white")
+          .style("padding", "10px");
+      var mouseover = function(d) {
+        if (d.data["fid"] != null) {
+          Tooltip.style("visibility", "visible")}};
+      var mouseleave = function(d) {
+        Tooltip.select("div").remove()
+        Tooltip.style("visibility", "hidden")};
+      var mousemove = function(d, i) {
+          if (d.data["fid"] != null) {
+            details(ascendancy(d.data["ascendancy"]), d.data["fid"], Tooltip);
+            Tooltip
+              .style("top", (d3.event.pageY+10) + "px")
+              .style("left", (d3.event.pageX+10) + "px")
+          }};
+
+    function details(asc, fid, object) {
+        if (asc.ascendancy < 64) {
+          var filePeople =  "data/core-people.csv"
+        } else {
+          var filePeople= "data/people/slice-" + String(asc.cut).padStart(3, '0') + ".csv"}
+        d3.csv(filePeople, function(data) {
+          object.select("*").remove()
+          object
+            .append("div")
+            .data(data.filter(d => d.fid == fid))
+            .html(function(d) {
+              var html = "<p>" + asc.label + "<br/>";
+                  html += "<b>" + d.name + "</b><br/>";
+                  html += d.lifespan + "<br/>";
+                  if (d.birth_country != "NA") {
+                    html += "<i>Born in </i> " + d.birth_country + "<br/>";}
+                  if (asc.ascendancy > 7) {
+                    html += "<i>Children</i> " + d.children;
+                    if (d.siblings != 0) {
+                      html += ", <i>Siblings</i> " + d.siblings;
+                    }
+                  }
+                    html += "</p><p class=\"iHide\"><a href='https://www.familysearch.org/tree/person/details/" + d.fid +
+        "' title='Go to Person on FamilySearch.org'><i class='bi bi-share'></i></a></p>";
+                  return html})})}
+
+    function ascendancy(id) {
+      var doubles = Array.from({length: 35}, (_, i) => 2 ** i);
+      var cuts = Array.from({length: 33}, (_, i) => i * 11.25);
+      var stack = doubles.indexOf(doubles.find(x => x >= (+id + 1)));
+      var stack_mx = 2 ** (stack - 1);
+      var stack_i = +id - stack_mx;
+      var radians = (Math.PI * 2) / stack_mx;
+      var quarter = stack_i / 2 ** (stack - 1);
+      var sA = 360 * (stack_i + 1) / stack_mx - (360/stack_mx);
+
+      if (quarter < 1/4) {
+        var label = "Paternal Grandfather's Side";
+        var hex_father = "#B24C6D";
+        var hex_mother = "#FFC1D5";}
+      else if (quarter < 2/4) {
+        var label = "Paternal Grandmother's Side";
+        var hex_father = "#07B2D9";
+        var hex_mother = "#88DFF2";}
+      else if (quarter < 3/4) {
+        var label = "Maternal Grandfather's Side";
+        var hex_father = "#738B4F";
+        var hex_mother = "#A6D86F";}
+      else if (quarter < 4/4) {
+        var label = "Maternal Grandmother's Side";
+        var hex_father = "#8950A1";
+        var hex_mother = "#C881CF";}
+      var color = (+id % 2) ? hex_mother : hex_father;
+
+      return {
+        ascendancy: +id,
+        color: color,
+        label: label,
+        cut: cuts.indexOf(cuts.find(x => x > +sA)) + 31,
+        gen: stack,
+        gen_index: stack_i}}
+
+    var resetb =
+        d3.select("div.reset")
+          .style("visibility", "hidden")
+          .on("click", function(d) {
+            d3.select("#wikitable *").remove();
+            d3.select("#infobox *").remove();
+            d3.select("div.reset").style("visibility", "hidden");
+            history.pushState("", document.title, window.location.pathname);
+            tree(ascendancy(1))});
+
+    function tree(asc) {
+      d3.select("#wikitable *").remove();
+      if (asc.ascendancy < 64) {
+        var fileSlice = "data/core-pedigree.csv"
+        var filePeople =  "data/core-people.csv"
+      } else {
+        var fileSlice = "data/cuts/slice-" + String(asc.cut).padStart(3, '0') + ".csv"
+        var filePeople= "data/people/slice-" + String(asc.cut).padStart(3, '0') + ".csv"}
+
+      d3.selectAll("svg > *").remove();
+
+      d3.csv(fileSlice, function(data) {
+
+        if (asc.ascendancy == 1) {
+          var fs = d3
+            .range(1, 2 ** 13)
+            .map(d => ascendancy(d));
+        } else {
+          resetb.style("visibility", "visible");
+          var rangeA = range(Number(asc.ascendancy), Number(asc.ascendancy) +
+              Math.min(Math.max(13, 1), 29 - Number(asc.gen))).reduce((r,c,i) =>
+              (r.push(i ? 2 * r[i-1] : c), r), [])
+          var rangeB = range(Number(asc.ascendancy), Number(asc.ascendancy) +
+              Math.min(Math.max(13, 1), 29 - Number(asc.gen))).reduce((r,c,i) =>
+              (r.push(i ? 2 * r[i-1] + 1 : c), r), [])
+          var ranges = rangeA.map((r, i) => range(rangeA[i], rangeB[i] + 1)).flat(1);
+          var fs = ranges.map(i => ascendancy(i));}
+
+        var cleanData = data
+          .map((d) => ({
+            ascendancy: +d.ascendancy,
+            fid: d.fid}))
+
+        var infobox = d3.select("#infobox");
+
+        fs.forEach(function(d, i) {
+          var result = cleanData.filter(function(asfid) {
+              return asfid.ascendancy === d.ascendancy;});
+          d.fid = (result[0] !== undefined) ? result[0].fid : null;
+          if (i === 0) {
+            details(ascendancy(d.ascendancy), d.fid, infobox)};
+        });
+
+        d3.csv("data/wikitable.csv",
+          function(wiki) {
+            if (asc.ascendancy > 1) {
+              var rangeWDA = range(Number(asc.ascendancy), Number(asc.ascendancy) + Math.min(Math.max(30, 1), 29 - Number(asc.gen))).reduce((r,c,i) => (r.push(i ? 2 * r[i-1] : c), r), [])
+              var rangeWDB = range(Number(asc.ascendancy), Number(asc.ascendancy) + Math.min(Math.max(30, 1), 29 - Number(asc.gen))).reduce((r,c,i) => (r.push(i ? 2 * r[i-1] + 1 : c), r), [])
+              var rangesWD = rangeWDA.map((v, i) => { return [v, rangeWDB[i]]; })
+              var inRange = function(x){
+                return rangesWD.some(d => x.maxasc >= d[0] && x.maxasc <= d[1])}
+
+              data = wiki.filter(inRange)
+
+              if (data.length > 0) {
+                d3.select("#wikitable")
+                  .append("h5")
+                  .classed("lead", true)
+                  .classed("text-center", true)
+                  .text("Ancestry of this Extended Branch Identified in Wikipedia")
+
+              var columns = ['name', 'lifespan', 'birth_country']
+              var table = d3.select("#wikitable")
+                            .append('table')
+                            .classed('table', true)
+                            .classed('table-striped', true)
+              var thead = table.append('thead')
+              var tbody = table.append('tbody')
+              thead.append('tr')
+                .selectAll('th').data(columns).enter()
+                .append('th').attr('scope', 'col').text(function (d) { return d })
+              var rows = tbody.selectAll('tr').data(data).enter().append('tr')
+              var cells = rows.selectAll('td')
+                  .data(function(row) {
+                    return columns.map(function (column) {
+                      return {
+                        column: column,
+                        value: row[column],
+                        article: row["article"] }})})
+                .enter().append('td')
+                .html(function (d) {
+                  if (d.column === "name") {
+                    return "<a href=\"" + d.article + "\">" + d.value + "</a>"
+                  }
+                  else {if(d.value != "NA") {return d.value}}})
+              return table
+              }
+            }
+          })
+
+        var dataset2 = d3.nest()
+          .key(d => d.gen)
+          .entries(fs);
+
+        var pie = d3.layout.pie().value(e => 1).sort(
+          function(a, b){
+            return a['ascendancy'] - b['ascendancy']});
+        var arc = d3.svg.arc();
+
+        var svg = d3.select("svg")
+          .attr("width", 960)
+          .attr("height", 960)
+          .append("g")
+          .attr("transform", "translate(480,480)");
+
+        var gs = svg.selectAll("g")
+          .data(dataset2)
+          .enter()
+          .append("g");
+
+        var path = gs.selectAll("path")
+          .data(function(d) {
+            return pie(d.values);})
+          .enter()
+          .append("path")
+          .attr("fill", function(d, i) {
+            if (d.data["fid"]) { return d.data["color"]; }
+            else {
+              return (d.data["ascendancy"] % 2) ? "#DEDEDE" : "#D7D7D9"; }})
+
+          .attr("d", function(d, i, j) {
+            return arc
+              .innerRadius(30 * j)
+              .outerRadius(30 * (j + .8) )(d); })
+
+          .on("click", function(d, i) {
+            if (d.data["fid"] != null) {
+              d3.select("#wikitable *").remove();
+              tree(ascendancy(d.data["ascendancy"]));
+              window.location.hash = d.data["ascendancy"];
+              document.getElementById("subtitle").scrollIntoView();
+            }
+            Tooltip.style("visibility", "hidden");
+          })
+          .on("mouseover", mouseover)
+          .on("mousemove", mousemove)
+          .on("mouseleave", mouseleave);
+      })
+    };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!-- Code from d3-graph-gallery.com -->
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-geo-projection@4"></script>
+
+<!-- Create an element where the map will take place -->
+<svg id="my_dataviz" width="1000" height="800"></svg>
+
+
+<script>
+
+// The svg
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+// Map and projection
+var projection = d3.geoMiller()
+
+// A path generator
+var path = d3.geoPath()
+    .projection(projection)
+
+// Load world shape AND list of connection
+d3.queue()
+  .defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")  // World shape
+  .defer(d3.csv, "migrations.csv") // Position of circles
+  .await(ready);
+
+function ready(error, dataGeo, data) {
+
+    // Reformat the list of link. Note that columns in csv file are called long1, long2, lat1, lat2
+    var link = []
+    data.forEach(function(row){
+      //source = [+row.place_birth_lon, +row.place_birth_lat]
+      //target = [+row.place_death_lon, +row.place_death_lon]
+      topush = {type: "Point", lon: +row.place_birth_lon, lat: +row.place_birth_lat}
+      link.push(topush)
+    })
+
+    // Draw the map
+    svg.append("g")
+        .selectAll("path")
+        .data(dataGeo.features)
+        .enter().append("path")
+            .attr("fill", "#b8b8b8")
+            .attr("d", d3.geoPath()
+                .projection(projection)
+            )
+            .style("stroke", "#fff")
+            .style("stroke-width", 0)
+
+    // Add the path
+    svg.selectAll("myPath")
+      .data(link)
+      .enter()
+      .append("circle")
+        .attr("cx", function(d){ return projection([d.lon, d.lat])[0] })
+        .attr("cy", function(d){ return projection([d.lon, d.lat])[1] })
+        .attr("r", 1)
+        .attr("stroke-width", 3)
+        .attr("fill-opacity", .4)
+
+}
+
+</script>
