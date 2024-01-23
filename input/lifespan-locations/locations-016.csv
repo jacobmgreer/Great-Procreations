@@ -1,0 +1,2324 @@
+"fid","place_birth_lat","place_birth_lon","place_birth","place_death_lat","place_death_lon","place_death"
+"L78P-8RM","53.184","-3.69951","Of Hafodunnos, Llangernyw, Denbighshire, Wales",NA,NA,NA
+"LH6H-T5F","53.29127","-4.37203","of Tyddyn Adda, Llanidan, Anglesey, Wales",NA,NA,NA
+"9H86-YN2","52.33022","-3.76641","Wales",NA,NA,NA
+"G6J7-ZH7","52.8739","-3.0042","Whittington, Shropshire, England",NA,NA,NA
+"LH37-ZN7","52.33022","-3.76641","Wales",NA,NA,NA
+"K8BR-9P5","53.2362","-3.1291","Flintshire, Wales","53.111","-2.961","Burton, Denbighshire, Wales"
+"GNSJ-SMJ","52.33022","-3.76641","Wales, United Kingdom",NA,NA,NA
+"KZYZ-GFF","52.95526","-4.05945","Gwynedd, Wales, United Kingdom",NA,NA,NA
+"93Q8-33Z",NA,NA,"of Cadwnfa,Llanfihangel-yng,Montgomeryshire,Wales",NA,NA,NA
+"GMMH-3JS","46","2","France",NA,NA,NA
+"KLX6-PKT","52.33022","-3.76641","Nesta, Gdau, Reas, Ap, Griffith, Wales",NA,NA,NA
+"G718-QQT","52.33022","-3.76641","Wales","51.92121","-4.02676","Llandyfeisant, Carmarthenshire, Wales"
+"GHMJ-YH1","52.78333","-3.85","Nannau Hall, Merionethshire, Wales",NA,NA,NA
+"K2SB-Z5M","52.8073","-2.1211","Brewood, Stafford, Staffordshire, England",NA,NA,NA
+"L6KV-G3W","52.4379","-1.6496","England",NA,NA,NA
+"G3MH-C2D","52.4379","-1.6496","England","52.4379","-1.6496","England"
+"GQ2F-9Q6","49.06","-0.11","Normandy, France",NA,NA,NA
+"G8PW-JDV",NA,NA,NA,NA,NA,NA
+"GKNV-YVY","55.33405","-1.98349","Northumberland, England",NA,NA,NA
+"LR7B-G4Y","52.4379","-1.6496","England",NA,NA,NA
+"9CWY-ZPN",NA,NA,NA,NA,NA,NA
+"GDPN-6S9","49.06","-0.11","Tempest, Normandie, France","53.90862","-2.1962","Barnoldswick (near Colne), Yorkshire, England"
+"L6VV-JDT","54.63247","-2.3516","Northumbria, England","54.63247","-2.3516","Bernicia, Northumbria, England"
+"GGB7-56K","46","2","France",NA,NA,NA
+"GX3T-W7N","50.6181","1.7303","Tingry, Pas-de-Calais, Hauts-de-France, France","50.6181","1.7303","Tingry, Pas-de-Calais, Hauts-de-France, France"
+"GX7N-L1T","50.95","1.85","Pas-de-Calais, Hauts-de-France, France","50.6181","1.7303","Tingry, Pas-de-Calais, Hauts-de-France, France"
+"GC4C-VFY","50.6374","2.2576","Thérouanne, Pas-de-Calais, France",NA,NA,NA
+"GX9P-42K","50.6256","1.6561","Nesles, Pas-De-Calais, Nord-Pas-De-Calais, France",NA,NA,NA
+"LKKV-B1Z","50.74787","1.83842","Colembert, Pas-de-Calais, France",NA,NA,NA
+"GWZN-VJR","50.6181","1.7303","Tingry, Pas-de-Calais, Hauts-de-France, France","50.74787","1.83842","Colembert, Pas-de-Calais, France"
+"G7KJ-VZY","49.7332","1.4431","Neufchâtel-en-Bray, Seine-Maritime, Upper Normandy, France",NA,NA,NA
+"L2YT-9CM","49.84747","1.56756","Foucarmont, Seine-Maritime, Upper Normandy, France","49.7332","1.4431","Neufchâtel-en-Bray, Seine-Maritime, Upper Normandy, France"
+"L2TC-TXX","49.2799","1.776","Gisors, Eure, Upper Normandy, France",NA,NA,NA
+"GC4H-YFK","49.4814","1.7247","Gournay-en-Bray, Seine-Maritime, Haute-Normandie, France","49.7332","1.4431","Neufchâtel-en-Bray, Seine-Maritime, Haute-Normandie, France"
+"LRNM-YSJ","50.5556","1.7737","Bernieulles, Pas-de-Calais, Nord-Pas-de-Calais, France","50.5556","1.7737","Bernieulles, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"G314-ZRN","50.2128","1.7747","Nouvion-en-Ponthieu, Somme, Picardie, France","50.2128","1.7747","Nouvion-en-Ponthieu, Somme, Picardie, France"
+"GXCD-TVK","49.9167","2.5","Somme, Hauts-de-France, France","49.9167","2.5","Somme, Hauts-de-France, France"
+"GG9S-7F6","50.9686","2.4326","Bergues, 59067, Nord, Nord-Pas-de-Calais, France","50.9686","2.4326","Bergues, 59067, Nord, Nord-Pas-de-Calais, France"
+"GW5S-2JV","50.8057","2.1521","Éperlecques, Pas-de-Calais, Hauts-de-France, France",NA,NA,NA
+"GW5S-D13","46","2","France",NA,NA,NA
+"GNRJ-729",NA,NA,NA,NA,NA,NA
+"LBND-5DY","50.9471","2.199","Bourbourg, Nord, Nord-Pas-de-Calais, France","50.9471","2.199","Bourbourg, Nord, Nord-Pas-de-Calais, France"
+"GV9D-ZZR","46","2","France",NA,NA,NA
+"GJGK-VH9","48.9255","-0.4505","Saint-Omer, Calvados, Normandie, France",NA,NA,NA
+"G6TV-878","50.74787","1.83842","Colembert, Pas-de-Calais, Heuts-d'Franche, Française","50.7505","2.2522","Saint-Omer, Pas-de-Calais, Hauts-de-France, France"
+"L69K-RZ8","49.5","3.5","Aisne, Nord-Pas-de-Calais Picardie, France","49.5","2.8333","Guisnes, Picardie, France"
+"LRH4-NXT","50.7264","1.6147","Boulogne-sur-Mer, Pas-de-Calais, France","50.8671","1.8666","Guînes, Pas-de-Calais, Hauts-de-France, France"
+"GZKG-JLW","46","2","France",NA,NA,NA
+"GL5J-91S",NA,NA,NA,NA,NA,NA
+"G73M-YDG","50.4942","2.0456","Créquy, Pas-Calés, Heuts-d'Franche, Française","50.4726","2.2004","Crépy, Pas-de-Calais, Hauts-de-France, France"
+"GN1K-PT3","50.4808","2.125","Ruisseauville, Pas-de-Calais, Nord-Pas-de-Calais, France","50.4942","2.0456","Créquy, Pas-Calés, Heuts-d'Franche, Française"
+"MFNZ-STR","46","2","France","49.2731","-0.5047","Castle Pierrepont; Saint-Sauveur, Normandy, France"
+"G7BL-2ZS","46.64125","4.70322","Chaumois, Saône-et-Loire, Bourgogne-Franc","46.64125","4.70322","Chaumois, Saône-et-Loire, Bourgogne-Franc"
+"GXLM-GS6","46.64125","4.70322","Chaumois, Saône-et-Loire, Bourgogne-Franc",NA,NA,NA
+"LHN4-X1F","49.06","-0.11","Normandie, France","49.06","-0.11","Normandie, France"
+"GKTM-VJM","49.184","-0.368","Caen, Calvados, Lower Normandy, France","49.184","-0.368","Caen, Calvados, Lower Normandy, France"
+"GX95-N16","52.4379","-1.6496","England",NA,NA,NA
+"LKGC-DK6","48.1734","7.3856","Elsaß, Frankreich","48.1734","7.3856","Elsaß, Frankreich"
+"93DX-FVV","49.5","2.8333","Vermandois, Picardie, France","48.1734","7.3856","Haut-Rhin, Alsace, France"
+"GGGK-NX2",NA,NA,NA,NA,NA,NA
+"GGYH-9BH","56.25","-4.25","Touchfraser, stirlingshire,Scotland",NA,NA,"Scotland"
+"GGYH-Q7N","57.0753","-2.7826","Aboyne, Aberdeenshire, Scotland, United Kingdom","56.25","-4.25","touchfraser, stirling, scotland"
+"G9NN-QMV",NA,NA,NA,NA,NA,NA
+"G9NN-9S2","52.7686","-0.3788","Bourne, Lincolnshire, England","52.78072","-0.36852","Bourne, Lincolnshire, England"
+"GVXH-T97","52.4379","-1.6496","England, United Kingdom",NA,NA,NA
+"LRJM-4M4","50.766","-2.14508","Holditch, Dorset, England","51.3907","0.4001","Cobham, Kent, England"
+"LH5P-ZTJ","53.0162","-2.34097","Heighley Castle, Heighley, Staffordshire, England","53.95878","-1.08248","Yorkshire, England"
+"LR6S-MW7","52.67827","0.97259","Of, Norfolk, England","54.58333","-1.78333","Raby, Durham, England"
+"LYXN-RQG","52.88958","1.15833","Baconsthorpe, Norfolk, England",NA,NA,"Baconsthorpe, Kent, England"
+"GHGS-HPT","52.67827","0.97259","Norfolk, England","52.67827","0.97259","Norfolk, England"
+"LHW7-5PT","52.81273","1.22912","Blickling, Norfolk, England","52.63196","1.30349","Norwich Cathedral, Norwich, Norfolk, England"
+"LBNB-BHG","51.4911","-0.2611","Sutton Manor, Chiswick, Middlesex, England","52.23342","-2.21245","Worcestershire, England"
+"GMNN-R8W","53.81849","-2.62573","Lancashire, England",NA,NA,NA
+"G3K9-PF2","51.04016","-3.8969","Castle Hill, Devon, England","51.04016","-3.8969","Castle Hill, Devon, England"
+"G9VR-HRD","51.9863","-0.3048","Holwell, Bedfordshire, England","51.04016","-3.8969","Castle Hill, Devon, England"
+"GF1V-NNT","51.3202","-0.3842","Stoke D'abernon, Surrey, England","51.3202","-0.3842","Stoke D'abernon, Surrey, England"
+"GS4J-WRC",NA,NA,NA,"52.2751","1.0653","Suffolk, England, United Kingdom"
+"LB3D-KQ9","51.92189","-3.05848","Abergavenny, Monmouthshire, Wales","51.0687","-1.794","Salisbury, Wiltshire, England, United Kingdom"
+"LCX2-F68","52.1142","-0.8958","Grafton Regis, Northamptonshire, England","52.2496","-2.6965","Kimbolton, Herefordshire, England"
+"LTN8-4ZC","53.8765","-0.456","Leconfield, Yorkshire, England","54.1833","-1.3833","Cocks Lodge, Topcliffe, Yorkshire, England"
+"LZ1V-3LM",NA,NA,NA,"53.841","-0.424","Beverley, Yorkshire, England"
+"LZV2-MVR",NA,NA,NA,"50.25116","-5.06676","Cornwall, England"
+"L1B9-MJN","50.5163","-3.5546","Haccombe, Devon, England","50.5163","-3.5546","Haccombe, Devon, England"
+"LVXP-52Y","51.85739","-1.29353","Oxfordshire, England","50.8465","-3.3922","Cullompton, Devon, England"
+"LVXP-5KY","50.433","-4.9425","St Columb Major, Cornwall, England","51.85739","-1.29353","Oxfordshire, England"
+"G2NJ-MVM","52.9082","-2.1433","Stone, Staffordshire, England",NA,NA,NA
+"G2NN-K96","51.51","-0.12","London, England",NA,NA,NA
+"LYW2-THF","49.5","2.8333","Picardie, France","52.4379","-1.6496","England"
+"LT9G-FPD",NA,NA,NA,"51.4804","-0.6158","Windsor Castle, Berkshire, England"
+"MC12-28W","53.0167","-1.7333","Ashbourne, Derbyshire, England",NA,NA,NA
+"MC12-288","53.0167","-1.7333","Ashbourne, Derbyshire, England",NA,NA,NA
+"L4BH-F3X","54.2943","-2.5949","Killington, Westmorland, England","53.6833","-1.50109","Wakefield, Yorkshire, England"
+"MF8X-MG6","53.95878","-1.08248","of Wynyarde, Yorkshire, England","53.88333","-1.05","Escrick, Yorkshire, England"
+"MRBK-B4Y","51.04398","-0.82129","Trotton, Sussex, England","52.67827","0.97259","Norfolk, England"
+"GQTR-5C7","53.81849","-2.62573","Lancashire, England",NA,NA,NA
+"L51K-K7M","50.8364","-0.7778","Chichester, Sussex, England","52.77951","-1.91711","Heleigh Castle, Staffordshire, England"
+"L1FK-524","51.85001","-1.89761","Bradley, Gloucestershire, England","51.85001","-1.89761","Bradley, Gloucestershire, England"
+"L1FK-R28","52.02229","-2.81412","Hereford, Herefordshire, England","47.5","14","Austria, Hungary"
+"GS9Y-DMV","51.85001","-1.89761","Bradley, Gloucestershire, England","51.85001","-1.89761","Bradley, Gloucestershire, England"
+"GK1T-9KG","51.85001","-1.89761","Bradley, Gloucestershire, England","51.85001","-1.89761","Bradley, Gloucestershire, England"
+"LD83-KX5","52.4379","-1.6496","England","55.1812","-2.435","Falstone, Northumberland, England"
+"GZ5Q-TZ2","51.1987","1.0158","Waltham Manor, Kent, England","51.5523","-1.6513","Faulston House (Fallardeston Manor), Bishopstone, Wiltshire, England"
+"LD83-FDR","51.3332","0.4784","Burham, Kent, England","51.24461","0.96119","Chilham, Kent, England"
+"LR85-XPM","51.21667","1.05","Petham, Kent, England","51.23105","1.13248","Bishopsbourne, Kent, England"
+"L56W-3HL","51.703","0.244","Ongar, Essex, England, United Kingdom","51.85229","0.61466","Essex, England, United Kingdom"
+"L4TB-677","51.69024","0.20001","of Ongar, Essex, England","51.85229","0.61466","Essex, England, United Kingdom"
+"K82T-X3D","51.703","0.244","of Ongar, Essex, England",NA,NA,NA
+"K4BQ-9FV","51.703","0.244","of Ongar, Essex, England",NA,NA,NA
+"GS35-7CL","55.83","-3.083","Midlothian, Scotland.",NA,NA,NA
+"GS35-QHP","55.83","-3.083","Midlothian, Scotland.",NA,NA,NA
+"G7GR-13W","46","2","France",NA,NA,NA
+"GW6M-VVM","46","2","France",NA,NA,NA
+"GKGT-DYH","46","2","France",NA,NA,NA
+"GG14-6W3",NA,NA,NA,NA,NA,NA
+"GGL8-GWD","62.30972","6.93583","Stranda, Møre og Romsdal, Norway","62.21667","6.48333","Hjørundfjord, Møre og Romsdal, Norway"
+"GGL8-1CK","69.3","19.01667","Nordfjord, Troms, Norway",NA,NA,NA
+"G6Z4-XFP","62","10","Norway",NA,NA,NA
+"G6Z4-L31","62","10","Norway",NA,NA,NA
+"LHWD-QQJ","59.4745","8.8031","of Raumsdal, Telemark, Norway","63.5","-18.5","Vestur-Skaftafellssýsla, Suðurland, Iceland"
+"M213-4TK","62","10","of Norway",NA,NA,NA
+"GFHF-G17","60.25","6","Hordaland, Norway","60.25","6","Hordaland, Norway"
+"GFHN-QFS","60.25","6","Hordaland, Norway","62","10","Norway"
+"GZCS-VS2","65.68333","11.73333","Søla, Nordland, Norja",NA,NA,NA
+"GZCS-GZ6","65.68333","11.73333","Søla, Nordland, Norway",NA,NA,NA
+"G6N1-FDC",NA,NA,NA,NA,NA,NA
+"G6N1-FDX",NA,NA,NA,NA,NA,NA
+"KP7K-PV7","64.41667","12","Maer, Nord Trondelag, Norway","62","10","Norway"
+"94NF-62M","60.1167","10.2667","Ringerike, Buskerud, Norway","60.1167","10.2667","Ringerike, Buskerud, Norway"
+"G6Z4-Q9V","63","17.4","Scandinavia, Europe",NA,NA,NA
+"KLLG-QCM","58.9727","6.9104","Stavanger, Norway","58.9727","6.9104","Stavanger, Norway"
+"MSGK-KKK","62","10","Norge",NA,NA,NA
+"GLP1-SJ7","46","2","France",NA,NA,NA
+"GXV9-9MZ","49.3358","-1.2721","Saint-Côme-du-Mont, Manche, France",NA,NA,NA
+"9HM8-L3N","50.9167","11","Grabfeldgau, Thuringia, Germany",NA,NA,NA
+"L6KK-PSH","48.1667","10.5","Tullfeld, Schwabia, Germany, Germany","51.5","10","Germany"
+"KHCJ-66M","52.5627","-3.1499","Montgomery, Montgomeryshire, Wales","52.33022","-3.76641","Wales"
+"933R-GCD","52.85","-4.63333","of Bron-y-llwyd,Bryncroes,Caernarvonshire,Wales",NA,NA,NA
+"937V-4CR","53.29127","-4.37203","of,Talybolion cmt,Anglesey,Wales",NA,NA,NA
+"LJGC-3C1","52.75","-3.8833","Dolgellau, Gwynedd, Wales",NA,NA,NA
+"L43M-9ZZ","52.7471","-3.8775","Merionydd, Merionethshire,, Wales",NA,NA,NA
+"9KBC-MR7","53.06667","-4.31667","Of Glyn Llifon, Llandwrog, Caernarvonshire, Wales","52.33022","-3.76641","Wales"
+"GPMB-ZF4","51.8609","-4.31153","Ilandyfeisant, Carmarthenshire, Wales","51.85766","-4.7975","Tgaing, Dyfed, Wales"
+"93QS-662","52.74706","-3.87753","Peniarth,Llanegryn,Merionethshire,Wales",NA,NA,NA
+"93QQ-QJM","52.33022","-3.76641","Wales",NA,NA,NA
+"G6F2-GKG","52.33022","-3.76641","Wales",NA,NA,NA
+"LHZQ-P2P","52.96457","-3.16374","Pengwern, Llangollen, Denbighshire, Wales","52.33022","-3.76641","Wales"
+"GZ87-YZL","52.5628","-3.14932","Machynllth, Montgomery, Wales",NA,NA,NA
+"LHXJ-NZQ","52.08417","-4.65792","Bodrychan,Cardiganshire,Wales",NA,NA,NA
+"LHXJ-N8N","52.03333","-3.93333","of,Caeo cmt,Carmarthenshire,Wales",NA,NA,NA
+"LVDP-NWS","54.63247","-2.3516","Northumbria, England","55.33405","-1.98349","Northumberland, England"
+"LVDP-N4D","49.06","-0.11","Normandy, France","55.33405","-1.98349","Northumbria, England"
+"LRCW-CPN","53.6136","-2.16111","Rochdale, Lancashire, England, United Kingdom","51.06667","0.76667","Woodchurch, Kent, England"
+"GNW2-RB6","51.22608","0.75054","Kent, England",NA,NA,NA
+"LL3T-TBC","52.4379","-1.6496","England","52.4379","-1.6496","England"
+"LL3T-YNT","52.4379","-1.6496","England","52.4379","-1.6496","England"
+"936L-MHW","54.83333","-1.55","Lumley, Durham, England",NA,NA,NA
+"GJFS-DC8","52.4379","-1.6496","England",NA,NA,NA
+"GKW5-X5J","46","2","France","46","2","France"
+"GLMY-MF5",NA,NA,NA,NA,NA,NA
+"G6RQ-7FP","52.3336","-3.3823","Powys, Wales",NA,NA,NA
+"GSTW-LLV","52.33022","-3.76641","Wales",NA,NA,NA
+"G66X-KVH","52.33022","-3.76641","Wales",NA,NA,NA
+"G66X-DQJ",NA,NA,NA,NA,NA,NA
+"MJBT-TCC","52.33022","-3.76641","Gwlad, Wales",NA,NA,NA
+"GP9N-GT3","33.3167","44.3667","Bagdad,Iraq.",NA,NA,"Barcelona,Aragon,Spain."
+"GP9N-2PQ","40.43","-4",",Spain.",NA,NA,NA
+"GGM3-72W","39.50001","-3.00003","Castilla la Mancha,Spain.","49.6631","8.3358","Worms,Rheinland-Pfalz,Allemania."
+"G87B-JDM","40.43","-4","Spain",NA,NA,NA
+"G4TX-1VR","41.9781","2.8203","Girona, Girona, Catalonia, Spain","43.4748","6.239","Provence, France"
+"L5BN-7XQ","40.43","-4","Spain",NA,NA,NA
+"MY78-WSG","51.29694","8.67949","Upland, Denmark","55.33405","-1.98349","Northumberland, England, United Kingdom"
+"GG8L-2V6","54.63247","-2.3516","Northumbria, England",NA,NA,NA
+"LTFN-V6S",NA,NA,NA,NA,NA,NA
+"LBVW-MH1",NA,NA,NA,NA,NA,NA
+"L9HS-XXY","48.3447","3.0162","La Brosse-Montceaux, Seine-et-Marne, Île-de-France, France","46","2","France"
+"LYK6-FCG","46","2","France",NA,NA,NA
+"LHGW-MVX","46","2","France","46","2","France"
+"GKK8-QKG","50.34193","7.084","Virneburg, Landkreis Mayen-Koblenz, Rheinland-Pfalz, Deutschland",NA,NA,NA
+"GLFD-ZP6","50.6845","8.8929","Hesse, H. Roman Empire, Germany",NA,NA,NA
+"GCCX-K9C","51.83333","4.3","Putten, South Holland, Netherlands","52.5949","4.656","Egmond-Binnen, Noord-Holland, Nederland"
+"GCCX-HRP","51.9","4.11667","Voorne, South Holland, Netherlands",NA,NA,NA
+"LY9Y-D4L","59.7","5.35","Moster, Hordaland, Norway",NA,NA,NA
+"GV35-JZ4","62","10","Norway",NA,NA,NA
+"GGWW-9RZ","62","10","Norway",NA,NA,NA
+"G2YH-SDS","56","10","Tanska",NA,NA,NA
+"G2BX-HGY","56","10","Denmark",NA,NA,NA
+"GVMQ-9QT","62","10","Norway",NA,NA,NA
+"G4LS-WVV","62","10","Norway",NA,NA,NA
+"LH74-8RJ","62","10","Norway",NA,NA,NA
+"LZNJ-XH2","62","10","Norway",NA,NA,NA
+"LTLM-9N8","62","10","Norway","62","10","Norway"
+"GQD2-13W","63.42972","10.39333","Trondheim, Sor Trondelag, Norway","63.387","10.38067","Trondheim, Trøndelag, Norway"
+"9492-MKF",NA,NA,NA,NA,NA,NA
+"GGV4-DKM","40","90","Europe or Asia",NA,NA,NA
+"GGV4-X81",NA,NA,NA,NA,NA,NA
+"GFSC-Z5Y","55.7543","9.4182","Jelling Sogn, Tørrild Herred, Vejle Amt, Danmark","60","17.75","Fyrisvall, Uppsala, Sweden"
+"GGPY-69P",NA,NA,NA,NA,NA,NA
+"GKDC-2JF","51","13","Saxony, German Empire",NA,NA,NA
+"GVZC-MQJ",NA,NA,NA,"51.01568","6.1753","Randerath, Kreis Heinsberg, Nordrhein-Westfalen, Duitsland"
+"GVZC-3DD",NA,NA,NA,"51.01568","6.1753","Randerath, Kreis Heinsberg, Nordrhein-Westfalen, Duitsland"
+"GX26-68C","51.0601","6.118","Heinsberg, Kreis Heinsberg, Nordrhein-Westfalen, Duitsland","50.8351","5.1465","Duras, Limburg, België"
+"LK2Q-73M","53.6","9.48333","Stade, Landkreis Stade, Niedersachsen, Duitsland","51.0601","6.118","Heinsberg, Kreis Heinsberg, Nordrhein-Westfalen, Duitsland"
+"L17D-NWP",NA,NA,NA,NA,NA,NA
+"LBRG-78B","49.5","10","holy roman empire",NA,NA,NA
+"GDVG-C3F","50.83333","4",", , Belgium",NA,NA,NA
+"G69R-VL4","51.42","3.75","Borsselen, Veer, Seeland, Netherlands","51.4237","3.7355","Borssele, Zeeland, Netherlands"
+"G69T-HYW","51.4237","3.7355","Borssele, Zeeland, Netherlands",NA,NA,NA
+"G8P6-D2C",NA,NA,NA,NA,NA,NA
+"G2HB-4VG",NA,NA,NA,NA,NA,NA
+"LY6W-FXV",NA,NA,NA,NA,NA,NA
+"GMQ9-NQV","51.0333","2.8667","Diksmuide, West Flanders, Belgium",NA,NA,NA
+"GXSZ-729","51.0333","2.8667","Diksmuide, West-Vlaanderen, België",NA,NA,NA
+"GKRV-5S1",NA,NA,NA,"52.5","5.75","Netherlands"
+"LHQW-87C","65.00581","-22.99701","Bjarnarhöfn, Snæfellsnessýsla, Vesturland, Iceland","64.89","-18.16","Iceland"
+"2RYF-BMB",NA,NA,"Sjar arhofn, Iceland",NA,NA,NA
+"GGW7-DVX",NA,NA,NA,NA,NA,NA
+"G28R-ZBR","54.09449","13.41324","Greifswald, Greifswald, Mecklenburg-Vorpommern, Deutschland",NA,NA,NA
+"G28R-J8Z","54.09449","13.41324","Greifswald, Greifswald, Mecklenburg-Vorpommern, Deutschland",NA,NA,NA
+"KGS2-39X","51.8389","6.6154","Bocholt, Kreis Borken, Nordrhein-Westfalen, Deutschland","53.8677","10.6855","Lübeck, Schleswig-Holstein, Deutschland"
+"KH83-VKZ","51.8389","6.6154","Bocholt, Kreis Borken, Nordrhein-Westfalen, Deutschland","53.8677","10.6855","Lübeck, Schleswig-Holstein, Deutschland"
+"K425-4LS","53.8677","10.6855","Lübeck, Schleswig-Holstein, Deutschland","53.8677","10.6855","Lübeck, Schleswig-Holstein, Deutschland"
+"LHXW-383","53.8677","10.6855","Lübeck, Schleswig-Holstein, Deutschland","53.8677","10.6855","Lübeck, Schleswig-Holstein, Deutschland"
+"GH2H-2KS",NA,NA,NA,"53.8677","10.6855","Lübeck, Schleswig-Holstein, Deutschland"
+"G2DZ-2M2",NA,NA,NA,"53.8677","10.6855","Lübeck, Schleswig-Holstein, Deutschland"
+"GH2H-LQV",NA,NA,NA,"53.8677","10.6855","Lübeck, Schleswig-Holstein, Deutschland"
+"G2DZ-MY9",NA,NA,NA,"53.8677","10.6855","Lübeck, Schleswig-Holstein, Deutschland"
+"G6Z2-MMC","63.42972","10.39333","Hlade, Trondheim, Sor Trondelag, Norway","63.6445","9.7379","Agdenes, Agdenes Prestegjeld, Sør-Trøndelag, Norway"
+"GLS4-HTS",NA,NA,"Hladir, Naumadal, Norway",NA,NA,NA
+"KHKF-JPT","62.66667","7.83333","More og Romsdal, Norway","59","-3","Orkney Islands, Orkney, Scotland"
+"LDMB-Q59","64.14056","11.73889","Mære, Steinkjer, Nord-Trøndelag, Norway","59","-3","Orkney, Scotland"
+"M7WR-8GF",NA,NA,NA,NA,NA,NA
+"G88P-GK4","62","10","Norway",NA,NA,NA
+"G6JZ-G2D","62","10","Norway",NA,NA,NA
+"GWWB-19S","46","2","France",NA,NA,NA
+"GWWB-RZX","46","2","France",NA,NA,NA
+"K863-NHG","47.9167","2.0833","Orléans, Loiret, Centre-Val de Loire, France","47.9014","1.904","Orléans, Orléanais, France"
+"G8FB-NFD","47.7518","-2.2942","Rieux, Morbihan, Bretagne, France",NA,NA,NA
+"G8FB-JXN","46","2","FRANCE",NA,NA,NA
+"GZ8S-NCB","46","2","France",NA,NA,NA
+"GF9V-9YR","48.928","0.5326","Normandie, France","48.928","0.5326","Normandie, France"
+"GF3P-NMQ",NA,NA,NA,NA,NA,NA
+"KVLB-XML","55.669","-3.7837","Lanarkshire, Scotland, United Kingdom",NA,NA,NA
+"KVLB-XCN","56.81674","-4.18396","Scotland, United Kingdom",NA,NA,NA
+"GHTL-FF7","53","-8","Ireland",NA,NA,NA
+"GX26-8N9","52.6076","4.66056","Egmond, North Holland, Netherlands","52.6076","4.66056","Egmond, North Holland, Netherlands"
+"GX26-9KR",NA,NA,NA,NA,NA,NA
+"L2R4-FTL",NA,NA,NA,NA,NA,NA
+"L2TY-SQQ",NA,NA,NA,NA,NA,NA
+"GGGR-X7T",NA,NA,NA,NA,NA,NA
+"GQ74-9XM","49.3412","-0.9646","Longueville, Calvados, Lower Normandy, France","47","19.5","Hungary"
+"LKST-72T","53.5003","8.0064","Oos-Friesland, Germany","52","4.67","South Holland, Netherlands"
+"G25Z-QHS","48.8549","5.6385","Apremont-la-Forêt, Meuse, Lothringen, Frankreich","48.8549","5.6385","Apremont-la-Forêt, Meuse, Lorraine, Frankrike"
+"G79D-XQL","49.6846","5.8156","Arlon, Luxemburg, Belgien",NA,NA,NA
+"GCZG-V73",NA,NA,NA,NA,NA,NA
+"GCZG-L8M",NA,NA,NA,NA,NA,NA
+"GJYG-WLC","49.9037","5.135","Paliseul, Luxembourg, België",NA,NA,NA
+"G362-6ZR",NA,NA,NA,NA,NA,NA
+"GKHG-B6B","51.9498","5.2926","Beusichem, Buren, Gelderland, Netherlands",NA,NA,NA
+"GKHG-TZZ","51.9498","5.2926","Beusichem, Gelderland, Netherlands","51.9498","5.2926","Beusichem, Gelderland, Netherlands"
+"G9GV-YB9",NA,NA,NA,NA,NA,NA
+"G9J3-T6W",NA,NA,NA,NA,NA,NA
+"GQQ8-HMF","52.5","5.75","Netherlands",NA,NA,NA
+"GZ9Y-JRN","52.5","5.75","Netherlands",NA,NA,NA
+"GVZP-6Y2",NA,NA,NA,NA,NA,NA
+"GVZP-S9H",NA,NA,NA,NA,NA,NA
+"GL2L-XZ8",NA,NA,NA,NA,NA,NA
+"93RK-1B2","48.78","8.27","Ebersteinburg, Amt Baden, Baden, Germany","48.78","8.27","Ebersteinburg, Amt Baden, Baden, Germany"
+"G3MC-8XP","47.8565","3.9747","Tonnerre, Yonne, Bourgogne, France","47.8567","3.9735","Tonnerre, Yonne, Bourgogne, France"
+"G4MG-RFM","48.3942","4.5259","Brienne-le-Château, Bar-sur-Aube, Aube, Champagne-Ardenne, France","47.8565","3.9747","Tonnerre, Yonne, Bourgogne, France"
+"GQ19-BXH","47.65","5.18333","Ferme du Mont, Côte-d'Or, Burgundy, France",NA,NA,NA
+"9CXH-CQ8","48.4537","3.3517","Noyen, France",NA,NA,NA
+"9CXH-CQF","46","2","France",NA,NA,NA
+"GH2N-PNR","41.96667","12.66667","Roman Empire",NA,NA,NA
+"GLY4-QNZ","50.83333","4",", , België",NA,NA,NA
+"GG9X-684",NA,NA,NA,NA,NA,NA
+"G23W-BJH","51.8232","5.6295","Batenburg, Gueldre, Pays-Bas","49","13","Europe"
+"G23W-12F","51.5656","4.82962","Bavel, Brabant-septentrional, Pays-Bas","49","13","Europe"
+"GKZ8-W38",NA,NA,NA,"52.1324","5.4294","Hohorst, Leusden, Utrecht, Netherlands"
+"GKZZ-1FM",NA,NA,NA,"51.4853","5.1377","Hilvarenbeek, Brabant, Netherlands"
+"GMDK-TGC","52.5","5.75","Netherlands",NA,NA,NA
+"GMDK-KJ1","52.5","5.75","Netherlands",NA,NA,NA
+"G61C-YGV",NA,NA,NA,NA,NA,NA
+"GDBJ-7N1","52.5","5.75","Netherlands",NA,NA,NA
+"G6RG-78L","52.5","5.75","neth",NA,NA,NA
+"GNQJ-BMV","49","13","europe",NA,NA,NA
+"9HD5-2W8","56.81674","-4.18396","Scotland",NA,NA,NA
+"G9V7-VK8","56.25","-3.16667","Fife, Scotland","56.25","-3.16667","Fife, Scotland"
+"GSFR-QMP","56.81674","-4.18396","Scotland",NA,NA,NA
+"GLDW-4BY",NA,NA,NA,NA,NA,NA
+"LXWX-5MS","46","2","France",NA,NA,NA
+"LV5F-VR7",NA,NA,NA,NA,NA,NA
+"99PT-C18","51.85229","0.61466","Kingdom of Essex","50.981","-0.3385","Sussex, England"
+"L5JV-NBP","50.98088","-2.21207","Shaftesbury, Dorset, Anglo-Saxon Britain","51.7004","-1.9513","St Peter's Church, Siddington, Gloucestershire, England, United Kingdom"
+"GGDS-L6K","48.2004","3.283","Sens, Yonne, Bourgogne, France",NA,NA,NA
+"GGDS-J9Q","48.2004","3.283","Sens, Yonne, Bourgogne, France",NA,NA,NA
+"LHN5-GBT","48.0833","-0.6667","Briole, Mayenne, Pas de la Loire, France",NA,NA,NA
+"LHN5-G12","45.5","4","Pas De La, Loire, Rhone-Alpes, France",NA,NA,NA
+"KJWG-4QZ","47.5551","-0.2318","Jarzé, Maine-et-Loire, Pays de la Loire, France","47.5551","-0.2318","Jarzé, Maine-et-Loire, Pays de la Loire, France"
+"LHF5-WB1","49.3167","-0.5495","Crépon, Calvados, Normandie, France","47.5797","-0.25593","Beauvau, Maine-et-Loire, Pays de la Loire, France"
+"G8WB-24Q","47.4701","-0.5541","Angers, Maine-et-Loire, Pays de la Loire, France",NA,NA,NA
+"G8WB-JPC","46","2","France",NA,NA,NA
+"9CXH-KVY",NA,NA,"Athenaise, Mayenne, Maine/Pas-de-la-Loire, France",NA,NA,NA
+"9CXH-KVB",NA,NA,NA,NA,NA,NA
+"GJ38-RVP","48.4485","6.7335","Baccarat, Meurthe-et-Moselle, Lorraine, France",NA,NA,NA
+"GFPT-FJ7","46","2","France",NA,NA,NA
+"GFPR-KJ6","49.6505","1.7305","Picardie, Frankreich",NA,NA,NA
+"GFPR-6XT","49","13","Europe",NA,NA,NA
+"G6ZP-PHC","50.1342","1.9467","Saint-Riquier, Somme, Hauts-de-France, France","48.6469","0.7144","Normandel, Oene, Normandie, France"
+"GJP9-181",NA,NA,NA,"49.5632","3.6133","Laon, Aisne, Heuts-d'Franche, Franaise"
+"L18Q-S5P","50.7264","1.6147","Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France","50.6282","3.0697","French Flanders, France"
+"G27J-PL7","51.0538","3.7216","Gent, East Flanders, Belgium","50.7505","2.2522","Saint-Omer, Pas-de-Calais, Hauts-de-France, France"
+"G4K9-M28","52.4379","-1.6496","England","52.4379","-1.6496","England"
+"G67Z-Q8Q",NA,NA,NA,NA,NA,NA
+"GDGN-MHH","46","2","Frankreich",NA,NA,NA
+"G6SM-QLC","46","2","Frankreich",NA,NA,NA
+"2WN5-LGD","50.981","-0.3385","Sussex, England",NA,NA,NA
+"2WN5-L5T","50.981","-0.3385","Sussex, England",NA,NA,NA
+"GGY5-2ML","49.5","2.8333","Guisnes, Picardy, France",NA,NA,NA
+"94L5-4JY",NA,NA,"Boulogne,Artois,France","46","2","Abbaye De Samer-Aux-Bois,France"
+"GGY5-8HF","49.12854","3.46692","Boulogne, Artois, France",NA,NA,NA
+"9365-KL4","43.8759","-1.3029","Léon, Landes, Gascogne, France",NA,NA,NA
+"M1XG-2K1","46","2","France",NA,NA,NA
+"LCXH-Z94","50.96079","1.85357","Calais-Nord, Pas-de-Calais, Nord Pas-de-Calais, France","51.3177","0.8928","Faversham, Kent, England"
+"M9ZF-TQT","52.7719","-1.556","St. Peters, Swadlincote, Derbyshire, England","51.3177","0.8928","Faversham, Kent, England"
+"G8Q4-HM9","53.15812","-0.23925","Lincolnshire, England",NA,NA,NA
+"KZN3-5GP","47.2225","2.0694","Vierzon, Cher, Centre-Val de Loire, France",NA,NA,NA
+"94BJ-FBD",NA,NA,NA,NA,NA,NA
+"G7G9-ZLB",NA,NA,NA,NA,NA,NA
+"949K-Z4N","48.8936","-0.202","Falaise, Calvados, Normandy, France","50.83333","-1.6","New Forest, Hampshire, England"
+"LB3C-NWX","49.2339","2.8895","Crepy-en-Valois, Deparlment de l'Oise","48.8936","-0.202","Falaise, Calvados, Lower Normandy, France"
+"LT9W-BSV","59.268","10.4075","Vestfold, Norway","60.1167","10.2667","Ringerike, Buskerud, Norway"
+"LT9W-YJP",NA,NA,NA,NA,NA,NA
+"L8MB-ZFB","49","13","Europe",NA,NA,NA
+"L2TM-K5G","51.2","-2","Wessex",NA,NA,NA
+"GL2C-MLS","51.22608","0.75054","Kent, England","51.22608","0.75054","Kent, England"
+"GL2H-PG1","51.22608","0.75054","Kent, England","51.22608","0.75054","Kent, England"
+"LTF1-5GV","57.4167","-3.25","Moray, Scotland","57.4167","-3.25","Moray, Scotland"
+"GKV2-2Z6",NA,NA,NA,NA,NA,NA
+"M1X6-5YV","56.81674","-4.18396","Scotland",NA,NA,NA
+"GGL1-2YB","56.81674","-4.18396","Scotland",NA,NA,NA
+"LZBR-34C","57.17","-4.6","Lochell, Inverness-shire, Scotland","57.17","-4.6","Inverness-shire, Scotland"
+"G2QG-CJ3",NA,NA,NA,NA,NA,NA
+"LZNF-SCW","56.81674","-4.18396","Scotland",NA,NA,NA
+"GM46-33H","62","10","Norway","52.4379","-1.6496","England"
+"LDW4-Z46","56","10","Denmark","59","-3","Orkney, Scotland"
+"L2SJ-Z1B","56.81674","-4.18396","Scotland","56.81674","-4.18396","Scotland"
+"GVB1-4DF","56.81674","-4.18396","Scotland",NA,NA,NA
+"LBZ2-25J","46","2","France",NA,NA,NA
+"GLBC-FYX",NA,NA,NA,NA,NA,NA
+"GGG9-3W6","53","-8","Ireland",NA,NA,NA
+"GGW2-BY7",NA,NA,NA,NA,NA,NA
+"GG4S-KWP",NA,NA,NA,NA,NA,NA
+"GMNQ-S53","56.25","-5.25","Lochow, Argyllshire, Scotland","56.40387","-5.0498","Lochawe, Argyll and Bute, Scotland"
+"G446-CXT","56.25","-5.25","Argyll, Scotland",NA,NA,NA
+"KJH3-QW1","56.81674","-4.18396","Scotland",NA,NA,NA
+"9CX7-BKX",NA,NA,NA,NA,NA,NA
+"GQQL-CMR","53","-8","Ireland","53","-8","Ireland"
+"LVY4-BD2","53","-8","Ireland","53","-8","Ireland"
+"GDQ3-QW3","53.5775","-6.61195","Tara, Meath, Ireland","53","-8","Ireland"
+"GQM8-HZJ","53","-8","Ireland","53","-8","Ireland"
+"GH76-6N5","53","-8","Ireland",NA,NA,NA
+"G212-DM4","53","-8","Ireland",NA,NA,NA
+"GLSR-TNY","53.08333","-7","Leinster, Ireland",NA,NA,NA
+"G3ST-F4C","53.08333","-7","Leinster, Ireland","53","-8","Ireland"
+"GG87-B3G","56.40387","-5.0498","Lochawe, Argyll and Bute, Scotland","56.40387","-5.0498","Lochawe, Argyll and Bute, Scotland"
+"GG8W-8LL",NA,NA,NA,NA,NA,NA
+"GH7K-T37","53.08333","-7","Leinster, Ireland",NA,NA,NA
+"GLJB-JVH","54.61119","-6.93167","Ulster, Ireland","54.61119","-6.93167","Ulster, Tyrone, Ireland"
+"LVG3-W16","54.61119","-6.93167","Tyrone Ulster, Donegal, Ireland","54.61119","-6.93167","Tyrone Ulster, Donegal, Ireland"
+"GHY3-6W5","42.4575","2.6347","Arles, Pyrenees-Orientales, Languedoc-Roussillon, France","42.4575","2.6347","Arles, Pyrenees-Orientales, Languedoc-Roussillon, France"
+"GGZ9-45C",NA,NA,NA,NA,NA,NA
+"LCPY-NG4","52.4379","-1.6496","England","54.63247","-2.3516","Northumbria, England"
+"GP9Z-KVF",NA,NA,NA,NA,NA,NA
+"GKQX-ZWW","54.63247","-2.3516","Northumbria, England",NA,NA,NA
+"GKQX-HSZ","52.4379","-1.6496","England",NA,NA,NA
+"GQKV-84J","46","2","France","50.69844","1.84683","Desvres, Boulogne-sur-Mer, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"L1FK-7PV","50.1343","3.7604","Maroilles, Nord, Hauts-de-France, France","50.69844","1.84683","Desvres, Pas-Calés, Heuts-d'Franche, Française"
+"GPSX-RG2",NA,NA,NA,NA,NA,NA
+"GPSF-8QT",NA,NA,NA,NA,NA,NA
+"GPSF-S9W",NA,NA,NA,NA,NA,NA
+"G6KF-2P6","49.98982","3.46239","Vermandois, Frankreich","49.83612","3.33736","Saint-Quentin-Sud, Saint-Quentin, Aisne, Picardie, Frankreich"
+"G6KF-R2F","49.98982","3.46239","Vermandois, Frankreich",NA,NA,NA
+"GGZ7-CSQ","46","2","França",NA,NA,NA
+"GGZ7-8LZ","46","2","França",NA,NA,NA
+"L71H-767","53.3443","-6.2665","Armagh, Dublin, Ireland","54.5546","-6.7022","Monestry, Armagh, Ulster, Northern Ireland"
+"9HV2-QLG","53.66667","-9","Connaught, Ireland",NA,NA,NA
+"G7Y3-MTZ","51.85229","0.61466","Essex, England","51.85229","0.61466","Essex, England"
+"GC2W-1PF","51.85229","0.61466","Essex, England",NA,NA,NA
+"9CMV-8DF","41.5004","13.7042","Aquino, Campania, Italy",NA,NA,NA
+"9QQG-T88","41.4994","13.7044","AQUINO,, IT",NA,NA,NA
+"L1D6-9BJ","41.2109","13.5716","Gaeta, Latina, Lazio, Italia","41.2109","13.5716","Gaeta, Latina, Lazio, Italia"
+"L1D6-4RF","40.852","14.268","Napoli, Napoli, Campania, Italia","41.2109","13.5716","Gaeta, Latina, Lazio, Italia"
+"G3W9-JKZ","41.2109","13.5716","Gaeta, Latina, Lazio, Italia",NA,NA,NA
+"GDLX-5BK",NA,NA,NA,NA,NA,NA
+"L1D8-H75",NA,NA,NA,NA,NA,NA
+"G38X-1BB",NA,NA,NA,NA,NA,NA
+"G3W7-41N",NA,NA,NA,NA,NA,NA
+"G3WJ-W5F",NA,NA,NA,"41.10559","14.21322","Capua, Caserta, Campania, Italia"
+"9CMV-86D",NA,NA,NA,NA,NA,NA
+"LHW6-5MM","40.852","14.268","Napoli, Napoli, Campania, Italia",NA,NA,NA
+"GQYV-369","40.852","14.268","Napoli, Napoli, Campania, Italia","43.1","12.3","Italia"
+"L81P-QT8","43.1","12.3","Italia","40.852","14.268","Napoli, Napoli, Campania, Italia"
+"G38J-3LB",NA,NA,NA,NA,NA,NA
+"L1DX-MK8",NA,NA,NA,NA,NA,NA
+"L1D6-1KJ",NA,NA,NA,NA,NA,NA
+"G497-9Z9",NA,NA,NA,NA,NA,NA
+"G49Q-RDR",NA,NA,NA,NA,NA,NA
+"GPMY-S4Q",NA,NA,NA,NA,NA,NA
+"GQHD-LYD","53.4771","-2.2433","Manchester, Lancashire, England","53.4771","-2.2433","Manchester, Lancashire, England"
+"L6DB-Q3S",NA,NA,NA,NA,NA,NA
+"LCRN-96V",NA,NA,NA,NA,NA,NA
+"GLZQ-2WN","41.10559","14.21322","Capua, Campania, Italia",NA,NA,NA
+"GVQP-K8B",NA,NA,NA,NA,NA,NA
+"GVQ5-6Z1",NA,NA,NA,NA,NA,NA
+"GVQ5-35M","46","2","France",NA,NA,NA
+"GVQ5-H33","46.4005","3.6369","Châtelperron, Allier, Auvergne-Rhône-Alpes, France",NA,NA,NA
+"GGS1-4MY","47.3699","3.1252","Donzy,58102,Nièvre,Bourgogne-Franche-Comté,FRANCE,","47.1283","0.9952","Loches,37132,Indre-et-Loire,Centre-Val de Loire,FRANCE,"
+"GGJD-J7S","47.1863","4.8944","Reulle-Vergy,21523,Côte-d'Or,Bourgogne-Franche-Comté,FRANCE,","47.3699","3.1252","Donzy,58102,Nièvre,Bourgogne-Franche-Comté,FRANCE,"
+"GVWG-2D5","49.1745","3.1274","La Ferté-Milon, Aisne, Picardie, France",NA,NA,NA
+"GVWP-W2G","46.0808","4.7588","Montmerle-sur-Saône, Ain, Rhône-Alpes, France","45.7678","4.8342","Lyon, Rhône, Rhône-Alpes, France"
+"GVWP-MKV","46.3062","4.8298","Mâcon, Saône-et-Loire, Bourgogne-Franche-Comté, France",NA,NA,NA
+"GSYG-QH7","48.0776","0.0609","Lavardin, Sarthe, Maine/Pays de la Loire, France",NA,NA,NA
+"GW32-F8L","46","2","France",NA,NA,NA
+"G2P4-2GP","46","2","France",NA,NA,NA
+"LYRZ-Z3F","46","2","France",NA,NA,NA
+"G6Z3-J2G","49.25","5.3333","Verdun, Meuse, Lorraine, France","50.642","4.484","Nivelles, Brabant wallon, Belgique"
+"GJTL-P5Q","50.4335","3.5783","Fresnes-sur-Escaut, Nord, Hauts-de-France, France","50.6372","3.0634","Lille, Nord, Hauts-de-France, France"
+"GJTL-RDN",NA,NA,NA,NA,NA,NA
+"GVZ5-QGQ","50.6374","2.2576","Thérouanne, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"L2YT-SMS","50.6675","1.8366","Desvres, Pas-Calés, Heuts-d'Franche, Française","50.69844","1.84683","Desvres, Pas-Calés, Heuts-d'Franche, Française"
+"L2YT-S91","50.6374","2.2576","Thérouanne, Pas-Calés, Heuts-d'Franche, Française","50.69844","1.84683","Desvres, Pas-Calés, Heuts-d'Franche, Française"
+"LRNT-D8B","50.3878","2.2043","Humières, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"G99K-CQC","50.4537","2.4116","Bours, Pas-de-Calais, Nord-Pas-de-Calais, France","50.3878","2.2043","Humières, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"LRHN-5VG","50.3674","2.1294","Fresnoy, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"L2TT-ZW1","50.5896","1.8505","Grigny, Pas-de-Calais, Nord-Pas-de-Calais, France","50.3835","1.9833","Bouin-Plumoison, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"G2F3-VBV","53.3443","-6.2665","Dublin, Ireland","53.3443","-6.2665","Dublin, Ireland"
+"L71K-WNF","53.08333","-7","Cúige Laighean, Ireland","53.08333","-7","Leinster, Ireland"
+"GVZ3-JK4","53.08333","-7","OF LEINSTER, IRELAND",NA,NA,NA
+"G36W-N8P",NA,NA,NA,NA,NA,NA
+"L2TG-G9L",NA,NA,"NORITHAL,, GE","49.5","10","Holy Roman Empire"
+"9QQJ-672","51.5","10","NORITHAL, GERMANY",NA,NA,NA
+"G2CH-MSB",NA,NA,NA,NA,NA,NA
+"GNXV-7QG","48.25","14","Traungau, Upper Austria, Austria","48.25","14","Traungau, Upper Austria, Austria"
+"GNXV-WLR",NA,NA,NA,NA,NA,NA
+"GZF7-Z24","50.8013","5.3446","Looz, Limbourg, Belgique",NA,NA,NA
+"GZF7-6DS","50.84","5.42937","Vliermaal, Limburg, Vlaanderen, België","50.8013","5.3446","Borgloon, Limburg, Vlaanderen, België"
+"GZ2Z-SMM","53.46666","-1.41666","Wentworth Woodhouse, Yorkshire, England","53.46666","-1.41666","Wentworth Woodhouse, Yorkshire, England"
+"L2RH-9N6","49.05","1.25","Carentan, Manche, Normandy, France","52.4379","-1.6496","England"
+"GK8B-WS6","48.58025","-0.38399","La Ferté-Macé, Alençon, Orne, Lower Normandy, France",NA,NA,NA
+"GGPG-SQZ","52.2751","1.0653","Suffolk, England, United Kingdom","51.06906","-1.32045","Winchester, Hampshire, England, United Kingdom"
+"GL5F-YQ8",NA,NA,NA,NA,NA,NA
+"GL5N-92T",NA,NA,NA,NA,NA,NA
+"933R-P8G","52.9167","-4.35","of Penarth, Llanarmon, Caernarvonshire, Wales",NA,NA,NA
+"G6X7-B4S","52.33022","-3.76641","Wales",NA,NA,NA
+"L6QG-L79","52.3336","-3.3823","Powys, Wales",NA,NA,NA
+"LXQB-VTP","52.3336","-3.3823","Powys, Wales","49.9167","2.5","Y, Somme, Picardie, France"
+"GG36-WCV","49.82683","2.34879","Boves, Amiens, Somme, Picardie, France",NA,NA,NA
+"GG4D-12Z","49.82683","2.34879","Boves, Amiens, Somme, Picardie, France","48.8936","-0.202","Falaise, Calvados, Basse-Normandie, France"
+"GHY4-B1T","49.2423","-0.6427","Nonant, Calvados, Normandie, France",NA,NA,NA
+"GHYH-3DR","46","2","France",NA,NA,NA
+"GCD7-1BL","49.5","3.5","Vermandois, Aisne, Picardie, France",NA,NA,NA
+"GWF6-1HD","49.5632","3.6133","Laon, Aisne, Picardie, France","49.5632","3.6133","Laon, Aisne, Picardie, France"
+"9H7D-VJ7","50.4667","2.7167","Nord-Pas-de-Calais, France","49.91667","2.16667","Amiens, Somme, Picardie, France"
+"9H7D-VJD","46.6496","0.3749","Chasseneuil-du-Poitou, Vienne, Nouvelle-Aquitaine, France","49.06","-0.11","Vexin, , Normandy, France"
+"GL2Q-JXG","51.85766","-4.7975","Dyfed, Wales","51.85766","-4.7975","Dyfed, Wales, United Kingdom"
+"GV2P-GLD","51.85766","-4.7975","Dyfed, Wales, United Kingdom","51.85766","-4.7975","Dyfed, Wales, United Kingdom"
+"GDBN-FMD","52.33022","-3.76641","Gwynedd, Wales",NA,NA,NA
+"GGFT-W6D",NA,NA,NA,NA,NA,NA
+"GJVK-TL4","53.1449","-4.2536","Caernarvon, Wales, United Kingdom","53.29127","-4.37203","Isle of Anglesey, Wales, United Kingdom"
+"GJBR-MDW",NA,NA,NA,NA,NA,NA
+"GGJV-213","50.8853","5.7532","Meerssen, Limburg, Netherlands",NA,NA,NA
+"94NX-NK2","49.4158","2.8225","Compiègne, Oise, Picardie, Francië Occidentale","49.4158","2.8225","Compiegne, Oise, Picardie,Francie occidentale"
+"LCDW-ZQK","49.5632","3.6133","Laon, Aisne, Picardie, France","49.5632","3.6133","Laon, Aisne, Hauts-de-France, France"
+"G8TG-GRS","49.1193","6.1757","Metz, Moselle, Lorraine, France","37.2203","-3.5928","Jun, Granada, Andalucia, Spain"
+"GJ82-D9B","50.25","6.66667","Eifel, Rhineland-Palatinate, Germany","51.5","10","Germany, Germany"
+"9HLL-QJ9","51","13.25","Hzgt. Sachsen, Fränisches Reich","53","10.08333","Lüneburger Heide, Hzgt. Sachsen, Fränisches Reich"
+"GQQZ-P4H","52.5","5.75","Netherlands",NA,NA,NA
+"GXX7-CQN","52.3336","-3.3823","Powys, Wales","52.33022","-3.76641","Wales"
+"GL7L-54N","52.5628","-3.14932","Montgomeryshire, Wales",NA,NA,NA
+"GL7G-SNR","52.5628","-3.14932","Montgomeryshire, Wales",NA,NA,NA
+"KCZK-97Z","52.5628","-3.14932","Gorthmyl, Montgomery, Wales",NA,NA,NA
+"KZ7D-4M9","53.1065","-4.2305","Caernarvon, Wales","52.33022","-3.76641","<Wales>"
+"G3Y4-FLK","56","10","Jellingee, Ragnarike, Jutland, Denmark","49.06","-0.11","Normandy, France"
+"GGYW-V8J","56","10","Denmark",NA,NA,NA
+"L2RQ-6PC","48.3185","-2.9377","Saint-Mâeen, Finistáere, Bretagne, France",NA,NA,NA
+"9CZM-R52","51.38207","-0.98877","Berkshire, England",NA,NA,NA
+"LDHS-886","55.95","8.5","Hedeby, Skjern, Bølling, Ringkøbing, Denmark","56","10","Denmark"
+"LDHS-86Y","60.1167","10.2667","Ringerike, Buskerud, Norway","56","10","Jylland, Danmark"
+"GSRK-NBB",NA,NA,NA,NA,NA,NA
+"LY3D-RZG","50.73646","-3.71887","Devon, England","49.9167","2.5","Y, Somme, Picardie, France"
+"G34N-94G","46.4352","0.1224","Lusignan, Vienne, Duché d'Aquitaine, West Francia",NA,NA,NA
+"LJ1M-8VG",NA,NA,NA,"46","2","France"
+"GPM1-Q87","46.0328","1.3366","Razès, Haute-Vienne, Limousin, France","46.0328","1.3366","Razès, Haute-Vienne, Limousin, France"
+"LZKK-45R","45.3707","4.8134","Roussillon, Isere, Rhone Alpes, France","43.90255","5.2935","Roussillon, Languedoc-Roussillon, France"
+"GZRK-K84","46","2","France",NA,NA,NA
+"GZRK-RZH","46","2","France",NA,NA,NA
+"K2X2-5WP","49","13","Europe",NA,NA,NA
+"GKG8-GTJ","49","13","Europe",NA,NA,NA
+"L2RD-S8H","46","2","France","46","2","France"
+"GWXN-K1X","46","2","France",NA,NA,NA
+"GG9C-3H2","48.9722","-0.0419","Courcy, Calvados, Basse-Normandie, France",NA,NA,NA
+"GVPF-FW3","49","13","Europe",NA,NA,NA
+"GV1S-GZN","56","10","Danemark",NA,NA,NA
+"G7DP-SD5","48.7581","1.0575","Tillières-sur-Avre, Eure, Haute-Normandie, France","47.9792","5.5778","Dammartin, Haute-Marne, Champagne-Ardenne, France"
+"GGJD-YRV",NA,NA,NA,NA,NA,NA
+"GGD2-K2W","55.6304","-1.7248","Bamburgh, Northumberland, England","55.33405","-1.98349","Northumberland, England"
+"GH4Y-RNR","54.63247","-2.3516","Northumbria, England","55.33405","-1.98349","Northumberland, England"
+"GGB7-3W8","64.14056","11.73889","Mære, Steinkjer, Nord-Trøndelag, Norway","49.5","1","Rouen, Seine-Maritime, Upper Normandy, France"
+"GGB7-9MG","49.0181","0.0162","Normandie, Europe","46","2","France"
+"KCHJ-P7N","45","8","Piedmont, Italy","45","8","Piedmont, Italy"
+"LJR1-GHV","43.1","12.3","Italy","44.3511","8.4699","Savona, Liguria, Italy"
+"GGBS-LZN",NA,NA,NA,NA,NA,NA
+"G6K5-6C6","51.5","10","of, , Germany",NA,NA,NA
+"GJ98-538","39.7741","8.5825","Arborea, Oristano, Sardinia, Italy","39.7741","8.5825","Arborea, Oristano, Sardinia, Italy"
+"G78J-1W4",NA,NA,NA,NA,NA,NA
+"LCR2-9ZV",NA,NA,NA,NA,NA,NA
+"GVVY-P8M","48.4408","11.735","Freising, Bavaria, Germany",NA,NA,NA
+"GKZZ-PK3","52.03333","10.3","Ringelheim, Landkreis Goslar, Niedersachsen, Alemanha","51.5","10","Deutsches Reich"
+"GKZZ-L17","52.03333","10.3","Ringelheim, Landkreis Goslar, Niedersachsen, Alemanha",NA,NA,NA
+"L1ZM-514","51.99036","5.78723","Renkum, Gelderland, Nederland","51.1708","6.4044","Mönchengladbach, Nordrhein-Westfalen, Deutschland"
+"LZPX-339","51.20905","7.56953","Brugge, Flanders","52.13145","6.23132","Zutphen, Hamaland (present Gelderland), Netherlands"
+"9QQ3-8RS","43.1","12.3","CAGLIARA, CAGLIARA, SARDENIA, ITALY","39.292","9.14","Santa Igia, Cagliari, Sardinia, Italy"
+"9QQG-FVC","43.1","12.3","CAGLIARA, CAGLIARA, SARDENIA, ITALY",NA,NA,NA
+"L8B8-77G","5.01667","-54.43333","Babel , Babylon",NA,NA,NA
+"GWHR-7M9","5.01667","-54.43333","Babel, Babylon",NA,NA,NA
+"GZGQ-XDZ","46.99686","0.02684","Preuilly, Vienne, Poitou-Charentes, France","46.8556","0.9294","Preuilly-sur-Claise, Indre-et-Loire, Centre-Val de Loire, France"
+"G6R5-JRZ","46","2","France?",NA,NA,NA
+"G8WY-ZNX","46.9496","1.9945","Issoudun, Indre, Centre, France",NA,NA,NA
+"GCWF-1CG",NA,NA,"Les Baux, Bouches Du Rhone, Provence Alpes Cote D'azur, France","46","2","France"
+"GK6W-MG2",NA,NA,NA,"47.83333","-0.91667","Château-Gontier, Mayenne, Pays de la Loire, France"
+"GZ14-1TZ","45.9967","-0.2808","Aulnay, Poitou, Kingdom of France","45.9967","-0.2808","Aulnay, Poitou, Kingdom of France"
+"GGGK-FST",NA,NA,NA,NA,NA,NA
+"LHPX-FHD","45.2689","-0.5241","Marcillac, Gironde, Aquitaine, France","45.2689","-0.5241","Marcillac, Gironde, Aquitaine, France"
+"GHV2-TM4","47.36472","6.40606","Bois, Doubs, Franche-Comte, France","45.2689","-0.5241","Marcillac, Gironde, Aquitaine, France"
+"GG43-WRP","46.4167","0.6667","Montmorillon, Vienne, Nouvelle-Aquitaine, France",NA,NA,NA
+"GG4S-RWJ",NA,NA,NA,NA,NA,NA
+"9CZK-Y2M","45.667","0.0833","Angoulême, Carolingian Aquitaine","45.6667","0.1667","Angoulême, Poitou, Carolingian Aquitaine"
+"GGG2-YDV",NA,NA,NA,NA,NA,NA
+"GZ5N-X6N","45.0539","1.5836","Turenne, Corrèze, Limousin, France","45.0539","1.5836","Turenne, Corrèze, Limousin, France"
+"GKFS-JXX",NA,NA,NA,NA,NA,NA
+"G65V-XQK","41.2","14.75","Buonalbergo, Benevento, Campanie, Italie","41.22207","14.97644","Buonalbergo, Benevento,Campanie, Italie"
+"G65V-BBG",NA,NA,NA,NA,NA,NA
+"GX26-L8J","50.8518","3.511","Wortegem-Petegem, Flandre-Orientale, Belgique",NA,NA,NA
+"GX26-422","50.8518","3.511","Wortegem-Petegem, Flandre-Orientale, Belgique","50.8518","3.511","Wortegem-Petegem, Flandre-Orientale, Belgique"
+"GG2N-8QY",NA,NA,NA,NA,NA,NA
+"GG2N-29M",NA,NA,NA,NA,NA,NA
+"GH8M-JR2","49","11.5","Bavaria, Holy Roman Empire",NA,NA,NA
+"GDY6-RGJ",NA,NA,NA,NA,NA,NA
+"GZRV-FL3",NA,NA,NA,NA,NA,NA
+"GWSY-WHY","48.6992","8.6428","CALW,, GERMANY",NA,NA,NA
+"G821-DK6",NA,NA,NA,"50.7767","6.0836","Aachen, Rheinland"
+"GXDS-F94",NA,NA,NA,NA,NA,NA
+"G9RT-WCH","53.6","9.48333","Stade, Stade, Lower Saxony, Germany","53.00981","10.40973","Ebstorf, Landkreis Ülzen, Niedersachsen, Deutschland"
+"GVRY-L25","51.80645","13.11921","Hzgt. Sachsen, Fränkisches Reich","51.83658","10.02269","Bad Gandersheim, Northeim, Hanover, Prussia, German Empire"
+"G83F-JD2","51.86927","12.61649","Wittenberg, Wittenberg, Saxony-Anhalt, Germany","51.3651","5.1677","Reusel, North Brabant, Netherlands"
+"GVP7-21B","49.6667","7.5","Rheinland-Pfalz, Germany","51.5","10","Germany"
+"GVNZ-85D","51.5","10","Alemanha",NA,NA,NA
+"G62L-KYZ","51.5","10","Saksa",NA,NA,NA
+"GM83-WRR","48.1667","10.5","Nordgau, Schwabia, Bavaria, Germany","48.1435","17.1084","Battle of Pressburg, Bratislava, Slovakia"
+"LDMK-RJ4","48.1667","10.5","Swabia, Bavaria, Germany","49.6556","8.5682","Kloster Lorsch, Austrasia"
+"LD34-CZR",NA,NA,NA,"46","2","France"
+"GWGG-Y6Z",NA,NA,NA,NA,NA,NA
+"GS8N-HT4","51.38334","11.6","Querfurt, Saalekreis, Sachsen-Anhalt, Deutschland","51.4213","11.9099","Querfurt, Saalekreis, Sachsen-Anhalt, Deutschland"
+"G6MD-7HR","51.89674","11.07362","Halberstadt, Harz, Sachsen-Anhalt, Deutschland","51.63333","12.11667","Zörbig, Sachsen-Anhalt Germany"
+"991T-QSV","48.46666","7.21666","Salm, Elsaß, Frankreich",NA,NA,NA
+"G71Q-SYC","48.46666","7.21666","Salm, Elsaß, Frankreich",NA,NA,NA
+"GV46-9LH","52.4379","-1.6496","Wessex,, England",NA,NA,NA
+"GNC3-9FN","48.2004","3.283","Sens, Yonne, Bourgogne, France","47.9167","3.75","Yonne, Bourgogne-Franche-Comté, France"
+"GKD2-NSL","49.6461","2.5675","Montdidier, Somme, Picardie, France","47.9167","3.75","Yonne, Bourgogne, France"
+"GL9G-LHS","51.99036","5.78723","Renkum, Gueldre, Pays-Bas",NA,NA,NA
+"GL9P-4CW","51.5701","3.7027","Kamperland, Zélande, Pays-Bas",NA,NA,NA
+"GLBZ-SKW","50.97368","11.02245","Erfurt, Erfurt, Erfurt, Saxony, Germany",NA,NA,NA
+"GLB8-CHV",NA,NA,NA,NA,NA,NA
+"GLB8-DVW","50.48668","10.36257","Henneberg, Schmalkalden-Meiningen, Thuringia, Germany",NA,NA,NA
+"GLB8-N4P",NA,NA,NA,"50.48668","10.36257","Henneberg, Schmalkalden-Meiningen, Thuringia, Germany"
+"G4LZ-1JB","50.5884","3.8073","Chièvres, Hainaut, Belgium",NA,NA,NA
+"GDLQ-TQ5","46","2","France",NA,NA,NA
+"GGT2-344","46","2","France",NA,NA,NA
+"GGT2-QC3","46","2","France",NA,NA,NA
+"L2TG-YSJ","49.9864","3.4542","Bohain-en-Vermandois, Aisne, Picardie, France","50.2972","3.7917","Bavay, Nord, Nord-Pas-de-Calais, France"
+"GGQ2-HBG",NA,NA,NA,NA,NA,NA
+"GJW4-XCF","50.1824","1.4947","Cayeux-sur-Mer, Somme, Picardie, France",NA,NA,NA
+"GJSM-F1V","50.3576","3.5235","Valenciennes, Nord, Nord-Pas-de-Calais, France","50.3576","3.5235","Valenciennes, Nord, Nord-Pas-de-Calais, France"
+"GQFB-FCS","50.5974","4.1841","Henripont, Hainaut, Belgique","50.3576","3.5235","Valenciennes, Nord, Nord-Pas-de-Calais, France"
+"GZ16-ZGD","49","13","Europe",NA,NA,NA
+"GLNN-P85",NA,NA,NA,NA,NA,NA
+"GJB3-21Z","48.6667","6.1667","Nancy, Meurthe-et-Moselle, Lorraine, France","50.7232","4.8638","Jodoigne, Brabant wallon, Belgique"
+"GJ79-3WY","50.848","4.351","Bruxelles, Brabant, Belgique","50.7134","4.2234","Lembeek, Brabant, Belgique"
+"GKMW-D5D",NA,NA,NA,NA,NA,NA
+"G247-N4N",NA,NA,NA,NA,NA,NA
+"GJ5X-LGW","50.693","4.037","Enghien, Hainaut, Belgique",NA,NA,NA
+"G6D8-CCL","50.389","2.0013","Guisy, Pas-de-Calais, Hauts-de-France, Frankreich","50.389","2.0013","Guisy, Pas-de-Calais, Hauts-de-France, Frankreich"
+"GDVT-CV2","50.9336","4.3732","Reeth-Berthoud, Grimbergen, Vlaams-Brabant, Vlaanderen, België","51.0291","4.4779","Mechelen, Antwerp, Belgium"
+"G4S8-H44","50.83333","4","België (Heiliges Römisches Reich)",NA,NA,NA
+"GVWG-CF9","49.1421","2.2869","Beaumont-sur-Oise, Val-d'Oise, Île-de-France, France",NA,NA,NA
+"9CH4-N3G",NA,NA,NA,NA,NA,NA
+"GCSS-ZWV","46","2","France",NA,NA,NA
+"GLNP-WZ9",NA,NA,NA,NA,NA,NA
+"G87V-TYT","51.101","0.1343","Withyham, Sussex, England, United Kingdom","51.101","0.1343","Withyham, Sussex, England, United Kingdom"
+"GF6V-G6X","48.928","0.5326","Normandie, France",NA,NA,NA
+"GN15-SM7","59","-3","Orkney, Scotland",NA,NA,NA
+"G2LT-8FP","49.16667","-0.5","Falais, Calvados, Normandy, France",NA,NA,NA
+"L4H9-G3R","46.0328","1.3366","Razes, Haute Vienne, Limousin, France",NA,NA,NA
+"GC44-BLQ","39","22","Greece",NA,NA,NA
+"GKFY-MMD","48.4215","3.022","Salins, Seine-et-Marne, Île-de-France, France",NA,NA,NA
+"G8VV-6M2","49","13","Europe",NA,NA,NA
+"GSQ4-DZW","49.1631","6.5979","Bisten-en-Lorraine, Moselle, Lorraine, France",NA,NA,NA
+"GSQ4-XNK","48.5365","4.1419","Arcis-Sur-Aube, Aube, Champagne-Ardenne, Française",NA,NA,NA
+"GVG4-1QM","46","2","France",NA,NA,NA
+"GC17-P88","46","2","France",NA,NA,NA
+"L5NC-TKL",NA,NA,NA,"46","2","Fouvent, France"
+"9HB1-ZBQ","46","2","Francia",NA,NA,NA
+"949K-GWW","45.5","4","Le Forez, Loire, Rhone-Alpes, France","45.5","4","Le Forez, Loire, Rhone-Alpes, France"
+"GV77-QS1","45.7678","4.8342","Lyon, Rhône, Rhône-Alpes, France",NA,NA,NA
+"GZYK-6LP","47.1863","4.8944","Reulle Vergy, Cote Dor, Bourgogne, France",NA,NA,NA
+"G8M8-1DT","47.1939","5.3887","Auxonne, Côte-d'Or, Bourgogne, França","49.9167","2.5","Somme, Picardy, France"
+"9MYC-KBD","49.5632","3.6133","Laon, Aisne, Hauts-de-France, França",NA,NA,NA
+"L2TG-GFP","46","2","France",NA,NA,NA
+"GWZV-FG9","49.3822","5.1706","Doulcon, Meuse, Lorraine, France",NA,NA,NA
+"GGND-HZZ","54.63247","-2.3516","Northumbria, England",NA,NA,NA
+"GGN8-F11","54.76426","-1.57104","Durham, England",NA,NA,NA
+"GS8V-HD5",NA,NA,NA,NA,NA,NA
+"GS8J-B5J",NA,NA,NA,NA,NA,NA
+"LZ8W-6MJ","46","105","Mongolia","46","105","Mongolia"
+"G6PH-L9K","46","105","Mongolia",NA,NA,NA
+"9H1Y-WQ4","43.1","12.3","Italy",NA,NA,NA
+"L1P1-GGD","42.75","25.4","Bulgaria",NA,NA,NA
+"GL5N-VJB",NA,NA,NA,NA,NA,NA
+"GWLR-RPH","40","45","Armenia","40","45","Armenia"
+"G6XB-NCF","40","45","Armenia.",NA,NA,NA
+"LHV8-284",NA,NA,"Constantinople, Byzantium",NA,NA,NA
+"LHV8-2DY",NA,NA,"Constantinople, Byzantium",NA,NA,NA
+"LNZB-VRN","40.42861","29.72111","Cappadocia, Byzantine Empire","42.0076","13.2783","Cappadocia, Turkey"
+"G3CY-QX7",NA,NA,NA,"42.0076","13.2783","Cappadocia, Turkey"
+"LYJZ-RRN","41.0136","28.955","Constantinople,Constantinople,Turkey",NA,NA,NA
+"GFZV-BQ7","41.0136","28.955","Istanbul, Turkey","41.01105","28.9578","Byzantium, Istanbul, Turkey"
+"GDNF-76H","41.0136","28.955","Constantinople, Constantinople, Turkey","21.67583","40.13083","The plain of al-Mudiq"
+"GKZC-H13","41.0136","28.955","Constantinople",NA,NA,NA
+"KLVF-H8N",NA,NA,"Taron, Armenia",NA,NA,NA
+"G7BB-6V8",NA,NA,NA,NA,NA,NA
+"LRQD-F3D","41.15","28.75","Constantinople, Anatolia, Byzantine Empire","41.15","28.75","Constantinople, Anatolia, Byzantine Empire"
+"M371-RBV","41.15","28.75","Constantinople, Anatolia, Byzantine Empire",NA,NA,NA
+"L7P2-BYR","52.4379","-1.6496","England","52.4379","-1.6496","England"
+"G3K8-D4M","52.4379","-1.6496","England","52.4379","-1.6496","England"
+"L8RP-RTN","52.4379","-1.6496","England","52.4379","-1.6496","England"
+"L85J-LS7","53.15812","-0.23925","Mercia, Heptarchy, Lincolnshire, England","50.92248","-3.49043","Hensleigh, Tiverton, Devon, England"
+"LK9Z-6X1","50.8998","-3.4916","Tiverton, Devon, England","50.8998","-3.4916","Tiverton, Devon, England"
+"GK9H-QN1","47.25979","-1.04563","Montrevault, Maine-et-Loire, Pays de la Loire, France",NA,NA,NA
+"GZRV-QFF","47.5551","-0.2318","Jarze, Maine-et-Loire, Anjou/Pays-de-la-Loire, France",NA,NA,NA
+"9CHW-K19","47.5","-0.3333","Lude, Maine-Et-Loire, Anjou, Pays-De-La-Loire, France",NA,NA,NA
+"9HLY-JHZ",NA,NA,NA,NA,NA,NA
+"L2DF-Z19","48.9093","1.8492","Maule, Yvelines, Ile-de-France, France","47.0092","0.0819","Loudun, Vienne, Poitou-Charentes, France"
+"GK39-YPF","49.52158","0.53533","Lillebonne, Seine-Maritime, Haute-Normandie, France","49.52158","0.53533","Lillebonne, Seine-Maritime, Haute-Normandie, France"
+"GKKB-KK9","49.4167","1","Upper Normandy, Normandy, France","49.52158","0.53533","Lillebonne, Seine-Maritime, Normandy, France"
+"L67M-HD4","49.06","-0.11","Normandie, France","49.06","-0.11","Normandy, France"
+"L67M-H66",NA,NA,NA,NA,NA,NA
+"L1S1-XDM","49.06","-0.11","Normandy, France",NA,NA,NA
+"MBPF-5VP","49.06","-0.11","Normandy, France",NA,NA,NA
+"LTJM-CHX","48.928","0.5326","Normandie, France","51.4394","-2.005","Calne, Wiltshire, England"
+"GNQL-DBK","52.4379","-1.6496","England, United Kingdom","51.4353","-2.00427","Calne, Wiltshire, England, United Kingdom"
+"GQ57-4L1","49.9658","1.9425","Airaines, Somme, Heuts-d'Franche, Française","49.9658","1.9425","Airaines, Somme, Heuts-d'Franche, Française"
+"GXD9-M7T","50.00369","2.64764","Albert, Somme, Hauts-de-France, France","50.00369","2.64764","Albert, Somme, Hauts-de-France, France"
+"L6Y8-WP3","49.9534","2.5371","Heilly, Somme, Heuts-d'Franche, Française","49.9534","2.5371","Heilly, Somme, Heuts-d'Franche, Française"
+"L6YR-Z6C","50.0661","1.6781","Acheux-en-Vimeu, omme, Heuts-d'Franche, Française","49.9534","2.5371","Heilly, Somme, Heuts-d'Franche, Française"
+"GGM1-DTV","49.9024","3.0442","Beaumetz,80370,Somme,Picardie,FRANCE,",NA,NA,NA
+"GGM1-XFW","50.1483","2.1264","Prouville,80370,Somme,Picardie,FRANCE,",NA,NA,NA
+"GG92-XY7","50.077","1.9948","Ailly-le-Haut-Clocher, Somme, Picardie, France",NA,NA,NA
+"GJ3W-D4Q","50.2519","1.8814","Crécy-en-Ponthieu, Somme, Picardie, France","50.077","1.9948","Ailly-le-Haut-Clocher, Somme, Picardie, France"
+"GJ3W-47Q",NA,NA,"Cramont, Abbeville, Somme, Hauts-de-France, France",NA,NA,"Cramont, Abbeville, Somme, Hauts-de-France, France"
+"GJ3W-HWK",NA,NA,"Gorenflos, Somme, Heuts-d'Franche, Française",NA,NA,"Cramont, Somme, Heuts-d'Franche, Française"
+"GJ3W-RWN","50.1153","2.0608","Domqueur, Somme, Picardie, France","50.1153","2.0608","Domqueur, Somme, Picardie, France"
+"GJ3W-THB","50.077","1.9948","Ailly-le-Haut-Clocher, Somme, Picardie, France","50.1153","2.0608","Domqueur,80620,Somme,Hauts-de-France,FRANCE,"
+"G6F3-3RG","50.5723","1.8781","Preures, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,"Preures, Pas-de-Calais, Hauts-de-France, France"
+"G6F3-HWK","50.4942","2.0456","Créquy, Pas-de-Calais, Hauts-de-France, France",NA,NA,NA
+"GGR3-BKX","48.8936","-0.202","Of, Falaise, Norm, France","31.7804","35.2177","Jerusalem, Israel"
+"GJPZ-DPC","49.98982","3.46239","Vermandois, France","49.98982","3.46239","Vermandois, France"
+"GJPZ-JVP","50.0384","3.1994","Honnecourt-sur-l'Escaut, Nord, Nord-Pas-de-Calais, France",NA,NA,NA
+"GJP8-4XD",NA,NA,NA,NA,NA,NA
+"GJP8-9MX",NA,NA,NA,NA,NA,NA
+"G8WB-NMK","50.2287","2.4696","Warluzel, Pas-de-Calais, Hauts-de-France, France","50.2287","2.4696","Warluzel, Pas-de-Calais, Hauts-de-France, France"
+"LT1C-898","46","2",", , , Française","50.2287","2.4696","Warluzel, Pas-de-Calais, Hauts-de-France, France"
+"L2TC-TFJ","49.84747","1.56756","Foucarmont, Dieppe, Seine-Maritime, Haute-Normandie, France",NA,NA,NA
+"LT1C-F25","49.8889","1.719","Sènarpont, Somme, Hauts-de-France, France","49.84747","1.56756","Foucarmont, Seine-Maritime, Upper Normandy, France"
+"LRNM-RGL","48.6561","2.3878","Grigny, Évry, Essonne, Île-de-France, France",NA,NA,NA
+"G7D3-1SN","50.5335","2.1502","Senlis, Pas-De-Calais, Nord-Pas-De-Calais, France",NA,NA,NA
+"G7D3-BNX","50.1512","2.5429","Pas-en-Artois, Arras, Pas-de-Calais, Nord-Pas-de-Calais, France","49.2042","2.5862","Senlis, Oise, Picardie, France"
+"GSHH-DSD","50.0185","2.3831","Rubempré, Somme, Picardie, France","50.0185","2.3831","Rubempré, Somme, Heuts-d'Franche, Française"
+"GSHH-QYC","50.0185","2.3831","Rubempré, Somme, Heuts-d'Franche, Française","50.0185","2.3831","Rubempré, Somme, Heuts-d'Franche, Française"
+"GJKL-9XD",NA,NA,NA,NA,NA,NA
+"GJKL-QXK",NA,NA,NA,NA,NA,NA
+"L1DJ-ZR3","49.9534","2.5371","Heilly, Somme, Heuts-d'Franche, Française","49.9534","2.5371","Heilly, Somme, Heuts-d'Franche, Française"
+"GSHH-7RG","49.9534","2.5371","Heilly, Somme, Hauts-de-France, France","49.9534","2.5371","Heilly, Somme, Hauts-de-France, France"
+"GNVN-9YP",NA,NA,NA,NA,NA,NA
+"GVKF-ZTC",NA,NA,NA,NA,NA,NA
+"G234-TPD","46","2","France",NA,NA,NA
+"GGSN-FLX","46","2","Frankreich",NA,NA,NA
+"G6G7-N7K",NA,NA,NA,NA,NA,NA
+"GGQ7-8KY","50.0934","2.5024","Louvencourt, Somme, Picardie, France",NA,NA,NA
+"GHNC-BT9","50.0261","2.8037","Longueval, Somme, Picardie, France","50.0261","2.8037","Longueval, Somme, Picardie, France"
+"GLYV-ZYJ","49.966","2.5075","Franvillers, Somme, Hauts-de-France, France","49.966","2.5075","Franvillers, Somme, Hauts-de-France, France"
+"G234-BBT","46","2","France",NA,NA,NA
+"G234-BXZ","46","2","France",NA,NA,NA
+"GM75-H2B","50.00369","2.64764","Albert, Somme, Picardie, France",NA,NA,NA
+"GM75-QYF",NA,NA,NA,NA,NA,NA
+"GHNT-LXV","50.1222","2.432","Sarton, Pas-Calés, Heuts-d'Franche, Française","44.48558","-0.59274","Sarton, Gironde, Aquitaine, France"
+"GHNT-KCW","46","2",", , , Française","44.48558","-0.59274","Sarton, Gironde, Aquitaine, France"
+"GHZ4-74H","50.1243","2.638","Hébuterne, Pas-de-Calais, Hauts-de-France, France","50.1243","2.638","Hébuterne, Pas-de-Calais, Hauts-de-France, France"
+"GHZ4-Q3G","50.2166","2.5292","Saulty, Pas-de-Calais, Hauts-de-France, France","50.1243","2.638","Hébuterne, Pas-de-Calais, Hauts-de-France, France"
+"GM7R-84X","50.2519","1.8814","Crécy-en-Ponthieu, Somme, Picardie, France","50.2519","1.8814","Crecy-en-Ponthieu, Pas-de-Calais, France"
+"LRH4-V4K","50.1153","2.0608","Domqueur, France","50.1486","2.056","Cramont (Picardie), France"
+"G6NT-VPX","49","13","Europe",NA,NA,NA
+"GG92-RZR","50.0753","2.1261","Domart-en-Ponthieu,80620,Somme,Picardie,FRANCE,",NA,NA,NA
+"GG92-KCZ","50.0119","2.1968","Vignacourt,80650,Somme,Picardie,FRANCE,","50.0753","2.1261","Domart-en-Ponthieu,80620,Somme,Picardie,FRANCE,"
+"LRHH-C6Q","49.9664","2.1354","Belloy-sur-Somme, Somme, Picardie, France","49.9664","2.1354","Belloy-sur-Somme, Somme, Picardie, France"
+"GZF3-GQN","50.2154","1.6254","Le Crotoy, Somme, Picardie, France","49.9664","2.1354","Belloy-sur-Somme, Somme, Picardie, France"
+"GJ3W-V51","50.0538","2.1859","Pernois, Somme, Picardie, France",NA,NA,NA
+"GJ3W-GTK","49.2649","1.8827","Chaumont-en-Vexin, Oise, Picardie, France",NA,NA,NA
+"L2TJ-Y4P","50.1309","2.1618","Bernaville, Somme, Picardie, France","50.1309","2.1618","Bernaville, Somme, Picardie, France"
+"GJYQ-PKH","50.1153","2.0608","Domqueur, Somme, Picardie, France","50.1309","2.1618","Bernaville, Somme, Picardie, France"
+"L2YT-7T2","49.8466","1.9024","Hornoy-le-Bourg, Amiens, Somme, Picardie, France","49.8466","1.9024","Hornoy-le-Bourg, Somme, Hauts-de-France, France"
+"G314-F9S","50.077","1.9948","Ailly-le-Haut-Clocher, Somme, Picardie, France","49.8466","1.9024","Hornoy-le-Bourg, Somme, Hauts-de-France, France"
+"L2YT-3L8",NA,NA,"Bernâtre, Amiens, Somme, Hauts-de-France, France",NA,NA,"Bernâtre, Amiens, Somme, Hauts-de-France, France"
+"LRHH-S8Q",NA,NA,"Hiermont, Amiens, Somme, Hauts-de-France, France",NA,NA,"Bernâtre, Amiens, Somme, Hauts-de-France, France"
+"L2YT-3LF","50.0958","2.0508","Gorenflos, Abbeville, Somme, Hauts-de-France, France",NA,NA,"Gorenflos, Abbeville, Somme, Hauts-de-France, France"
+"L2TT-X83","50.1486","2.056","Cramont, Abbeville, Somme, Hauts-de-France, France",NA,NA,"Gorenflos, Abbeville, Somme, Hauts-de-France, France"
+"G8MP-1VZ","49.9862","1.5557","Gamaches, Somme, Picardie, France","49.9862","1.5557","Gamaches, Somme, Picardie, France"
+"GG66-5XG","50.077","1.9948","Ailly-le-Haut-Clocher, Somme, Hauts-de-France, France",NA,NA,NA
+"G6DX-WTZ","62","10","Norway",NA,NA,NA
+"GVFL-HNQ","62","10","Norway",NA,NA,NA
+"LRHH-DBL","50.4475","1.8338","Brimeux Pas-Calés, Heuts-d'Franche, Française","50.4475","1.8338","Brimeux Pas-Calés, Heuts-d'Franche, Française"
+"LRHH-DB5","46.9743","-1.9985","Bouin-Plumoison Pas-Calés, Heuts-d'Franche, Française","50.4475","1.8338","Brimeux Pas-Calés, Heuts-d'Franche, Française"
+"LDS9-2JN","50.4942","2.0456","Créquy, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"G2TX-NC5","49.2339","2.8895","Crépy-en-Valois, Oise, Heuts-d'Franche, Française","50.4942","2.0456","Créquy, Pas-Calés, Heuts-d'Franche, Française"
+"G2RM-KJJ","48.2958","5.3377","Reynel, Haute-Marne, Champagne-Ardenne, France",NA,NA,NA
+"G2HY-WQL","48.75","5.5","Commercy, Meuse, Lorraine, France",NA,NA,NA
+"G2HT-VWJ","48.75","5.5","Commercy, Meuse, Lorraine, France","48.75","5.5","Commercy, Meuse, Lorraine, France"
+"G4TG-H5N","48.8667","2.3333","Paris, Île-de-France, France","46","2","Monthery, France"
+"G8MJ-MDZ",NA,NA,NA,NA,NA,NA
+"9HLY-NVP","48.1698","4.2452","Chappes, Aube, Champagne-Ardenne, France",NA,NA,NA
+"9HLY-3XF","45.13921","0.77963","Dordogne, Aquitaine, France","45.13921","0.77963","Dordogne, Aquitaine, France"
+"99PY-9FC","48.7685","2.0824","Yerre, S-O, France",NA,NA,NA
+"GCP6-LTZ","49.2649","1.8827","Châumont-en-Vexin, Oise, Hauts-de-France, France",NA,NA,NA
+"L2YT-9R2","49.4814","1.7247","Gournay-en-Bray, Seine-Maritime, Haute-Normandie, France","49.2649","1.8827","Châumont-en-Vexin, Oise, Hauts-de-France, France"
+"GGKC-82V",NA,NA,NA,"45.1146","4.2905","Tence, Haute-Loire, Auvergne-Rhône-Alpes, France"
+"GGKC-7CY","47.58333","1.33333","Blois, Loir-et-Cher, Centre, France",NA,NA,NA
+"LVSH-KBM","49.4814","1.7247","Gournay-en-Bray, Seine-Maritime, Haute-Normandie, France","49.4814","1.7247","Gournay-en-Bray, Seine-Maritime, Haute-Normandie, France"
+"LT8V-Y62","52.02423","-0.41254","Bedfordshire, England","52.02423","-0.41254","Bedfordshire, England"
+"GJMZ-MNT","50.7318","1.8798","Longueville, Pas-de-Calais, Hauts-de-France, France","49.54468","0.7559","Rançon, Seine-Maritime, Normandie, France"
+"G8ML-VGR","49.8889","1.719","Senarpont, Somme, Picardie, France",NA,NA,NA
+"GXJG-P55","49.77042","1.74958","Aumale, Seine-Maritime, Normandie, France","49.8889","1.719","Sénarpont, Somme, Hauts-de-France, France"
+"L2YT-7YM","49.8434","1.7806","Beaucamps-le-Vieux, Somme, Picardie, France","49.8434","1.7806","Beaucamps-le-Vieux, Somme, Picardie, France"
+"LRHH-NQP",NA,NA,"Gamaches, Somme, Hauts-de-France, France",NA,NA,"Beaucamps-le-Vieux, Somme, Hauts-de-France, France"
+"G2SJ-4RV","45.4","5.85","Saint-Pierre-d'Entremont, Savoie, Rhône-Alpes, France","36.20428","36.16189","Antakya, Hatay, Turquie"
+"G29L-NJR","45.4","5.85","Saint-Pierre-d'Entremont, Savoie, Rhône-Alpes, France",NA,NA,NA
+"G7DN-J69","48.8667","2.3333","Paris, Île-de-France, France","48.9093","1.8492","Maule, Seine-et-Oise, Île-de-France, France"
+"L11H-G5R","48.8987","2.0936","Saint-Germain-en-Laye, Yvelines, Île-de-France, France","48.9093","1.8492","Maule, Yvelines, Île-de-France, France"
+"GK7T-VFN","52.4379","-1.6496","England","41.33333","26.75","Philippopolis, Thrace, Türkiye"
+"M8VR-SPJ","48.06152","0.16673","Maule, Sarthe, Pays de la Loire, France",NA,NA,NA
+"GCP6-PX9","46.9667","6.42","Maisons-du-Bois-Lièvremont, Doubs, Bourgogne-Franche-Comté, France",NA,NA,NA
+"GCP6-KP9","48.9286","2.0418","Poissy, Yvelines, Île-de-France, France","46.9667","6.42","Maisons-du-Bois-Lièvremont, Doubs, Bourgogne-Franche-Comté, France"
+"G4QD-1CL","48.53598","2.05","Beauvais, Essonne, Île-de-France, France",NA,NA,NA
+"G62P-XTG",NA,NA,NA,NA,NA,NA
+"G6DB-VSJ","49.39635","-1.53152","Saint-Sauveur-le-Vicomte, Cherbourg, Manche, Basse-Normandie, France",NA,NA,NA
+"G62P-CFJ",NA,NA,NA,NA,NA,NA
+"G6QH-KTD",NA,NA,NA,NA,NA,NA
+"L2J6-7W8","48.578","4.4256","Corbeil, Marne, Grand Est, France",NA,NA,NA
+"G4ZF-FJF","50.83333","4","Belgium",NA,NA,NA
+"LRHH-M63","50.83333","4","Belgique",NA,NA,NA
+"G21J-S5T","45.667","0.0833","Aulnay de Saintonge, Charente, Poitou","45.667","0.0833","Aulnay de Saintonge, Charente, Poitou"
+"GZ1H-S4N","46.7398","-1.6076","Aizenay, Vendée, Pays de la Loire, France","48.9432","2.4961","Aulnay-sous-Bois, Seine-Saint-Denis, Île-de-France, France"
+"GLQQ-5BY","39.8333","-4","Toledo, Castilla-La Mancha, Espanha",NA,NA,NA
+"L67W-G1Q","39.8333","-4","Toledo, Castille-La Mancha, España","39.8333","-4","Toledo, Castille-La Mancha, España"
+"GGPJ-4JG",NA,NA,NA,NA,NA,NA
+"G4BN-NCG","40.2224","-8.5837","Tentúgal, Montemor-o-Velho","40.2","-8.41667","Coimbra, Distrito de Coimbra, Portugal"
+"GDLX-HHT","39.8623","-4.0268","Toledo, Toledo, Castilla-La Mancha, España","39.7707","-7.9781","Portugal"
+"GVJM-789",NA,NA,NA,"40.43","-4","España"
+"GLBW-8NN","42.35","-3.81667","Castile, Spain","39.50001","-3.00003","Castilla-La Mancha, Spain"
+"GFWL-VPF","40.43","-4","Spain",NA,NA,NA
+"9ZCP-PH8","43.3615","-5.8495","Oviedo, Asturias, España",NA,NA,NA
+"GLK2-JP9",NA,NA,NA,"42.6693","-1.6447","Reino de Navarra"
+"G27T-KH2","40.43","-4","España",NA,NA,NA
+"GX7S-8SR","42.6693","-1.6447","Reino de Pamplona","42.3468","-3.6997","Batalla de Atapuerca, Burgos, Castilla y León, España"
+"GD8S-H7X","42.6693","-1.6447","Reino de Pamplona",NA,NA,NA
+"GXSC-P8H","40.43","-4","Espanha","40.43","-4","Espanha"
+"GXSC-F1G","40.43","-4","Espanha","40.43","-4","Espanha"
+"GXSC-LCS","40.43","-4","Espanha",NA,NA,NA
+"G9CY-B33","40.43","-4","Espanha",NA,NA,NA
+"G7F2-LVK",NA,NA,NA,NA,NA,NA
+"G7F2-FF4","50","16","Central Europe, Europa",NA,NA,NA
+"GW5S-XNF","42.4078","1.1306","Pallars Sobirá, Lleida, Catalonia, Espagna","42.4078","1.1306","el Pallars Sobirà, Lleida, Catalonia, Spain"
+"GMJT-SR2","41.6494","1.1351","l'Urgell, Lleida, Catalonia, Spain","38.91","-99.32","el Pallars Sobirà, Lleida, Catalonia, Spain"
+"G267-C4K",NA,NA,NA,NA,NA,NA
+"GC9L-RP6","42.3612","1.6714","Cerdanya, Catalonia, Spain",NA,NA,NA
+"GGJ8-TDW",NA,NA,NA,NA,NA,NA
+"GVQR-XYB","46.5169","4.5945","Salornay-sur-Guye, Saône-et-Loire, Bourgogne, France","46.5169","4.5945","Salornay-sur-Guye, Saône-et-Loire, Bourgogne, France"
+"GVQR-21X","46.5318","4.8029","Martailly-lès-Brancion, Saône-et-Loire, Bourgogne, France","46.5169","4.5945","Salornay-sur-Guye, Saône-et-Loire, Bourgogne, France"
+"GHYS-S43","45.8534","3.5479","Thiers, Puy-de-Dome, Auvergne, France",NA,NA,NA
+"GHYM-BPG","46","2","France",NA,NA,NA
+"KZ1B-3N2","46","2","France",NA,NA,NA
+"GCWZ-5DV","46","2","France",NA,NA,NA
+"GV84-1P1","43.6767","4.6278","Arles, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France","46","2","France"
+"GXL4-J1K","43.1","12.3","Kampanien-Italien",NA,NA,NA
+"G7BC-JCN","44.8213","4.4293","Albon, Ardeche, Rhone-Alpes, France","44.1972","5.9436","Sisteron, Alpes-de-Haute-Provence, Provence (now France)"
+"G2N4-194","41.2","14.75","Benevento, Campania, Italy",NA,NA,NA
+"9C7F-V5Q","43.8764","5.3937","Apt, Vaucluse, Provence-Alpes-Côte d'Azur, Française",NA,NA,NA
+"KHYB-HCM","43.8764","5.3937","Apt, Vaucluse, Provence-Alpes-Côte d'Azur, France",NA,NA,NA
+"LYMG-F3L","43.7433","4.7948","Les Baux-de-Provence, Bouches-du-Rhône, Provence-Alpes-Côte-d'Azur, Française","44.71583","6.06782","Bénévent-et-Charbillac, Hautes-Alpes, Provence-Alpes-Côte d'Azur, Française"
+"9CXH-VLL","44.71583","6.06782","Bénévent-et-Charbillac, Hautes-Alpes, Provence-Alpes-Côte d'Azur, Française","44.71583","6.06782","Bénévent-et-Charbillac, Hautes-Alpes, Provence-Alpes-Côte d'Azur, Française"
+"GG5K-DVK","43.6767","4.6278","Arles, Bouches-du-Rhône, France","43.6767","4.6278","Arles, Bouches-du-Rhône, France"
+"G4ZZ-3XJ","43.9167","2","Albi, Tarn, Occitanie, France",NA,NA,NA
+"G4ZZ-828","43.7","2","Nimes, Occitanie, Francia",NA,NA,NA
+"LCRY-7DZ",NA,NA,"Nice, Alpes-Maritimes, Cote d'Azur, France",NA,NA,NA
+"G66K-5YB","43.21","2.35","Carcassonne, Aude, Occitanie, France","46","2","France"
+"LT84-WLV","43.66667","3.5","Hérault, Languedoc-Roussillon, France","46","2","France"
+"GCQW-4YD","43.6085","3.8793","Montpellier, Hérault, Occitanie, Kingdom of France",NA,NA,NA
+"G7G1-C8Z","46","2","Kingdom of France",NA,NA,NA
+"GCWF-TYG","43.25","0.75","Comminges, Midi-Pyrénées, France","46","2","France"
+"G625-MJT",NA,NA,NA,NA,NA,NA
+"G8R9-6BR","43.46058","1.32693","Muret, Haute-Garonne, Midi-Pyrénées, France",NA,NA,NA
+"G9YC-ZCV","46","2","France",NA,NA,NA
+"GSC5-N2R",NA,NA,NA,NA,NA,NA
+"GSSN-8TV","46","2","France",NA,NA,NA
+"GSSN-MXK","46","2","France",NA,NA,NA
+"GZFX-PL1","40.852","14.268","Napoli, Napoli, Campania, Italia",NA,NA,NA
+"LT8L-QXZ","46.20528","13.13111","Ursinis Grande, Comune di Buja, Provincia di Udine, Friuli-Venezia Giulia, Italia","46.20528","13.13111","Ursinis Grande, Comune di Buja, Provincia di Udine, Friuli-Venezia Giulia, Italia"
+"GQ8L-RG1","38.2655","15.8777","Sinopolis, Catepanate of Italy, Byzantine Empire",NA,NA,NA
+"L2B4-DRX",NA,NA,NA,NA,NA,NA
+"GWZ5-NWB",NA,NA,NA,NA,NA,NA
+"GSTF-MLP","45.0833","2.6667","Monteil, Cantal, Auvergne-Rhône-Alpes, France",NA,NA,NA
+"G8J6-B73","45.6088","4.0648","Montbrison, Loire, Auvergne-Rhône-Alpes, France","45.0591","5.2481","Saint-Nazaire-en-Royans, Drôme, Auvergne-Rhône-Alpes, France"
+"G8Y1-HM1","46","2","France",NA,NA,NA
+"GWD9-C9Y","46","2","France",NA,NA,NA
+"9HV7-YXX","45.0709","3.8603","Polignac, Haute-Loire, Auvergne-Rhône-Alpes, France","45.0709","3.8603","Polignac, Haute-Loire, Auvergne-Rhône-Alpes, France"
+"G7FG-3PQ","44.97595","4.6583","Solignac, Ardèche, Rhône-Alpes, France","45.0709","3.8603","Polignac, Haute-Loire, Auvergne-Rhône-Alpes, France"
+"GDN2-FXN","44.4019","0.9993","Tournon-d'Agenais, Lot-et-Garonne, Nouvelle-Aquitaine, France","44.9685","3.8851","Solignac-sur-Loire, Haute-Loire, Auvergne-Rhône-Alpes, France"
+"G38M-8BP",NA,NA,NA,NA,NA,NA
+"LRC2-3NZ",NA,NA,NA,NA,NA,NA
+"LRC2-SQD",NA,NA,NA,NA,NA,NA
+"GHTQ-ZCK","50.1845","2.7993","Hamelincourt, Pas-de-Calais, Hauts-de-France, France","50.1845","2.7993","Hamelincourt, Pas-de-Calais, Hauts-de-France, France"
+"GG38-LQ2","48.8667","2.3333","Paris, Île-de-France, France","50.1845","2.7993","Hamelincourt, Pas-de-Calais, Hauts-de-France, France"
+"GG7N-LXF","49.8143","2.7004","Rosières-en-Santerre, Somme, Picardie, France",NA,NA,NA
+"LTT6-YN5","49.864","3.1043","Caulaincourt, Aisne, Heuts-d'Franche, Française","49.864","3.1043","Caulaincourt, Aisne, Heuts-d'Franche, Française"
+"L2TG-T4Q","50.1531","2.565","Souastre, Pas-Calés, Heuts-d'Franche, Française","50.1531","2.565","Souastre, Pas-Calés, Heuts-d'Franche, Française"
+"GLYV-GZ3","50.0934","2.5024","Louvencourt, Somme, Picardie, Francia","50.0261","2.8037","Longueval, Somme, Hauts-de-France, France"
+"L2TG-THC","50.1531","2.565","Souastre, Pas-de-Calais, Hauts-de-France, France","50.1037","2.5428","Bus-lès-Artois, Somme, Hauts-de-France, France"
+"L2YR-112","50.1335","2.4112","Orville, Pas-de-Calais, Hauts-de-France, France",NA,NA,NA
+"L2YT-MSD","49","13","Europe",NA,NA,NA
+"GL1C-HVZ","49.9293","2.935","Péronne, Somme, Picardie, France","49.9534","2.5371","Heilly, Somme, Picardie, France"
+"L6YR-71L","49.376","2.4135","Clermont, Oise, Hauts-de-France, France",NA,NA,NA
+"GM7R-Y32","49.5","2.5","Breteuil-sur-Noye, Oise, Picardie, France","49.376","2.4135","Clermont, Oise, Hauts-de-France, France"
+"GLF2-SZP",NA,NA,NA,NA,NA,NA
+"GLFK-RXR","49","11.5","Bliescastel, Bayern, Germany",NA,NA,"Rieneck, Unterfranken, Bayern, Germany"
+"G6C2-KZX","50.8076","2.4169","Cassel, Nord, Nord-Pas-de-Calais, France","50.8076","2.4169","Cassel, Nord, Hauts-de-France, France"
+"G8DP-367",NA,NA,NA,"50.8076","2.4169","Cassel, Arrondissement of Dunkirk, Nord, Nord-Pas-de-Calais, France"
+"GJ75-66P","51.0333","2.8667","Diksmuide, West-Vlaanderen, België","51.0333","2.8667","Diksmuide, West-Vlaanderen, België"
+"GWV2-QFK","50.8513","2.8842","Ieper, West-Vlaanderen, België","52.01","4.54","Bleiswijk, Holland, Nederland"
+"GZJ5-8DZ",NA,NA,NA,NA,NA,NA
+"GV3J-BRG","47.695","2.36093","Sully-sur-Loire, Orléans, Loiret, Centre, France",NA,NA,NA
+"G4DX-XBX","47.0819","2.3991","Bourges, Cher, Centre-Val de Loire, France","47.5","1.5","Bourges, Loir-et-Cher, Centre-Val de Loire, France"
+"K863-HXF","47.1983","-1.6705","Indre, Loire-Atlantique, Pays de la Loire, France","46","2","France"
+"GCJL-WQT","46","2","France",NA,NA,NA
+"GGY8-33S",NA,NA,NA,NA,NA,NA
+"GGY8-TWD",NA,NA,NA,NA,NA,NA
+"GPS4-KYV",NA,NA,NA,NA,NA,NA
+"LRYX-K4B","45.5328","2.6891","La Tour-d'Auvergne, Issoire, Puy-de-Dôme, Auvergne-Rhône-Alpes, France",NA,NA,NA
+"G89Y-LWZ","45.5242","4.8783","Vienne, Vienne, l'Isère, Auvergne-Rhône-Alpes, France","45.5328","2.6891","La Tour-d'Auvergne, Issoire, Puy-de-Dôme, Auvergne-Rhône-Alpes, France"
+"GWB4-K7Z",NA,NA,"Lèves, Chartres, Eure-et-Loir, Centre-Val de Loire, France",NA,NA,NA
+"G24N-PJS",NA,NA,NA,NA,NA,NA
+"G7RD-RYZ","49.67263","1.28556","Saint-Saëns, Seine-Maritime, Haute-Normandie, France","49.6956","1.0539","Tôtes, Seine-Maritime, Normandie, France"
+"GGKC-DYC","49.4814","1.7247","Gournay-en-Bray, Seine-Maritime, Haute-Normandie, France","49.4814","1.7247","Gournay-en-Bray, Seine-Maritime, Haute-Normandie, France"
+"L2Y4-T8L","49.84747","1.56756","Foucarmont, Seine-Maritime, Haute-Normandie, France",NA,NA,NA
+"L2Y4-T6X","46","2","France","49.84747","1.56756","Foucarmont, Seine-Maritime, Haute-Normandie, France"
+"L2YT-98J",NA,NA,"Tôtes, Dieppe, Seine-Maritime, Haute-Normandie, France",NA,NA,NA
+"GGKH-KGB","49.2799","1.776","Gisors, Eure, Haute-Normandie, France","49.2799","1.776","Gisors, Eure, Haute-Normandie, France"
+"L2TT-CT2","49.6168","0.7552","Yvetot, Rouen, Seine-Maritime, Haute-Normandie, France",NA,NA,NA
+"G7T1-94Q",NA,NA,"Cleuville - Seine-Maritime - france",NA,NA,"Yvetot - Seine-Maritime - France"
+"LRC2-RFN",NA,NA,"Barentin, Rouen, Seine-Maritime, Haute-Normandie, France",NA,NA,NA
+"LRHD-MZH",NA,NA,"Yvetot, Rouen, Seine-Maritime, Haute-Normandie, France",NA,NA,"Barentin, Rouen, Seine-Maritime, Haute-Normandie, France"
+"L2TT-H2Q",NA,NA,"Yerville, Rouen, Seine-Maritime, Haute-Normandie, France",NA,NA,NA
+"L2TT-HL8",NA,NA,"Tôtes, Dieppe, Seine-Maritime, Haute-Normandie, France",NA,NA,"Yerville, Rouen, Seine-Maritime, Haute-Normandie, France"
+"GL1J-WGZ","50.4731","3.3028","Landas, Nord, Hauts-de-France, France","50.53277","3.13657","Cyosing, 59168, Nord, Nord, France"
+"LHQF-1GX","50.366","3.646","Marchipont (Rombies-et-Marchipont), Hauts de France, Nord, France","50.568","3.2152","Cysoing, Nord, Hauts-de-France, France"
+"GQ5D-64T","48.5422","-0.208","Lignières-Orgères, Mayenne, Pays de la Loire, France","48.5422","-0.208","Lignières-Orgères, Mayenne, Pays de la Loire, France"
+"LTRY-KWL","49.7919","1.9919","Croixrault, Somme, Hauts-de-France, France","48.5422","-0.208","Lignières-Orgères, Mayenne, Pays de la Loire, France"
+"G78H-GT1",NA,NA,"Caulières, Somme, Hauts-de-France, France","49.781","1.8896","Caulières, Somme, Hauts-de-France, France"
+"LTRY-KWG","49.7919","1.9919","Croixrault, Somme, Hauts-de-France, France",NA,NA,"Lignières-Châtelain, Somme, Hauts-de-France, France"
+"LRH8-18X","49.7408","2.1513","Conty, Somme, Hauts-de-France, France","49.7408","2.1513","Conty, Somme, Hauts-de-France, France"
+"G78H-RMG","49.7565","2.3641","Ailly-sur-Noye, Somme, Picardie, France","49.9167","2.5","Somme, Hauts-de-France, France"
+"GGKH-9NR","49.5","2.5","Breteuil-sur-Noye, Oise, Heuts-d'Franche, Française","49.6333","2.2942","Breteuil, Oise, Hauts-de-France, France"
+"L6YR-W5Y","49.376","2.4135","Clermont, Oise, Picardie, France","49.6333","2.2942","Breteuil, Oise, Picardie, France"
+"L188-RG3","50.0707","1.7501","Moyenneville, Abbeville, Somme, Picardie, France","50.0707","1.7501","Moyenneville, Abbeville, Somme, Picardie, France"
+"LRHN-V9N","49.9862","1.5557","Gamaches, Somme, Picardie, France","50.0707","1.7501","Moyenneville, Abbeville, Somme, Picardie, France"
+"L188-PRX",NA,NA,NA,NA,NA,NA
+"GG1C-5C3",NA,NA,NA,NA,NA,NA
+"GG1H-11R","49.56792","0.95441","Pavilly, Seine-Maritime, Normandie, France",NA,NA,NA
+"GG1C-56S","49.4878","0.4544","Tancarville, Seine-Maritime, Normandie, France","49.56792","0.95441","Pavilly, Seine-Maritime, Normandie, France"
+"L2TT-HK5",NA,NA,"Houdetot - Seine-Maritime - France",NA,NA,NA
+"GG12-CBL","49.4225","-1.5211","Sainte-Colombe, Manche, Normandie, France","49.66842","0.89771","Yerville, Seine-Maritime, Normandie, France"
+"L2Y4-PWT",NA,NA,"Gerberoy, Beauvais, Oise, Hauts-de-France, France","46","2",", , , France"
+"GKWN-3GT","49.4814","1.7247","Gournay-en-Bray, Seine-Maritime, Haute-Normandie, France",NA,NA,NA
+"L2TG-T6V","46","2","France",NA,NA,NA
+"L2TG-TL7","49.8148","2.8054","Chaulnes, Somme, Picardie, France","49.7717","2.4835","Moreuil, Somme, Picardie, France"
+"LRHH-D4R","50.0753","2.1261","Domart-en-Ponthieu, Somme, Picardie, France","50.0753","2.1261","Domart-en-Ponthieu, 80241, Somme, Picardie, France"
+"LRVC-X8C","43.75","0.16667","Armagnac, Midi-Pyrénées, France",NA,NA,NA
+"93L4-HM9","44.9","0.1","Nouvelle-Aquitaine, France","44.0419","1.1053","Castelsarrasin, Tarn-et-Garonne, Occitanie, France"
+"9HLY-3WJ",NA,NA,NA,NA,NA,NA
+"G93M-49S","43.8336","-0.8075","Tartas, Landes, Aquitaine, France",NA,NA,NA
+"GS2P-F9F","43.21","2.35","Carcassonne, Aude, France","49","13","Europe"
+"GGBP-Z83",NA,NA,"Rouergue,Aveyron,Midi-Pyrenees,West Frankia.",NA,NA,NA
+"G3BX-NDD",NA,NA,"Gavarret-sur-Aulouste, Condom, Gers, Occitania, France","46","2",", , , France"
+"LBDM-XCH","43.883","0.9882","Beaumont-de-Lomagne, Castelsarrasin, Tarn-et-Garonne, Occitania, France","43.7725","0.6531","Gavarret-sur-Aulouste, Condom, Gers, Occitania, France"
+"9HLB-5X5","43.0788","0.3917","La Barthe-de-Neste, Bagnères-de-Bigorre, Hautes-Pyrénées, Occitanie, France","43.0788","0.3917","La Barthe-de-Neste, Bagnères-de-Bigorre, Hautes-Pyrénées, Occitanie, France"
+"GSR9-5JF","43.0788","0.3917","La Barthe-de-Neste, Bagnères-de-Bigorre, Hautes-Pyrénées, Midi-Pyrénées, France","43.0788","0.3917","La Barthe-de-Neste, Bagnères-de-Bigorre, Hautes-Pyrénées, Midi-Pyrénées, France"
+"GZ7G-ZLW","43.0788","0.3917","La Barthe-de-Neste, Bagnères-de-Bigorre, Hautes-Pyrénées, Occitanie, France","46","2",", , , France"
+"GSM3-LMF","46","2","France","43.0651","0.1501","Bagnères-de-Bigorre, Hautes-Pyrénées, Occitanie, France"
+"GZ75-T9K","46","2","France",NA,NA,NA
+"GZ7R-Q9M","44","-0.8333","Landes, Aquitaine, France",NA,NA,NA
+"KHJT-XZD","43.883","0.9882","Beaumont-de-Lomagne, Castelsarrasin, Tarn-et-Garonne, Occitania, France","46","2",", , , France"
+"GZ6W-GNR","47.0612","5.107","Auvillars-sur-Saône, Côte-d'Or, Bourgogne-Franche-Comté, France",NA,NA,NA
+"L5VV-1HT","48.8667","2.3333","Paris, Île-de-France, France",NA,NA,NA
+"L5VV-5Z7","48.8667","2.3333","Paris, Île-de-France, France",NA,NA,NA
+"LKS1-CDJ",NA,NA,NA,NA,NA,NA
+"GJ76-2J6",NA,NA,NA,NA,NA,NA
+"GDWP-S1V",NA,NA,NA,NA,NA,NA
+"GJRK-CKX","46","2","France",NA,NA,NA
+"9Z45-SQ4",NA,NA,NA,NA,NA,NA
+"G2QT-9SK","47.291","4.3915","Mont-Saint-Jean, Côte-d'Or, Bourgogne, France","47.1074","4.66412","Bligny-sur-Ouche, Côte-d'Or, Bourgogne, France"
+"G2SJ-ZK4","46","2","França",NA,NA,NA
+"G2SJ-7W3","47.4572","4.6619","Salmaise, Côte-d'Or, Bourgogne, France",NA,NA,NA
+"GZ91-FL2",NA,NA,NA,NA,NA,NA
+"G7G4-NLH",NA,NA,NA,NA,NA,NA
+"GGNL-HXS","49.04616","4.04022","Mareuil-sur-Ay, Marne, Champagne-Ardenne, France","48.9552","4.3636","Châlons-en-Champagne, Marne, Grand Est, France"
+"GGNL-FM1","48.9552","4.3636","Châlons-en-Champagne, Marne, Grand Est, France",NA,NA,NA
+"9HV8-JR4",NA,NA,NA,NA,NA,NA
+"M1TN-WR4",NA,NA,NA,NA,NA,NA
+"GS5W-G1G","49","13","Europe",NA,NA,NA
+"GS5W-LZ7","49","13","Europe",NA,NA,NA
+"GS5Z-Q48","45.0768","4.9589","Clérieux, Drôme, Rhône-Alpes, France","45.0768","4.9589","Clérieux, Drôme, Rhône-Alpes, France"
+"L2BQ-MQQ","43.9598","5.7809","Forcalquier, Alpes-de-Haute-Provence, Provence-Alpes-Côte-d'Azur, France",NA,NA,NA
+"L2BQ-MCG","46","2","France",NA,NA,NA
+"KN4G-QSF","40.43","-4",", , , España",NA,NA,NA
+"KN4G-QS5","40.43","-4",", , , España",NA,NA,NA
+"9HV7-6HB","42.616","2.4215","Prades, Pyrénées-Orientales, Occitanie, Francia",NA,NA,NA
+"9HLY-KVZ",NA,NA,NA,NA,NA,NA
+"9HLY-VDK","49","13","Europe",NA,NA,NA
+"9HLY-9GC","49","13","Europe",NA,NA,NA
+"9HLT-RCC","49","13","Europe",NA,NA,NA
+"9HLY-3SF","49","13","Europe",NA,NA,NA
+"L1SB-DN8",NA,NA,NA,"42.0341","2.3704","L'Esquirol, Barcelona, Catalonia, Spain"
+"G2CT-W48","41.9802","2.7837","Girona, Catalonia, Spain",NA,NA,NA
+"KN4P-5FF","40.43","-4",", , , España","42.0011","0.7613","Àger, Lérida, Cataluña, España"
+"KN4P-5NM",NA,NA,NA,NA,NA,NA
+"GWPT-N7H",NA,NA,NA,NA,NA,NA
+"949M-6G4",NA,NA,NA,NA,NA,NA
+"GDCF-M9C","46.66667","-0.41667","Parthenay, Deux-Sèvres, Poitou-Charentes, France",NA,NA,NA
+"GDC4-3R9","46.4352","0.1224","Lusignan,Vienne,France","46","2","France"
+"LHZH-CZG","46","2","France",NA,NA,NA
+"G664-67C","46","2","France",NA,NA,NA
+"GLQ7-FF6","47.063","-2.0018","Les Moutiers-en-Retz, 44106, Loire-Atlantique, Pays de la Loire, France",NA,NA,NA
+"GLQW-SCM","46.7617","-1.8376","Commequiers, 85071, Vendée, Pays de la Loire, France",NA,NA,NA
+"GDLN-B65","47.7328","-2.59","Château de Largoët, Elven, Vannes, Morbihan, Bretagne, France",NA,NA,NA
+"GPMV-Q91",NA,NA,NA,NA,NA,NA
+"GPMT-DJX",NA,NA,NA,NA,NA,NA
+"GZSX-7BY","40","45","Armenia","37.98667","35.80444","Gürümze, Taurus Mountains, Adana, Turkey"
+"G761-LH6","41.15","28.75","Cappadocia,Byzantine Empire,,",NA,NA,NA
+"GWQ9-QCP","40","45","Armenia",NA,NA,NA
+"LVD2-6HR","47","19.5","The Hun Empire","47","19.5","The Hun Empire"
+"GWRX-D2T","46","2","França",NA,NA,NA
+"GWRX-PB7","46","2","França",NA,NA,NA
+"GL7T-XNK","47.08072","-1.27771","Clisson, Nantes, Loire-Atlantique, Pays de la Loire, France","47.08072","-1.27771","Clisson, Nantes, Loire-Atlantique, Pays de la Loire, France"
+"KHHC-PKK","47.7822","1.071","Vendôme, Loir-et-Cher, Centre-Val de Loire, France","47.7822","1.071","Vendôme, Loir-et-Cher, Centre-Val de Loire, France"
+"L8MT-KJR","46","2","France",NA,NA,NA
+"GVZR-SP4",NA,NA,NA,"49","13","Europa"
+"GVZR-CWP","47.1863","4.8944","Reulle-Vergy, Côte-d'Or, Bourgogne, France",NA,NA,NA
+"K4YG-DQQ","47.7822","1.071","Vendôme, Loir-et-Cher, France",NA,NA,NA
+"GW5M-WMJ","46","2","France","46","2","France"
+"GW5M-84S","45.6667","0.1667","Angouleme, Charente, France",NA,NA,NA
+"L5VV-5VZ","46.7836","-0.8364","Pouzauges, Vendée, Pays de la Loire, France",NA,NA,NA
+"GSD9-Z7H",NA,NA,NA,NA,NA,NA
+"LCCL-XVC","46","2","France","47.71819","-1.37868","Châteaubriant, Loire-Atlantique, Pays de la Loire, France"
+"GK8M-2F7","48.4538","-2.046","Dinan, Côtes-d'Armor, Brittany, France","48.928","0.5326","Normandie, France"
+"GZH5-XHC","52.6519","-0.4793","Stamford, Lincolnshire, Angleterre, Royaume-Uni",NA,NA,NA
+"9QQG-JMT","49.06","-0.11","Normandy, France",NA,NA,NA
+"GP9Z-PHF",NA,NA,NA,NA,NA,NA
+"LKLV-BMX","49.9293","2.935","Péronne, Péronne, Somme, Picardie, France",NA,NA,NA
+"L2TG-T4P","50.0558","2.3208","La Vicogne, Amiens, Somme, Hauts-de-France, France",NA,NA,NA
+"L2TT-SF2",NA,NA,"Rubempré, Amiens, Somme, Hauts-de-France, France","50.0558","2.3208","La Vicogne, Amiens, Somme, Hauts-de-France, France"
+"LRCD-12L","50.1544","2.4916","Pas-en-Artois, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"LRCX-RF5","50.2287","2.4696","Warluzel, Pas-de-Calais, Hauts-de-France, France","50.1512","2.5429","Pas-en-Artois, Pas-de-Calais, Hauts-de-France, France"
+"GZFR-2JY",NA,NA,NA,"45.5517","3.3728","Sauxillanges, 63490, Puy-de-Dôme, Auvergne-Rhône-Alpes, France, au monastère"
+"GZFR-KFR",NA,NA,NA,NA,NA,NA
+"G247-W69","46","2","France?",NA,NA,NA
+"GWCQ-8ZP","45.0329","4.0625","Saint-Julien-Chapteuil, Haute-Loire, Auvergne, France","45.0329","4.0625","Saint-Julien-Chapteuil, Haute-Loire, Auvergne, France"
+"G2QY-476",NA,NA,NA,NA,NA,NA
+"G2QT-WK9",NA,NA,NA,NA,NA,NA
+"KDMG-YF8","45.6643","0.5023","Montbron, 16223, Charente, Nouvelle-Aquitaine, France",NA,NA,NA
+"G247-JZ9",NA,NA,NA,"43.604","1.443","Montberon, Toulouse, Haute-Garonne, Occitanie, France"
+"G9HT-HNT","45.8769","0.7216","Chabanais, Charente, Nouvelle-Aquitaine, France","31.7804","35.2177","Jerusalem, , Jerusalem District, Israël"
+"LV1K-6GS","46","2","France",NA,NA,NA
+"LKT8-WJ8","43.6134","1.0813","L'Isle-Jourdain, Gers, Midi-Pyrénées, France",NA,NA,NA
+"LY8G-XWY","43.5","1.3","Chabannais,Midi-Pyrenees,France.",NA,NA,NA
+"L9HS-WB8","47.844","1.6513","Le Bardon, Loiret, Centre, France","44.5","0.1667","Marmande, Lot-et-Garonne, Nouvelle-Aquitaine, France"
+"L9HS-W1N","47.0496","0.5476","Nouâtre, Chinon, Indre-et-Loire, Centre-Val de Loire, France","44.5","0.1667","Marmande, Lot-et-Garonne, Nouvelle-Aquitaine, France"
+"LL47-NLW","45.19292","0.72172","Périgueux, Dordogne, Nouvelle-Aquitaine, France",NA,NA,NA
+"G3C2-Q4Y","45.75","1.33333","Limoges, Haute-Vienne, Limousin, France","45.75","1.33333","Limoges, Haute-Vienne, Limousin, France"
+"GZYK-JR1","46.02094","-0.34689","Aulnay, Charente-Maritime, Poitou-Charentes, France",NA,NA,NA
+"G86Q-JKT",NA,NA,NA,NA,NA,NA
+"GGFW-ZS1","43.3153","1.9593","Castelnaudary, Aude, Bourgogne-Franche-Comté, France","44.8954","1.8163","Prudhomat, Lot, Occitanie, France"
+"GGN2-Z11","46","2","France",NA,NA,NA
+"MMXL-6N5","46.2632","4.0901","Semur-en-Brionnais, Saône-et-Loire, Bourgogne-Franche-Comté, France","46.67","4.7","Abbaye de Cluny, Saône et Loire"
+"GV7B-5X5","46.98711","3.16169","Nevers, Nièvre, Bourgogne, France","46.2632","4.0901","Semur-en-Brionnais, Saône-et-Loire, Bourgogne, France"
+"KZRZ-1B4","49","13","Europe",NA,NA,NA
+"GNQ5-Q33","49","13","Europe",NA,NA,NA
+"GKNJ-NKL",NA,NA,NA,NA,NA,NA
+"G8N8-Y8C","50.7789","1.7392","Londefort lez Boulogne, Wierre-Effroy","51.1561","2.9672","Gistel"
+"GNTS-N3P","50.6232","2.5453","St Venant, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"GNTS-Z1H","50.5257","2.3672","Nédon, Pas-de-Calais, Nord-Pas-de-Calais, France","50.5257","2.3672","Nédon, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"LDS9-LR6","50.6414","2.5417","Haverskerque, Nord, Nord-Pas-de-Calais, France","50.7505","2.2522","Saint-Omer, Pas-de-Calais, Hauts-de-France, France"
+"LRHV-37P","50.5257","2.3672","Nédon, Pas-de-Calais, Nord-Pas-de-Calais, France","50.6414","2.5417","Haverskerque, Nord, Nord-Pas-de-Calais, France"
+"GHV1-8DG",NA,NA,NA,NA,NA,NA
+"GC78-9M4","48.49988","2.66969","Melun-Sud, Melun, Seine-et-Marne, Île-de-France, France","51.0538","3.7216","Hallewijn, Gent, Oost-Vlaanderen, Vlaanderen, België"
+"GGDJ-9GD","50.7349","2.7345","Bailleul, Nord, Nord-Pas-de-Calais, France","50.7787","3.1248","Halluin, Nord, Nord-Pas-de-Calais, France"
+"GG5S-T7J",NA,NA,NA,NA,NA,NA
+"GG5S-8BG",NA,NA,NA,NA,NA,NA
+"GG9S-XS5","50.6414","2.5417","Haverskerque, 59293, Nord, Nord-Pas-de-Calais, France",NA,NA,NA
+"GG9S-F77","50.5257","2.3672","Nédon, 62600, Pas-de-Calais, Nord-Pas-de-Calais, France","50.6414","2.5417","Haverskerque, 59293, Nord, Nord-Pas-de-Calais, France"
+"G7W1-SDZ","50.6448","2.7216","Estaires, Nord, Hauts-de-France, France",NA,NA,NA
+"GG9S-J8T","50.6232","2.5453","Saint-Venant, Pas-Calés, Heuts-d'Franche, Française","50.6448","2.7216","Estaires, Nord, Hauts-de-France, France"
+"G872-QQN","50.7994","2.4878","Cassel, Nord, Nord-Pas-de-Calais, França",NA,NA,NA
+"GG68-Q8K","46.6754","4.3656","Montceau-les-Mines, Saône-et-Loire, Bourgogne-Franche-Comté, France",NA,NA,NA
+"GGJQ-ZBL","46","2","France",NA,NA,NA
+"GGY2-CJP","48.7398","6.1759","lorraine,france","48.7398","6.1759","Lorraine, france"
+"GLJC-MVC","50.693","4.037","Enghien, Hainaut, Belgique","31.67","35.25","Palestine"
+"GLJH-YRD",NA,NA,NA,NA,NA,NA
+"GG33-JNX",NA,NA,NA,"49.5817","2.9997","Noyon, Oise, Hauts-de-France, France"
+"GG33-QBR",NA,NA,NA,"49.5817","2.9997","Noyon, Oise, Hauts-de-France, France"
+"GLYM-CRT","50.6739","3.2127","Lys-lez-Lannoy, 59367, Nord, Nord-Pas-de-Calais, France","50.7819","1.9897","Audrehem, Pas-de-Calais, Hauts-de-France, France"
+"GLYM-FM1","50.7505","2.2522","Saint-Omer, 62765, Pas-de-Calais, Nord-Pas-de-Calais, France","50.7819","1.9897","Audrehem, Pas-de-Calais, Hauts-de-France, France"
+"GQ1L-3JD","49.25","5.3333","Verdun, Département de la Meuse, Lorraine, France",NA,NA,NA
+"G7T3-KJF","50.6431","2.6423","Merville, Nord, Hauts-de-France, France",NA,NA,NA
+"GWZN-JPG","50.5401","2.5724","Chocques, Pas-de-Calais, Hauts-de-France, France",NA,NA,NA
+"GZ7L-4HG","50.5825","2.0728","Renty, Pas-de-Calais, Hauts-de-France, France","50.5401","2.5724","Chocques, Pas-de-Calais, Hauts-de-France, France"
+"LK1Y-Y4P","49.6619","2.1506","Fontaine-Bonneleau, Oise, Picardie, France","57.148","-2.094","Richards Castle, Richmond, Aberdeen, Aberdeenshire, Scotland"
+"LK1Y-TRP","49.06","-0.11","Normandy, France","57.1483","-2.0937","Aberdeen, Aberdeenshire, Scotland"
+"G6WT-W6B",NA,NA,"Noyelle-Vion, Arras, Pas-de-Calais, Hauts-de-France, France",NA,NA,NA
+"G6WT-Z97","50.35152","2.58906","Aubigny-en-Artois, Arras, Pas-de-Calais, Hauts-de-France, France",NA,NA,"Noyelle-Vion, Arras, Pas-de-Calais, Hauts-de-France, France"
+"G639-ZLW","50.3115","2.4695","Ambrines Arras, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"G639-DTG","50.35152","2.58906","Aubigny-en-Artois, Arras, Pas-de-Calais, Hauts-de-France, France","50.3115","2.4695","Ambrines Arras, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"LRCX-LX4","50.1222","2.432","Sarton, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"L2YT-MSB","50.1052","2.4436","Marieux, Somme, Hauts-de-France, France",NA,NA,NA
+"G7NN-VSG","50.25","2.66667","Arras, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"G7NN-N9F","50.5","1.9167","Montreuil, Pas-de-Calais, Hauts-de-France, France","50.4658","2.355","Tangry, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"GW5S-CXQ",NA,NA,"Boufflers, Abbeville, Somme, Hauts-de-France, France",NA,NA,NA
+"GW5S-Q4N","46","2",", , , France",NA,NA,"Boufflers, Abbeville, Somme, Hauts-de-France, France"
+"GW5S-QR9","49.167","0.7844","Harcourt, Eure, Haute-Normandie, France",NA,NA,NA
+"GW5S-4ZQ",NA,NA,"Boissey-le-Châtel, Bernay, Eure, Haute-Normandie, France","49.167","0.7844","Harcourt, Eure, Haute-Normandie, France"
+"G3LN-WQ4","50.1486","2.056","Cramont, Somme, Hauts-de-France, France","50.1486","2.056","Cramont, Somme, Hauts-de-France, France"
+"G3LF-KZX","50.1798","2.0753","Conteville, Somme, Hauts-de-France, France","50.1486","2.056","Cramont, Somme, Hauts-de-France, France"
+"G33L-G9W","50.2915","2.2378","Boubers-sur-Canche, Pas-de-Calais, Hauts-de-France, France",NA,NA,NA
+"GZRS-SSB","50.4537","2.4116","Bours, Pas-de-Calais, Hauts-de-France, France","50.2915","2.2378","Boubers-sur-Canche, Pas-de-Calais, Hauts-de-France, France"
+"GZRC-8FM","50.4217","2.1683","Blangy-sur-Ternoise, Pas-de-Calais, Hauts-de-France, France","50.3748","2.4861","Chelers, Pas-de-Calais, Hauts-de-France, France"
+"G33G-WL9",NA,NA,"Blangerval-Blangermont, Arras, Pas-de-Calais, Hauts-de-France, France","50.4217","2.1683","Blangy-sur-Ternoise, Pas-de-Calais, Hauts-de-France, France"
+"G9SB-9TX",NA,NA,"Gorenflos, Abbeville, Somme, Hauts-de-France, France",NA,NA,"Gorenflos, Abbeville, Somme, Hauts-de-France, France"
+"G9MR-66W",NA,NA,"Beaumetz, Amiens, Somme, Hauts-de-France, France",NA,NA,"Gorenflos, Abbeville, Somme, Hauts-de-France, France"
+"G9S4-RS4","50.2519","1.8814","Crécy-en-Ponthieu, Somme, Picardie, France",NA,NA,NA
+"G9ST-W94",NA,NA,"Gapennes, Abbeville, Somme, Hauts-de-France, France","50.2519","1.8814","Crécy-en-Ponthieu, Somme, Hauts-de-France, France"
+"GXH5-PL7","50.23","2.1125","Auxi-le-Château, Pas-de-Calais, Hauts-de-France, France",NA,NA,NA
+"GXH5-X1Z","46.4667","1.04","La Trimouille, Vienne, Nouvelle-Aquitaine, France",NA,NA,NA
+"GW2T-7SH","50.3504","2.6906","Mont-Saint-Éloi, Pas-Calés, Heuts-d'Franche, Française","50.3504","2.6906","Mont-Saint-Éloi, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"G9MR-XX3","50.4183","2.6","Olhain, Fresnicourt-le-Dolmen, Pas-Calés, Heuts-d'Franche, Française","50.3504","2.6906","Mont-Saint-Éloi, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"GLD1-YDG","50.2519","1.8814","Crécy-en-Ponthieu, F",NA,NA,NA
+"G6TV-ZTV","50.1342","1.9467","Saint-Riquier,80135,Somme,Hauts-de-France,FRANCE,","50.2519","1.8814","Crécy-en-Ponthieu,80150,Somme,Hauts-de-France,FRANCE,"
+"GJW4-KPH","50.2128","1.7747","Nouvion-en-Ponthieu, Somme, Picardie, France","50.2128","1.7747","Nouvion-en-Ponthieu Somme, Heuts-d'Franche, Française"
+"GJW4-25M","49.9862","1.5557","Gamaches, Somme, Picardie, France","50.2128","1.7747","Nouvion-en-Ponthieu, Somme, Picardie, France"
+"LD8C-SXL","50.1342","1.9467","Saint-Riquier, Somme, Hauts-de-France, France","50.105","1.8364","Abbeville, Somme, Hauts-de-France, France"
+"LD8C-SXX","49.9658","1.9425","Airaines, Somme, Hauts-de-France, France","50.1342","1.9467","Saint-Riquier, Somme, Hauts-de-France, France"
+"GNBZ-948","49.5196","3.3236","Coucy-le-Château-Auffrique, Aisne, Picardie, França","49.6986","2.7938","Roye, Somme, Hauts-de-France, França"
+"GGQC-NF6","49","13","Europa",NA,NA,NA
+"L2TG-Y6G","49","13","Europa",NA,NA,NA
+"L2TG-YXB","49","13","Europa",NA,NA,NA
+"G6XK-Q2Q","49.6865","1.8711","Sarcus, Beauvais, Oise, Hauts-de-France, France",NA,NA,NA
+"GCKD-5YC","49.6084","2.0764","Crèvecoeur-le-Grand, Beauvais, Oise, Hauts-de-France, France","49.6865","1.8711","Sarcus, Beauvais, Oise, Hauts-de-France, France"
+"G292-T1F","49.894","2.3025","Amiens, Somme, Picardie, France",NA,NA,NA
+"G29C-V3N","49.9361","1.6314","Bouttencourt, Somme, Picardie, France",NA,NA,NA
+"GCKD-BKB","49.5497","1.8539","Songeons, Oise, Picardie, France",NA,NA,NA
+"G29C-NB9","49.7408","2.1513","Conty, Somme, Picardie, France","49.5497","1.8539","Songeons, Oise, Picardie, France"
+"GL8J-VK6",NA,NA,NA,NA,NA,NA
+"LRCX-KP5","49.7717","2.4835","Moreuil, Somme, Picardie, France","49.7565","2.3641","Ailly sur Noye (80) France"
+"GL8J-PSW","49","13","Europa",NA,NA,NA
+"G29C-LL7","49.8383","2.3156","Saint-Fuscien, Somme, Picardie, France",NA,NA,NA
+"G29C-L27","50.0185","2.3831","Rubempré, Somme, Picardie, France","49.8383","2.3156","Saint-Fuscien, Somme, Picardie, France"
+"GGQM-2NX","46","2","Frankreich",NA,NA,NA
+"GGQ9-683","49","13","Europa",NA,NA,NA
+"GLXS-344","46","2","France",NA,NA,NA
+"G7NW-47M","46","2","France",NA,NA,NA
+"GJG2-D1H","50.74787","1.83842","Colembert, Pas-de-Calais, France","50.7479","1.8384","Colembert, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"GGKZ-TDK",NA,NA,NA,"50.7051","1.8507","Bournonville, Pas-de-Calais, Hauts-de-France, France"
+"LRN9-YDL",NA,NA,NA,NA,NA,NA
+"LRN9-PTM","50.4217","2.1683","Blangy-sur-Ternoise, Pas-de-Calais, Hauts-de-France, France",NA,NA,NA
+"L2Y4-PY7","50.4537","2.4116","Bours, Pas-de-Calais, Hauts-de-France, France","50.4537","2.4116","Bours, Pas-de-Calais, Hauts-de-France, France"
+"L2Y4-P19","50.41667","2.83333","Lens, Pas-de-Calais, Nord-Pas-de-Calais, France","43.2771","0.0925","Bours, Hautes-Pyrénées, Occitanie, França"
+"LDS9-X3J","50.0185","2.3831","Rubempré, Somme, Hauts-de-France, France",NA,NA,NA
+"LDS9-XQC","49.966","2.4108","Saint-Gratien, Somme, Hauts-de-France, France","50.0185","2.3831","Rubempré, Somme, Hauts-de-France, France"
+"GG7J-L21","49.4354","2.0865","Beauvais, Oise, Picardie, France","50.0294","1.9383","Fontaine-sur-Somme, Somme, Picardie, France"
+"GKY7-DJ2","50.1483","2.1264","Prouville, Somme, Picardie, France",NA,NA,NA
+"GZZC-GDX","50.0944","2.1734","Berneuil, Somme, Hauts-de-France, France",NA,NA,NA
+"GZZC-GDP","46","2","France",NA,NA,NA
+"G7NN-VFB","46","2","France",NA,NA,NA
+"L2YT-3RZ","49.9658","1.9425","Airaines, Somme, Hauts-de-France, France","50.1153","2.0608","Domqueur, Somme, Hauts-de-France, France"
+"G314-JBL","50.105","1.8364","Abbeville, Somme, Hauts-de-France, France",NA,NA,NA
+"G7NW-87Q","49.894","2.3025","Amiens, Somme, Hauts-de-France, France","50.1825","1.954","Gapennes, Somme, Hauts-de-France, France"
+"L6JX-S8J","50.2181","1.96","Brailly-Cornehotte, Somme, France",NA,NA,NA
+"G29C-KVR","50.1486","2.056","Cramont, Somme, Picardie, France",NA,NA,NA
+"GZZC-YH9","50.1182","2.1207","Ribeaucourt, Somme, Hauts-de-France, France","50.1182","2.1207","Ribeaucourt, Somme, Hauts-de-France, France"
+"G7FF-RJC","50.0958","2.0508","Gorenflos, Somme, Picardie, France","50.1182","2.1207","Ribeaucourt, Somme, Picardie, France"
+"GL26-ZCG","50.5318","2.6377","Béthune, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"GG4X-6YZ","50.5318","2.6377","Béthune, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"L2YT-7YC","49.9664","2.1354","Belloy-sur-Somme, Somme, Picardie, France",NA,NA,NA
+"L2TT-2ZP","49.9449","2.1405","Picquigny, Somme, Hauts-de-France, France","49.9664","2.1354","Belloy-sur-Somme,  Somme, Hauts-de-France, France"
+"L2Y1-T94","47.2896","3.819","Lormes, Nièvre, Bourgogne, France",NA,NA,NA
+"L2Y1-T3X","47.1165","3.6991","Aunay-en-Bazois, Nièvre, Bourgogne, France","47.2896","3.819","Lormes, Nièvre, Bourgogne, France"
+"GNHR-JJY","47.0493","3.9454","Château-Chinon-Campagne, Nièvre, Bourgogne, France",NA,NA,NA
+"GNHR-J97","47.0964","3.8738","Châtin, Nièvre, Bourgogne, France",NA,NA,NA
+"GNHR-47X","47.7442","3.6503","Saint-Bris-le-Vineux, Yonne, Bourgogne, France",NA,NA,NA
+"GNHR-L49","47.736","3.293","Toucy, Yonne, Bourgogne, France",NA,NA,NA
+"GFTG-8TZ","50.1105","2.9046","Frémicourt, 62353, Pas-de-Calais, Nord-Pas-de-Calais, France","50.1105","2.9046","Frémicourt, 62353, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"GG3L-G67",NA,NA,NA,NA,NA,NA
+"GCKJ-KMX","49.9104","1.18","Ancourt, Seine-Maritime, Haute-Normandie, Française",NA,NA,NA
+"GFTG-XMV","50.21","2.7816","Boisleux-au-Mont, 62175, Pas-de-Calais, Nord-Pas-de-Calais, FRANCE",NA,NA,NA
+"GFTL-1QJ",NA,NA,NA,"50.2121","2.798","Boisleux-Saint-Marc, 62175, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"G36D-MC3","50.2134","2.8129","Boiry-Becquerelle, 62128, Pas-de-Calais, Nord-Pas-de-Calais, FRANCE",NA,NA,NA
+"G36D-MRX","50.95","1.85","Pas-de-Calais, Hauts-de-France, France","50.2134","2.8129","Boiry-Becquerelle, 62128, Pas-de-Calais, Nord-Pas-de-Calais, FRANCE"
+"G6ZF-6SD",NA,NA,NA,NA,NA,NA
+"GFTG-FQW","50.95","1.85","Pas-de-Calais, Nord-Pas-de-Calais, FRANCE","50.2256","2.7361","Ficheux, 62173, Pas-de-Calais, Nord-Pas-de-Calais, FRANCE"
+"G6ZF-XQ6","50.09284","3.00599","Bertincourt, Pas-de-Calais, Hauts-de-France, France",NA,NA,NA
+"GFTG-324",NA,NA,NA,NA,NA,NA
+"G64W-Z5R",NA,NA,"Pierrefonds, Aisne, Heuts-d'Franche, Française",NA,NA,NA
+"GLC3-JLZ",NA,NA,NA,NA,NA,NA
+"G2SJ-QNS",NA,NA,NA,NA,NA,NA
+"G2WD-L1W",NA,NA,NA,"50.5772","2.0156","Rumilly, Pas-de-Calais, Hauts-de-France, France"
+"LDS9-27L","50.5825","2.0728","Renty, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"LDS9-2WY","49.69135","3.32551","Canlers, Aisne, Picardie, France","50.5825","2.0728","Renty, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"LKCH-XZY","50.5896","1.8505","Grigny, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"LKCH-X42","50.4086","2.1233","Rollancourt, Pas-de-Calais, Nord-Pas-de-Calais, France","50.5896","1.8505","Grigny, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"GLD1-7N4","50.5257","2.3672","Nédon, 62600, Pas-de-Calais, Nord-Pas-de-Calais, France","50.5257","2.3672","Nédon, 62600, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"GNTS-Z11","50.5645","2.4817","Lillers, Pas-de-Calais, Nord-Pas-de-Calais, France","50.5257","2.3672","Nédon, 62600, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"GV38-YB7","50.82505","1.86669","Guînes, Calais, Pas-de-Calais, France","50.7051","1.8507","Bournonville, Pas-Calais France"
+"L2Y4-PTD","50.8765","1.839","Hames-Boucres, Pas-Calés, Heuts-d'Franche, Française","50.8765","1.839","Hames-Boucres, Pas-Calés, Heuts-d'Franche, Française"
+"L2Y4-PY1","50.74787","1.83842","Colembert, Pas-Calés, Heuts-d'Franche, Française","50.8765","1.839","Hames-Boucres, Pas-Calés, Heuts-d'Franche, Française"
+"L2TT-H8D","50.8539","1.9768","Ardres, Pas-Calés, Heuts-d'Franche, Française","50.8539","1.9768","Ardres, Pas-Calés, Heuts-d'Franche, Française"
+"G8M5-NP9","50.5728","2.3628","Rely, Pas-de-Calais, Nord-Pas-de-Calais, France","50.5728","2.3628","Rely, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"GJYZ-VPN","50.7505","2.2522","Saint-Omer, Pas-de-Calais, Nord-Pas-de-Calais, France","50.7505","2.2522","Saint-Omer, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"LKCH-JVP","50.3841","2.0657","Grigny Montreuil, Pas-de-Calais, Hauts-de-France, France","50.3841","2.0657","Grigny Montreuil, Pas-de-Calais, Hauts-de-France, France"
+"LKCH-VCR","50.389","2.0013","Guisy Pas-Calés, Heuts-d'Franche, Française","48.6561","2.3878","Grigny Pas-Calés, Heuts-d'Franche, Française"
+"LKCH-KJG","50.4164","2.0011","Cavron-Saint-Martin Montreuil, Pas-de-Calais, Hauts-de-France, France","50.4164","2.0011","Cavron-Saint-Martin Montreuil, Pas-de-Calais, Hauts-de-France, France"
+"LKCH-2HK","50.4475","1.8338","Brimeux, Pas-de-Calais, Hauts-de-France, France",NA,NA,"Cavron-Saint-Martin, Montreuil, Pas-de-Calais, Hauts-de-France, France"
+"GKFH-36Z","46","2","France","46","2","France"
+"GKFH-WP2","46","2","France","46","2","France"
+"GZ5C-LLQ","46","2","France",NA,NA,NA
+"G8MP-3SR","50.636","3.1888","Forest sur marque","50.636","3.1888","Forest sur Marque"
+"GLXQ-GC5",NA,NA,NA,NA,NA,NA
+"G83P-LYK","50.5226","2.6799","Beuvry, Pas-de-Calais, Hauts-de-France, France","48.75","5.16666","Bar-le-Duc, Meuse, Lorraine, France"
+"GSQN-CHQ","49.75","6.167","Luxembourg",NA,NA,NA
+"L2TJ-1NP","50.4488","2.6491","Hersin-Coupigny, Pas-Calés, Heuts-d'Franche, Française",NA,NA,NA
+"LRHN-NCD","50.4216","2.6701","Bouvigny-Boyeffles, Pas-de-Calais, Hauts-de-France, France","50.4488","2.6491","Hersin-Coupigny, Pas-de-Calais, Hauts-de-France, France"
+"GGST-1RB",NA,NA,NA,NA,NA,NA
+"G83P-LYS","50.35152","2.58906","Aubigny-en-Artois, Arras, Pas-de-Calais, Hauts-de-France, France",NA,NA,NA
+"G83P-V7M","50.3638","2.8708","Arleux-en-Gohelle, Pas-de-Calais, Hauts-de-France, France","50.35152","2.58906","Aubigny-en-Artois, Arras, Pas-de-Calais, Hauts-de-France, France"
+"L2TJ-1J4","50.4216","2.6701","Bouvigny-Boyeffles, Pas-Calés, Heuts-d'Franche, Française","50.4222","2.6731","Bouvigny-Boyeffles, Pas-Calés, Heuts-d'Franche, Française"
+"GG9S-F4D","50.5037","2.4678","Auchel, 62048, Pas-de-Calais, Nord-Pas-de-Calais, France","50.4216","2.6701","Bouvigny-Boyeffles, 62170, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"GHNT-KHY","50.3748","2.4861","Chelers, Pas-de-Calais, Hauts-de-France, France",NA,NA,NA
+"GHNT-KCM","50.4183","2.6","Château d'Olhain Olhain, Fresnicourt-le-Dolmen, Pas-de-Calais, Hauts-de-France, France","50.3748","2.4861","Chelers Arras, Pas-de-Calais, Hauts-de-France, France"
+"L2TT-HTS","50.4092","2.6386","Servins, Pas-de-Calais, Nord-Pas-de-Calais, France","50.4092","2.6386","Servins, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"G9WQ-C98","50.44879","2.64907","Hersin-Coupigny, Pas-de-Calais, France","50.4092","2.6386","Servins, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"GGV1-95D","49","13","Europe",NA,NA,NA
+"GGVB-BPX","50.14314","3.95511","Avesnes-sur-Helpe-Nord, Avesnes-sur-Helpe, Nord, Nord-Pas-de-Calais, France",NA,NA,NA
+"GJ5X-WHG","50.568","4.0027","Neufvilles, Hainaut, Belgique",NA,NA,NA
+"GJ5X-S9C","50.5456","2.1642","Matringhem, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"GGSM-9XH","50.1765","3.2304","Cambrai, Nord, Hauts-de-France, France",NA,NA,NA
+"GX8D-JQP",NA,NA,NA,NA,NA,NA
+"GWHD-7RL","49","13","Europe",NA,NA,NA
+"GN94-HZ9",NA,NA,NA,NA,NA,NA
+"GLCK-L2D","53","-8","Ireland",NA,NA,NA
+"GGJZ-PBR","53","-8","Ireland",NA,NA,NA
+"KFW8-DFN","53","-8","Ireland",NA,NA,NA
+"9MFL-9HW","53.08333","-7","Leinster, Ireland",NA,NA,NA
+"LBXR-VW1","53","-8","Ireland",NA,NA,NA
+"GJJH-T4V","53","-8","Ireland",NA,NA,NA
+"M338-H95","48.764","1.56","Champagne, France",NA,NA,NA
+"G8QK-9NZ","47.5","14","Österreich","51.5","10","Deutschland"
+"G6V5-PPC","51.9343","5.5715","Kesteren, Neder-Betuwe, Gelderland, Nederland","51.9167","5.5833","Betuwe, Gelderland, Nederland"
+"GLXB-RLJ","50.5","3.83333","Henegouwen, België",NA,NA,NA
+"G4PV-NMD","45.829","1.2663","Limoges, Haute-Vienne, Limousin, France",NA,NA,NA
+"9VHQ-8ZT","43.1838","2.9963","Narbonne, Aude, Languedoc-Roussillon, France",NA,NA,NA
+"GD63-43J","46","2","France",NA,NA,NA
+"G694-CVN","46","2","France",NA,NA,NA
+"G8S1-HHP","53","-8","Ireland",NA,NA,NA
+"GWZX-593","43.8509","11.2564","Florence,  Firenze, Tuscana, Italy","43.8509","11.2564","Florence,  Firenze, Tuscana, Italy"
+"G7FC-YNY","43.7708","11.2554","Florenz, Firenze, Toscana, Italien",NA,NA,NA
+"GL99-N7Y","52.345","16.887","Poznan, Poznan, Poland",NA,NA,NA
+"GL4G-7Q8","52.345","16.887","Poznan, Poznan, Poland",NA,NA,NA
+"GKTQ-4DD",NA,NA,NA,NA,NA,NA
+"L6KK-PN2",NA,NA,NA,NA,NA,NA
+"L8BY-B3Y","50.0868","14.4207","Praha, Česko","50.0868","14.4207","Praha, Česko"
+"LD34-6S6",NA,NA,NA,NA,NA,NA
+"GFNY-D2T","49.5","10","Holy Roman Empire",NA,NA,NA
+"GV3R-Z97","49.5","10","Holy Roman Empire",NA,NA,NA
+"9H6G-ZVW","62","15","Sweden",NA,NA,NA
+"GL6T-81P",NA,NA,NA,NA,NA,NA
+"LKL6-8WH","46","2","France",NA,NA,NA
+"LBZ2-M51","46","2","France",NA,NA,NA
+"G68Q-M7F","46.98157","-0.21527","Thouars, Deux-Sevres, Charente, West Francia","46.98157","-0.21527","Thouars, Deux-Sevres, Charentes, West Francia"
+"GMN7-5DR","46.9816","-0.2153","Thouars, Deux-Sèvres, Duche d'Aquitaine, West Francia","46","2","France"
+"GH1Y-6D8","47.0092","0.0819","Loudun, Vienne, Nouvelle-Aquitaine, France",NA,NA,NA
+"LJ5J-VST","46.9578","0.3411","Faye-la-Vineuse, Indre-et-Loire, Centre-Val de Loire, France",NA,NA,NA
+"GS82-QVS","47.46613","-0.25488","Fayer, Maine-et-Loire, Pays de la Loire, França",NA,NA,NA
+"G3MY-Y81","47.42","4.68","Mailly-sur-Soane, Burgundy, France",NA,NA,NA
+"G3MB-MG7","46","2","France",NA,NA,NA
+"GNFQ-NKP","46","2","France",NA,NA,NA
+"GNFQ-VGW","46","2","France",NA,NA,NA
+"GWSQ-J69",NA,NA,NA,"46","2","Francia"
+"G84T-ZQQ","45.829","1.2663","Limoges, Haute-Vienne, Limousin, France","45.829","1.2663","Limoges, Limousin, France"
+"GGF9-RLY","46","2","France",NA,NA,NA
+"LL4Q-4LK","45.667","0.0833","Angoulême, Poitou, Carolingian Aquitaine","49.7273","2.8671","Marché, Somme, Picardie, France"
+"GS6B-63C","46","2","Francia","46","2","Francia"
+"GSWP-DFJ","44.9288","2.4438","Aurillac, Cantal, Auvergne-Rhône-Alpes, France",NA,NA,"Lot-et-Garonne, Dordogne, Nouvelle-Aquitaine, France"
+"GSWP-FYN","46","2",", , , France","44.9288","2.4438","Aurillac, Cantal, Auvergne-Rhône-Alpes, France"
+"GLHT-FHD","45.0539","1.5836","Turenne, Corrèze, Limousin, Kingdom of France","46","2","France"
+"GLHY-4X4",NA,NA,NA,NA,NA,NA
+"GL6B-973","49","13","Europe",NA,NA,NA
+"G8XZ-RR5","58.96667","5.75","Stavanger, Rogaland, Norway","51.31667","7.38333","Jellinghausen, Ennepe-Ruhr-Kreis, North Rhine-Westphalia, Germany"
+"GNX5-JHW","56","10","Denmark",NA,NA,NA
+"G8Y6-8K1","47.3272","5.044","Dijon, Côte-d'Or, Bourgogne, France","48.8667","2.3333","Paris, Île-de-France, France"
+"9QHN-LX1","46","2","France",NA,NA,NA
+"L87F-P2T",NA,NA,NA,"49.2546","4.0313","Reims, Marne, Champagne-Ardenne, France"
+"GNWG-WJ8",NA,NA,NA,"49.2546","4.0313","Reims, Marne, Champagne-Ardenne, France"
+"GSDB-V2T","43.61607","4.77228","Arles-Est, Arles, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France","49.053","6.0015","Gorze, Metz, Moselle, Lorraine, France"
+"LZXK-6XH","43.6767","4.6278","Arles, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France","49.10114","6.15608","Metz, Moselle, Alsace-Lorraine, France"
+"L87F-RDY",NA,NA,NA,"47.7983","3.5744","Auxerre, Yonne, Bourgogne, France"
+"GGDQ-Q1F","47.7983","3.5744","Auxerre, Yonne, Bourgogne, France",NA,NA,NA
+"GCQ5-GNH","49.894","2.3025","Amiens, Somme, Hauts-de-France, France","46","2","France"
+"GVVW-M29","48.1117","2.399","Barville-en-Gâtinais Loiret, Centre-Val de Loire, France",NA,NA,NA
+"GS6Z-W3Y","50.95","1.85","Audincthun, Pas-de-Calais, Heuts-d'Franche, Française","50.6374","2.2576","Thérouanne, Pas-de-Calais, Heuts-d'Franche, Française"
+"GK78-HGV","49","13","Europa",NA,NA,NA
+"GS6Z-7VG","50.6397","2.3971","Aire-sur-la-Lys, Pas-d'Caleus, Heuts-d'Franche, Française",NA,NA,NA
+"GS6Z-HZ6","50.6414","2.5417","Haverskerque, Nord, Hauts-de-France, France","50.6397","2.3971","Aire-sur-la-Lys, Pas-de-Calais, Hauts-de-France, France"
+"G8WB-33H","49","13","Europa",NA,NA,NA
+"G8WB-SQ3","49","13","Europa",NA,NA,NA
+"98RQ-BBJ","48.1148","4.3751","Bar-sur-Seine, Aube, Champagne-Ardenne, Française",NA,NA,NA
+"G6SY-2H2","48.16667","5.16667","Chaumont, Haute-Marne, Champagne-Ardenne, France",NA,NA,NA
+"G6SY-RHG","47.9027","3.5998","Seignelay, Yonne, Bourgogne, Française",NA,NA,NA
+"LT1C-QBY","50.2802","2.5","Beaufort-Blavincourt, Pas-de-Calais, Hauts-de-France, França",NA,NA,NA
+"LT1C-4SH","51.6277","5.0733","Loon op Zand, Brabante do Norte, Países Baixos","50.2802","2.5","Beaufort-Blavincourt, Pas-de-Calais, Hauts-de-France, França"
+"GJTZ-3Z4","49.5817","2.9997","Noyon, Oise, Hauts-de-France, France",NA,NA,NA
+"G633-V9S","49.5817","2.9997","Noyon, Oise, Hauts-de-France, France",NA,NA,NA
+"GCHQ-8X2","49.9864","3.4542","Bohain-en-Vermandois, Aisne, Picardie, France",NA,NA,NA
+"GJMC-Q93","50.12175","3.92982","Avesnes-sur-Helpe, Nord, France","49.9864","3.4542","Bohain-en-Vermandois, Aisne, Picardie, France"
+"GN1M-YRP","49.2339","2.8895","Crépy-en-Valois, Oise, Picardie, France",NA,NA,NA
+"GGQ8-LPC","49.5632","3.6133","Laon, Aisne, Hauts-de-France, France",NA,NA,NA
+"L2TJ-YM6","49","13","Europe",NA,NA,NA
+"GVBB-TKK","49.4803","2.8904","Thourotte, Oise, Hauts-de-France, France",NA,NA,NA
+"GGL8-WMW","50.53277","3.13657","Nord, Nord-Pas-de-Calais, France",NA,NA,NA
+"LD9B-9GG","50.6001","2.0975","Fauquembergues, Pas-de-Calais, Hauts-de-France, France",NA,NA,NA
+"GQTJ-9L8",NA,NA,NA,NA,NA,NA
+"LDSQ-FGP","46.9432","5.8799","Salins les Bains, Jura, Franche-Comte, France","47.2396","6.0209","Besançon, Doubs, Franche-Comté, France"
+"GDKG-5D4","43.10915","2.02027","Escueillens, France","48.4215","3.022","Salins, France"
+"GZXW-6RL","43.0651","0.1501","Bagnères-de-Bigorre, Hautes-Pyrénées, Occitanie, France",NA,NA,NA
+"GQ1C-7FF","44.8","0.5","Astarac, Gascony, Aquitaine, France","40.43","-4","Spain"
+"GD9L-NHT","43.5457","0.4667","Miramont d'Astarac, Gers, Occitanie, France","43.977","-0.176","Astarac, Gascogne, France"
+"GGF3-WPM","43.977","-0.176","Gascogne, France",NA,NA,NA
+"K1T8-674","42.812","-1.646","Pamplona, Reino de Pamplona","42.812","-1.646","Pamplona, Reino de Pamplona"
+"LBGW-5Y3","41.6436","-0.8462","Aragon, España","42.812","-1.646","Pamplona, Navarra, Spain"
+"LVXT-W5V","41.46","-2.0194","Deza, Soria, Castilla y León, Spain","42.1511","-7.9572","Celanova, Orense, Galicia, Spain"
+"GWMM-741","42.75","-7.88333","Galicia, Spain","42.75","-7.88333","Galicia,Leão"
+"GS9C-MQJ","42.3468","-3.6997","Lara, Burgos, Castile, España","42.35","-3.81667","Burgos, Castile, España"
+"LZK4-85Y","42.9667","-1.75","Pamplona, Nafarroa, España","42.3468","-3.6997","Burgos, Condé de Castile, España"
+"99Y7-B16","40.334","-2.22968","Ribagorda, Cuenca, Castilla-La Mancha, Spain","40.334","-2.22968","Ribagorda, Cuenca, Castilla-La Mancha, Spain"
+"LHQB-PBN","43.7591","0.3026","Vic-Fezensac, Gers, Midi-Pyrénées, France","40.334","-2.22968","Narbonne, Aude, França"
+"L2YT-MV5","42.84461","-2.75973","Álava, Basque Country, Spain","42.598","-5.577","León, Castilla y León, Spain"
+"L2YT-M2R","39.7707","-7.9781","Portugal",NA,NA,NA
+"GL3F-8GF",NA,NA,NA,NA,NA,NA
+"GL3F-QP7","42.598","-5.577","León, Castilla y León, Espanha",NA,NA,NA
+"GVBY-2RX","42.5","-8.5","Pontevedra, Galicia, España","40.43","-4","España"
+"GFYN-QRG","42.75","-7.88333","Xinso A Limia, Galicia, España","39.7707","-7.9781","Portugal"
+"9CMV-76T","42.1511","-7.9572","Celanova, , Galicia, Spain",NA,NA,NA
+"L8R5-WS7","40.43","-4","Spain","40.43","-4","Spain"
+"GGJ6-NY2","49","13","Europe",NA,NA,NA
+"GGN2-86K","49","13","Europe",NA,NA,NA
+"GPMB-N2S",NA,NA,NA,NA,NA,NA
+"GM5J-8G7","44.0996","3.0813","Millau, Aveyron, Midi-Pyrénées, France",NA,NA,NA
+"GSB6-GL1","48.87471","2.5002","Brosse, Île-de-France, France",NA,NA,NA
+"LTJR-PJY","43.1838","2.9963","Narbonne, Aude, France","43.1838","2.9963","Of, Narbonne, Aude, France"
+"G68X-8BR",NA,NA,NA,NA,NA,NA
+"LTJT-HKJ","41.45","2.0833","Barcelona, Catalunya, Espagne","41.49078","13.82833","Abbey of Montecassino, Cassino, Latium, Italy, Holy Roman Empire"
+"L1BB-WLL","42.1395","3.1178","Empúries, l'Escala, Girona, Catalonia, España","47.2396","6.0209","Besançon, Doubs, Franche-Comte, France"
+"GQPK-Q85","44.8891","2.5651","Carlat, Cantal, Auvergne, France","45.64363","6.18668","Carlet, Savoie, Rhône-Alpes, France"
+"GM25-SW5","46","2","França",NA,NA,NA
+"G7P3-QMP",NA,NA,NA,"43.6161","4.0094","Mauguio, Hérault, Occitanie, France"
+"GS4Q-LX8","43.6161","4.0094","Mauguio, Hérault, Occitanie, France","43.6161","4.0094","Mauguio, Hérault, Occitanie, France"
+"GVS7-5JV","49","13","Europe",NA,NA,NA
+"G7P3-F82","43.6085","3.8793","Montpellier, Hérault, Occitanie, France",NA,NA,NA
+"GM9P-8YW","46","2",", , , France","43.6085","3.8793","Montpellier, Hérault, Languedoc-Roussillon, France"
+"GHHX-T8S","46","2","France?",NA,NA,NA
+"GHHX-Y6X","46.64125","4.70322","Chaumois, Saône-et-Loire, Bourgogne-Franc",NA,NA,NA
+"GZQN-T84","43.334","-5.8517","Asturias, España","43.3663","-8.408","La Coruña, Galicia, España"
+"GGY5-JC1","43.334","-5.8517","Asturias, Espanha",NA,NA,NA
+"GX51-VNC","42.598","-5.577","León, Castilla y León, Spain",NA,NA,NA
+"GXZH-53X","43.334","-5.8517","Asturias, Spain",NA,NA,NA
+"GXSQ-TX2","42","-6","León, Espanha",NA,NA,NA
+"G92J-F72","42","-6","León, Espanha",NA,NA,NA
+"GGHG-PRY","42.598","-5.577","León, Castilla y León, Espanha",NA,NA,NA
+"GGHP-XVL","42.598","-5.577","León, Castilla y León, Espanha",NA,NA,NA
+"GGHP-2JW","42.598","-5.577","León, Castilla y León, Espanha",NA,NA,NA
+"GGHP-MTX","42.598","-5.577","León, Castilla y León, Espanha",NA,NA,NA
+"G2HC-YM8","39.50001","-3.00003","Castilla-La Mancha, Espanha",NA,NA,NA
+"G2CX-1FN","39.50001","-3.00003","Castilla-La Mancha, Espanha",NA,NA,NA
+"G2HC-PG1","42.84461","-2.75973","Álava, País Vasco, España","42.84461","-2.75973","Álava, País Vasco, España"
+"LTKF-VKL",NA,NA,NA,"40.2","-8.41667","Coimbra, Coimbra, Portugal"
+"9C4M-H5X",NA,NA,NA,NA,NA,NA
+"L8RK-LJH","41.38333","-4.45","Castilla y León, España",NA,NA,NA
+"GCSJ-N8J","40.43","-4","España",NA,NA,NA
+"G8X8-Y5Y",NA,NA,NA,NA,NA,NA
+"GH85-Y42","40.43","-4","Spain",NA,NA,NA
+"9CJM-PV2",NA,NA,NA,NA,NA,NA
+"9CNT-HNL",NA,NA,NA,NA,NA,NA
+"KHYN-2S1",NA,NA,NA,NA,NA,NA
+"GVV7-QSQ","46","2","France","46","2","France"
+"GDQJ-R97","50.4667","2.7167","Nord-Pas-de-Calais, France","50.4667","2.7167","Nord-Pas-de-Calais, France"
+"G6RZ-VG8","53","-8","Ireland","53","-8","Ireland"
+"L28J-ZMN",NA,NA,NA,NA,NA,NA
+"G3RM-MQ2","53","-8","Ua Briaoin Sea, Ireland",NA,NA,NA
+"LV9G-K8W","53","-8","Ireland","53","-8","Ireland"
+"G65L-NBP","53","-8","Ireland","53","-8","Ireland"
+"LL3T-BR2",NA,NA,NA,"53.66667","-9","Connaught, Ireland"
+"9CXH-2QD",NA,NA,NA,NA,NA,NA
+"L1H6-KQB","54.17","-8.60333","Leyney, Sligo, Ireland",NA,NA,NA
+"GGVY-P3G","54.2726","-8.4738","Sligo, County Sligo, Ireland",NA,NA,NA
+"G6HL-ZT8","53.08333","-7","Kilkenny, Leinster, Osrange, Ireland","52.65417","-7.25222","Kilkenny, County Kilkenny, Ireland"
+"G8WB-KPS","53","-8","Ireland","53.5775","-6.61195","Tara, Meath, Ireland"
+"G6TP-FVC","53","-8","Ireland",NA,NA,NA
+"M1XG-42C","54.61119","-6.93167","of,Ulster,,Ireland",NA,NA,NA
+"9HVG-6HQ","53.33333","-6.25","Diocese of Meath, Leinster, Ireland","53.33333","-6.25","Diocese of Meath, Leinster, Ireland"
+"LB23-PF2","54.61119","-6.93167","Ulster, Ireland","54.61119","-6.93167","Ulster, Ireland"
+"GHJB-R1K","53","-8","Ireland",NA,NA,NA
+"GQZJ-3FD","52.3527","-8.687","Munster, Clare, Ireland","53","-8","Ireland"
+"GHJT-GL9","52.3527","-8.687","Munster, Ireland",NA,NA,NA
+"GZB6-SZ9","51.484","-3.168","Cardiff, Glamorgan, Wales","53.3132","-7.9496","Clonmacnoise, Offaly, Leinster, Ireland"
+"LKLN-HSS","53","-8","Ireland",NA,NA,NA
+"G8V7-GLS","55.01666","-7.51666","Aileach, County Donegal, Ireland","53","-8","Ireland"
+"GLX7-J7M",NA,NA,NA,"53","-8","Ireland"
+"G3Q6-CYH","53","-8","Ireland","53","-8","River Caillen, Ireland"
+"LV96-SKX","53.61622","-6.69111","County Meath, Ireland","54.91084","-7.90151","County Donegal, Ireland"
+"9WL6-QWY","53","-8","West Brefney, Connaught, Ireland","53.66667","-9","Connaught, Ireland"
+"G62S-T7Z",NA,NA,NA,NA,NA,NA
+"G4WP-XGL",NA,NA,NA,NA,NA,NA
+"29Y2-JSZ","52.4879","-8.7444","County Limerick, Ireland","53.66667","-9","Connaught, Ireland"
+"GLPC-HLW",NA,NA,NA,NA,NA,NA
+"9CXH-2VR","53","-8","Ireland",NA,NA,NA
+"GV9G-62Q",NA,NA,NA,NA,NA,NA
+"GV9G-PZT",NA,NA,NA,NA,NA,NA
+"G3JV-GZC","51.0538","3.7216","Gent, East Flanders, Belgium",NA,NA,NA
+"GHFL-JD2",NA,NA,NA,NA,NA,NA
+"L62P-6ZP","50.4183","2.6","Fresnicourt-le-Dolmen, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"G99L-1DZ","50.95","1.85","Pas-de-Calais, Hauts-de-France, France","50.4183","2.6","Olhain, Fresnicourt-le-Dolmen, Pas-de-Calais, Hauts-de-France, France"
+"GNTQ-P1P","50.4488","2.6491","Hersin-Coupigny, Pas-de-Calais, Nord-Pas-de-Calais, France","50.4488","2.6491","Hersin-Coupigny, Pas-de-Calais, Hauts-de-France, France"
+"GDYN-H2M","50.1544","2.4916","Pas Calés, Heuts-d'Franche, France","50.44879","2.64907","Hersin Coupigny, Pas Calés, Heuts-d'Franche, France"
+"2MQJ-78G","50.433","2.828","Lens, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"GX5D-4LF",NA,NA,NA,NA,NA,NA
+"G7SP-Q6M","50.4086","2.1233","Rollancourt, Pas-Calés, Heuts-d'Franche, Française","50.3741","2.0373","Hesdin, Pas-Calés, Heuts-d'Franche, Française"
+"G22W-YX2","46","2","France",NA,NA,NA
+"LB23-1QS","50.3741","2.0373","Hesdin, Pas-Calés, Heuts-d'Franche, Française","50.3741","2.0373","Hesdin, Pas-Calés, Heuts-d'Franche, Française"
+"LBSZ-2SC","50.389","2.0013","Guisy, Pas-Calés, Heuts-d'Franche, Française","50.3741","2.0373","Hesdin, Pas-Calés, Heuts-d'Franche, Française"
+"GDTP-V13","50.3674","2.1294","Fresnoy, 62357, Pas-de-Calais, Nord-Pas-de-Calais, France","50.7264","1.6147","Boulogne-sur-Mer, 62160, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"G9W8-Q6R","50.2911","2.2378","Boubers-sur-Canche, Hauts de France, Pas-de-Calais, France","50.3656","2.8902","Fresnoy, Département du Pas-de-Calais, Nord-Pas-de-Calais, France"
+"GG9S-HTH","50.3748","2.2334","Beauvois, 62101, Pas-de-Calais, Nord-Pas-de-Calais, France","50.3748","2.2334","Beauvois, 62101, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"G73M-WYS","50.2915","2.2378","Boubers-sur-Canche, Pas-de-Calais, Nord-Pas-de-Calais, France","49.61069","4.67513","Beauvois, Ardennes, Champagne-Ardenne, France"
+"G677-DWT","50.4537","2.4116","Bours, Pas-de-Calais, Nord-Pas-de-Calais, France","50.4537","2.4116","Bours, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"G8WB-QJ5","50.0753","2.1261","Domart-en-Ponthieu, Somme, Heuts-d'Franche, Française",NA,NA,NA
+"L2TJ-Y46","50.0119","2.1968","Vignacourt, Somme, Hauts-de-France, France","50.0119","2.1968","Vignacourt, Somme, Hauts-de-France, France"
+"G6FR-QZ9","49.894","2.3025","Amiens, Somme, Picardie, France","50.0119","2.1968","Vignacourt, Somme, Heuts-d'Franche, Française"
+"GG9S-JXM","50.4101","2.1464","Blingel, 62142, Pas-de-Calais, Nord-Pas-de-Calais, France","50.4101","2.1464","Blingel, 62142, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"LRNM-YGP","50.4658","2.355","Tangry, Pas-Calés, Heuts-d'Franche, Française","50.4658","2.355","Tangry, Pas-Calés, Heuts-d'Franche, Française"
+"LRNM-BRB","50.4837","2.4147","Pernes, Pas-Calés, Heuts-d'Franche, Française","50.4658","2.355","Tangry, Pas-Calés, Heuts-d'Franche, Française"
+"L2TT-ZPT","50.4355","2.3749","Valhuon - Pas-de-Calais - france",NA,NA,NA
+"G6ZW-35R",NA,NA,NA,NA,NA,NA
+"GKZZ-J71","52.2338","4.44864","Noordwijk Binnen, Zuid Holland, Netherlands","51.6806","9.1958","Höxter, Nordrhein-Westfalen Germany"
+"GKZZ-D7Q","49.913","2.4915","Corbie, Picardy France",NA,NA,NA
+"G2CJ-3PD","53.16667","5.83333","Hamaland, Duchy of Hamaland, Kingdom of Lotharingia",NA,NA,NA
+"GN7R-YTY",NA,NA,NA,"51","13.25","Saxony, Germany"
+"GN7R-KR3",NA,NA,NA,NA,NA,NA
+"G3QC-53T",NA,NA,NA,"46.1967","6.1104","Genève, Switzerland"
+"LRS4-195","50.7","12.51667","Schweiz, Zwickau, Chemnitz, Saxony, Germany",NA,NA,NA
+"GGHV-Q21","50.83333","4","Belgium",NA,NA,NA
+"L1GY-CMK","47.7983","3.5744","Auxerre, 89000, Yonne, Bourgogne, FRANCE,","49.5","3.5","Vermandois, Aisne, Picardie, France"
+"GJTP-RWB","50.3638","2.8708","Arleux-en-Gohelle, Pas-Calés, Heuts-d'Franche, France","50.3638","2.8708","Arleux-en-Gohelle, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"G4ZF-K1W","46","2",", , , Française","50.3638","2.8708","Arleux-en-Gohelle, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"G7F3-FX5","50.636","3.1888","Forest-sur-Marque, Nord, Nord-Pas-de-Calais, France",NA,NA,NA
+"GV3Y-6CP",NA,NA,NA,NA,NA,NA
+"LY48-9S5","50.5742","2.9397","Wavrin, Nord, Heuts-d'Franche, Française",NA,NA,NA
+"LY48-3KG","50.5742","2.9397","Wavrin, Nord, Hauts-de-France, France",NA,NA,NA
+"G7Y8-VXF","46","2",", , , Française",NA,NA,NA
+"G6NG-1ZL","50.4537","2.4116","Bours, Pas-de-Calais, Hauts-de-France, France",NA,NA,NA
+"GJKG-CH8","49","13","Europe",NA,NA,NA
+"GVVZ-VYQ",NA,NA,NA,NA,NA,NA
+"LT1C-XLM","50.1531","2.565","Souastre, Pas-Calés, Heuts-d'Franche, Française",NA,NA,NA
+"LT1C-WV3","50.7323","3.104","Tourcoing, Nord, Heuts-d'Franche, Française","50.1531","2.565","Souastre, Pas-Calés, Heuts-d'Franche, Française"
+"G6D8-8Y4","52.0808","-2.6344","Whitestone, Herefordshire, England, United Kingdom",NA,NA,NA
+"GMRK-3XJ","52.0808","-2.6344","Whitestone, Herefordshire, England, United Kingdom",NA,NA,NA
+"MBVX-FQ5","52.4379","-1.6496","ENG-","52.4379","-1.6496","ENG"
+"MBVX-F74","52.4379","-1.6496","ENG","52.4379","-1.6496","England, United Kingdom"
+"LVC4-WD4","53.1389","8.2137","Oldenburg, Oldenburg (Oldenburg), Oldenburg, Niedersachsen, Germany","53.1389","8.2137","Oldenburg, Oldenburg (Oldenburg), Oldenburg, Niedersachsen, Germany"
+"GWFP-B5X","53.16667","5.83333","Friesland, Netherlands",NA,NA,"Oldenburg, Stadt Oldenburg, Niedersachsen, Germany"
+"GLK5-8CB",NA,NA,NA,NA,NA,NA
+"GV1J-4D5",NA,NA,NA,NA,NA,NA
+"GLMD-FMZ",NA,NA,NA,NA,NA,NA
+"G3Q7-DS6","52.02085","10.09875","Ambergau, Hildesheim, Niedersachsen, Germany","52.02085","10.09875","Ambergau, Hildesheim, Lower Saxony, Germany"
+"G4P9-R2R","52.02085","10.09875","Ambergau, Hildesheim, Hannover","52.6184","10.6748","Niedersachsen, Germany"
+"LZR5-PT9",NA,NA,NA,NA,NA,NA
+"L2Z8-ZVW",NA,NA,NA,NA,NA,NA
+"GKZ8-J6R","51.5","10","Lebarten-Deutschland","51.5","10","Lebarten-Deutschland"
+"G87Y-PJS","51.5","10","Germany",NA,NA,NA
+"G87Y-1F5","49","13","Europe",NA,NA,NA
+"LRSZ-ZLB","41.0136","28.955","Constantinople, Constantinople, Turkey","41.18057","26.16751","Didimoticho, Evros, Makedonia, Thraki, Greece"
+"G2LQ-65J","42","21.41666","Skopje, 1000, Skopje, Macédonie du Nord, Macédoine,",NA,NA,NA
+"GN31-1HC",NA,NA,NA,NA,NA,NA
+"GNQM-3NZ","46","2","France",NA,NA,NA
+"G2GN-NMJ","46","2","France",NA,NA,NA
+"G9D7-CKQ","51.8","8.1","Westphalia, Prussia, Germany","49.25","5.3333","Verdun, Meuse, Lorraine, France"
+"L8BN-V2P","48.6542","7.2378","Dabo, Moselle, Lorraine, France",NA,NA,"Nordgau, Thueringen, Germany"
+"GV7J-GDD",NA,NA,NA,NA,NA,NA
+"G6CG-YKS","51.58333","11.8","Wettin, Saalkreis, Saxony, Prussia, Germany","51.19472","11.87167","Goseck, Querfurt, Saxony, Germany"
+"G6CG-YQN","51.58333","11.8","Wettin, Saalkreis, Sachsen, Deutschland","51.21276","11.86715","Goseck, Weißenfels, Sachsen, Deutschland"
+"G7S9-4S1","50.98333","11.03333","Erfurt, Erfurt, Thüringen, Germany",NA,NA,NA
+"LCRZ-RRM","51.5","10","Germany",NA,NA,NA
+"GJ1W-MDB",NA,NA,NA,"51.5","10","Germany"
+"GQLK-X64",NA,NA,"Leinegau, Thuringen, Preussen",NA,NA,"Leinegau, Thuringen, Preussen"
+"GGLS-SDZ",NA,NA,NA,NA,NA,NA
+"GCGP-7ZD","49","13","Europa",NA,NA,NA
+"GGLS-ZVP",NA,NA,NA,NA,NA,NA
+"LDRK-Y8G","53.6","9.48333","Stade, Stade, Niedersachsen, Duitsland","51","13","killed near Stade, Saxony, Prussia, Germany"
+"GWW1-5JL",NA,NA,NA,NA,NA,NA
+"L2ZF-M8J",NA,NA,NA,"51.5","10","Germany"
+"GQML-RHY","52.1167","11.6333","Magdeburg, Magdeburg, Sachsen, Preußen, Duitsland",NA,NA,NA
+"LRQW-X7W","52.36325","9.85585","Anderten, Misburg, Hanover, Lower Saxony, Germany",NA,NA,NA
+"G9MG-W1B","51.5","10","Germany",NA,NA,NA
+"G898-BY6",NA,NA,NA,NA,NA,NA
+"LZB1-7NF","51.5","10","Germany",NA,NA,NA
+"LZB1-72Y","51.5","10","Deutschland",NA,NA,NA
+"LDRZ-BR2",NA,NA,NA,"51.5","10","Allemagne"
+"GX87-BSH","50.6845","8.8929","Hesse, Germany",NA,NA,NA
+"GKVH-31G","49.5","10","Holy Roman Empire",NA,NA,NA
+"L2WB-53Q","49.5","10","Heiliges Römisches Reich",NA,NA,NA
+"L2WB-RK1",NA,NA,NA,NA,NA,NA
+"G9Y8-1HW",NA,NA,NA,"52.01","4.54","Bleiswijk, Holland, Netherlands"
+"GCD2-95F",NA,NA,NA,NA,NA,NA
+"LBK6-GWS","52.5","5.75","Netherlands",NA,NA,NA
+"LBK7-1QH","49.5","8.9167","Rothenberg, Grafschaft Erbach, Hessen, Heiliges Römisches Reich",NA,NA,NA
+"GKZZ-S8X","49.3743","10.159","Rothenburg Ob Der Tauber,Mittelfranken Schwaben,Bayern,Germany",NA,NA,NA
+"KPS9-T92",NA,NA,NA,NA,NA,NA
+"GHNJ-DS2","52.13145","6.23132","Zutphen, Gelderland, Nederland",NA,NA,NA
+"LYVH-94H",NA,NA,NA,"50.4229","7.5792","Bendorf, Bendorf, Mayen-Koblenz, Rhineland-Palatinate, Germany"
+"GDCP-R7C",NA,NA,NA,NA,NA,NA
+"GDXS-C9N","44.8","0.5","Auvergne, Duché d'Aquitaine","45.5517","3.3728","Sauxillanges, Puy de Dome, Auvergne, Duché d'Aquitaine"
+"GDX7-B94","47.7819","12.5083","Staudach-Egerndach, Traunstein District, Bavaria, Germany","51.5","10","Germany"
+"L2TV-SHN","49","11.5","Bavaria, Germany","48.4408","11.735","Freising, Oberbayern, Bayern, Allemagne"
+"GQFV-6RC","49","11.5","Bavaria, Germany","51.5","10","Germany"
+"GDX7-YNN","49.0522","12.0797","Regensburg, Bavaria",NA,NA,NA
+"GKZC-BLH","47.5","14","Austria","47.5","14","Austria"
+"GGBB-QZB",NA,NA,NA,"50.26667","8.63333","Dillingen, Obertaunuskreis, Hesse-Nassau, Prussia, Germany"
+"G74R-RDJ",NA,NA,NA,NA,NA,NA
+"GC49-9T8","51.58333","11.8","Wettin, Sachsen, Germany","43.276","11.9852","Cortona, Arezzo, Tuscany, Italy"
+"GQ9S-8GW",NA,NA,NA,"51.49222","11.22806","Sangershausen, Sangerhausen, Sachsen, Deutschland"
+"LBQV-GTP","51","13.25","Saxony, Germany","51","13.25","Saxony, Germany"
+"LBQV-RS8","51","13.25","Saxony","51.0514","13.7433","Merseburg, now Dresden, Germany"
+"G8H6-DS7","51.8","8.1","Steusslingen, North Rhine-Westphalia, Preussen",NA,NA,NA
+"GXWJ-LZS",NA,NA,NA,NA,NA,NA
+"GV4Y-82D",NA,NA,NA,NA,NA,NA
+"G6MD-NRC",NA,NA,NA,NA,NA,NA
+"9HBS-VVR","53.6","9.48333","Stade, Landkreis Stade, Niedersachsen, Deutschland","52.28333","11.06667","Walbeck, Gardelegen, Freistaat Sachsen, Deutschland"
+"L193-W27",NA,NA,NA,NA,NA,NA
+"GGWC-19Y","47.7","9.68333","Hirscher, Germany","47.7","9.68333","Hirscher, Germany"
+"GGWC-52V","47.0482","9.4407","Sargans, Sankt Gallen, Switzerland","47.7","9.68333","Hirscher, Germany"
+"GGWC-CZ2","47.5029","9.7453","Bregenz,Vorarlberg,Austria.",NA,NA,NA
+"GG2T-Q2D","46","2","Hauteville, Duché de Normandie",NA,NA,NA
+"9CW1-XS8","43.1","12.3",",, Italy",NA,NA,NA
+"G7J5-J36",NA,NA,NA,NA,NA,NA
+"GJ1T-2SW","51.7137","11.2153","Askanien, Ballenstedt, Germany","51.7137","11.2153","Askanien, Ballenstedt, Germany"
+"GXZK-L77","49","11.5","Ringelheim, Bayern, Germany",NA,NA,NA
+"GKRC-MN9","41.15","28.75","Duchy of Thüringen, Carolingian Empire","50.9167","11","Duchy of Thüringia, Thüringen"
+"G2L1-N43","51.3667","12","Kreis Merseburg, Saxony, Germany","51.7917","11.1472","Quedlinburg, Quedlinburg, Saxony, Germany"
+"GFCT-9NG","51.5","10","Saargau, Franconia, Germany, Medieval States.","50.4504","10.4458","Grabfeld, Schmalkalden-Meiningen, Thuringia, Germany"
+"GLW3-Y96",NA,NA,NA,NA,NA,NA
+"GH6D-HQB","51.1625","13.4974","Meißen, Kreis Meißen, Sachsen, Deutschland","51.26847","10.40113","Mark, Unstrut-Hainich-Kreis, Thüringen, Deutschland"
+"GZBR-WFF","63.42972","10.39333","Trondheim, Sor-Trondelag, Norway","59.2683","10.4084","Tønsberg, Vestfold, , Norway, Scandinavia"
+"GF1M-CS2","62","10","Norway",NA,NA,NA
+"GKZZ-SQR",NA,NA,NA,NA,NA,NA
+"G2CL-5S4",NA,NA,NA,NA,NA,NA
+"GKRS-P5V","47.69167","11.41875","Benediktbeuern, Bavaria, Germany","48.1098","11.26984","Gilching, Bavaria, Germany"
+"KLVW-V5J","51.5","10",",,, Germany",NA,NA,NA
+"LRXH-YDD","44.244","20.767","Serbia","42.43333","18.76667","Kotor, Montenegro"
+"LBW5-8WP","43.2","20.5","Raški, Serbia","44.244","20.767","Serbia"
+"LHNV-K4J","40.5226","21.2586","Kastoriá, Kastoriá, Greece",NA,NA,NA
+"GKZ8-5X7","39.69186","22.44412","Larissa, Greece",NA,NA,NA
+"GZ5R-MRN",NA,NA,NA,NA,NA,NA
+"GL82-LLS","49","13","Europe",NA,NA,NA
+"GLF2-KP2",NA,NA,NA,NA,NA,NA
+"G6CK-HP2","47.41667","8.66667","Zurich,Switzerland.","51.5","10",",Germania."
+"GXXD-9WQ","51.5","10","Germany",NA,NA,NA
+"LVYH-6SN","49","13","Europe",NA,NA,NA
+"G4D1-TT2","49","13","Europe",NA,NA,NA
+"GWZW-VT6","51.5","10","Germany",NA,NA,NA
+"9HD7-6WL","50.4144","9.011","Nidda, Kreis Büdingen, Großherzogtum Hessen, Deutsches Reich",NA,NA,NA
+"KDSD-1ZQ","51.5","10","Germany",NA,NA,NA
+"GX29-9ZS","51.5","10","Germany",NA,NA,NA
+"L133-5P2","51.5","10","of Germany",NA,NA,NA
+"GC7Q-3TK","48.666","8.73203","Calw, Landkreis Calw, Baden-Württemberg, Duitsland","48.666","8.73203","Calw, Landkreis Calw, Baden-Württemberg, Duitsland"
+"GL28-J3D","47.4627","8.1861","Habsburg, Aargau, Switzerland",NA,NA,NA
+"GDCZ-FZY","47.4627","8.1861","Habsburg, Aargau, Switzerland",NA,NA,NA
+"GG89-TZK","47.4627","8.1861","Habsburg, Aargau, Switzerland",NA,NA,NA
+"GG89-B9S","47.4627","8.1861","Habsburg, Aargau, Switzerland",NA,NA,NA
+"G2F5-T6H","52.6184","10.6748","Supplinburg, Lower Saxony, Germany",NA,NA,NA
+"GGRZ-L2G","52.30421","11.43859","Haldensleben, Börde, Sachsen-Anhalt, Deutschland","51.48333","6.23333","Walbeck, Geldern, Rijnland, Preußen, Duitsland"
+"LZFZ-6XQ",NA,NA,NA,NA,NA,NA
+"G4PW-5X4",NA,NA,NA,NA,NA,NA
+"GC39-M66",NA,NA,NA,"60","100","Russia"
+"GJT5-DCY",NA,NA,NA,NA,NA,NA
+"GW9Y-S7M","50.4505","30.5234","Kyyiv, Kyiv, Ucrânia, Sowjetunion","55.6581","28.6936","Polotsk"
+"KZ4T-LH6","55.6581","28.6936","of, Polotsk, Byelorussia",NA,NA,NA
+"L1Y9-G7X","51.5","10","Germany, The Holy Roman Empire",NA,NA,NA
+"G6MK-238","51.5","10","Deutschland",NA,NA,NA
+"G6NW-4R2","51.5","10","Deutschland",NA,NA,NA
+"G6NN-NVP","51.5","10","Deutschland",NA,NA,NA
+"GK5N-FQY","46","2","France",NA,NA,NA
+"GK5F-BRM",NA,NA,NA,NA,NA,NA
+"G8ML-26P","50.3643","3.186","Montigny-en-Ostervent, Nord, Nord-Pas-de-Calais, France",NA,NA,NA
+"GJ56-L7M",NA,NA,NA,NA,NA,NA
+"GNS9-15H","47","8.5","Switzerland",NA,NA,NA
+"GNLG-ZZP","47","8.5","Switzerland",NA,NA,NA
+"GLS9-7KR","49","11.5","Bavaria, Germany","49","11.5","Bavaria, Germany"
+"GLSM-C6Q","49","11.5","Bavaria, Germany",NA,NA,NA
+"9Z8K-1H2",NA,NA,NA,"51.225","13.5078","Of, MEISSEN,DRESDEN,SACHSEN"
+"L7JS-L5F",NA,NA,"Of Aukstatija, Vil'Nyus, Lithuania",NA,NA,NA
+"L7JS-LTX",NA,NA,NA,NA,NA,NA
+"9WPT-XCY",NA,NA,NA,NA,NA,NA
+"GK85-L69",NA,NA,NA,NA,NA,NA
+"GVF2-9HL",NA,NA,NA,NA,NA,NA
+"GVFY-6RF",NA,NA,NA,NA,NA,NA
+"LY2L-2F3",NA,NA,NA,NA,NA,NA
+"LRQR-BYD","51.5","10","Germany",NA,NA,NA
+"LRQR-T5D","51.5","10","Germany",NA,NA,NA
+"LY29-SZ3","51.5","10","Germany",NA,NA,NA
+"LY29-QN1",NA,NA,NA,NA,NA,NA
+"GHV9-VNS","49","13","Europe",NA,NA,NA
+"L2P7-LR8","49","13","Europe",NA,NA,NA
+"LYKQ-Z54","48.48333","9.25","Achalm, Eningen unter Achalm, Landkreis Reutlingen, Baden-Württemberg, Deutschland",NA,NA,NA
+"G2QW-32Z",NA,NA,NA,NA,NA,NA
+"GG71-MMB","48.26667","9.71667","Dettingen, Ehingen, Württemberg, Deutschland",NA,NA,NA
+"GG7B-J2C",NA,NA,"Calw,Wuerttemburg,Bavaria.",NA,NA,NA
+"G6ZN-QZV",NA,NA,NA,"51.5","10","Alemanha"
+"G93Q-XYB",NA,NA,NA,NA,NA,NA
+"GNXV-ZKC",NA,NA,NA,NA,NA,NA
+"G2CJ-RRP","49.23684","10.93421","Abenberg, Germany",NA,NA,NA
+"GL7J-VWP",NA,NA,NA,NA,NA,NA
+"GL7V-MM9","50.6","5.7","Liège, Belgien",NA,NA,NA
+"LCFV-C12","45.4652","9.1907","Milan, Milano, Lombardia, Italy",NA,NA,NA
+"GVKG-RJ5","45.4672","9.18283","Santissima Trinita', Milano, Milan, Lombardy, Italy",NA,NA,NA
+"GKMX-X1X",NA,NA,NA,NA,NA,NA
+"GG1V-MJ2",NA,NA,"Arlés, Francia",NA,NA,NA
+"M1HK-W82","45.139","7.0495","Susa, Turin, Italy",NA,NA,NA
+"G6V3-221",NA,NA,NA,"43.1","12.3","Itália"
+"G6MC-6YN","43.1","12.3","Itália",NA,NA,NA
+"G7PH-N63",NA,NA,NA,NA,NA,NA
+"G49Q-R85",NA,NA,NA,NA,NA,NA
+"G7DJ-2WN",NA,NA,NA,"46","2","França"
+"G7DJ-2WV",NA,NA,NA,"46","2","França"
+"GJSV-FN3",NA,NA,NA,"39.292","9.14","Santa Igia, Cagliari, Sardinia, Italy"
+"GG55-3SG",NA,NA,NA,NA,NA,NA
+"GKWW-TYG","44.5475","9.001","Genova, Liguria, Itália","44.5475","9.001","Genova, Liguria, Itália"
+"GGRH-1KW","44.5475","9.001","Genova, Liguria, Itália","43.1","12.3","Itália"
+"KN7Q-WXS","45.4427","12.3157","Venezia,Venezia,Italy",NA,NA,"Adriatic Sea, Mediterranean Sea, At Sea"
+"GS9K-FGN","45.5308","12.3308","Venice,Veneto,Italy.",NA,NA,NA
+"G78Z-5TY","49","13","Etelköz Ost Europa, Etelköz Ost Europa","46.74","23.42","Erdély - Transylvania, Erdély - Transylvania"
+"GXXG-JGT","48.0599","19.8422","Kazár, Nógrád, Hungary","49","13","Etelköz Ost Europa, Etelköz Ost Europa"
+"LRSD-3JX",NA,NA,NA,NA,NA,NA
+"G6FX-4RZ",NA,NA,NA,NA,NA,NA
+"LDNK-N29",NA,NA,NA,NA,NA,NA
+"GVNF-K21",NA,NA,NA,NA,NA,NA
+"GCD5-TPT",NA,NA,NA,NA,NA,NA
+"GQLW-R1N","47.5","14","Österreich","47.5","14","Austria"
+"GJT2-9KG","47.5","14","Autriche","47.5","14","Autriche"
+"GQFC-NWY",NA,NA,NA,NA,NA,NA
+"GQLY-V9Z","49","11.5","Bavaria, Germany","48.5217","7.5275","Altorf, Bas-Rhin, Alsace, France"
+"GVXN-YX5",NA,NA,NA,NA,NA,NA
+"G849-MHS","48.1667","10.5","Zürichgau, Hzgt Schwaben, Ostfrankenreich","48.1667","10.5","Zürichgau, Hzgt Schwaben, Ostfrankenreich"
+"GLTX-9H2",NA,NA,NA,NA,NA,NA
+"LDMK-R8P","47.96218","11.91218","Hzgt. Baiern, Ostfränkisches Reich","49.07881","12.03531","Regensburg, Hzgt Baiern, HRR"
+"GL4X-CSJ","49","11.5","Bavaria, Germany","49","11.5","Bavaria, Holy Roman Empire"
+"GVVB-277","49","11.5","Bavaria, Holy Roman Empire","51.5","10","Germany"
+"GVVB-XGK","51.5","10","Germany","51.5","10","Germany"
+"GVHP-L9B","47.11502","14.74873","Eppenstein, Judenburg, Styrie, Autriche","47.11502","14.74873","Eppenstein, Judenburg, Styrie, Autriche"
+"GVPX-7KH","46.75","13.83","Carinthia, Austria",NA,NA,NA
+"G6NR-X1W","51.90638","10.40872","Goslar, Landkreis Goslar, Niedersachsen, Deutschland",NA,NA,NA
+"G8W1-CMT","48.6542","7.2378","Dabo, Moselle, Lorraine, France","48.6542","7.2378","Dabo, Moselle, Lorraine, France"
+"GKH1-J36","48.6542","7.2378","Dabo, Moselle, Lorraine, France","48.6542","7.2378","Dabo, Moselle, Lorraine, France"
+"GGN9-XXS","43.1","12.3","Italy",NA,NA,NA
+"GQ18-PLS","49","11.5","Of Bavaria,Germany",NA,NA,NA
+"GQXW-JFF","49.38576","11.35643","Mittelfranken, Altdorf, Bayern, Germany",NA,NA,NA
+"G8SB-WJJ","46","2","France",NA,NA,NA
+"GG37-Q77","46","2","France","46","2","France"
+"GKZ8-LRC","43.1838","2.9963","Narbonne, Aude, Languedoc-Roussillon, France","43.1838","2.9963","Narbonne, Aude, Languedoc-Roussillon, France"
+"G23Q-6SP","43.1838","2.9963","Narbonne, Aude, Languedoc-Roussillon, France",NA,NA,NA
+"KHRR-ZX7","43.604","1.443","Toulouse, Duché d'Aquitaine, Caroliingian Empire","44.25","2.5","Rouergue, Aveyron, Duché d'Aquitaine, Carolingian Empire"
+"93KV-8B7","45.13921","0.77963","Reims, Dordogne,  Duché d'Aquitaine, Carolingian Empire","43.604","1.443","Toulouse, Duché d'Aquitaine, Carolingian Empire"
+"LDSQ-N44","44.01667","4.42419","Uzès, Nîmes, Gard, Languedoc-Roussillon, France","46.9498","4.2994","Autun, Saône-et-Loire, Bourgogne-Franche-Comté, France"
+"GL5N-65L","46.7842","4.8529","Chalon-sur-Saône, 71076, Saône-et-Loire, Bourgogne, Frankrijk","47.1781","4.8784","L'Etang-Vergy, 21254, Côte-d'Or, Bourgogne, Frankrijk"
+"GGDW-9PC","46","2","France","47.34358","-0.69306","Chalonnes-sur-Loire, Angers, Maine-et-Loire, Pays de la Loire, France"
+"GGD7-1S6","46","2","France",NA,NA,NA
+"GVNP-4KR","49.894","2.3025","Amiens, Somme, Picardie, France","49","6.5","Mertz, Moselle, Lorraine, France"
+"GLFZ-DGL",NA,NA,NA,NA,NA,NA
+"LTY4-Y72","48.7398","6.1759","Lorraine, Alsace, France","45.4065","10.2756","Ghedi, Brescia, Italy"
+"LZ86-129","48.1667","10.5","Altorf, Swabia, Germany","45.05168","9.69908","San Sisto, Piacenza, Piacenza, Emilia-Romagna, Italy"
+"GD5G-7PX","48.59084","-0.35767","La Ferté-Macé, Orne, Normandie, France",NA,NA,NA
+"GLFH-NWX","49.4933","2.675","Gournay-sur-Aronde, Oise, Hauts-de-France, France",NA,NA,NA
+"94YQ-7HG","48.1667","-1.6667","Rennes, Ille-et-Vilaine, Bretagne","48.15","2.6983","Château-Landon, Seine-et-Marne, Région Parisienne, France"
+"L1S4-GSS",NA,NA,NA,"45.3497","4.8809","Anjou, Isère, Rhône-Alpes, France"
+"GG7N-XGN","46.9876","1.1756","Châtillon-sur-Indre, Indre, Centre, France",NA,NA,NA
+"GLGF-5FJ","46","2","France",NA,NA,NA
+"9Z45-SCN","47.2197","-1.5543","Nantes, Loire-Atlantique, Pays de la Loire, France","47.1283","0.9952","Loches, Indre-et-Loire, Centre, France"
+"GKZ8-5FK","47.4104","0.9811","Amboise, France","45.3497","4.8809","Anjou, Isere, Rhone-Alpes, France"
+"GN4Q-MN6","48","0.25","Le Mans, Sarthe, Pays de la Loire, France","47.3272","5.044","Dijon, Côte-d'Or, Bourgogne-Franche-Comté, France"
+"GXMD-Z45","47.9167","2.0833","Orléans, Loiret, Centre-Val de Loire, France",NA,NA,NA
+"24RD-YF3","43.7591","0.3026","Vic-Fezensac, Gers, Midi-Pyrénées, France",NA,NA,NA
+"GS9T-JHD","47.9167","2.0833","Orléans, Loiret, Centre-Val de Loire, France",NA,NA,NA
+"GG1G-9JT","46","2","France",NA,NA,NA
+"GG1P-3XZ","46","2","France",NA,NA,NA
+"GG1G-2P3","46","2","France",NA,NA,NA
+"GG1L-RNH","46","2","France",NA,NA,NA
+"LCZN-T6T","49.5","3.5","Vermandois, Aisne, Picardie, France","45.5525","9.2226","Milan, Milano, Lombardia, Italy"
+"LDR6-HYY","49.96673","3.41839","Bohain-en-Vermandois, Saint-Quentin, Aisne, Picardie, France","45.4652","9.1907","Milan, Milano, Lombardia, Italy"
+"GP38-T91",NA,NA,NA,NA,NA,NA
+"GP38-51Y","47.7983","3.5744","Auxerre, Yonne, Bourgogne-Franche-Comté, France",NA,NA,NA
+"GNG6-KYZ","47.9953","0.203","Le Mans, Sarthe, Pays de la Loire, France","46","2","France"
+"G8KS-GR4","47.8602","4.5735","Châtillon-sur-Seine, Côte-d'Or, Bourgogne-Franche-Comté, France","46","2","France"
+"L8MS-MQZ","46.91667","4.25","Autun, Saône-et-Loire, Bourgogne-Franche-Comté, France","48.86667","2.33333","Paris, Seine, Francia"
+"GQP3-K86","45.5242","4.8783","Vienne, Rhône-Alpes, France",NA,NA,NA
+"GN5J-2TJ","41.15","28.75","Byzantine Empire","41.0136","28.955","Istanbul, Türkiye"
+"GGP4-QSW","57.5","14.9","Bjorko, Sverige (Sweden)","57.5","14.9","Bjorko, Sverige (Sweden)"
+"L1N2-H77",NA,NA,NA,NA,NA,NA
+"GL17-84K",NA,NA,NA,NA,NA,NA
+"99QT-S75","56.33333","-3.53333","Forteviot, Perthshire, Scotland","56.41666","-2.91666","Forgan, Fife, Scotland"
+"G9D2-KQK","56.31667","-6.41667","Iona, Argyll, Scotland","57.4784","-4.2242","Inverness, Highland, Scotland, United Kingdom"
+"G3KL-M81","43.1","12.3","Italy","46","2","France"
+"G3KL-TG7","42.78333","12.55","Piemonte, Massa Martana, Perugia, Umbria, Italy","45.076","7.684","Turin, Turin, Piedmont, Italy"
+"G6NH-HMV","45.139","7.0495","Susa, Torino, Piemonte, Italien",NA,NA,NA
+"G6NH-992","45.13","7.37","Torino, Piemonte, Italien","45.13","7.37","Torino, Piemonte, Italien"
+"LDSH-HB3","49","13","Europe","50.5536","3.2399","Cysoing, 59168, Nord, Nord-Pas-de-Calais, France"
+"LZJV-7DH","50.1105","8.682","Frankfurt, Fränkisches Reich","45.5117","11","Verona, Veneto, Italy"
+"GZ5X-JF3","45.076","7.684","Camerino, Torino, Piedmont, Italy","42.7414","12.7381","Spoleto, Perugia, Umbria, Italy"
+"G6R8-4HN","45.076","7.684","Camerino, Torino, Piedmont, Italy","42.7414","12.7381","Spoleto, Perugia, Umbria, Italy"
+"LC8B-RQJ","43.66667","4.75","Arles, Bouches-du-Rhone, Provence-Alpes-Cote d'Azur, France","46.7292","6.5323","Orbe, Vaud, Switzerland"
+"G2L1-HFH","43.61607","4.77228","Arles-Est, Arles, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France","43.4748","6.239","Provence, France"
+"LHJC-WKM","48.1734","7.3856","Alsace, France","45.0547","9.6928","Piacenza, Provincia Di Piacenza, Emilia-Romagna, Italy"
+"GPM9-QNZ","48.1734","7.3856","Alsace, France","48.0165","6.5899","Remiremont, Vosges, Lorraine, France"
+"LR8G-BSN",NA,NA,NA,"49.78972","9.93752","Würzburg, Würzburg, Bayern, Deutschland"
+"G39F-D58","47.42","4.68","Bourgogne, France","51.5","10","Germany"
+"GKZZ-5HP","48.7398","6.1759","Scarmois, Lorraine France","51.5","10","Germany"
+"GKCW-HKQ","47.42","4.68","Bourgogne, France","47.42","4.68","Burgundy, France"
+"9CWH-1XP","52.1","5.9","Gelderland, Netherlands",NA,NA,NA
+"GW4J-HSZ",NA,NA,NA,NA,NA,NA
+"GK55-ZV3","53.30838","8.57837","Kleve, Uthlede, Cuxhaven, Lower Saxony, Germany",NA,NA,NA
+"G2YZ-HSQ",NA,NA,NA,NA,NA,NA
+"G4RF-LWV","50.674","5.6397","Herstal, Liège, Belgium","47.2285","-1.5145","Pays de la Loire, France"
+"LDHS-8VY","46","2","France","48.632","6.2307","Lorraine, Holy Roman Empire"
+"9CWV-CP1","48.7128","7.5659","Alsace, Bas-Rhin, Alsace, France","47.3941","0.685","Tours, Indre-et-Loire, Centre, France"
+"LHDC-1GX","46.32566","4.07967","Tours, Saône-et-Loire, Bourgogne-Franche-Comté, France","43.1","12.3","Monza, Milano, Lombardy, Italy"
+"LC58-L2Q","51.6665","8.1465","Herzfeld ,Westfalen Fränkisches Reich","51","13.25","Gandersheim, Hzgt. Sachsen, Ostfränkisches Reich"
+"LC58-LGY","51","13.25","Sachsen, Deutschland","47.42301","-0.59249","Stammesherzogtum Sachsen, Frankish Empire"
+"LD34-V6D","49.8941","10.8896","Bamberg, Bavaria, Germany","48.8667","2.3333","Paris, Ile-de-France, France"
+"L8MS-M3H","46","13","Friuli-Venezia Giulia, Italy","46.1424","13.004","Udine, Italie"
+"LBQB-VWT","46.5833","0.3333","Poitiers, Vienne, Poitou-Charentes, France","47.7017","-0.4492","Brissarthe, Maine-et-Loire, Pays de la Loire, France"
+"L2R4-SDF","46","2","France",NA,NA,NA
+"9CZK-LFP","46","2","France",NA,NA,NA
+"GG3P-4PH","57.45","18.53","Gotland, Sweden","56.81674","-4.18396","Scotland"
+"LV89-MQW","53.3443","-6.2665","Dyflinni, Ireland","53.3443","-6.2665","Dublin, Dublin, Ireland"
+"GGR4-SRR","62","10","Raumsdal, Relemark, Norway","65.25","-22","Hvammi, Dala, Iceland"
+"GGBQ-FNL","61.18333","7.26667","Amla, Sogn Og Fjordane, Norway","64.1333","-21.9","Reykjavik, Iceland"
+"GLRK-1QZ",NA,NA,"Kilkenny, Leinster, Osraige, Ireland","64.89","-18.16","Iceland"
+"GKZ8-D83","51.22608","0.75054","Kingdom of Kent, Anglo Saxon England","52.38733","-0.18402","Huntingdonshire, Kingdom of Wessex, Anglo Saxon England"
+"HMVL-C5B","51.22608","0.75054","Kent, England","51.28084","1.07904","Canterbury, Kent, England"
+"LTY2-5T5","52.4379","-1.6496","England",NA,NA,NA
+"G6DM-F49",NA,NA,NA,NA,NA,NA
+"9HLT-8RF","50.67097","-1.23332","Isle of Wight, Hampshire, England","51.2","-2","Wessex"
+"9C6P-17T","50.6775","-1.30988","Isle of Wight, Hampshire, Kingdom of Wessex","51.2","-2","Kingdom of Wessex"
+"937L-LCD","52.4379","-1.6496","England, United Kingdom","52.4379","-1.6496","England, United Kingdom"
+"LZJY-86X","52.4379","-1.6496","England, United Kingdom","50.88667","-3.21667","Mercia, England.bur Croyland Abbey"
+"GGMQ-BTV","53.6197","11.4047","Schwerin, Germany",NA,NA,NA
+"LVZK-533","60","100","Russland",NA,NA,NA
+"GFPV-QXJ","62","10","Norway",NA,NA,NA
+"GNZW-T9L","63","17.4","Scandinavia, Europe",NA,NA,NA
+"LTXV-1JH","59.4745","8.8031","Raumsdal, Telemark, Norway","57.83333","-7","Hebrides, Scotland"
+"LB2S-LKH","59.4745","8.8031","Telemark, Norway","54.25","-4.5","Isle of Man"
+"G4BC-QYF",NA,NA,NA,NA,NA,NA
+"9CX4-24R",NA,NA,NA,NA,NA,NA
+"L1YD-94L","41.33333","26.75","Adianople, Thrace, Türkiye","41.01105","28.9578","Istanbul, Fatih, İstanbul, Türkiye"
+"9CZC-YR4","41.15","28.75","Constantinople, Byzantine Empire","41.0136","28.955","İstanbul, Ottoman Empire"
+"9Q9X-42Z","41.645","21.665","Macedonia, Byzantine Empire","41.15","28.75","Constantinople, Anatolia, Byzantine Empire"
+"L5VM-TTF","41.0136","28.955","Istanbul, Türkiye",NA,NA,NA
+"GL5F-GX8","40","45","Lekapena, Armenia","41.15","28.75","Constantinople, Anatolia, Byzantine Empire"
+"GL5F-R2G","41.15","28.75","Byzantine Empire",NA,NA,NA
+"M1HV-66X","62","15","Sweden",NA,NA,NA
+"GV4L-S2D",NA,NA,NA,NA,NA,NA
+"GGH2-BTN",NA,NA,NA,NA,NA,NA
+"GGSQ-ZP1","48.5197","3.5956","Pont-sur-Seine, Aube, Champagne-Ardenne, France","49.2546","4.0313","Reims, Marne, Champagne-Ardenne, France"
+"GLJ3-7PY",NA,NA,NA,NA,NA,NA
+"GLYS-L22","49","13","Europe",NA,NA,NA
+"GGVH-7FW","46","2","France","49.5632","3.6133","Laon, Aisne, Picardie, France"
+"GVV8-W7R","49.91667","2.16667","Amiens, Somme, Picardie, France","49.91667","2.16667","Amiens, Somme, Picardie, France"
+"L61S-GV2","50.5335","2.1502","Senlis, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"GH29-MH6","52.282","-1.585","Warwick, Warwickshire, England","52.282","-1.585","Warwick, Warwickshire, England"
+"G88P-5CS","52.33781","-1.56089","Warwickshire, England",NA,NA,NA
+"GLZ5-ZL3","47.4906","4.332","Semur-en-Auxios, Côte-d'Or, Bourgogne-Franche-Comté, France","46","2","France"
+"GP9N-L4X","49.5","3.5","Aisne, Picardie, France","43.0833","2.5","Aude, Occitanie, France"
+"GH91-LH3","43.21","2.35","Carcassonne, Aude, Languedoc-Roussillon, France","43.21","2.35","Carcassonne, Aude, Languedoc-Roussillon, France"
+"GSSL-RG5","43.9167","2","Albi, Tarn, Occitanie, France","43.9167","2","Albi, Tarn, Occitanie, France"
+"GGJB-XRP","43.9167","2","Albi, Tarn, Occitanie,","43.92743","2.14825","Albi, Tarn, Midi-Pyrénées, France"
+"GPMV-4DB","41.9791","2.821","Girona, Girona, Catalonia, Spain",NA,NA,NA
+"GJD5-5KJ","41.9791","2.821","Girona, Girona, Catalonia, Spain",NA,NA,NA
+"LTY9-ZM8","43.9167","2","Albi, Tarn, Occitanie, France","42.1395","3.1178","Ampurias, Girona, Catalonia, Spain"
+"GJMY-4F7","43.604","1.443","Toulouse, Departement de la Haute-Garonne, Midi-Pyrénées, France","46","2","France"
+"G2H4-C5T","43.25","0.75","Comminges, Midi-Pyrénées, France","46","2","France"
+"GZFR-391",NA,NA,NA,NA,NA,NA
+"G8ML-NVR","48.6578","-4.1745","Plouescat, Bretagne, France",NA,NA,NA
+"G66P-HZY","46","2","France",NA,NA,NA
+"LZYX-WQG","47.8489","-0.9486","Craon, Mayenne, Pays de la Loire, France","46.083","0.167","Poitou-Charentes, France"
+"GVGK-XCL",NA,NA,NA,NA,NA,NA
+"GNYZ-JJ8",NA,NA,NA,NA,NA,NA
+"LKCC-9HQ",NA,NA,NA,"51.7589","5.7389","Grave, Land van Cuijk, Brabant-septentrional, Pays-Bas"
+"GKG3-H3F",NA,NA,NA,NA,NA,NA
+"GSW3-SYF","47.9962","-0.71836","Laval, Laval, Mayenne, Pays-de-la Loire, France",NA,NA,NA
+"GSW3-SDL","48.0785","-0.7669","Aresnières, Laval, Mayenne, Pays-de-la Loire, France",NA,NA,NA
+"GG1P-WHR","45.667","0.0833","Angoulême, Charente, Poitou-Charentes, France",NA,NA,NA
+"G84T-3PN","46","2","France",NA,NA,NA
+"G84T-LWB","46","2","France",NA,NA,NA
+"GMV5-BSB","48.1667","10.5","Schwaben, Bavaria, Germany",NA,NA,NA
+"LBMF-CD4","51","13.25","Hzgt. Sachsen, Fränisches Reich","49.96173","9.14662","Aschaffenburg, Ostfrankenreich"
+"GQVH-555","45.7925","2.9985","Auvergne, France","45.7925","2.9985","Auvergne, France"
+"GN42-6HP","46.5833","0.3333","Poitiers, Vienne, Poitou-Charentes, France","45.6667","3","Clermont-Ferrand, 63113, Puy-de-Dôme, Auvergne, Frankrijk"
+"G8XP-GH1","46","2","France",NA,NA,NA
+"G8XP-HCV","46","2","France",NA,NA,NA
+"GZRV-HCX","45.194","3.2926","Mercoeur, Haute-Loire, Auvergne-Rhône-Alpes, France","45.194","3.2926","Mercoeur, Haute-Loire, Auvergne-Rhône-Alpes, France"
+"L4SB-TXF","45.6667","3","Clermont-Ferrand, Puy de Dôme, Auvergne-Rhône-Alpes, France",NA,NA,NA
+"G2ZX-P8H",NA,NA,NA,"45.2936","3.3848","Brioude, Haute-Loire, Auvergne, France"
+"9H47-8S9","46.5842","3.0555","Bourbon-l'Archambault, Allier, Auvergne, France","47.84185","3.40387","Auvergne, Yonne, Burgundy, France"
+"L6MK-SK5","49.4781","0.76978","La Mailleraye-sur-Seine, Seine-Maritime, Upper Normandy, France",NA,NA,NA
+"LJ2S-H13","49.4781","0.76978","La Mailleraye, Seine-Maritime, Haute-Normandie, France",NA,NA,NA
+"GHNG-GTV","43.3","-0.3667","Béarn, France","46","2","France"
+"GJKD-MNM","54.61119","-6.93167",", Ulster, Ireland","54.61119","-6.93167","Ulster, Ireland"
+"GHJF-CLX","49.2072","-0.5947","Audrieu, Calvados, Normandy, France","49.2072","-0.5947","Audrieu, Calvados, Normandy, France"
+"G6TL-D1P",NA,NA,NA,NA,NA,NA
+"GK16-H6R","48.5506","-1.7497","Dol, Ille-et Vilaine, Bretagne, France ","48.5506","-1.7497","Dol-de-Bretagne, Ille-et-Vilaine, Brittany, France"
+"GVM4-XV4","48.5823","-1.7389","Dol-de-Bretagne, Ille-et-Vilaine, Brittany, France","48.3185","-2.9377","Brittany, France"
+"L666-NZH","46","2","France",NA,NA,NA
+"GK22-N56","49.3676","-0.939","Asnières, Calvados, Basse-Normandie, France","49.3676","-0.939","Asnières, Calvados, Basse-Normandie, France"
+"GVNC-KBN","49.50158","0.15984","Graville, Normandy, France","49.50158","0.15984","Graville, Normandy, France"
+"GKBD-XNK","49.50158","0.15984","Graville, Normandy, France","49.50158","0.15984","Graville, Normandy, France"
+"K1TZ-FKH","49.06","-0.11","Normandy, France",NA,NA,NA
+"G62J-MV5",NA,NA,NA,NA,NA,NA
+"GK56-ZFK",NA,NA,NA,NA,NA,NA
+"GHXF-94S","52.3336","-3.3823","Powys, Wales",NA,NA,NA
+"GHXX-P9Q","52.33022","-3.76641","Wales",NA,NA,NA
+"G8WY-V87","53.81849","-2.62573","Lancashire, England","50.981","-0.3385","Sussex, England"
+"LRCR-WVR","53.9782","-0.2169","Skipsea, Yorkshire, England","54.0474","-2.8016","Lancaster, Lancashire, England"
+"9MV7-G13",NA,NA,NA,NA,NA,NA
+"9MV7-G1H",NA,NA,NA,NA,NA,NA
+"9CXH-TGF","52.33022","-3.76641","likely wales","52.33022","-3.76641","likely wales"
+"937D-5DM","51.80894","-3.55487","of Porthgogof,Ystradfellte,Breconshire,Wales",NA,NA,NA
+"937J-BFS","52.5629","-3.1492","of Cloddiau,LlnfhnglyNghr,Montgomeryshire,Wales",NA,NA,NA
+"937J-B6Q","52.5629","-3.1492","of,,Montgomeryshire,Wales",NA,NA,NA
+"L1DG-6ZP",NA,NA,NA,NA,NA,NA
+"LVKZ-K4F",NA,NA,NA,"52.5003","-2.6482","Holdgate, Shropshire, England"
+"GG6F-42R","49.5428","-56.8569","Hampden, England",NA,NA,NA
+"G77V-GGW","49.7965","3.4623","Ribemont, Aisne, Picardie, France",NA,NA,NA
+"GHDP-MPX","56.25","-5.25","Argyll, Scotland","56.25","-5.25","Argyll, Scotland"
+"GZZ8-LKL",NA,NA,NA,"56.81674","-4.18396","Argylshire, Scotland"
+"LC38-1W9","48.1522","1.4191","Saint-Maur-sur-le-Loir, Eure-et-Loir, Centre-Val de Loire, France",NA,NA,NA
+"L2TY-3BQ","48.1522","1.4191","Saint-Maur-sur-le-Loir, Eure-et-Loir, Centre-Val de Loire, France","46","2","France"
+"G8Q2-RWD","46","2","France",NA,NA,NA
+"G66P-9T3","46","2","France",NA,NA,NA
+"GGCZ-4CG","50.7264","1.6147","Boulogne-sur-Mer, Pas-de-Calais, France","40.43","-4","Spain"
+"GZB6-L9Z","51.70009","-2.23092","Forest Dene, Gloucestershire, England",NA,NA,NA
+"L7FS-SR6","51.88419","-2.14462","of,Gloucester,England",NA,NA,NA
+"9CNY-VTS","54.72087","9.95563","Hasselberg, Kreis Schleswig-Flensburg, Schleswig-Holstein, Allemagne","50.8574","3.3124","Harelbeke, Flandre occidentale, Belgique"
+"GN7R-9Q6","51.5","10","Germany",NA,NA,NA
+"GHXC-QCT","45.86835","5.58928","Ponthieu, Ain, Rhône-Alpes, France","50.2519","1.8814","Crécy-en-Ponthieu, Somme, Hauts-de-France, France"
+"GSQR-X2X","48.5198","4.2907","Ramerupt, Aube, Grand Est, France","50.2519","1.8814","Crécy-en-Ponthieu, Somme, Hauts-de-France, France"
+"GLFH-37J","49.3784","3.3222","Soissons, Aisne, Hauts-de-France, France",NA,NA,NA
+"GVQ4-RDZ",NA,NA,NA,NA,NA,NA
+"G66M-5XM","46","2","France",NA,NA,NA
+"GN45-FFT","46","2","France",NA,NA,NA
+"LZGL-BFY","65.91667","12.8","Oppland, Nordland, Norway","64.33333","10.86667","Oppland, Nordre Trondhjem, Norway"
+"GGPT-C8C","63.42972","10.39333","Trondheim, Sor-Trondelag, Norway","64.41667","12","Maer, Nord-Trondelag, Norway"
+"LZX1-MCJ","59.268","10.4075","Vestfold, Norway","62","10","Norway"
+"9M2R-XGC","56","10","Denmark","64.41667","12","Nord-Trøndelag, Norway"
+"GJDW-72S","50.7264","1.6147","Boulogne-sur-Mer, Département du Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"G6RN-Q5Y","50.2519","1.8814","Crécy-en-Ponthieu, Somme, Hauts-de-France, France","45.86835","5.58928","Ponthieu, Ain, Rhône-Alpes, France"
+"9CXW-5PM","45.86835","5.58928","Ponthieu, Ain, Rhône-Alpes, France","45.86835","5.58928","Ponthieu, Ain, Rhône-Alpes, France"
+"G4TB-YDG","52.33022","-3.76641","Wales",NA,NA,NA
+"G2SP-DXQ",NA,NA,"Wales","52.33022","-3.76641","Wales"
+"GGYZ-GYK",NA,NA,NA,NA,NA,NA
+"GGYZ-HP5",NA,NA,NA,NA,NA,NA
+"GKXR-MRG","52.1916","-1.7096","Stratford-upon-Avon, Warwickshire, England","52.1916","-1.7096","Stratford-upon-Avon, Warwickshire, England"
+"GJXV-X8B","51.85229","0.61466","Essex, Inglaterra, Reino Unido","51.85229","0.61466","Essex, Inglaterra, Reino Unido"
+"GJXK-313","51.85229","0.61466","Essex, Inglaterra, Reino Unido","51.85229","0.61466","Essex, Inglaterra, Reino Unido"
+"G2QQ-QN7","42.598","-5.577","León, Castilla y León, España","42.598","-5.577","León, Castilla y León, España"
+"G2QQ-W7C","42.598","-5.577","León, Castilla y León, España",NA,NA,NA
+"G2NS-6X9","48.8943","2.836","Condé-Sainte-Libiaire, Seine-et-Marne, Île-de-France, France",NA,NA,NA
+"GXSK-CT6","46.3372","5.6239","Condes, Jura, Bourgogne-Franche-Comté, France",NA,NA,NA
+"K6Q3-PKQ","40.43","-4","Espanha",NA,NA,NA
+"LX7H-SNH",NA,NA,NA,"40.43","-4","Spain"
+"GL3T-NG4","43.3615","-5.8495","Oviedo, Asturias, Spain","43.334","-5.8517","Asturias, Spain"
+"GL3T-ZKN","43.3615","-5.8495","Oviedo, Asturias, Spain","43.3615","-5.8495","Oviedo, Asturias, Spain"
+"GCSX-W46","49","13","Europa",NA,NA,NA
+"GCS6-R52","43.15","-7.63333","Of Saavedra, Begonte, Lugo, Galicia, Spain",NA,NA,NA
+"GWGW-GTY",NA,NA,NA,"40.43","-4","Spain"
+"2SHZ-254","40.43","-4","Spain",NA,NA,NA
+"GHMY-VZ9","42.5","-8.5","Deza, Pontevedra, Galiza, Espanha (Spain)",NA,NA,NA
+"9QQG-VFB","40.43","-4",",, SPAIN",NA,NA,NA
+"GKSP-KJ8","40.13333","-8.46667","Casconha, Coimbra, Portugal","41.0984","-8.0823","Ribadouro, Baião, Porto, Portugal"
+"GKSP-PXS","40.13333","-8.46667","Casconha, Coimbra, Portugal","41.0984","-8.0823","Ribadouro, Baião, Porto, Portugal"
+"GNM5-XKH","41.1616","-8.0355","Baião, Porto, Portugal","41.1662","-8.3437","Paço de Sousa, Penafiel, Porto, Portugal"
+"G2HY-P2X","41.1616","-8.0355","Baião, Porto, Portugal","41.1662","-8.3437","Paço de Sousa, Penafiel, Porto, Portugal"
+"LL4D-JFX","41.2926","-8.6328","Guilhabreu, Vila do Conde, Porto, Portugal","40.31667","-7.8","Batalla de Ourique, Bajo Alentejo, Portugal"
+"KLY4-VMC","38.5","-8","Paicos, Alentejo, Portugal","38.5","-8","Paicos, Alentejo, Portugal"
+"GHBC-Z9Z","40.43","-4","Espanha",NA,NA,NA
+"GN7Y-J8Q","40.43","-4","España",NA,NA,NA
+"L8RK-LKS","43.3615","-5.8495","Oviedo, Asturias, España","43.3615","-5.8495","Oviedo, Asturias, España"
+"G9ZR-X7W","42.598","-5.577","León, Castilla y León, España","43.3615","-5.8495","Oviedo, Asturias, España"
+"GH1T-492","42.6934","-2.30086","Zúñiga, Zúñiga, Navarra, España",NA,NA,NA
+"GH1T-QZK","42.6934","-2.30086","Zúñiga, Zúñiga, Navarra, España",NA,NA,NA
+"GCMF-BVY","43.4991","-8.1574","Neda, La Coruña, Galicia, España",NA,NA,NA
+"L24X-HZF","42.7805","-7.4134","Sarria, Lugo, Galicia, España","42.7805","-7.4134","Sarria, Lugo, Galicia, España"
+"9CMV-7BG","40.43","-4","Spain",NA,NA,NA
+"LHW3-38G",NA,NA,NA,NA,NA,NA
+"G2WT-XCR",NA,NA,NA,NA,NA,NA
+"GLR2-HXH",NA,NA,NA,NA,NA,NA
+"G2QG-661",NA,NA,NA,NA,NA,NA
+"GXD5-VFW",NA,NA,NA,NA,NA,NA
+"GXD5-496",NA,NA,NA,NA,NA,NA
+"GSDN-STG",NA,NA,NA,"42.0097","-4.5283","Palencia, Palencia, Castilla y León, Spain"
+"GX2Y-Y95","49","13","Europa","49","13","Europa"
+"GL7S-3QN","42.75","-7.88333","Galicia, Espanha",NA,NA,NA
+"G9FX-6GX","40.43","-4","España",NA,NA,NA
+"GKSC-QXC","40.43","-4","España",NA,NA,NA
+"GG5L-PJP","42","-6","León, Espanha",NA,NA,NA
+"LWSN-C2S","42.327","-6.0957","Destriana, León, Castilla y León, Espanha","42.327","-6.0957","Destriana, León, Castilla y León, Espanha"
+"GK1R-G1Y","42.5173","-4.7413","Saldaña, Palencia, Reino de León","42.598","-5.577","León, Reino de León"
+"GDL3-DBR","40.43","-4","España","40.43","-4","España"
+"GLCD-QZ6","39.7707","-7.9781","Portugal",NA,NA,NA
+"LK4F-857","42.598","-5.577","León, Castilla y León, España","41.2278","-8.6208","Maia, Porto, Portugal"
+"LDYR-92S","40.43","-4","Spain","40.43","-4","Spain"
+"GQB8-1CC","39.7707","-7.9781","Portugal",NA,NA,NA
+"G31M-LRF","39.7707","-7.9781","Gundiaes, Portugal",NA,NA,NA
+"GGGL-4HX",NA,NA,NA,"41.4995","-5.7418","Zamora, Castilla y León, Espanha"
+"GGDL-R62",NA,NA,NA,"41.4995","-5.7418","Zamora, Castilla y León, Espanha"
+"G6FW-RNW","40.43","-4","Spain",NA,NA,NA
+"GDD6-4RD","40.43","-4","Spain",NA,NA,NA
+"GLW3-D4F","43.334","-5.8517","Asturias, España",NA,NA,NA
+"G2WG-M82","40.43","-4","España",NA,NA,NA
+"G33P-S1D",NA,NA,NA,"42.1511","-7.9572","Celanova, Orenze, Galicia, Spain"
+"GXQH-518","39.7707","-7.9781","portugal","-30.127","-52.048","Leão"
+"G7F6-SF1","40.43","-4","Spain","42.5173","-4.7413","Saldaña, Palencia, Castilla y León, Spain"
+"GH8Q-V7V","40.43","-4","Espanha",NA,NA,NA
+"GL7L-P54",NA,NA,NA,NA,NA,NA
+"LJRR-85D","49.31696","-1.10259","Isigny, Calvados, Normandy, France","53.12066","-0.53898","Boothby Graffoe, Lincolnshire, England, United Kingdom"
+"GHJ1-7DL",NA,NA,NA,NA,NA,NA
+"GHX7-2PR","53.0764","0.1802","Friskney,Lincolnshire,England.",NA,NA,NA
+"GHX7-242",NA,NA,NA,NA,NA,NA
+"G2PB-TYS","49.06","-0.11","Loei, Normandie, France",NA,NA,NA
+"L8R5-LNP","39.8333","-4","Toledo, New Castile, Spain","39.8623","-4.0268","Toledo, Toledo, Castile-La Mancha, Spain"
+"G7VZ-Q86","42.75","-7.88333","Galicia, Reino de León, Corona de Castilla","36.014","-5.6038","Peña del Ciervo, Tarifa, Reino de Sevilla, Corona de Castilla"
+"GLZS-N6T","41.2278","-8.6208","Maia, Porto, Portugal","41.2278","-8.6208","Maia,Porto,Portugal."
+"LTCD-7M8","43.18333","-9.03333","Traba, Laxe, La Coruña, Galicia, Spain","43.4997","-8.2143","Trasancos, Ferrol, La Coruña, Galicia, Spain"
+"G6ZN-9K1","39.7707","-7.9781","Portugal","39.7707","-7.9781","Portugal"
+"L58K-9S7","40.43","-4","España","40.43","-4","España"
+"GGNW-W1Y",NA,NA,NA,NA,NA,NA
+"GGN7-XPF",NA,NA,NA,NA,NA,NA
+"GHQ6-JV3","40.5753","-8.4468","Águeda Municipality, Aveiro District, Portugal",NA,NA,NA
+"L8R5-XRX","39.7707","-7.9781","Portugal",NA,NA,NA
+"GV91-KCG","43.0442","-7.5549","Lugo, Galicia, España","39.7707","-7.9781","Portugal"
+"GVSM-29G","40.43","-4","Spain",NA,NA,NA
+"G7YB-XSJ","40.43","-4","Espanha",NA,NA,NA
+"G7GW-YGK","40.43","-4","Espanha",NA,NA,NA
+"L7NV-S9L","41.8333","-8.8167","Azevedo, Caminha, Viana do Castelo, Portugal","41.8333","-8.8167","Azevedo, Caminha, Viana do Castelo, Portugal"
+"GGZL-XN9","39.7707","-7.9781","Portugal",NA,NA,NA
+"KCM7-TMW","39.7707","-7.9781","Portugal","39.7707","-7.9781","Portugal"
+"9K8Y-XPY","42.75","-7.88333","Galicia, Espanha",NA,NA,NA
+"L8R5-HDT","41.15","-7.95","Fonseca, Porto, Portugal","40.634","-6.9651","Leomil, Almeida, Guarda, Portugal"
+"GC9K-5NF","49","13","Europa",NA,NA,NA
+"GC9K-T2D","49","13","Europa",NA,NA,NA
+"L8R5-7DD","40.43","-4","Espanha",NA,NA,NA
+"LD5Q-SR2","43.0095","-7.5564","Lugo, Lugo, Galicia, España","40.41667","-8.68333","Quinta dos Amaraes,Portugal"
+"LDRP-7V7",NA,NA,NA,"41.5514","-8.4236","Curvo,Braga,Portugal"
+"GV4Y-YS8",NA,NA,NA,NA,NA,NA
+"GVF3-S2Z","39.7707","-7.9781","Portugal","39.7707","-7.9781","Portugal"
+"GVF3-MFN","39.7707","-7.9781","Portugal","39.7707","-7.9781","Portugal"
+"L6GB-ZYW","40.43","-4","Espanha","40.43","-4","Espanha"
+"GXDV-B98","40.43","-4","Espanha","49","13","Europa"
+"GH7L-NW8","40.2","-8.41667","Coimbra, Coimbra, Portugal",NA,NA,NA
+"GV4T-29Z","40.2","-8.41667","Coimbra, Coimbra, Portugal",NA,NA,NA
+"GZ4P-L75","41.578","-8.2855","Lanhoso, Póvoa de Lanhoso, Braga, Portugal","40.2","-8.41667","Coimbra, Portugal"
+"L289-GFP","41.578","-8.2855","Lanhoso, Póvoa de Lanhoso, Braga, Portugal",NA,NA,NA
+"L24H-QZP",NA,NA,NA,NA,NA,NA
+"L24H-QNT","39.7707","-7.9781","Portugal",NA,NA,NA
+"LHZB-4XH","39.7707","-7.9781","Portugal","39.7707","-7.9781","Portugal"
+"LHZB-4XC","41.7414","-7.473","Chaves, Distrito de Vila Real, Portugal","41.5203","-8.3634","Santa Cristina de Longos em Guimarães, Distrito de Braga, Portugal"
+"GHQ6-6RJ","40.43","-4","Spain",NA,NA,NA
+"GCH8-FXG","40.43","-4","Spain",NA,NA,NA
+"KNZS-B85","39.7707","-7.9781","Portugal","38.7","-9.1833","Lisboa, Portugal"
+"GCS5-1WT","39.7707","-7.9781","Portugal",NA,NA,NA
+"GWZB-DZF",NA,NA,NA,NA,NA,NA
+"G31M-JKY","39.7707","-7.9781","Portugal","40.43","-4","Spain"
+"GLQK-T4S","42","-6","León, España","42","-6","Leon, Espanha"
+"LX7H-SKP","43.0442","-7.5549","Lugo, Galicia, España","42.598","-5.577","León, Castilla y León, España"
+"GLGJ-6RS","42.4618","-5.0121","Cea, León, Castilla y León, España","42.34346","-3.69637","Castilla la Vieja, Spain"
+"GLGJ-NNK","42.5981","-5.5716","León, León, Castilla y León, España","42.5981","-5.5716","León, León, Castilla y León, España"
+"G8RJ-SHR","40","-3.75","Castilla la Nueva, España","40.43","-4","España"
+"GDSG-X3Y","40","-3.75","Castilla la Nueva, España","40.43","-4","Spain"
+"LJ2K-FQZ","40.43","-4","Spain",NA,NA,NA
+"LJ2K-FK4","40.43","-4","Spain",NA,NA,NA
+"GD5S-GTT","40.43","-4","Spain",NA,NA,NA
+"GD5S-J6J",NA,NA,NA,"40.43","-4","Spain"
+"GZ44-592","40.43","-4","Spain",NA,NA,NA
+"G4TQ-QHX","40","-3.75","New Castile, España",NA,NA,NA
+"GLZK-NBK","40.43","-4","España",NA,NA,NA
+"GGZ4-5MK","40.43","-4","Spain",NA,NA,NA
+"GM4Z-5P1","39.8333","-4","Toledo, Castilla-La Mancha, España","40.43","-4","Spain"
+"GLGK-J6L","41.38333","-4.45","Castilla y León, Spain","39.8623","-4.0268","Toledo, Toledo, Castilla-La Mancha, España"
+"GVF3-XM1","40.43","-4","Espanha","40.43","-4","Espanha"
+"GVF3-D2J","40.43","-4","Espanha","40.43","-4","Espanha"
+"GSJF-5Y1",NA,NA,NA,"39.8333","-4","Toledo, Castilla-La Mancha, Espanha"
+"L5JF-LD6","39.8333","-4","Toledo,Castilla-La Mancha,Spain.","39.8333","-4","Toledo, Castilla-La Mancha, Espanha"
+"GN28-X9B","40.43","-4","Pisuerga, España",NA,NA,NA
+"GV5J-DRN","43.1954","-6.13812","VILLAMAYOR,, SPAIN",NA,NA,NA
+"LXNZ-TJL","54","-2.5","United Kingdom","39.7707","-7.9781","Portugal"
+"GHWG-LLW","41.7414","-7.473","Chaves, Vila Real, Portugal",NA,NA,NA
+"9KB2-J2M","40","45","Vaspuracan, Armênia","40","45","Armênia"
+"L589-3FL","40","45","Monte Ararate, Vaspuracan, Armenia","40","45","Armenia"
+"G9RN-QK3","41.1616","-8.0355","Baião, Porto, Portugal","41.1616","-8.0355","Baião, Porto, Portugal"
+"L8R2-SW8","41.3441","-8.2494","Sousa, Felgueiras, Porto, Portugal","41.1616","-8.0355","Baião, Porto, Portugal"
+"L4Y5-884","41.1616","-8.0355","Baião, Porto, Portugal","41.1616","-8.0355","Baião, Porto, Portugal"
+"GLSN-B6W","41.15775","-8.62816","Porto, Porto, Portugal","41.1616","-8.0355","Baião, Porto, Portugal"
+"GGBH-41F","39.7707","-7.9781","Portugal",NA,NA,NA
+"GGBH-JT6","39.7707","-7.9781","Portugal",NA,NA,NA
+"GHCM-CS6","42.598","-5.577","León, Castilla y León, Spain",NA,NA,NA
+"GGYJ-38L","42.1511","-7.9572","Celanova, Ourense, Galicia, Espanha",NA,NA,NA
+"GGYP-KDG","42.1511","-7.9572","Celanova, Ourense, Galicia, Espanha",NA,NA,NA
+"GGYP-1TJ","42.1511","-7.9572","Celanova, Ourense, Galicia, Espanha",NA,NA,NA
+"GFK9-ZZH","41.3441","-8.2494","Sousa, Felgueiras, Porto, Portugal","41.3441","-8.2494","Sousa, Felgueiras, Porto, Portugal"
+"LZBC-651","39.7707","-7.9781","Portugal",NA,NA,NA
+"G8ZY-CZ1","40.43","-4","Espanha","40.43","-4","Espanha"
+"GWQW-Q97","40.43","-4","Spain",NA,NA,NA
+"G3R2-J51","43.3615","-5.8495","Oviedo, Asturias, España",NA,NA,NA
+"GQG5-7BB",NA,NA,NA,NA,NA,NA
+"GQG5-56J",NA,NA,NA,NA,NA,NA
+"GLZJ-4Q2",NA,NA,NA,NA,NA,NA
+"GLZJ-WJM",NA,NA,NA,NA,NA,NA
+"9CXH-84C","-9.37854","-77.18947","Huari, Áncash, Perú",NA,NA,NA
+"9CXH-84D",NA,NA,NA,NA,NA,NA
+"GVJM-TWY",NA,NA,NA,NA,NA,NA
+"GVJM-VXC",NA,NA,NA,NA,NA,NA
+"G6PN-KGF","46","2","France",NA,NA,NA
+"G7RG-65T","52.4379","-1.6496","England",NA,NA,NA
+"GLND-R18","52.4379","-1.6496","England",NA,NA,NA
+"G68B-HCC",NA,NA,NA,NA,NA,NA
+"G68B-NGP",NA,NA,NA,NA,NA,NA
+"GG96-STV","45.2936","3.3848","Brioude, Haute-Loire, Auvergne, France","46","2","France"
+"GXQJ-J7S","45.7925","2.9985","Brioude, Auvergne, Kingdom of France","44.518","3.4985","Mende, Lozère, Languedoc-Roussillon, France"
+"G849-7NC","46","2","France",NA,NA,NA
+"GG5K-Q1R","46","2","France",NA,NA,NA
+"L69M-DXP","51.85766","-4.7975","Dyfed, Wales","52.33022","-3.76641","Wales"
+"G67Z-5VC","51.99147","-3.79749","Llandovery, Carmarthenshire, Wales","52.33022","-3.76641","Wales"
+"GL5K-QGG",NA,NA,NA,NA,NA,NA
+"9H3N-R6C","52.95526","-4.05945","Gwynedd, Wales",NA,NA,NA
+"L171-BTR","51.883","-4.013","Gwarthaf, Carmarthenshire, Wales",NA,NA,NA
+"GZN8-GGP","52.5628","-3.1493","Powys, Montgomeryshire, Wales",NA,NA,NA
+"GP3X-5DL","52.3301","-3.3682","Radnorshire, Wales",NA,NA,NA
+"GDMX-L4Y",NA,NA,NA,NA,NA,NA
+"GDYX-M8G",NA,NA,NA,NA,NA,NA
+"9HYK-1LW","53.7395","-0.81606","of Saltmarsh, Howden, East Riding, Yorkshire, England",NA,NA,NA
+"G2LB-QFJ","52.86013","-0.50638","Ingoldsby, Lincolnshire, England, United Kingdom","52.86013","-0.50638","Ingoldsby, Lincolnshire, England, United Kingdom"
+"G7M8-LZD",NA,NA,NA,NA,NA,NA
+"GLLB-827","46","2","france",NA,NA,NA
+"9SRR-4F4","45.03709","0.30141","Chandos, Dordogne, Aquitaine, France","45.03709","0.30141","Chandos, Dordogne, Aquitaine, France"
+"LB22-53Y","49","13","Europe",NA,NA,NA
+"GG8S-FV6","46","2","France",NA,NA,NA
+"GG9M-N8L",NA,NA,NA,NA,NA,NA
+"GG33-L97",NA,NA,NA,NA,NA,NA
+"LY2R-HQF","53.1093","-2.0235","Leek, Staffordshire, England",NA,NA,NA
+"LR9Z-MD7",NA,NA,NA,NA,NA,NA
+"G3YF-4WK",NA,NA,NA,NA,NA,NA
+"GDTT-KQ9","53.95878","-1.08248","Yorkshire, England, United Kingdom","53.95878","-1.08248","Yorkshire, England, United Kingdom"
+"GK5W-W45","53.95878","-1.08248","Yorkshire, England, United Kingdom","53.95878","-1.08248","Yorkshire, England, United Kingdom"
+"GS5L-LPQ","42.1395","3.1178","Empúries, l'Escala, Girona, Catalonia, España",NA,NA,NA
+"L44M-DN9","43.604","1.443","Toulouse, Midi-Pyrénées, Kingdom of France",NA,NA,NA
+"G6DY-V9T",NA,NA,NA,NA,NA,NA
+"G6DY-G61",NA,NA,NA,NA,NA,NA
+"G7S8-1NG",NA,NA,NA,NA,NA,NA
+"L26T-FWF",NA,NA,NA,NA,NA,NA
+"GH5G-P82",NA,NA,NA,NA,NA,NA
+"GH5G-D73",NA,NA,NA,NA,NA,NA
+"GFCY-LDT","40.43","-4","España",NA,NA,NA
+"GFCY-WV3","49","13","Europa","40.43","-4","Spain"
+"G4QQ-BWF",NA,NA,NA,NA,NA,NA
+"L1MT-4ST",NA,NA,NA,NA,NA,NA
+"L1MT-DZN",NA,NA,NA,NA,NA,NA
+"L12P-3WP","50.26763","7.97703","Katzenelnbogen, Katzenelnbogen, Unterlahnkreis, Hesse-Nassau, Prussia, Germany",NA,NA,NA
+"9CXC-WKC",NA,NA,NA,"50.26683","7.98344","Katzenelnbogen, Rhein-Lahn-Kreis, Hessen, Deutschland"
+"GZLK-9ST","49.0739","9.16161","Lauffen am Neckar, D","49.6667","7.5","Speyergau, Rheinland-Pfalz, D"
+"GGXG-QB1","48.13334","11.56667","Of,Diessen,Oberbayern,Bavaria",NA,NA,NA
+"GGXG-BDS","48.13334","11.56667","Of,Diessen,Oberbayern,Bavaria",NA,NA,NA
+"G78V-VJ1",NA,NA,NA,"49","13","Europe"
+"G78V-714",NA,NA,NA,NA,NA,NA
+"G2CV-2YK",NA,NA,NA,NA,NA,NA
+"G2CV-NV5",NA,NA,NA,NA,NA,NA
+"GZ5X-Q6G","46.61671","6.64496","Grandison, Vaud, Region Lemanique, Suisse","49.7677","5.5187","Mellier, Luxembourg, Belgium"
+"GZ5X-3BT",NA,NA,NA,NA,NA,NA
+"9CFQ-FJR","45.076","7.684","Auriate, Torino, Italy",NA,NA,NA
+"GL1T-DS7","45.076","7.684","Auriate, Torino, Italy",NA,NA,NA
+"L1T9-NBR","45.46529","8.52234","Mosezzo, Turino, Piemonte, Italia","45.46529","8.52234","Mosezzo, Turino, Piemonte, Italia"
+"GSY8-4R7","51.5","10","Alemanha","45.46529","8.52234","Mosezzo, Italy"
+"KP91-GKJ","45.4652","9.1907","Milan, Milano, Lombardia, Italy","43.1","12.3","Italy"
+"LZD1-1B6","45.4652","9.1907","Milan, Milano, Lombardia, Italy",NA,NA,NA
+"L1NN-WCS",NA,NA,NA,"41.903","12.4963","Roma, Estado Pontificos"
+"GHWT-6ZG","41.96667","12.66667","Roman Empire",NA,NA,NA
+"G9WQ-ZK6","42.7414","12.7381","Spoleto, Perugia, Umbria, Italy",NA,NA,NA
+"G9WQ-3SC","43.3081","3.4733","Agde, Hérault, Languedoc-Roussillon, France",NA,NA,NA
+"G8MT-ZM4","45.9125","9.1574","Como, Lombardia, Itália",NA,NA,NA
+"GJG5-K5P",NA,NA,NA,NA,NA,NA
+"GSQF-T99",NA,NA,NA,NA,NA,NA
+"GSQF-K67",NA,NA,NA,NA,NA,NA
+"G8MT-7SR","45.741","9.6783","Bergamo, Lombardia, Itália",NA,NA,NA
+"G8MT-S6X","43.1","12.3","italy",NA,NA,NA
+"G8MR-Y6Z","45.2359","9.1607","Pavia, Lombardia, Itália","45.2359","9.1607","Pavia, Lombardia, Itália"
+"GDRZ-HRT","45.2359","9.1607","Pavia, Lombardia, Itália","45.2359","9.1607","Pavia, Lombardia, Itália"
+"G7PV-NT8","46","2","Speyergau, Francia occidentalis",NA,NA,NA
+"GGYH-P6K",NA,NA,NA,NA,NA,NA
+"GGYC-J5C",NA,NA,NA,NA,NA,NA
+"GQP3-WJH","43.6767","4.6278","Arles, Bouches-du-Rhone, Provence, France",NA,NA,NA
+"GQR7-S44","43.2983","5.3832","Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France",NA,NA,NA
+"GW3B-G9K","45.5242","4.8783","Vienne, Isère, Rhône-Alpes, France","46","6.33333","Annonay, Haute-Savoie, Rhone-Alpes, France"
+"LDHR-PBT","45.1092","4.8059","Vion, Ardèche, Auvergne-Rhône-Alpes, Française","45.1092","4.8059","Vion, Ardèche, Auvergne-Rhône-Alpes, Française"
+"GZRK-88D","43.1","12.3","italy",NA,NA,NA
+"GXKG-38H","43.1","12.3","italy",NA,NA,NA
+"GS5Z-N53","46","2","França","46","2","França"
+"GS5Z-LHH","46","2","França","46","2","França"
+"GS5Z-V95","46","2","França","46","2","França"
+"G2FM-7PJ",NA,NA,NA,NA,NA,NA
+"GGKM-YTY","50.5","3.83333","Hennegau, Belgien","50.83333","4","Belgien"
+"GNZS-SX8",NA,NA,NA,NA,NA,NA
+"GNZS-3NL","51.5","10","Germany",NA,NA,NA
+"G44Y-ZZ7","46.1424","13.004","Friaul, Lombardei","48.8667","2.3333","Paris, Francie occidentale"
+"G84M-DV3","48.1734","7.3856","Alsace, Frankenreich",NA,NA,NA
+"KN84-5CR","49","11.5","Bayern, Duitsland",NA,NA,NA
+"GJT1-5RK","51.5","10","Germania",NA,NA,NA
+"G691-QGB","48.1104","12.47137","Lebarten, Germany","48.1104","12.47137","Lebarten, Germany"
+"GZRK-XP1","51.5","10","Germany",NA,NA,NA
+"93Q9-9KH","52.5629","-3.1492","of,Mochnant Uwch Rh,Montgomeryshire,Wales",NA,NA,NA
+"KCQY-J7C","52.5628","-3.14932","Montgomeryshire, Wales",NA,NA,NA
+"LC8B-TBZ",NA,NA,NA,NA,NA,NA
+"GXXJ-WGX","42.9042","13.5779","Ascoli Piceno, Marche, Italy",NA,NA,NA
+"93QC-6R1","52.68333","-3.15","of,Cegidfa,Montgomeryshire,Wales",NA,NA,NA
+"G6YF-HTS","52.68333","-3.15","Guilsfield, Montgomeryshire, Wales",NA,NA,NA
+"G63J-YJN","51.4736","-3.3653","Gwlad Morgan, Wales","51.4736","-3.3653","Gwlad Morgan, Wales"
+"L6BK-X4L","51.8609","-4.31153","Llanllawdog,  Carmarthen, Wales",NA,NA,NA
+"93QZ-61J","51.47719","-3.47169","Penllyn, Glamorgan, Wales","51.8609","-4.31153","Carmarthenshire, Wales"
+"937K-937",NA,NA,"of Castell Hywel,Llandysul,Cardiganshire,Wales",NA,NA,NA
+"937Q-WSM","51.93862","-4.08726","of,Llanfynydd,Carmarthenshire,Wales",NA,NA,NA
+"9372-GF2",NA,NA,"of Myddynfych,Llandybie,Carmarthenshire,Wales",NA,NA,NA
+"937J-X48","52.1667","-3.95","Llanddewi-Brefi, Cardiganshire, Wales",NA,NA,NA
+"933P-KFF","51.9489","-3.3913","of Llwyn-y-gwch,Buellt ctf,Breconshire,Wales",NA,NA,NA
+"GZCD-RC1","52.33022","-3.76641","Wales",NA,NA,NA
+"GGLT-DSQ",NA,NA,NA,NA,NA,NA
+"G4FZ-NNP","53.18468","-3.42276","Uwch Dulas, Denbighshire, Wales",NA,NA,NA
+"GH5T-G94","53.06666","-4.31666","Glynllifon, Caernarfonshire, Wales",NA,NA,NA
+"GL5J-DS2","52.4379","-1.6496","Northumbia England",NA,NA,NA
+"GL5J-R7L","52.4379","-1.6496","Northumbia England",NA,NA,NA
+"LKG3-6GM","51.9622","0.8439","Wissington, Suffolk, England",NA,NA,NA
+"LVX7-59X","51.9622","0.8439","Wissington, Suffolk, England",NA,NA,NA
+"K4PS-H7V","64.89","-18.16",", Laugarbrekka, Snaefellsnes, Iceland",NA,NA,NA
+"KCZD-7TS","64.18333","-21.61667","Mosfell, Kjósarsýsla, Höfuðborgarsvæði, Iceland","64.89","-18.16","Iceland"
+"LZG7-QMW","64.89","-18.16","Iceland",NA,NA,NA
+"L8TV-1B7","62","10",",, Norway",NA,NA,NA
+"G32Q-KGZ",NA,NA,NA,NA,NA,NA
+"G214-BM3",NA,NA,NA,NA,NA,NA
+"LX78-63T","45.829","1.2663","Limoges, Haute-Vienne, Limousin, France","45.829","1.2663","Limoges, Haute-Vienne, Limousin, France"
+"LX78-64S","45.6667","0.1667","Angoulême, Charente, Nouvelle-Aquitaine, France","45.829","1.2663","Limoges, Haute-Vienne, Limousin, France"
+"GVZW-DFF",NA,NA,NA,NA,NA,NA
+"LBP3-5F9","45.5242","4.8783","Vienne, l'Isère, Auvergne-Rhône-Alpes, Française","45.5165","5.0799","Beauvoir-de-Marc, Isère, Auvergne-Rhône-Alpes, Française"
+"LBP3-KQZ","46","2",", , , Française","45.5165","5.0799","Beauvoir-de-Marc, Isère, Auvergne-Rhône-Alpes, Française"
+"9CH4-542","46","2","France","42.2439","12.219","Sutri, Roma, Italie"
+"9CH4-8PM","46","2","France",NA,NA,NA
+"G2HF-YGR",NA,NA,NA,NA,NA,NA
+"LRHN-N13","50.0934","2.5024","Louvencourt, Somme, Hauts-de-France, France",NA,NA,NA
+"LRHH-3LH","50.0934","2.5024","Louvencourt, Somme, Picardie, France","50.0361","2.4619","Toutencourt, Somme, Picardie, France"
+"G3KF-CMN",NA,NA,NA,NA,NA,NA
+"GV7B-V3G","46.72958","2.6424","Charenton-du-Cher, Cher, Centre, France",NA,NA,NA
+"GVGM-WQH",NA,NA,NA,"49","13","Europe"
+"GGW3-CMD","48.63971","2.27094","Montlhéry, Essonne, Île-de-France, France","48.64252","2.29203","Longpont-sur-Orge, Essonne, Île-de-France, France"
+"GGW3-CMK",NA,NA,NA,NA,NA,NA
+"GV4S-972","46","2","France",NA,NA,NA
+"GV4S-45B","47.2554","2.9887","Pouilly-sur-Loire, Nièvre, Bourgogne, France","47.2318","2.4864","Menetou-Salon, Cher, Centre, France"
+"GV4S-WLR","47.33333","3.66667","Clamecy, Nièvre, Bourgogne, France","47.2554","2.9887","Pouilly-sur-Loire, Nièvre, Bourgogne, France"
+"GV75-5ZT","54.38216","-2.77954","Westmorland, England","54.18891","-0.93054","South Holme, Yorkshire, England"
+"GVW3-X4P","52.4379","-1.6496","England",NA,NA,NA
+"G31L-K8Q","51.95","-3.3833","Elfael Island, Brecon, Wales","49.6825","1.0934","Letteron, Seine-Maritime, Haute-Normandie, France"
+"GX12-1J2","52.33022","-3.76641","Wales",NA,NA,NA
+"GZHN-PCK","49.5","2.8333","Tirel, Picardy, France","-29.5","22","Northern Cape, South Africa"
+"GHND-SHQ","48.8897","0.8433","Guernanville, Eure, Upper Normandy, France","46","2","France"
+"K88T-TRC","52.33645","-2.45046","Sodington, Mamble, Malvern Hills, Worcestershire, England","52.1937","-2.2219","Worcester, Worcester, Worcestershire, England, United Kingdom"
+"LHB5-2ZS","52.33645","-2.45046","Sodington, Mamble, Malvern Hills, Worcestershire, England",NA,NA,NA
+"GJM1-LKK","53.1137","-3.3094","Ruthin, Denbighshire, Wales","52.64306","-2.71362","Shropshire, England, United Kingdom"
+"G3D4-ZRC","52.7861","-1.4415","Staunton Harold, Leicestershire, England, United Kingdom","52.71389","-1.10152","Breedon, Leicestershire, England, United Kingdom"
+"LTRH-NZB","52.7861","-1.4415","Staunton Harold, Leicestershire, England, United Kingdom","52.71389","-1.10152","Breedon, Leicestershire, England, United Kingdom"
+"LCTY-TQV","53.339","-2.156","Woodford, Cheshire, England, United Kingdom","53.339","-2.156","Woodford, Cheshire, England, United Kingdom"
+"G6GV-JH9","53.78","-2.37","Blackburn, Lancashire, England",NA,NA,NA
+"LD1Q-D3N","53.6796","-2.7974","Bretherton, Lancashire, England","53.6796","-2.7974","Bretherton, Lancashire, England"
+"M16J-C1Q",NA,NA,NA,NA,NA,NA
+"LLWC-9MX","53.95018","-0.93298","Kexby, Yorkshire, England, United Kingdom","54.27201","-0.40908","Scarborough, Yorkshire, England, United Kingdom"
+"9CX4-3XZ","54.48333","-0.68333","Mulgrave Castle, Yorkshire, England","54.283","-0.3987","Scarborough, Yorkshire, England"
+"L4TT-GP6",NA,NA,"Great Witchingham, Broadland district, Norfolk, England, United Kingdom",NA,NA,"Great Witchingham, Broadland district, Norfolk, England, United Kingdom"
+"L4TT-G5Y","53.15812","-0.23925","Lincolnshire, England, United Kingdom",NA,NA,"Great Witchingham, Broadland district, Norfolk, England, United Kingdom"
+"G6XM-VJQ","46","2","France","46","2","France"
+"9CX4-35Q","51.94024","-3.32734","Llanhamlach, Breconshire, Wales",NA,NA,NA
+"G2PR-P91","51.95","-3.3833","Brecon, Breconshire, Wales",NA,NA,NA
+"9CX4-35S",NA,NA,NA,NA,NA,NA
+"GFB5-J4N",NA,NA,NA,NA,NA,NA
+"G2L1-MH2","50.8619","-0.9263","Westbourne, Sussex, England, United Kingdom","50.8619","-0.9263","Westbourne, Sussex, England, United Kingdom"
+"GFZL-PBV","50.8619","-0.9263","Westbourne, Sussex, England, United Kingdom","50.8619","-0.9263","Westbourne, Sussex, England, United Kingdom"
+"G2X7-73W",NA,NA,NA,NA,NA,NA
+"GLXY-5RM","50.6372","-4.3614","Launceston, Cornwall, England",NA,NA,NA
+"LVRQ-TSB","50.6372","-4.3614","Launceston, Cornwall, England","52.4379","-1.6496","England"
+"LC5P-8ZB","50.6372","-4.3607","The Castle of Launceston, Cornwall, England",NA,NA,NA
+"K2TR-KJ5","50.6372","-4.3607","Launceston, Cornwall, England",NA,NA,NA
+"GL5Q-3T8","53.6805","-0.66461","Alkborough, Lincolnshire, England",NA,NA,NA
+"M9LQ-YQ9","49.6825","1.0934","Montanolier, Seine Inferieure, Normandy, France","52.64306","-2.71362","Maidstone, Shropshire, England"
+"GJ4G-R4G","43.4748","6.239","Provence, France","46","2","France"
+"GW3R-HN5","45.4221","0.3168","Champagne-et-Fontaine, Dordogne, Aquitaine, France","49.06","-0.11","Normandy, France"
+"G8YH-P6R",NA,NA,NA,NA,NA,NA
+"GN5D-VYL",NA,NA,NA,NA,NA,NA
+"GWZ2-F8Q",NA,NA,NA,"51.0538","3.7216","Gent, East Flanders, Belgium"
+"G4VF-KJG","47.5939","1.3281","Blois, Loir-et-Cher, Centre-Val de Loire, France","50.6282","3.0697","French Flanders, France"
+"991T-WC6",NA,NA,NA,NA,NA,NA
+"GH41-4SM","48.0833","-0.6667","Crequy, Mayenne, Pays de la Loire, France","48.0833","-0.6667","Crequy, Mayenne, Pays de la Loire, France"
+"G2H3-W7J","51.6281","6.2292","Kleve, North Rhine-Westphalie, Allemagne",NA,NA,NA
+"G2R8-QM3","50.74787","1.83842","Colembert, Pas-de-Calais, France",NA,NA,NA
+"L1M4-17R","56.95","-5.05","Lochaber, Inverness-shire, Scotland","56.95","-5.05","Lochaber, Inverness-shire, Scotland"
+"L1ZC-MM6","54.63247","-2.3516","Northumbria, England",NA,NA,NA
+"G694-8GY",NA,NA,"Cailly, Rouen, Seine-Maritime, Haute-Normandie, France","51.88419","-2.14462",", , Gloucestershire, England, United Kingdom"
+"GLX8-QTL",NA,NA,NA,NA,NA,NA
+"G691-SCG",NA,NA,NA,NA,NA,NA
+"G69B-Z7R",NA,NA,NA,NA,NA,NA
+"L7J7-8Y8",NA,NA,NA,"49","13","Europe"
+"GH2S-7LZ","43.2983","5.3832","Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France","43.2983","5.3832","Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France"
+"G389-4HB","44.1972","5.9436","Sisteron, Alpes-de-Haute-Provence, Provence, France",NA,NA,NA
+"LYDG-CBW","43.6767","4.6278","Arles, Provence-Alpes-Cote d'Azur, France",NA,NA,NA
+"GDGJ-CX1","43.8802","5.6589","Reillanne, Alpes-de-Haute-Provence, Provence-Alpes-Côte d'Azur, France","43.7227","7.1133","Vence, Alpes-Maritimes, Provence-Alpes-Côte d'Azur, France"
+"GHFS-RHS",NA,NA,NA,NA,NA,NA
+"GFH1-SL8","49.06","-0.11","Normandy, France",NA,NA,NA
+"GFCQ-64Q","49.167","0.7844","Harcourt, Eure, Normandy, France",NA,NA,NA
+"GZRK-T7X","53","-8",", , , Ireland","52.9502","-112.9625","Battle of Cennfuait by Stric ua Imair"
+"GWJZ-MJL",NA,NA,NA,NA,NA,NA
+"GWJC-KKX",NA,NA,NA,NA,NA,NA
+"LDMK-VLV","59.268","10.4075","Holtum, Vestfold, Norway",NA,NA,NA
+"L8RV-Z5Z","59.268","10.4075","Vestfold, Norway","59.31667","10.45","Oseberg, Vestfold, Norway"
+"M3N9-BYF","62","10","Ringerike, Akershus, Norway","60","11.1667","Ringerike, Akershus, Norway"
+"GFVJ-51T","56","10","Jutland, Denmark","60.4333","10.4667","Røykenvik, Gran, Oppland, Norway"
+"GX8G-RB6","58.9727","6.9104","Rogaland, Norja",NA,NA,NA
+"GX8P-B3G","58.9727","6.9104","Rogaland, Norja",NA,NA,NA
+"GXD9-1BR","61.1667","9.6667","Oppland, Norja",NA,NA,NA
+"GVS4-XTY","61.1667","9.6667","Oppland, Norja",NA,NA,NA
+"G95S-ZSP","64.41667","12","Nord-Trøndelag, Norway","49.9167","2.5","Somme, Picardie, France"
+"GGFT-RS1",NA,NA,NA,NA,NA,NA
+"LHKZ-6V4","63.17639","10.30361","Grimsan,Melhus,Sor Trondelag,Norway",NA,NA,NA
+"G8ZC-LFL","62","10","Norway",NA,NA,NA
+"GX9X-WLG","61.08333","6.83333","Sogn, Nordre Bergenhus, Norway",NA,NA,NA
+"GPM8-73R","62","10","Norway",NA,NA,NA
+"GX78-27H","64.41667","12","Nord-Trøndelag, Norway","64.89","-18.16","Eyjafjörður, Iceland"
+"G69K-K7W","62","10","Maer, Norway","64.13333","-16.03333","Breiðabólstaður, Austur-Skaftafellssýsla, Eastern Region, Iceland"
+"GZRV-4FK","48.108","-1.6767","Rennes, Ille-et-Vilaine, Brittany, France","48.1097","-1.925","Talensac, Ille-et-Vilaine, Brittany, France"
+"GG1G-F8G",NA,NA,NA,"47.2197","-1.5543","Nantes, Loire-Atlantique, Pays-de-La-Loire, France"
+"LKCH-GG5","48.2352","-3.6702","Cléden-Poher, Finistère, Bretagne, France","48.2352","-3.6702","Cléden-Poher, Finistère, Bretagne, France"
+"GCSD-YSC","48.8667","2.3333","Paris, Île-de-France, France","45.6667","3","Clermont-Ferrand, Puy-de-Dôme, Auvergne, France"
+"GDLJ-QFM","48.1667","-1.5","Cornouaille, Ille-Et-Vilaine, Bretagne, France","48.1667","-1.5","Cornouaille, Ille-Et-Vilaine, Bretagne, France"
+"9HFS-GM9","48.3185","-2.9377","Bretagne, France","48.3185","-2.9377","Église de la Martyre, Brittany"
+"GXCD-8S8",NA,NA,NA,"51.51","-0.12","London, England"
+"G8M2-YCR","47.8558","-3.748","Pont Aven",NA,NA,NA
+"GN62-M3Z","47.8714","-3.5484","Quimperlé, Finistère, Bretagne, France","50.25116","-5.06676","Cornwall, England"
+"GX9B-8XG",NA,NA,NA,NA,NA,NA
+"GXQQ-MZ9",NA,NA,NA,NA,NA,NA
+"LZT6-KB5","44.9466","-0.0057","Francs, Gironde, Nouvelle-Aquitaine, France","49.97587","8.06568","Kaiserpfalz Ingelheim, Ingelheim am Rhein, Austrasien, Fränkisches Reich"
+"LZT6-KBL","47.8084","9.63946","Altdorf, Weingarten, Schwaben, Fränkisches Reich","47.39432","0.65992","Archdiocese of Tours, France"
+"LDSS-H8K","45.667","0.0833","Maine, Poitou-Charentes, France",NA,NA,NA
+"GD13-FGR",NA,NA,NA,NA,NA,NA
+"LYNB-3JZ","47.9167","2.0833","Orleans, Loiret, France","47.4325","0.6885","Touraine, France"
+"MVLP-YQQ","47.9167","2.0833","Orléans, Loiret, Centre-Val de Loire, France","43.3608","2.2217","Saint-Denis, Aude, Languedoc-Roussillon, France"
+"L8W6-4HY","51.5773","-1.4126","Wantage, Berkshire, England","50.86788","-1.96969","Wimborne, Dorset, England"
+"GF3N-C9M","51.5773","-1.4126","Wantage, Berkshire, England","50.766","-2.14508","Winchester, Dorset, England"
+"G27T-B8N","51.76274","-0.65918","Buckinghamshire, England","51.5438","-114.0518","Wessex"
+"G27Y-MJC",NA,NA,NA,NA,NA,NA
+"GLS6-L74","44.9288","2.4438","Aurillac, Cantal, Auvergne, France",NA,NA,NA
+"GN84-T3H","46","2","France",NA,NA,NA
+"MH6R-YJ7","53.08333","-7","of Leinster, Ireland",NA,NA,NA
+"GFDK-8GN","50.25116","-5.06676","Cornwall, England, United Kingdom",NA,NA,NA
+"9449-QXV","52.0291","-1.1438","Brackley, Northamptonshire, England","52.05143","-1.16755","Brackley, Northamptonshire, England, United Kingdom"
+"GNLZ-G3V","52.4379","-1.6496","England",NA,NA,NA
+"937K-XMB","53.3719","-4.5097","of Bodegri,Llanrhyddlad,Anglesey,Wales",NA,NA,NA
+"G6Z1-SSB","52.95526","-4.05945","Gwynedd, Wales, United Kingdom",NA,NA,NA
+"GGN3-K7N",NA,NA,"Of Rhigos, Ystradyfodwg, Glamorganshire, Wales",NA,NA,NA
+"2Z39-N7C","53.29127","-4.37203","Anglesey (Isle of), Wales",NA,NA,NA
+"GGJK-2LR","53.2362","-3.1291","Flintshire, Wales, United Kingdom",NA,NA,NA
+"GJH7-11Z","52.33022","-3.76641","Wales, United Kingdom",NA,NA,NA
+"G6J7-CW2","53.29127","-4.37203","Llys Llywarch, Anglesey, Wales, United Kingdom",NA,NA,NA
+"G6JQ-7MN","52.33022","-3.76641","Wales, United Kingdom","53.111","-2.961","Burton, Denbighshire, Wales"
+"G6JQ-7ML","52.33022","-3.76641","Wales, United Kingdom",NA,NA,NA
+"K12X-4TH","52.33022","-3.76641","Wales",NA,NA,NA
+"L4QK-Q9T","53.33333","-3.83333","of Gloddaith,Gwynedd,Wales",NA,NA,NA
+"93Q8-SJY","52.73819","-3.37368","Llanfihangel-yng-ngwynfa, Montgomeryshire, Wales",NA,NA,NA
+"G6Z2-L64","52.73333","-3.36667","Llanfihangel-yng-Ngwynfa, Montgomeryshire, Wales",NA,NA,NA
+"GS9N-5YM","45.4215","3.449","Saint-Martin-d'Ollières, Puy-de-Dôme, Auvergne, France","49.9167","2.5","Somme, Picardie, France"
+"GX1D-SNC","51.9287","-2.7673","Orcop,Herefordshire,England.",NA,NA,NA
+"KLX6-P2S","52.33022","-3.76641","Wales",NA,NA,NA
+"KLX6-P23","52.13436","-2.74917","Herefs, England",NA,NA,NA
+"GFVF-X59","51.99306","-4.36194","Rhos, Carmarthenshire, Wales",NA,NA,NA
+"K2SB-ZGV","48.928","0.5326","Normandie, France","52.6787","-2.172","Brewood, Staffordshire, England"
+"GS13-563","49.06","-0.11","Normandy, France","52.4379","-1.6496","England"
+"L6KV-GLP","52.4379","-1.6496","england",NA,NA,NA
+"G8PW-KF2",NA,NA,NA,NA,NA,NA
+"GL1N-8GF","54.13993","-0.20155","Buckton, Yorkshire, England",NA,NA,NA
+"G6LC-7YT","54.13993","-0.20155","Buckton, Yorkshire East Riding, England, United Kingdom","54.13993","-0.20155","Buckton, Yorkshire East Riding, England, United Kingdom"
+"G3NF-4BR",NA,NA,NA,NA,NA,NA
+"G31C-M7X","46","2","France","46","2","France"
+"GQD1-J1T",NA,NA,NA,NA,NA,NA
+"L265-QG3","53.95878","-1.08248","Yorkshire, England",NA,NA,NA
+"GX12-J64","54.63247","-2.3516","Northumbria, England",NA,NA,NA
+"GXH6-V1S","50.6374","2.2576","Thérouanne, Pas-de-Calais, Hauts-de-France, France","50.6374","2.2576","Thérouanne, Pas-de-Calais, Hauts-de-France, France"
+"GG9S-8XG","52.4379","-1.6496","England",NA,NA,NA
+"G6W4-HYF",NA,NA,NA,NA,NA,NA
+"GV2Q-ZDY",NA,NA,NA,NA,NA,NA
+"GJGK-G8L","50.7479","1.8384","Colembert, Pas-de-Calais, Nord-Pas-de-Calais, France","50.7479","1.8384","Colembert, Pas-de-Calais, Nord-Pas-de-Calais, France"
+"GVKF-2D4","50.7479","1.8384","Colembert, Pas-de-Calais, Hauts-de-France, France",NA,NA,NA
+"LV9Y-52P","45.5","4","Loire, Auvergne-Rhône-Alpes, France","44.3333","0.5","Lot-et-Garonne, Nouvelle-Aquitaine, France"
+"G4PL-GJ5","46","2","France",NA,NA,NA
+"G3QJ-9TW","49.4814","1.7247","Gournay-en-Bray, Seine-Maritime, Haute-Normandie, France",NA,NA,NA
+"L2TC-TFZ","49.84747","1.56756","Foucarmont, Dieppe, Seine-Maritime, Haute-Normandie, France","49.4814","1.7247","Gournay-en-Bray, Seine-Maritime, Haute-Normandie, France"
+"G4D7-566","50.2128","1.7747","Nouvion-en-Ponthieu, Somme, Picardie, France","50.2128","1.7747","Nouvion-en-Ponthieu, Somme, Picardie, France"
+"G4D7-GCM","46","2",", , , Française",NA,NA,NA
+"G8W1-W4J",NA,NA,NA,NA,NA,NA
+"LVGB-HT1","51.0331","2.771","Lampernisse, Diksmuide, Flandre occidentale, Belgique","50.96856","2.43258","Bergues, Nord, France"
+"GNRJ-S4W","50.8057","2.1521","Éperlecques, Pas-de-Calais, Hauts-de-France, France",NA,NA,NA
+"GNRJ-72Y","46","2","France",NA,NA,NA
+"GNRJ-HZS","50.8786","2.0758","Audruicq, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"GZV3-XZK","49","13","Europe",NA,NA,NA
+"GVS4-MG3",NA,NA,NA,NA,NA,NA
+"GJGK-LYB","48.9255","-0.4505","Saint-Omer, Calvados, Normandie, France",NA,NA,NA
+"GVV5-222",NA,NA,NA,NA,NA,NA
+"GFRB-3ZR","50.4667","2.7167","Bologne-sur-Mer, Nord-Pas-de-Calais, France","50.4667","2.7167","Bologne-sur-Mer, Nord-Pas-de-Calais, France"
+"G3S8-NPH",NA,NA,"Ponthieu, Picardie, France","50.7264","1.6147","Boulogne-sur-Mer, Departement du Pas-de-Calais, Nord-Pas-de-Calais, France"
+"G6ZW-J55","46","2","França",NA,NA,NA
+"G2TN-H53","46","2","France",NA,NA,NA
+"LRFB-4Z3","50.4808","2.125","Ruisseauville, Pas-de-Calais, Nord-Pas-de-Calais, France",NA,NA,NA
+"G6ZW-VZP","46","2","France",NA,NA,NA
+"G419-B7X","48.928","0.5326","Normandie, France",NA,NA,NA
+"KCP1-4C3","49.184","-0.368","Caen, Calvados, Basse-Normandie, France","49.184","-0.368","Caen, Calvados, Basse-Normandie, France"
+"GKT9-MPY","49.184","-0.368","Caen, Calvados, Lower Normandy, France","49.184","-0.368","Caen, Calvados, Lower Normandy, France"
+"GV6R-CP6","48.1734","7.3856","Elsaß, Frankreich","48.1734","7.3856","Elsaß, Frankreich"
+"GLCJ-XTM","48.1734","7.3856","Of Alsace, Frankish Empire","48.1734","7.3856","Elsaß, Frankreich"
+"GGGK-24J",NA,NA,NA,NA,NA,NA
+"GGGK-24K",NA,NA,NA,NA,NA,NA
+"9CQR-39N","53.15812","-0.23925","Barrowby, Lincolnshire, England","53.15812","-0.23925","Barrowby, Lincolnshire, England"
+"G9J4-13C","53.15812","-0.23925","Lincolnshire, England","51.51","-0.12","London, England"
+"GX5N-YMK","52.8","1.13333","Heydon, Norfolk, England","52.8912","1.1526","Wood Hall, Baconsthorpe, Norfolk, , England, United Kingdom"
+"GHY1-47P","53.15812","-0.23925","Lincolnshire, England","50.6777","-3.3992","Woodbury, Devon, England"
+"GHGS-FPB","52.23342","-2.21245","Worcestershire, England",NA,NA,NA
+"GJSY-MRG","52.73333","1.11667","Witchingham, Norfolk, England","51.8787","-0.4208","Luton, Bedfordshire, England"
+"G61Z-HQY","52.4379","-1.6496","England",NA,NA,NA
+"GL8V-538","52.4379","-1.6496","England, United Kingdom",NA,NA,NA
+"G3K9-L8S","51.18333","-3.9","Parracombe, Devon, England","51.18333","-3.9","Parracombe, Devon, England"
+"GSL7-2XN","53.11051","-1.62048","Derbyshire, England","51.1889","-3.9093","Parracombe, Devon, England"
+"LZ27-B34","51.3202","-0.3842","Stoke D'abernon, Surrey, England","51.3202","-0.3842","Stoke D'abernon, Surrey, England, United Kingdom"
+"GX69-7W4","51.32438","-0.35948","Stoke D'Abernon, Surrey, England, United Kingdom","51.51","-0.12","London, Middlesex, England, United Kingdom"
+"GG7G-6SQ","52.1749","-0.48447","Bedford, Bedfordshire, England",NA,NA,NA
+"LJP8-HLC",NA,NA,NA,NA,NA,NA
+"GJ3M-X57","52.77951","-1.91711","Stafford Castle, Staffordshire, England","51.7521","-0.3395","St Albans, Hertfordshire, England"
+"GWPP-BB6","51.51","-0.12","London, Middlesex, England","51.4994","-0.1275","Abbots House, Cheyney Gates, Westminster Abbey, London, England"
+"G6TP-B38","52.1575","-2.6897","Bodenham, Herefordshire, England","52.1575","-2.6897","Bodenham, Herefordshire, England"
+"G3MR-D9P","50.25116","-5.06676","Cornwall, England","50.73646","-3.71887","Devon, England"
+"GSG3-WD1","51.75","-1.25","Oxford, Oxfordshire, England","51.85739","-1.29353","Oxfordshire, England"
+"GSG3-K39","50.433","-4.9425","St Columb Major, Cornwall, England","51.85739","-1.29353","Oxfordshire, England"
+"GZLY-19C","50.25116","-5.06676","St Columb, Cornwall, England","51.85739","-1.29353","Oxfordshire, England"
+"9ZC6-DQG","50.2824","-4.8405","St Ewe, Cornwall, England","51.85739","-1.29353","Oxfordshire, England"
+"KG7G-922","52.5641","-1.3223","Elmesthorpe, Leicestershire, England","52.9374","1.14958","Weybourne, Norfolk, England"
+"G2NN-RVP","52.64306","-2.71362","Broncroft Castle, Broncroft, Shropshire, England","52.77951","-1.91711","Action Trussell, Staffordshire, England"
+"GPMK-8QZ","51.22608","0.75054","Kent, England","51.45","0.05","Eltham, Kent, England"
+"GPMK-93S","51.22608","0.75054","Kent, England",NA,NA,NA
+"LVZQ-T9D","53.95878","-1.08248","Yorkshire, England",NA,NA,NA
+"LVC9-FHF","51.927","-2.8459","Kentchurch, Herefordshire, England","46","2","France"
+"G7WQ-JD6","54.2943","-2.5949","Killington, Westmorland, England","54.2943","-2.5949","Killington, Westmorland, England"
+"G7W3-TNT","54.2","-1.05","Oswaldkirk, Yorkshire, England","54.2943","-2.5949","Workington Hall, Killington, Cumbria, England, United Kingdom"
+"GFYS-99Y","53.8813","-1.0453","Escryck, Yorkshire, England","53.95878","-1.08248","Escryck, Yorkshire, England"
+"G7DL-MCK","51.04398","-0.82129","Trotton, Sussex, England",NA,NA,NA
+"MN3W-7KD","51.88419","-2.14462","Stoke, Gifford, Gloucestershire, England",NA,NA,NA
+"GJZX-83Q","51.3887","1.3858","Margate, Kent, England","50.25116","-5.06676","Cornwall, England"
+"G619-1MD","51.5523","-1.6513","Bishopstone, Wiltshire, England","51.7859","-0.8366","Fallardeston, Bishopstone, Buckinghamshire, England"
+"GSD8-KYZ","51","0.43333","Etchingham, Sussex, England","51.85","-0.4","Luton Hoo, Bedfordshire, England"
+"LB49-LKN","51.703","0.244","Ongar, Essex, England, United Kingdom","51.85229","0.61466","Essex, England, United Kingdom"
+"LB49-5TV",NA,NA,NA,NA,NA,NA
+"GXVF-DXZ","56.81674","-4.18396","Scotland",NA,NA,NA
+"GW6M-2X5",NA,NA,NA,NA,NA,NA
+"G2ZK-29X",NA,NA,NA,NA,NA,NA
+"G6CS-TZL","48.0833","-0.6667","Mayenne, Pays de la Loire, France",NA,NA,NA
+"G6CS-5W3","49","13","Europe",NA,NA,NA
+"G4R8-Y16","51.91442","5.57147","Betuwe, Gelderland, Nederland","52.5","5.75","Betuwe, Gelderland, Nederland"
+"GG25-446",NA,NA,NA,NA,NA,NA
