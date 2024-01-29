@@ -1274,7 +1274,7 @@
 "GNWG-YM1","Mrs Phauceion De Nerford","Female","about 1052–",NA,"+1052","50.8947","-3.3009","Ashill, Devon, England",NA,NA,NA,NA,0,0,0,0,0,0,1,1
 "LL33-2VB","Richard Starkey","Male","1101–",NA,"+1101","53.3404","-2.5745","Upper Hall, Stretton, Warrington, Cheshire, England, United Kingdom",NA,"53.3404","-2.5745","Stretton, Warrington, Cheshire, England, United Kingdom",0,0,0,0,2,0,1,1
 "LL33-2RC","Lady Byron","Female","Abt 1105–",NA,"+1105","53.18268","-2.53046",", , Cheshire, England, United Kingdom",NA,NA,NA,"Stretton, Warrington Unitary authority, Cheshire, England, United Kingdom",0,0,0,0,0,0,1,1
-"GQ5B-R2X","William de Wasteneys","Male","before 1158–1168",11,NA,NA,NA,NA,"+1168","52.7707","-1.3701","Osgathorpe, Leicestershire, England",0,0,0,2,1,1,1,2
+"GQ5B-R2X","William de Wasteneys","Male","before 1158–1168",11,NA,NA,NA,NA,"+1168","52.7707","-1.3701","Osgathorpe, Leicestershire, England",0,0,0,2,2,1,1,2
 "GWW8-NY5","Alice Acton","Female","about 1123–",NA,"+1123","52.7812","-1.9248","Colton, Staffordshire, England",NA,"52.7707","-1.3701","Osgathorpe, Leicestershire, England",0,0,0,0,0,0,1,2
 "2HS6-WR8","Robert FitzHardolph","Male","about 1159–",NA,"+1159","52.7707","-1.3701","Osgathorpe, Leicestershire, England",NA,NA,NA,NA,0,0,0,0,1,0,1,1
 "9QQG-5Q6","Mrs. Robert FitzHardolph","Female","about 1159–",NA,"+1159","52.77951","-1.91711","Staffordshire, England",NA,NA,NA,NA,0,0,0,0,0,0,1,1
@@ -3265,7 +3265,7 @@
 "GLHT-H9Z","Heribert I Eveillechien Von Maine","Male","985–13 Apr 1036",51,"+0985","45.667","0.0833","Maine, , Poitou-Charentes, France","+1036-04-13","45.8493","0.1752","Maine, Charente, Poitou-Charentes, France",0,0,0,0,2,3,1,1
 "L6JX-69T","Dirk III graaf van West-Frisia","Male","982–27 May 1039",57,"+0982","52.6201","4.6502","Egmond aan den Hoef, Bergen Municipality, Noord-Holland, Netherlands","+1039-05-27","52.6201","4.6502","Egmond, Frisia, Duchy of Lotharingia, Holy Roman Empire",9,0,5,8,2,4,1,5
 "LT1B-6DX","Othelindis von Haldensleben","Female","0985–31 March 1044",59,"+0985","50.0068","10.2524","Schweinfurt, Bavaria, Germany","+1044-03-31","51.7142","11.1394","Quedlinburg, Saxony-Anhalt, Germany",8,0,3,11,2,4,1,5
-"9HNL-1HB","Gérold II de Genève","Male","um 1015–vor 1800",784,"+1015","46.2063","6.1436","Geneva, Geneva, Switzerland",NA,"46.2063","6.1436","Geneva, Geneva, Switzerland",3,0,3,3,2,0,1,2
+"9HNL-1HB","Gérold II de Genève","Male","um 1015–before 1080",64,"+1015","46.2063","6.1436","Geneva, Geneva, Switzerland",NA,"46.2063","6.1436","Geneva, Geneva, Switzerland",3,0,3,3,2,0,1,2
 "L1TH-HRK","Gisèle de Bourgogne","Female","1020–1060",40,"+1020","46.2063","6.1436","Genève, Genève, Switzerland","+1060","46.1977","6.1854","Chêne-Bougeries, Genève, Suisse",0,0,0,2,1,0,2,3
 "LDS9-G5M","Wauthier D'ITTRE","Male","environ 0980–",NA,"+0980","46","2","France",NA,NA,NA,NA,0,0,0,0,0,0,1,2
 "G396-RXQ","Lietgarde DE BOUCHAIN","Female","ABT 990–",NA,"+0990","50.2863","3.3165","Bouchain, Nord, Hauts-de-France, France",NA,NA,NA,NA,0,0,0,0,1,0,1,2
@@ -4231,7 +4231,7 @@
 "G6FT-2M9","Juliana de Lancashire","Female","–",NA,NA,"52.4379","-1.6496","England",NA,NA,NA,NA,1,0,1,0,0,0,1,1
 "G96L-PCL","de Bussel","Female","about 1095–",NA,"+1095",NA,NA,NA,NA,NA,NA,NA,1,0,1,0,0,0,1,1
 "G6GV-31L","Sheriff Warin Bussel ""The Bald"" 1St Baron Of Penwortham","Male","1043–1098",55,"+1043","53.4332","-1.1094","Tickhill, Yorkshire, England","+1098","51.6711","-1.7738","Kempsford, Gloucestershire, England",0,0,0,1,2,6,1,13
-"LT5W-RGJ","Amieria de Montgomery","Female","Abt 1080–1084",4,"+1080","53.7507","-2.7347","Penwortham, Lancashire, England","+1084","52.4379","-1.6496","England",0,0,0,3,2,0,2,13
+"LT5W-RGJ","Lady Amiera Bailleul","Female","1045–1077",32,"+1045","49.00463","0.15429","Livarot, Departement du Calvados, Basse-Normandie, France","+1077","54.9512","-1.925","Bywell, Northumberland Unitary Authority, Northumberland, England",0,0,0,4,2,0,1,1
 "G7Y6-BG6","Bleythin de Fulton","Male","1100–",NA,"+1100","52.4379","-1.6496","England",NA,NA,NA,NA,0,0,0,0,0,0,1,1
 "GMNM-DPR","Sir John Bradshaigh de Sayer","Male","1068–after 1113",46,"+1068","53.6068","-2.3916","Bradshaw, Lancsashire, England","+1113","53.6068","-2.3916","Bradshaw, Lancashire, England",0,0,0,1,2,0,1,1
 "GMNM-VBG","Alice de Molyneux","Female","1080–1130",50,"+1080","53.5041","-2.9724","Sefton, West Derby, Lancashire, England","+1130",NA,NA,NA,0,0,0,2,2,0,1,1

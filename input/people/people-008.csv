@@ -534,7 +534,7 @@
 "9CXC-M1X","Hugh Giffard","Male","Abt 1130–Abt 1195",65,"+1130",NA,NA,NA,"+1195",NA,NA,NA,1,1,0,0,2,0,1,3
 "GKHK-SY8","Mrs. William de Strivelyn","Female","about 1267–",NA,"+1267","56.81674","-4.18396","Scotland",NA,NA,NA,NA,0,0,0,0,0,0,1,2
 "GZRK-J3G","John Waldegrave , Sheriff of London","Male","30 Dec 1250–24 May 1308",57,"+1250-12-30","52.35","-0.85","Northamptonshire, England","+1308-05-24","52.4379","-1.6496","England",0,0,0,1,2,0,2,3
-"GNN1-5LN","Jean De Hastings","Female","ABT 1260–1271",11,"+1260","52.67827","0.97259","Bergavenny, Norfolk, England","+1271",NA,NA,NA,0,0,0,0,2,11,1,1
+"GNN1-5LN","Jean De Hastings","Female","ABT 1260–1271",11,"+1260","52.67827","0.97259","Bergavenny, Norfolk, England","+1271",NA,NA,NA,0,0,0,0,2,10,1,1
 "GSWM-Z84","James de Neville","Male","1300–Deceased",NA,"+1300","52.26","-1.16","Daventry, Northamptonshire, England",NA,NA,NA,NA,0,0,0,1,0,0,1,1
 "G4XV-266","Mrs James de Neville","Female","about 1261–Deceased",NA,"+1261","52.4379","-1.6496","England",NA,NA,NA,NA,0,0,0,0,0,0,1,1
 "G3D6-414","Walter de Walcott","Male","about 1235–after 1306",72,"+1235","52.4379","-1.6496","England","+1306",NA,NA,NA,0,0,0,1,2,1,1,1
@@ -1621,7 +1621,7 @@
 "LC5V-ZQY","Mrs William Babington","Female","Abt 1243–",NA,"+1243","55.33405","-1.98349","Babington, Northumberland, England",NA,"55.33405","-1.98349","Babington, Northumberland, England",0,0,0,1,0,0,2,2
 "GMN8-YMS","Robert de Bois","Male","about 1230–about 1298",68,"+1230","52.40733","1.04204","Fersfield, Norfolk, England","+1298","52.40733","1.04204","Fersfield, Norfolk, England",0,0,0,1,2,1,1,5
 "L1YT-HVK","Amica De Hastings","Female","1245–1288",43,"+1245","52.4034","1.0341","Fersfield, Norfolk, England","+1288","52.33781","-1.56089","Arden, Warwickshire, Kingdom of England",0,0,0,3,0,0,1,5
-"GK39-88K","Simon Warde","Male","1287–1300",13,"+1287","53.875","-1.706","Guiseley, Yorkshire, , England","+1300",NA,NA,NA,0,0,0,0,2,0,1,1
+"GK39-88K","Simon Warde","Male","1287–1300",13,"+1287","53.875","-1.706","Guiseley, Yorkshire, , England","+1300",NA,NA,NA,0,0,0,0,2,0,1,0
 "GK3S-MVG","Maude Warde","Female","1290–",NA,"+1290","53.95878","-1.08248",", Yorkshire, , England",NA,NA,NA,NA,0,0,0,0,0,0,1,1
 "L5BS-S5Z","Adam Martel","Male","–bef 1281",NA,NA,"53.08552","-0.71306","Flawford, Nottinghamshire, England",NA,"53.08552","-0.71306","Flawford,Nottinghamshire,England",0,0,0,0,1,1,1,1
 "L67M-7B4","Roger Tucker","Male","about 1273–about 1320",47,"+1273","50.766","-2.14508","Dorset","+1320","52.4379","-1.6496","England",0,0,0,0,2,0,1,1
@@ -3751,7 +3751,7 @@
 "G41V-27W","Alice","Female","1175–",NA,"+1175","52.4379","-1.6496","England",NA,NA,NA,NA,0,0,0,0,0,0,1,1
 "GHH6-QP7","Walter de Neville","Male","about 1180–about 1221",41,"+1180","51.2667","-1.0833","Basingstoke, Hampshire, England","+1221","51.05379","-1.64687","West Dean, Wiltshire, England",0,0,0,1,1,1,1,1
 "L764-NJ6","Isabel de Waleran","Female","about 1182–January 1263",81,"+1182","51.05379","-1.64687","West Dean, Wiltshire, England","+1263-01","51.05379","-1.64687","West Dean, Wiltshire, England",1,0,1,7,2,0,2,1
-"G78V-H41","Sir Henry II de Lorty","Male","Abt 1200–1321",121,"+1200","51.0228","-2.8694","Curry Rivel, Somerset, England, United Kingdom","+1321","51.0228","-2.8694","Curry Rivel, Somerset, England, United Kingdom",0,0,0,0,2,0,1,3
+"G78V-H41","Sir Henry II de Lorty","Male","Abt 1200–1321",121,"+1200","51.0231","-2.8698","Curry Rivel, Somerset, England, United Kingdom","+1321","51.0231","-2.8698","Curry Rivel, Somerset, England, United Kingdom",0,0,0,0,2,0,1,3
 "LDKP-14Q","Sabine Revel","Female","1202–April 1254",52,"+1202","51.0228","-2.8694","Curry Rivel, Somerset, England, United Kingdom","+1254-04","51.0228","-2.8694","Curry Rivel, Somerset, England, United Kingdom",0,0,0,1,2,1,2,6
 "GSZJ-1LK","John Lovell","Male","after 1191–Bef 23 December 1252",60,"+1191","51.86418","-1.49462","Minster Lovel, Cornbury, Oxfordshire, England",NA,"52.4379","-1.6496","England",3,0,3,0,2,2,1,2
 "L8L5-824","Katherine de Bassett","Female","1186–1231",45,"+1186","51.58333","-0.9","Wycombe, Buckinghamshire, England","+1231","51.39235","-2.04346","Wiltshire, England",2,0,3,2,2,12,1,2
