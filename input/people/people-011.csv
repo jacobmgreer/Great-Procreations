@@ -861,7 +861,7 @@
 "29TB-Z2R","William de Boulogne","Male","Bef 1085–August 1129",44,NA,"51.28114","-0.40057","Surrey, England","+1129-08","51.73819","-1.0357","Rycote, Oxfordshire, England",1,0,1,1,1,2,2,5
 "KLXB-KKN","Blanche de Tingry","Female","–1157",NA,NA,"50.7058","1.8508","Bournonville - Pas-De-Calais - France","+1157","50.6181","1.7303","Tingry, Pas-de-Calais,  Heuts-d'Franche, France",0,0,0,1,2,3,1,4
 "G48G-J8D","Hugh de Pierrepont","Male","1129–Abt 1188",59,"+1129","50.91667","-0.31667","Hurst, Sussex, England","+1188","52.4379","-1.6496","England",1,1,0,2,2,0,1,7
-"GXQT-BRV","Clemence Rethel","Female","Abt. 1133–1191",-23,"+1214","49.2546","4.0313","Reims, Marne, Champagne-Ardenne, France","+1191","52.4379","-1.6496","England",1,0,1,0,2,2,1,7
+"GXQT-BRV","Clemence Rethel","Female","about 1133–1191",58,"+1133","49.2546","4.0313","Reims, Marne, Champagne-Ardenne, France","+1191","52.4379","-1.6496","England",1,0,1,0,2,2,1,7
 "MMB4-KQD","William de Langvalei I","Male","1125–1180",55,"+1125","51.8954","1.0275","Great Bromley, Essex, England","+1180",NA,NA,NA,13,0,0,13,2,0,1,1
 "G7RX-HP5","Gunnora St Clare","Female","about 1130–",NA,"+1130","52.4379","-1.6496","England",NA,"51.89386","0.86722","Lexden, Essex, England",11,0,0,11,1,0,1,1
 "K1T6-MNC","Walter Beda de Hatfield","Male","1139–1172",33,"+1139","51.85229","0.61466","East Hatfield, Essex, England","+1172","52.4379","-1.6496","England",1,0,1,0,2,0,1,1
@@ -4313,7 +4313,7 @@
 "L1YH-R4C","King Cadell ap Rhodri","Male","0851–0909",58,"+0851","51.88306","-4.01583","Dinefwr Castle, Carmarthenshire, Wales","+0909","51.88306","-4.01583","Dinefwr Castle, Carmarthenshire, Wales",15,0,9,18,2,5,2,5
 "GJ1M-N4H","Princess Rheingar","Female","<0865>–",NA,"+0865","53.1065","-4.2305","<Of Caer Seiout, Carnarvonshire, Wales>",NA,NA,NA,NA,0,0,0,2,2,0,1,4
 "G4ZC-SB2","Meurig Dyfnwallon King of Ceredigion","Male","Abt 780–830",50,"+0780","52.08417","-4.65792","Cardiganshire, Wales","+0830","52.08417","-4.65792","Ceredigion, Gwynedd, Wales",2,0,5,5,2,0,1,1
-"GK1J-BTQ","Mrs. Meurig ap Dyfnwallon","Female","about 0800–978",178,"+0800","52.33022","-3.76641","Wales","+0978","53.2628","-4.314",", Anglesey (Sir Fôn), , Wales, British Isles",2,0,2,1,0,0,2,1
+"GK1J-BTQ","Mrs. Meurig ap Dyfnwallon","Female","about 0800–878",78,"+0800","52.33022","-3.76641","Wales","+0878","53.2628","-4.314",", Anglesey (Sir Fôn), , Wales, British Isles",2,0,2,6,1,0,2,1
 "G6JW-1C5","Carwed ap Marchudd","Male","0931–about 1031",100,"+0931","52.33022","-3.76641","Wales","+1031","49.9167","2.5","Somme, Picardie, France",1,0,1,0,1,1,1,3
 "LCRY-B42","Ap Marchudd","Female","about 0930–about 1030",100,"+0930","49.9167","2.5","Somme, Picardie, France","+1030","49.9167","2.5","Somme, Picardie, France",0,0,0,1,0,0,1,3
 "LHJG-J2L","Owain ap Einion","Male","Abt 1170–",NA,"+1170","53.1847","-3.4228","Of Cynllaith, Denbighshire, Wales",NA,NA,NA,NA,0,0,0,0,2,3,2,2

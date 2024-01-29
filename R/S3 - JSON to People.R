@@ -4,6 +4,8 @@ options(readr.show_col_types = FALSE)
 
 QID <- read_csv("~/GitHub/Nitrate-SPARQL/output/fs/P2889 - QID.csv")
 
+## requires ascendancy from S2
+
 people <-
   list.files(path = "input/people",
              pattern = "*.csv",
@@ -19,7 +21,7 @@ people <-
     birth_country = map.where(database="world", place_birth_lon, place_birth_lat)
   ) %>%
   select(
-    fid, QID, name, lifespan=ls, article,
+    fid, QID, name, birth, death, lifespan=ls, article,
     age_at_death, birth_country,
     children = count_children, siblings = count_siblings)
 
@@ -35,19 +37,19 @@ wiki.find <-
   filter(count_memories > 10) %>%
   filter(is.na(QID))
 
-landing <- ascendancy %>% filter(ascendancy < 252145) %>% pull(fid)
-people %>%
-  filter(fid %in% landing) %>%
-  write.csv("data/core-people.csv", row.names=FALSE)
-
-for (cut in 32:63) {
-  cuts <-
-    read_csv(paste0(paste0("data/cuts/slice-", str_pad(cut, 3, pad = "0"), ".csv"))) %>%
-    distinct(fid)
-  people %>%
-    filter(fid %in% cuts$fid) %>%
-    write.csv(., paste0("data/people/slice-", str_pad(cut, 3, pad = "0"), ".csv"), row.names = FALSE)
-}
+# landing <- ascendancy %>% filter(ascendancy < 252145) %>% pull(fid)
+# people %>%
+#   filter(fid %in% landing) %>%
+#   write.csv("data/core-people.csv", row.names=FALSE)
+#
+# for (cut in 32:63) {
+#   cuts <-
+#     read_csv(paste0(paste0("data/cuts/slice-", str_pad(cut, 3, pad = "0"), ".csv"))) %>%
+#     distinct(fid)
+#   people %>%
+#     filter(fid %in% cuts$fid) %>%
+#     write.csv(., paste0("data/people/slice-", str_pad(cut, 3, pad = "0"), ".csv"), row.names = FALSE)
+# }
 
 wikitable <-
   ascendancy %>%

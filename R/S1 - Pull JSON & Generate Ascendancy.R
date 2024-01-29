@@ -20,7 +20,7 @@ registerDoParallel(cl)
 
 ### reminder: this is a time consuming script, only run when updating files
 
-for (s in 34) { ## 3:x runs from the above grandparents (in gen-002.csv) to x generations
+for (s in 36) { ## 3:x runs from the above grandparents (in gen-002.csv) to x generations
 
   previous_run <-
     list.files(
@@ -36,18 +36,18 @@ for (s in 34) { ## 3:x runs from the above grandparents (in gen-002.csv) to x ge
 
   files <- previous_run %>% select(file) %>% distinct(file)
 
-  foreach(file = files$file, .combine = 'c', .errorhandling = 'remove') %dopar% {
-    if (!file.exists(file)) {
-      download.file(
-        url = paste0("https://ancestors.familysearch.org/service/tree/tree-data/published/persons/", tools::file_path_sans_ext(basename(file))),
-        destfile = file,
-        quiet = FALSE)
-    }
-  }
+  # foreach(file = files$file, .combine = 'c', .errorhandling = 'remove') %dopar% {
+  #   if (!file.exists(file)) {
+  #     download.file(
+  #       url = paste0("https://ancestors.familysearch.org/service/tree/tree-data/published/persons/", tools::file_path_sans_ext(basename(file))),
+  #       destfile = file,
+  #       quiet = FALSE)
+  #   }
+  # }
 
   rm(files)
 
-  foreach(b = 1:max(previous_run$batch), .combine = 'c') %dopar% {
+  foreach(b = 1065:max(previous_run$batch), .combine = 'c') %dopar% {
 
     required <- c("rvest", "tidyverse", "stringi", "data.table")
     lapply(required, require, character.only = TRUE)

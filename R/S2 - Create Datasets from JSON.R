@@ -3,17 +3,27 @@ required <- c("rvest", "tidyverse", "magrittr", "stringi",
 lapply(required, require, character.only = TRUE)
 options(readr.show_col_types = FALSE)
 
+asc_file_list <-
+  data.frame(file =
+               list.files(
+                 path = "input/ascendancy",
+                 pattern = "*.csv",
+                 full.names = TRUE)) %>%
+  mutate(gen = parse_number(gsub(".*-(.+)-.*", "\\1", file)) + 1) %>%
+  filter(gen %in% c(1:30)) %>%
+  pull(file)
+
 ascendancy <-
-  list.files(path = "input/ascendancy",
-             pattern = "*.csv",
-             full.names = TRUE) %>%
+  asc_file_list %>%
   lapply(read_csv) %>%
-  setNames(., list.files(path = "input/ascendancy", pattern = "*.csv")) %>%
+  setNames(., asc_file_list) %>%
   bind_rows(.id = "id") %>%
   select(gen=id, ascendancy, fid=parent) %>%
   mutate(gen = parse_number(gsub(".*-(.+)-.*", "\\1", gen)) + 1) %>%
   arrange(gen, ascendancy) %>%
   filter(nchar(fid) == 8)
+
+rm(asc_file_list)
 
 generations <-
   ascendancy %>%
@@ -63,16 +73,20 @@ foreach(b = 1:max(unique_people$batch), .combine = 'c') %dopar% {
             fid = person$identifier,
             name = person$name,
             gender = person$gender,
+
             lifespan = person$fullLifespan,
             age_at_death = ifelse(length(person$ageAtDeath) > 0, person$ageAtDeath, NA),
+
             birth = ifelse(length(person$birthDate) > 0, person$birthDate, NA),
             place_birth_lat = ifelse(length(person$birthPlace) > 0, as.character(person$birthPlace$geo$latitude), NA),
             place_birth_lon = ifelse(length(person$birthPlace) > 0, as.character(person$birthPlace$geo$longitude), NA),
             place_birth = ifelse(length(person$birthPlace) > 0, as.character(person$birthPlace$address), NA),
+
             death = ifelse(length(person$deathDate) > 0, person$deathDate, NA),
             place_death_lat = ifelse(length(person$deathPlace) > 0, as.character(person$deathPlace$geo$latitude), NA),
             place_death_lon = ifelse(length(person$deathPlace) > 0, as.character(person$deathPlace$geo$longitude), NA),
             place_death = ifelse(length(person$deathPlace) > 0, as.character(person$deathPlace$address), NA),
+
             count_memories = person$memories,
             count_stories = person$stories,
             count_photos = person$photos,
