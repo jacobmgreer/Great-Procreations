@@ -85,5 +85,55 @@ section#procreations > div {
   padding: 10px 14px;
   pointer-events: none;}
 
-section#procreations svg path {
+section#procreations svg path.has-data {
   cursor: pointer;}
+
+/* Wikitable improvements */
+body#procreations section#wikitable h5 {
+  color: #3D454C;
+  border-bottom: 2px solid #AABFD4;
+  padding-bottom: 8px;
+  margin-bottom: 0;}
+
+body#procreations section#wikitable table {
+  font-size: 0.9rem;
+  border: 1px solid #AABFD4;
+  border-radius: 6px;
+  overflow: hidden;}
+
+body#procreations section#wikitable thead th {
+  background-color: #AABFD4;
+  color: #1a2a38;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-bottom: 2px solid #8fafc4;
+  padding: 10px 14px;}
+
+body#procreations section#wikitable tbody td {
+  padding: 8px 14px;
+  vertical-align: middle;}
+
+body#procreations section#wikitable tbody tr:hover {
+  background-color: #edf3f8;}
+
+body#procreations section#wikitable a {
+  color: #698EBF;
+  text-decoration: none;}
+body#procreations section#wikitable a:hover {
+  color: #26394C;
+  text-decoration: underline;}
+
+/* Infobox card */
+body#procreations section#infobox > div {
+  display: inline-block;
+  background-color: #f5f8fb;
+  border: 1px solid #AABFD4;
+  border-radius: 8px;
+  padding: 16px 22px;
+  margin: 10px auto;
+  text-align: left;
+  min-width: 220px;
+  max-width: 480px;}
+
+body#procreations section#infobox p {
+  margin-bottom: 4px;}
