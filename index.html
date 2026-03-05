@@ -22,7 +22,7 @@
     <script src="web/js/d3.v3.min.js"></script>
     <link rel="stylesheet" href="web/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://jacobmgreer.github.io/NickelodeonAndDimed/js/jacob.css">
+    <link rel="stylesheet" href="web/css/jacob.css">
   </head>
 
   <body id="procreations">
@@ -45,7 +45,7 @@
               <a href="https://jacobmgreer.github.io/NickelodeonAndDimed/" class="nav-link">Nickelodeon & Dimed</a>
             </li>
             <li class="nav-item">
-              <a href="https://jacobmgreer.github.io/Great-Procreations/" style="color: #4C7399" class="nav-link">Great Procreations</a>
+              <a href="https://jacobmgreer.github.io/Great-Procreations/" class="nav-link active">Great Procreations</a>
             </li>
           </ul>
         </div>
@@ -59,9 +59,10 @@
       <div class="reset container-fluid justify-content-center text-center">
         <h5 class="h5 lead text-center">Reset Graph</h5>
       </div>
-    </nav>
     <main>
-      <section id="infobox" class="justify-content-center text-center"></section>
+      <section id="infobox" class="justify-content-center text-center">
+        <div id="subtitle"></div>
+      </section>
 
       <section class="container" id="procreations">
         <svg class="center"></svg>
