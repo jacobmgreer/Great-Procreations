@@ -38,18 +38,6 @@
           </ul>
         </div>
       </nav>
-      <nav class="navbar">
-        <div class="container-fluid">
-          <ul class="nav nav-pills lead">
-            <li class="nav-item">
-              <a href="https://jacobmgreer.github.io/NickelodeonAndDimed/" class="nav-link">Nickelodeon & Dimed</a>
-            </li>
-            <li class="nav-item">
-              <a href="https://jacobmgreer.github.io/Great-Procreations/" class="nav-link active">Great Procreations</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
       <section id="header">
         <div class="container-fluid">
             <h1 class="text-center display-1">Great Procreations</h1>
@@ -295,6 +283,7 @@
             if (d.data["fid"]) { return d.data["color"]; }
             else {
               return (d.data["ascendancy"] % 2) ? "#DEDEDE" : "#D7D7D9"; }})
+          .classed("has-data", function(d) { return d.data["fid"] != null; })
 
           .attr("d", function(d, i, j) {
             return arc
