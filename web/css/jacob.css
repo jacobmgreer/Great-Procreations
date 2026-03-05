@@ -1,0 +1,89 @@
+nav {
+  background-color:#D9D9D9;
+  color: #F2F2F2;}
+nav.navbar a, nav.navbar a:active, nav.navbar a:visited {
+  color: #8C8C8C;}
+nav.navbar a:hover {
+  color: #000000;}
+  
+nav.nav2 {
+  background-color: #AABFD4;
+  color: #3D454C;}
+nav.nav2 a, nav.nav2 a:active, nav.nav2 a:visited {
+  color: #26394C;}
+nav.nav2 a:hover {
+  color: #4C7399;}
+h1.display-1 {
+  color: #3D454C;
+  padding-top:100px;}
+h6.display-6 {
+  color: #6699CC;
+  margin-top:20px;
+  padding-bottom:100px;}
+h3.display-3 {
+  color: #6699CC;
+  padding-bottom:50px;}
+
+button, button.btn, button.btn-light {
+  background-color: #ffffff;
+  border:0;
+  color:#102601;}
+
+table {
+  margin-top: 25px}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 960px;
+  height: 960px;}
+
+footer a {
+  color: #737373;
+  text-decoration: none;}
+
+/* styles specifically for great procreations */
+body#procreations div.reset {
+  background-color: #698EBF;
+  color:#ffffff;
+  font-weight: bold;
+  margin-top:25px;
+  cursor: pointer;}
+body#procreations div.reset h5 {
+  padding:25px;
+  line-height:30px;
+  height:70px;
+  vertical-align:middle;}
+body#procreations .center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: auto;}
+body#procreations section#procreations p.iHide {
+  visibility: hidden;
+  display:none;}
+body#procreations section#infobox a {
+  color: #698EBF;}
+body#procreations section#infobox {
+  margin-top:25px;}
+body#procreations section#wikitable {
+  margin-left:50px;
+  margin-right:50px;
+  margin-bottom:50px;}
+body#procreations section#wikitable table th:nth-of-type(1) {
+  width:50%;}
+
+section#procreations > div {
+  background-color: #ffffff;
+  border: 1px solid #AABFD4;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  max-width: 220px;
+  padding: 10px 14px;
+  pointer-events: none;}
+
+section#procreations svg path {
+  cursor: pointer;}
